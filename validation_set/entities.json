@@ -7,7 +7,7 @@
   { "id":6,"name":"Coral Reef Fragment","hex":"BF 04 00 0D","traits":[1,3,5,6,7,21,30],"description":"Biostructure with ecological significance." },
   { "id":7,"name":"Dust Particle","hex":"83 00 00 00","traits":[1,3,5,6,8],"description":"Passive minimal biological trace matter." },
   { "id":8,"name":"Mars Rock Sample","hex":"87 00 00 00","traits":[1,5,7,24],"description":"Material artifact with contextual scientific value." },
-  { "id":9,"name":"Sandbag","hex":"80 E3 64 0A","traits":[1,2,4,5,6,7,13,30],"description":"Man‑made structural object for resistance or training." },
+  { "id":9,"name":"Sandbag","hex":"D3 00 00 00","traits":[1,2,4,5,6,7,13,30],"description":"Man‑made structural object for resistance or training." },
   { "id":10,"name":"Circuit Board","hex":"C0 E3 64 0A","traits":[1,2,4,5,6,7,11,13],"description":"Structured electronic platform for signal regulation." },
   { "id":11,"name":"Glass Bottle","hex":"82 54 24 51","traits":[1,2,4,5,6,9,14,30],"description":"Container with functional purpose in systems." },
   { "id":12,"name":"Snowflake","hex":"82 21 44 50","traits":[1,4,5,6,7,21,30],"description":"Crystal with meteorological and metaphorical meaning." },

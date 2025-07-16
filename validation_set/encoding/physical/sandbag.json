@@ -1,0 +1,54 @@
+{
+  "entity": "Sandbag",
+  "uht_code": "D3000000",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Material form",
+      "Passive"
+    ],
+    "functional": [],
+    "abstract": [],
+    "social": []
+  },
+  "feedback": {
+    "Physical object": "Included — A sandbag is a tangible, discrete object with physical boundaries.",
+    "Man-made / synthetic": "Included — It is artificially constructed by humans; neither the sack nor the complete object exists naturally.",
+    "Biological or biologically-inspired": "Excluded — It is neither living nor mimetic of biological systems.",
+    "Fixed/static": "Included — Its use and identity rely on being stationary and heavy.",
+    "Structural": "Excluded — It is not a load-bearing or framework-defining component.",
+    "Perceptible": "Excluded — Visibility or detectability is not part of its intrinsic function.",
+    "Material form": "Included — It consists of matter (e.g. sand and sack) and has solid, tangible form.",
+    "Passive": "Included — It serves a passive role in resisting forces (e.g. impact, water) without transformation or output.",
+    
+    "Purposeful / intentional": "Excluded — It has no goal-directed function on its own.",
+    "Emits output / produces effect": "Excluded — It does not emit signals or energy.",
+    "Processes or regulates logic/signals": "Excluded — No processing or regulation capability.",
+    "Transforms or modifies internal state": "Excluded — Its state does not change autonomously or functionally.",
+    "Interacts with humans directly": "Excluded — It is handled but not interactive in any operational sense.",
+    "Part of a larger system": "Excluded — Used within systems but not inherently part of one.",
+    "Autonomous in function": "Excluded — It has no self-regulating or self-acting behavior.",
+    "System-critical": "Excluded — It is not a core dependency in most systems.",
+    
+    "Symbolic / representational": "Excluded — It does not represent anything conceptually or symbolically by design.",
+    "Communicative": "Excluded — It conveys no information.",
+    "Logical / rule-based": "Excluded — Not governed by logic structures.",
+    "Hierarchical / modular": "Excluded — Not composed of nested or structured modules.",
+    "Behavior-guiding": "Excluded — It does not suggest or constrain behaviors inherently.",
+    "Self-referential / meta-conceptual": "Excluded — Not conceptual or recursive.",
+    "Temporal": "Excluded — It is not time-dependent.",
+    "Contextual abstraction": "Excluded — Identity is not abstractly shifted by context.",
+    
+    "Socially / culturally constructed": "Excluded — Its meaning is not defined socially or symbolically.",
+    "Defined by a group/system": "Excluded — It is not assigned a role by institutional systems.",
+    "Linked to identity or role": "Excluded — It does not define any identity or affiliation.",
+    "Regulated / governed": "Excluded — Not subject to formal rules or protocols by design.",
+    "Teachable / transmissible": "Excluded — It is not a conceptual or procedural knowledge unit.",
+    "Visible": "Excluded — Visibility is not functionally or socially defining.",
+    "Context-sensitive": "Excluded — Its meaning does not change intrinsically across contexts.",
+    "Widely known": "Excluded — Recognition does not define its core identity."
+  },
+  "encoding_notes": "This encoding reflects a standard sandbag as a physical object with no symbolic or functional abstraction. Traits included are intrinsic to its identity as a fabricated, heavy, passive object used to resist force or movement."
+}
