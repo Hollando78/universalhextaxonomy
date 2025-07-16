@@ -112,6 +112,13 @@
     "description": "Micro‑component transforming electricity into light/heat."
   },
   {
+    "id": 17,
+    "name": "Thermostat",
+    "hex": "D4618002",
+    "traits": [1, 2, 4, 5, 6, 10, 12, 17, 24, 30],
+    "description": "Logic-driven environmental regulator."
+  },
+  {
     "id": 18,
     "name": "Mechanical Clock",
     "hex": "C4 60 88 02",
