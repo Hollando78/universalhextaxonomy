@@ -1,0 +1,62 @@
+{
+  "entity": "Circuit Board",
+  "uht_code": "DEE40002",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Part of a larger system"
+    ],
+    "abstract": [],
+    "social": [
+      "Context-sensitive"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — It is a tangible, bounded physical artifact.",
+    "Man-made / synthetic": "Included — Designed and manufactured by humans.",
+    "Biological or biologically-inspired": "Excluded — Not based on or mimicking biological systems.",
+    "Fixed/static": "Included — The board’s form and structure do not change during normal operation.",
+    "Structural": "Included — It provides physical mounting and layout structure for components.",
+    "Perceptible": "Included — It is visible and detectable to human senses.",
+    "Material form": "Included — Composed of copper, fiberglass, and other physical substances.",
+    "Passive": "Excluded — Includes active elements; not inherently passive.",
+    
+    "Purposeful / intentional": "Included — Designed for routing, computation, or control.",
+    "Emits output / produces effect": "Included — Outputs signals or voltages as a function.",
+    "Processes or regulates logic/signals": "Included — Implements logic and signal routing via embedded circuits.",
+    "Transforms or modifies internal state": "Excluded — The board itself is not intrinsically stateful; state comes from individual components.",
+    "Interacts with humans directly": "Excluded — Not a user interface or direct interaction point.",
+    "Part of a larger system": "Included — Typically operates within a larger electronic or mechanical system.",
+    "Autonomous in function": "Excluded — Requires external power and instructions.",
+    "System-critical": "Excluded — Criticality depends on system context, not universal.",
+    
+    "Symbolic / representational": "Excluded — Does not symbolize or represent concepts.",
+    "Communicative": "Excluded — Transmits electrical signals, but not symbolic or human-language content.",
+    "Logical / rule-based": "Excluded — While it supports logic, the board is not itself an abstract rule-based system.",
+    "Hierarchical / modular": "Excluded — Can be modular in implementation, but not intrinsically defined that way.",
+    "Behavior-guiding": "Excluded — Does not prescribe or shape behavior outside electrical function.",
+    "Self-referential / meta-conceptual": "Excluded — Not self-modeling or reflective in function.",
+    "Temporal": "Excluded — No inherent temporal logic or persistence.",
+    "Contextual abstraction": "Excluded — Not an abstract generalization or symbolic context carrier.",
+    
+    "Socially / culturally constructed": "Excluded — Technological artifact, not socially defined.",
+    "Defined by a group/system": "Excluded — Not institutionally defined as identity.",
+    "Linked to identity or role": "Excluded — Not tied to social roles or identities.",
+    "Regulated / governed": "Excluded — Standards exist but are external.",
+    "Teachable / transmissible": "Excluded — Not a medium of instruction or knowledge carrier.",
+    "Visible": "Excluded — Visibly perceptible, but not symbolically visible in a social sense.",
+    "Context-sensitive": "Included — Meaning and function vary depending on system context.",
+    "Widely known": "Excluded — Known to specialists, not widely recognized by the general public."
+  },
+  "encoding_notes": "This encoding treats a circuit board as a general-purpose hardware substrate, distinct from higher-order symbolic or interactive systems. Only traits that are structurally and functionally inherent to the board itself are included. State transformation, symbolism, and social significance are excluded unless intrinsic to the board’s identity."
+}

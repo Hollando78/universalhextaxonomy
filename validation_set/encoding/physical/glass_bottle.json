@@ -1,0 +1,61 @@
+{
+  "entity": "Glass Bottle",
+  "uht_code": "DF880001",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form",
+      "Passive"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Interacts with humans directly"
+    ],
+    "abstract": [],
+    "social": [
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A glass bottle is a tangible, discrete physical entity.",
+    "Man-made / synthetic": "Included — Manufactured using industrial or artisanal processes.",
+    "Biological or biologically-inspired": "Excluded — Has no biological structure or mimicry.",
+    "Fixed/static": "Included — Maintains a stable physical form.",
+    "Structural": "Included — Provides shape and containment for fluids.",
+    "Perceptible": "Included — Visually and tactilely apparent.",
+    "Material form": "Included — Composed of solid matter (glass).",
+    "Passive": "Included — Does not perform any active or powered function.",
+    
+    "Purposeful / intentional": "Included — Designed explicitly to contain and store liquids.",
+    "Emits output / produces effect": "Excluded — Does not emit signals, energy, or material output autonomously.",
+    "Processes or regulates logic/signals": "Excluded — No processing or logical operation occurs.",
+    "Transforms or modifies internal state": "Excluded — Does not alter or store internal conditions independently.",
+    "Interacts with humans directly": "Included — Used by people for drinking, pouring, storage.",
+    "Part of a larger system": "Excluded — May be used in systems, but is not intrinsically a subsystem.",
+    "Autonomous in function": "Excluded — Has no autonomous behavior or function.",
+    "System-critical": "Excluded — Not inherently essential to any system's functioning.",
+    
+    "Symbolic / representational": "Excluded — Not intrinsically a symbol or representational form.",
+    "Communicative": "Excluded — Does not convey information symbolically or intentionally.",
+    "Logical / rule-based": "Excluded — No internal logic structure.",
+    "Hierarchical / modular": "Excluded — Not built from modular subparts with structural roles.",
+    "Behavior-guiding": "Excluded — Does not prescribe or guide behavior.",
+    "Self-referential / meta-conceptual": "Excluded — Lacks any self-modeling or recursive identity.",
+    "Temporal": "Excluded — Not defined by time or state transitions.",
+    "Contextual abstraction": "Excluded — Not an abstract or generalized model.",
+    
+    "Socially / culturally constructed": "Excluded — Exists primarily as a physical utility object.",
+    "Defined by a group/system": "Excluded — Not institutionally or group-defined.",
+    "Linked to identity or role": "Excluded — Does not encode social identity.",
+    "Regulated / governed": "Excluded — May be regulated in use (e.g. for food safety), but not as an intrinsic identity.",
+    "Teachable / transmissible": "Excluded — Not a medium of instructional content.",
+    "Visible": "Excluded — Perceptible, but not socially or symbolically visible.",
+    "Context-sensitive": "Excluded — Function is generally stable across contexts.",
+    "Widely known": "Included — Commonly recognized and understood across cultures."
+  },
+  "encoding_notes": "This encoding treats the glass bottle as a general-purpose physical container. Traits are limited to intrinsic structural and functional aspects. No symbolic, logical, or institutional roles are inferred, keeping the representation minimal and precise."
+}

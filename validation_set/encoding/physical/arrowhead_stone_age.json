@@ -1,0 +1,67 @@
+{
+  "entity": "Arrowhead (Stone Age)",
+  "uht_code": "DF8C02C9",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form",
+      "Passive"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Interacts with humans directly",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Temporal"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible, bounded object made of stone.",
+    "Man-made / synthetic": "Included — Crafted by early humans through intentional shaping.",
+    "Biological or biologically-inspired": "Excluded — Not derived from or imitative of biological systems.",
+    "Fixed/static": "Included — Holds a fixed shape post-manufacture.",
+    "Structural": "Included — Designed with structural properties for penetration or cutting.",
+    "Perceptible": "Included — Visible, touchable, and physically present.",
+    "Material form": "Included — Made from stone or flint, a solid material.",
+    "Passive": "Included — Has no active energy or behavior; function depends on use.",
+    
+    "Purposeful / intentional": "Included — Deliberately shaped for use in hunting or defense.",
+    "Emits output / produces effect": "Excluded — Requires external force to function; not intrinsically active.",
+    "Processes or regulates logic/signals": "Excluded — No signal processing capacity.",
+    "Transforms or modifies internal state": "Excluded — Static and unchanging after creation.",
+    "Interacts with humans directly": "Included — Used manually by humans in tasks like hunting.",
+    "Part of a larger system": "Included — Typically affixed to a shaft to form a complete weapon.",
+    "Autonomous in function": "Excluded — No independent activity or behavior.",
+    "System-critical": "Excluded — Not inherently critical; depends on context.",
+    
+    "Symbolic / representational": "Excluded — Functional tool, not a symbol by design.",
+    "Communicative": "Excluded — Not meant to convey information.",
+    "Logical / rule-based": "Excluded — While crafted with skill, does not embody a formal logic.",
+    "Hierarchical / modular": "Excluded — Not inherently modular, though used in multi-part tools.",
+    "Behavior-guiding": "Excluded — Does not prescribe behavior; simply used in actions.",
+    "Self-referential / meta-conceptual": "Excluded — Not reflective or conceptual in design.",
+    "Temporal": "Included — Its identity is rooted in historical era; recognized as an ancient object.",
+    "Contextual abstraction": "Excluded — Not an abstraction or model of a concept.",
+    
+    "Socially / culturally constructed": "Included — Arises from and reflects shared tool-making traditions.",
+    "Defined by a group/system": "Included — Types/styles were defined by cultural groups or regions.",
+    "Linked to identity or role": "Excluded — May have been used by hunters or warriors, but not identity-defining in itself.",
+    "Regulated / governed": "Excluded — No formal rules governing its use in the prehistoric period.",
+    "Teachable / transmissible": "Included — Skill of flint knapping was taught across generations.",
+    "Visible": "Excluded — Not symbolically or performatively visible; visibility is physical only.",
+    "Context-sensitive": "Excluded — Its identity and purpose are relatively stable regardless of context.",
+    "Widely known": "Included — Recognized globally as a cultural and historical artifact."
+  },
+  "encoding_notes": "This encoding frames the arrowhead as a purposeful, prehistoric technological artifact — one designed by humans, embedded in cultural practices, and preserved in historical time. Abstract and symbolic traits are excluded unless directly embedded in the object’s structure or function. Social traits are carefully selected to reflect group-level crafting knowledge and recognition without overextending into metaphor."
+}

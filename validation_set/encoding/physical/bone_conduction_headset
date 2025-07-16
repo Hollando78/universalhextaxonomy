@@ -1,0 +1,70 @@
+{
+  "entity": "Bone Conduction Headset",
+  "uht_code": "FEEC40CD",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Biological or biologically-inspired",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Interacts with humans directly",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Communicative"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible, bounded piece of hardware with clear physical presence.",
+    "Man-made / synthetic": "Included — Designed and manufactured using artificial materials and processes.",
+    "Biological or biologically-inspired": "Included — Mimics natural bone conduction pathways in the skull.",
+    "Fixed/static": "Included — Maintains a stable form suitable for repeated physical use.",
+    "Structural": "Included — Built with form and pressure-resistance to sit properly on the skull.",
+    "Perceptible": "Included — Visibly and physically present, designed to be seen and worn.",
+    "Material form": "Included — Made from plastic, silicone, metal; clearly material.",
+    "Passive": "Excluded — Actively converts audio signals into vibrations and requires power.",
+    
+    "Purposeful / intentional": "Included — Designed with a specific function: delivering sound without obstructing the ear canal.",
+    "Emits output / produces effect": "Included — Outputs vibrational energy as functional audio.",
+    "Processes or regulates logic/signals": "Included — Internally processes electronic audio signals into mechanical form.",
+    "Transforms or modifies internal state": "Excluded — Has no long-term state memory or adaptive internal configuration.",
+    "Interacts with humans directly": "Included — Worn and experienced directly by human users.",
+    "Part of a larger system": "Included — Often part of Bluetooth, audio, or accessibility ecosystems.",
+    "Autonomous in function": "Excluded — Dependent on external signal and power sources.",
+    "System-critical": "Excluded — Not essential to the operation of a system by default.",
+    
+    "Symbolic / representational": "Excluded — Not designed to convey symbolic meaning.",
+    "Communicative": "Included — Its function is to enable auditory communication.",
+    "Logical / rule-based": "Excluded — Operates within logic circuits, but not a logic entity itself.",
+    "Hierarchical / modular": "Excluded — Not structurally modular or decomposed into logical subunits.",
+    "Behavior-guiding": "Excluded — Allows or supports behavior but does not guide it by design.",
+    "Self-referential / meta-conceptual": "Excluded — Not a reflective or recursive entity.",
+    "Temporal": "Excluded — Functions in time but is not defined by temporal identity.",
+    "Contextual abstraction": "Excluded — Not an abstract model or adaptable template.",
+    
+    "Socially / culturally constructed": "Included — Categorized and designed within cultural understandings of wearable tech.",
+    "Defined by a group/system": "Included — Defined and standardized within audio tech and consumer electronics domains.",
+    "Linked to identity or role": "Excluded — May support specific users (e.g., athletes, deaf users), but not inherently role-defining.",
+    "Regulated / governed": "Excluded — Regulatory constraints exist externally (e.g., radio compliance), not inherently.",
+    "Teachable / transmissible": "Included — Usage and function can be taught and transferred.",
+    "Visible": "Included — Typically worn externally and intentionally designed for public visibility.",
+    "Context-sensitive": "Excluded — Usage is relatively stable across environments.",
+    "Widely known": "Included — Commonly recognized as a distinct class of consumer audio hardware."
+  },
+  "encoding_notes": "This encoding captures the bone conduction headset as a biologically inspired, socially embedded, and functionally communicative consumer device. Passive and regulated traits are excluded based on the standard that only traits intrinsic to the object itself, not context or external governance, are included. The correction from `02` to `40` in the Abstract layer reflects accurate placement of the 'Communicative' trait."
+}

@@ -1,0 +1,63 @@
+{
+  "entity": "Tungsten Filament",
+  "uht_code": "DEC40045",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Part of a larger system"
+    ],
+    "abstract": [],
+    "social": [
+      "Defined by a group/system",
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible, bounded metallic component.",
+    "Man-made / synthetic": "Included — Industrially manufactured using refined tungsten.",
+    "Biological or biologically-inspired": "Excluded — Has no biological origin or mimicry.",
+    "Fixed/static": "Included — Rigid and maintains its form under normal operating conditions.",
+    "Structural": "Included — Designed to maintain coiled geometry under heat stress and to emit efficiently.",
+    "Perceptible": "Included — Visible within clear bulbs and other open designs.",
+    "Material form": "Included — Made from solid metallic tungsten.",
+    "Passive": "Excluded — Requires electrical current to function and emits active output.",
+    
+    "Purposeful / intentional": "Included — Engineered to produce light via electrical resistance.",
+    "Emits output / produces effect": "Included — Emits visible light and infrared heat.",
+    "Processes or regulates logic/signals": "Excluded — No signal modulation or computation.",
+    "Transforms or modifies internal state": "Excluded — Does not retain or change persistent internal conditions.",
+    "Interacts with humans directly": "Excluded — Indirectly affects human environment but not interactive by design.",
+    "Part of a larger system": "Included — Serves within the electrical and structural system of a bulb.",
+    "Autonomous in function": "Excluded — Requires connection to power and structure.",
+    "System-critical": "Excluded — Not inherently critical outside its specific design role.",
+    
+    "Symbolic / representational": "Excluded — Not a representational element.",
+    "Communicative": "Excluded — Emits light but does not convey symbolic or coded information.",
+    "Logical / rule-based": "Excluded — Behavior is governed by physics, not logical design.",
+    "Hierarchical / modular": "Excluded — Not composed of logical subsystems.",
+    "Behavior-guiding": "Excluded — Does not influence decisions or behavior directly.",
+    "Self-referential / meta-conceptual": "Excluded — Not capable of reflective structure.",
+    "Temporal": "Excluded — Lifespan exists but not identity-defining.",
+    "Contextual abstraction": "Excluded — Not an abstraction or generalized concept.",
+    
+    "Socially / culturally constructed": "Excluded — A technical component, not a cultural category.",
+    "Defined by a group/system": "Included — Categorized and specified by industrial design standards (e.g., wattage, filament type).",
+    "Linked to identity or role": "Excluded — Not associated with identity or social roles.",
+    "Regulated / governed": "Excluded — Bulb-level regulation may apply, but not intrinsic to the filament itself.",
+    "Teachable / transmissible": "Excluded — Function is demonstrable, but the object is not a teaching medium.",
+    "Visible": "Included — Often seen directly (especially in Edison-style bulbs), has a public-facing design component.",
+    "Context-sensitive": "Excluded — Retains its identity and function regardless of environment.",
+    "Widely known": "Included — Commonly recognized due to its legacy role in lighting technology."
+  },
+  "encoding_notes": "This encoding treats the tungsten filament as a standalone engineered component — distinct from the complete light bulb. It emphasizes physical form and engineered function while excluding abstract or symbolic associations. Social traits are selectively included based on industrial classification and public visibility, not metaphor or regulation."
+}

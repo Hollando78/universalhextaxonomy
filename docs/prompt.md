@@ -16,10 +16,27 @@ Encode the following entity using the **Universal Hex Taxonomy (UHT)** — a 32-
 1. **Evaluate All 32 Traits**
    Assess each UHT trait in all four layers using the official definitions only — no paraphrasing or substitutes.
 
-2. **Minimalist & Critical Inclusion**
+2. **Minimalist & Critical Inclusion — with Precision**
 
-   * **Focus on Intrinsic Properties**: Include a trait only if it reflects the **core, inherent identity** of the entity — properties it possesses **independent of context, use, or interpretation**.
-   * **Avoid Trait Inflation**: Do **not** include traits based on metaphor, secondary use, system membership, or cultural attribution unless those roles are **structurally inseparable** from the entity (e.g., “plug,” “reef fragment,” “identity badge”).
+   * **Inclusion Standard:** A trait should be marked **Included (1)** only if it is **intrinsically present** in the entity’s identity. This means the trait is:
+
+     * **Structurally inseparable** from the entity
+     * **Functionally designed-in** (part of its purpose or operation)
+     * **Logically entailed** by its construction or symbolic role
+
+   * **Examples of Valid Inclusion:**
+
+     * "Processes signals" for a CPU (even when powered off)
+     * "Symbolic" for written text (even if not being read)
+     * "Emits output" for a speaker (even when silent)
+
+   * **Exclusion Rule:** A trait should be marked **Excluded (0)** if it is:
+
+     * Merely attributed in context
+     * Present through metaphor, secondary use, or interpretation
+     * Not functionally or structurally essential to the entity
+
+   * **Avoid Trait Inflation:** Do **not** include traits based on metaphor, secondary usage, surrounding systems, or cultural interpretation **unless** the trait is **intrinsically embedded** in the entity’s identity.
 
 3. **Justify Every Trait**
    For each of the 32 traits, indicate whether it is **Included** or **Excluded**, and give a concise justification.
@@ -29,7 +46,7 @@ Encode the following entity using the **Universal Hex Taxonomy (UHT)** — a 32-
 
 ---
 
-## 🧾 UHT Code Generation Rules
+## 📢 UHT Code Generation Rules
 
 * The `uht_code` is an 8-character hexadecimal string formed from four 8-bit binary segments:
 

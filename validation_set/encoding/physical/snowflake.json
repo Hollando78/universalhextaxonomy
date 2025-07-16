@@ -1,0 +1,57 @@
+{
+  "entity": "Snowflake",
+  "uht_code": "9F000001",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form",
+      "Passive"
+    ],
+    "functional": [],
+    "abstract": [],
+    "social": [
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A snowflake is a discrete, tangible entity with defined form.",
+    "Man-made / synthetic": "Excluded — It occurs naturally through atmospheric processes.",
+    "Biological or biologically-inspired": "Excluded — It is a physical crystal, not derived from or modeled on biology.",
+    "Fixed/static": "Included — Once formed, its geometry is stable (until it melts).",
+    "Structural": "Included — Exhibits a defined internal lattice structure (hexagonal symmetry).",
+    "Perceptible": "Included — Can be seen with the naked eye or microscope.",
+    "Material form": "Included — Made of condensed water in solid (ice) form.",
+    "Passive": "Included — Has no active function or energy output; it simply exists.",
+    
+    "Purposeful / intentional": "Excluded — Not designed or built with intent; emerges from natural physics.",
+    "Emits output / produces effect": "Excluded — Does not emit signals, energy, or produce active effects.",
+    "Processes or regulates logic/signals": "Excluded — No capacity for processing information or signals.",
+    "Transforms or modifies internal state": "Excluded — Does not change its own state intentionally or persistently.",
+    "Interacts with humans directly": "Excluded — Can be touched or observed, but has no designed interaction.",
+    "Part of a larger system": "Excluded — Not inherently a subsystem; exists independently in nature.",
+    "Autonomous in function": "Excluded — Has no functional behavior or self-driven process.",
+    "System-critical": "Excluded — Not essential to any operational system by itself.",
+    
+    "Symbolic / representational": "Excluded — May be used symbolically in culture, but this is external attribution.",
+    "Communicative": "Excluded — Does not convey or encode information by design.",
+    "Logical / rule-based": "Excluded — Its shape is governed by physical rules, but it is not itself a logic structure.",
+    "Hierarchical / modular": "Excluded — Geometric symmetry exists, but it is not built as a modular hierarchy.",
+    "Behavior-guiding": "Excluded — Has no influence on behavior.",
+    "Self-referential / meta-conceptual": "Excluded — Does not model or reference itself or abstract concepts.",
+    "Temporal": "Excluded — Exists over time, but time is not an identity-defining feature.",
+    "Contextual abstraction": "Excluded — Not an abstraction or generalization.",
+    
+    "Socially / culturally constructed": "Excluded — Exists independently of human classification or invention.",
+    "Defined by a group/system": "Excluded — It is a natural formation, not institutionally defined.",
+    "Linked to identity or role": "Excluded — Not associated with personal or group identity.",
+    "Regulated / governed": "Excluded — Not subject to social or legal regulation.",
+    "Teachable / transmissible": "Excluded — It is a natural object, not an instructional medium.",
+    "Visible": "Excluded — Perceptible in the physical sense, but not symbolically or socially visible.",
+    "Context-sensitive": "Excluded — Its identity does not change based on social or functional context.",
+    "Widely known": "Included — Snowflakes are globally recognized phenomena across cultures."
+  },
+  "encoding_notes": "This encoding treats the snowflake as a specific instance of a naturally formed ice crystal, not as a cultural or symbolic motif. Traits are limited strictly to physical structure and recognition. No symbolic, logical, or functional attributes are inferred beyond observable material properties."
+}

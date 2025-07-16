@@ -1,0 +1,60 @@
+{
+  "entity": "Fossil",
+  "uht_code": "BF000201",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Biological or biologically-inspired",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form",
+      "Passive"
+    ],
+    "functional": [],
+    "abstract": [
+      "Temporal"
+    ],
+    "social": [
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A fossil is a discrete, tangible physical artifact preserved in matter.",
+    "Man-made / synthetic": "Excluded — Fossils form through natural geological processes, not human design.",
+    "Biological or biologically-inspired": "Included — It is a remnant of an organism; its form is biologically derived.",
+    "Fixed/static": "Included — Its form is preserved and unchanging.",
+    "Structural": "Included — Often preserves skeletal or external anatomical structure.",
+    "Perceptible": "Included — Visible and tactile; observed in museums, collections, or nature.",
+    "Material form": "Included — Composed of mineralized or petrified matter.",
+    "Passive": "Included — Fossils have no active function or behavior.",
+    
+    "Purposeful / intentional": "Excluded — Not made with purpose; an incidental result of natural processes.",
+    "Emits output / produces effect": "Excluded — Does not emit energy, data, or functional output.",
+    "Processes or regulates logic/signals": "Excluded — No processing behavior.",
+    "Transforms or modifies internal state": "Excluded — Static; no mutable internal condition.",
+    "Interacts with humans directly": "Excluded — Observed or handled, but does not afford designed interaction.",
+    "Part of a larger system": "Excluded — Once was part of a biological system, but no longer functionally embedded.",
+    "Autonomous in function": "Excluded — No autonomous or active behavior.",
+    "System-critical": "Excluded — Not critical to any system by default.",
+    
+    "Symbolic / representational": "Excluded — May be symbolically interpreted, but not inherently a symbol.",
+    "Communicative": "Excluded — Does not encode or transmit communication.",
+    "Logical / rule-based": "Excluded — Not an abstract logical system.",
+    "Hierarchical / modular": "Excluded — Form may reflect organismal hierarchy, but the fossil is not a modular structure.",
+    "Behavior-guiding": "Excluded — No influence on action or behavior.",
+    "Self-referential / meta-conceptual": "Excluded — Not reflective or conceptual.",
+    "Temporal": "Included — Its identity is bound to historical/geological time; it exists *as* a trace of the past.",
+    "Contextual abstraction": "Excluded — Not an abstraction; it is a specific preserved object.",
+    
+    "Socially / culturally constructed": "Excluded — Not a human-made social concept.",
+    "Defined by a group/system": "Excluded — Categorized post hoc, but not defined by collective agreement.",
+    "Linked to identity or role": "Excluded — Not used to signify social roles.",
+    "Regulated / governed": "Excluded — Collecting may be regulated, but the object itself is not defined by regulation.",
+    "Teachable / transmissible": "Excluded — Can be used in education, but not a medium of instruction in itself.",
+    "Visible": "Excluded — Perceptible physically, but not socially or symbolically 'visible' per UHT standard.",
+    "Context-sensitive": "Excluded — Meaning is fairly stable regardless of setting.",
+    "Widely known": "Included — Fossils are globally recognized and commonly understood objects."
+  },
+  "encoding_notes": "This encoding frames the fossil as a naturally formed physical remnant of past biological life. While it has educational and scientific significance, only intrinsic traits — not attributed meanings — are included. Temporal relevance is marked due to its preserved, ancient identity."
+}
