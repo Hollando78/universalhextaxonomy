@@ -1,450 +1,66 @@
 [
-  {
-    "id": 1,
-    "name": "Quartz Crystal",
-    "hex": "80 61 62 0A",
-    "traits": [1, 4, 5, 6, 7, 10, 30],
-    "description": "Crystalline, structured, perceptible material with piezoelectric output."
-  },
-  {
-    "id": 2,
-    "name": "Human Femur",
-    "hex": "80 71 62 0A",
-    "traits": [1, 3, 4, 5, 6, 7, 30],
-    "description": "Biological structural bone, passive and perceptible."
-  },
-  {
-    "id": 3,
-    "name": "Paperclip",
-    "hex": "90 23 64 0A",
-    "traits": [1, 2, 4, 5, 6, 7, 30],
-    "description": "Minimal man-made fastener with structural function."
-  },
-  {
-    "id": 4,
-    "name": "Lava Flow",
-    "hex": "80 61 42 0A",
-    "traits": [1, 5, 6, 10, 12, 30],
-    "description": "Natural, energetic transformation with heat/light output."
-  },
-  {
-    "id": 5,
-    "name": "Magnet",
-    "hex": "A0 71 42 0A",
-    "traits": [1, 3, 4, 5, 6, 10, 30],
-    "description": "Emits magnetic field, often used in guidance systems."
-  },
-  {
-    "id": 6,
-    "name": "Coral Reef Fragment",
-    "hex": "80 01 62 4C",
-    "traits": [1, 3, 5, 6, 7, 21, 30],
-    "description": "Biostructure with ecological significance and behavioral cues."
-  },
-  {
-    "id": 7,
-    "name": "Dust Particle",
-    "hex": "84 01 40 00",
-    "traits": [1, 3, 5, 6, 8],
-    "description": "Passive, minimal biological trace matter."
-  },
-  {
-    "id": 8,
-    "name": "Mars Rock Sample",
-    "hex": "80 01 40 02",
-    "traits": [1, 5, 7, 24],
-    "description": "Material artifact given contextual scientific meaning."
-  },
-  {
-    "id": 9,
-    "name": "Sandbag",
-    "hex": "80 E3 64 0A",
-    "traits": [1, 2, 4, 5, 6, 7, 13, 30],
-    "description": "Man-made structural object for impact resistance or training."
-  },
-  {
-    "id": 10,
-    "name": "Circuit Board",
-    "hex": "C0 E3 64 0A",
-    "traits": [1, 2, 4, 5, 6, 7, 11, 13],
-    "description": "Structured electronic platform for signal regulation."
-  },
-  {
-    "id": 11,
-    "name": "Glass Bottle",
-    "hex": "82 54 24 51",
-    "traits": [1, 2, 4, 5, 6, 9, 14, 30],
-    "description": "Container with functional purpose in systems (e.g., packaging)."
-  },
-  {
-    "id": 12,
-    "name": "Snowflake",
-    "hex": "82 21 44 50",
-    "traits": [1, 4, 5, 6, 7, 21, 30],
-    "description": "Material crystal with metaphorical and meteorological meaning."
-  },
-  {
-    "id": 13,
-    "name": "Fossil",
-    "hex": "80 61 C4 0E",
-    "traits": [1, 3, 4, 5, 6, 7, 21, 30],
-    "description": "Preserved biological imprint with interpretive significance."
-  },
-  {
-    "id": 14,
-    "name": "Arrowhead (Stone Age)",
-    "hex": "90 23 64 0E",
-    "traits": [1, 2, 4, 5, 6, 7, 13, 30],
-    "description": "Ancient functional tool and symbolic artifact."
-  },
-  {
-    "id": 15,
-    "name": "Bone Conduction Headset",
-    "hex": "C0 61 40 04",
-    "traits": [1, 2, 4, 10, 13, 30],
-    "description": "Wearable device that emits sound via vibration."
-  },
-  {
-    "id": 16,
-    "name": "Tungsten Filament",
-    "hex": "C0 23 44 0E",
-    "traits": [1, 2, 4, 5, 10, 12, 30],
-    "description": "Microcomponent transforming electricity to light/heat."
-  },
-  {
-    "id": 17,
-    "name": "Thermostat",
-    "hex": "D4 61 80 02",
-    "traits": [1, 2, 4, 9, 10, 11, 12, 13],
-    "description": "Logic-driven environmental regulator."
-  },
-  {
-    "id": 18,
-    "name": "Mechanical Clock",
-    "hex": "C4 60 88 02",
-    "traits": [1, 2, 4, 9, 10, 23],
-    "description": "Mechanical emitter of time indicators."
-  },
-  {
-    "id": 19,
-    "name": "Wind Turbine",
-    "hex": "D4 61 80 02",
-    "traits": [1, 2, 4, 9, 10, 14],
-    "description": "Energy-generating system component."
-  },
-  {
-    "id": 20,
-    "name": "Blockchain Node",
-    "hex": "00 23 46 0E",
-    "traits": [9, 11, 12, 14, 19, 22, 23],
-    "description": "Logical entity in decentralized consensus."
-  },
-  {
-    "id": 21,
-    "name": "Car Ignition System",
-    "hex": "D4 70 A0 52",
-    "traits": [1, 2, 9, 10, 11, 12, 14, 23],
-    "description": "Signal-based vehicle subsystem."
-  },
-  {
-    "id": 22,
-    "name": "Robotic Arm",
-    "hex": "D4 70 A4 42",
-    "traits": [1, 2, 9, 10, 11, 12, 13, 23],
-    "description": "Programmable manipulator with joint logic."
-  },
-  {
-    "id": 23,
-    "name": "Digital Alarm Clock",
-    "hex": "C4 70 88 50",
-    "traits": [1, 2, 9, 10, 11, 13, 23, 30],
-    "description": "Time-activated signal emitter."
-  },
-  {
-    "id": 24,
-    "name": "Smart Thermometer",
-    "hex": "D4 72 80 52",
-    "traits": [1, 2, 9, 10, 11, 13, 23, 30],
-    "description": "Sensor device with digital interface."
-  },
-  {
-    "id": 25,
-    "name": "Smoke Detector",
-    "hex": "D4 70 A0 52",
-    "traits": [1, 2, 9, 10, 11, 12, 23],
-    "description": "Embedded safety sensor."
-  },
-  {
-    "id": 26,
-    "name": "Coffee Machine",
-    "hex": "D4 78 82 52",
-    "traits": [1, 2, 9, 10, 12, 13, 15, 23],
-    "description": "Autonomous brew system."
-  },
-  {
-    "id": 27,
-    "name": "Water Filtration Unit",
-    "hex": "D4 72 A4 56",
-    "traits": [1, 2, 9, 10, 12, 14, 23, 30],
-    "description": "Autonomous system component that transforms input."
-  },
-  {
-    "id": 28,
-    "name": "3D Printer",
-    "hex": "D4 72 88 54",
-    "traits": [1, 2, 9, 10, 11, 12, 14, 23],
-    "description": "Digital fabrication device."
-  },
-  {
-    "id": 29,
-    "name": "Solar Charger",
-    "hex": "C0 61 60 42",
-    "traits": [1, 2, 4, 9, 10, 23],
-    "description": "Energy harvester with temporal output."
-  },
-  {
-    "id": 30,
-    "name": "Pacemaker",
-    "hex": "D4 60 A4 52",
-    "traits": [1, 2, 9, 10, 11, 12, 14, 23],
-    "description": "Biological signal regulator."
-  },
-  {
-    "id": 31,
-    "name": "Air Traffic Control Radar",
-    "hex": "C0 72 C0 52",
-    "traits": [1, 2, 10, 11, 12, 14, 18, 23],
-    "description": "Communicative detection infrastructure."
-  },
-  {
-    "id": 32,
-    "name": "Autonomous Drone",
-    "hex": "FE 74 29 51",
-    "traits": [1, 2, 9, 10, 11, 12, 13, 14, 15, 23, 30],
-    "description": "Multimodal autonomous system."
-  },
-  {
-    "id": 33,
-    "name": "Mathematical Equation",
-    "hex": "00 10 20 12",
-    "traits": [17, 19, 23],
-    "description": "Symbolic, logical expression of relationships."
-  },
-  {
-    "id": 34,
-    "name": "Budget Spreadsheet",
-    "hex": "00 18 22 12",
-    "traits": [17, 18, 19, 23],
-    "description": "Communicative model of numeric abstractions."
-  },
-  {
-    "id": 35,
-    "name": "If-Then Logic Rule",
-    "hex": "00 03 22 22",
-    "traits": [11, 17, 19, 21, 22],
-    "description": "Behavioral condition logic."
-  },
-  {
-    "id": 36,
-    "name": "Coordinate System",
-    "hex": "00 08 20 00",
-    "traits": [17, 19],
-    "description": "Logical spatial framework."
-  },
-  {
-    "id": 37,
-    "name": "Story Arc Diagram",
-    "hex": "01 13 02 32",
-    "traits": [9, 17, 21, 24, 30, 32],
-    "description": "Narrative structure map."
-  },
-  {
-    "id": 38,
-    "name": "Programming Language Syntax",
-    "hex": "00 1A 22 02",
-    "traits": [17, 18, 19, 22],
-    "description": "Formal rule set for computation."
-  },
-  {
-    "id": 39,
-    "name": "Scientific Theory",
-    "hex": "00 18 22 12",
-    "traits": [17, 18, 19, 22, 23],
-    "description": "Symbolic explanatory structure."
-  },
-  {
-    "id": 40,
-    "name": "Encryption Algorithm",
-    "hex": "00 38 26 02",
-    "traits": [17, 18, 19, 20, 22],
-    "description": "Layered abstraction for secure transformation."
-  },
-  {
-    "id": 41,
-    "name": "Flowchart",
-    "hex": "00 0A 22 12",
-    "traits": [17, 18, 19, 23],
-    "description": "Visual logic representation."
-  },
-  {
-    "id": 42,
-    "name": "Chess Strategy",
-    "hex": "00 30 22 32",
-    "traits": [17, 19, 21, 30, 32],
-    "description": "Formal, symbolic heuristic space."
-  },
-  {
-    "id": 43,
-    "name": "Turing Machine",
-    "hex": "00 18 22 22",
-    "traits": [17, 18, 19, 22],
-    "description": "Foundational model of computation."
-  },
-  {
-    "id": 44,
-    "name": "Calendar",
-    "hex": "00 08 22 12",
-    "traits": [17, 18, 23, 24],
-    "description": "Symbolic timekeeping structure."
-  },
-  {
-    "id": 45,
-    "name": "Concept of Zero",
-    "hex": "00 10 20 00",
-    "traits": [17, 19],
-    "description": "Pure minimal abstraction."
-  },
-  {
-    "id": 46,
-    "name": "Proof (in Logic)",
-    "hex": "00 0A 20 12",
-    "traits": [17, 19, 23],
-    "description": "Stepwise logical demonstration."
-  },
-  {
-    "id": 47,
-    "name": "Boolean Expression",
-    "hex": "00 02 20 02",
-    "traits": [17, 19, 30],
-    "description": "Simple symbolic output logic."
-  },
-  {
-    "id": 48,
-    "name": "Metadata Tag",
-    "hex": "00 0A 20 22",
-    "traits": [17, 19, 22],
-    "description": "Meta-conceptual descriptor."
-  },
-  {
-    "id": 49,
-    "name": "Passport",
-    "hex": "25 B4 E0 33",
-    "traits": [9, 17, 25, 26, 27, 28, 29, 30, 32],
-    "description": "Regulated identity artifact."
-  },
-  {
-    "id": 50,
-    "name": "National Anthem",
-    "hex": "01 38 20 32",
-    "traits": [17, 18, 25, 28, 30, 32],
-    "description": "Symbolic cultural expression."
-  },
-  {
-    "id": 51,
-    "name": "University Degree",
-    "hex": "09 3A 26 32",
-    "traits": [9, 17, 18, 25, 26, 27, 29, 32],
-    "description": "Conferred symbolic identity credential."
-  },
-  {
-    "id": 52,
-    "name": "Protest March",
-    "hex": "05 30 24 33",
-    "traits": [9, 21, 24, 25, 29, 30, 32],
-    "description": "Visible contextual behavior event."
-  },
-  {
-    "id": 53,
-    "name": "Copyright Law",
-    "hex": "01 38 26 32",
-    "traits": [18, 25, 26, 28, 29, 32],
-    "description": "Group-defined cultural governance."
-  },
-  {
-    "id": 54,
-    "name": "Military Salute",
-    "hex": "05 30 04 31",
-    "traits": [6, 9, 21, 25, 30],
-    "description": "Behavioral signal with visible ritual meaning."
-  },
-  {
-    "id": 55,
-    "name": "Wedding Vow",
-    "hex": "05 38 24 21",
-    "traits": [9, 18, 24, 25, 30],
-    "description": "Cultural promise with communicative form."
-  },
-  {
-    "id": 56,
-    "name": "Religious Holiday",
-    "hex": "05 38 20 21",
-    "traits": [9, 17, 18, 25, 30],
-    "description": "Symbolic recurring event."
-  },
-  {
-    "id": 57,
-    "name": "Twitter Handle",
-    "hex": "00 30 20 30",
-    "traits": [17, 27, 30],
-    "description": "Online identity token."
-  },
-  {
-    "id": 58,
-    "name": "Tenure System",
-    "hex": "09 3A 26 33",
-    "traits": [9, 17, 18, 25, 26, 27, 29, 32],
-    "description": "Institutional academic structure."
-  },
-  {
-    "id": 59,
-    "name": "Academic Citation",
-    "hex": "01 38 26 32",
-    "traits": [18, 19, 25, 26, 29, 32],
-    "description": "Traceable symbolic knowledge marker."
-  },
-  {
-    "id": 60,
-    "name": "Corporate Org Chart",
-    "hex": "01 28 22 32",
-    "traits": [18, 20, 25, 26, 29, 32],
-    "description": "Hierarchical map of organizational structure."
-  },
-  {
-    "id": 61,
-    "name": "Employment Contract",
-    "hex": "05 38 24 32",
-    "traits": [9, 18, 24, 25, 26, 29, 32],
-    "description": "Contextual agreement of social role."
-  },
-  {
-    "id": 62,
-    "name": "Gender Pronoun Usage",
-    "hex": "00 30 20 31",
-    "traits": [17, 25, 30],
-    "description": "Culturally visible symbolic signal."
-  },
-  {
-    "id": 63,
-    "name": "Cultural Taboo",
-    "hex": "00 30 24 31",
-    "traits": [24, 25, 30],
-    "description": "Contextual norm boundary."
-  },
-  {
-    "id": 64,
-    "name": "Birth Certificate",
-    "hex": "01 38 26 31",
-    "traits": [18, 25, 26, 27, 29],
-    "description": "Institutional identity document."
-  }
- ]
+  { "id":1,"name":"Quartz Crystal","hex":"80 61 62 0A","traits":[1,4,5,6,7,10,30],"description":"Crystalline material with piezoelectric output." },
+  { "id":2,"name":"Human Femur","hex":"80 71 62 0A","traits":[1,3,4,5,6,7,30],"description":"Biological structural bone, passive and perceptible." },
+  { "id":3,"name":"Paperclip","hex":"90 23 64 0A","traits":[1,2,4,5,6,7,30],"description":"Minimal man‑made fastener with structural function." },
+  { "id":4,"name":"Lava Flow","hex":"80 61 42 0A","traits":[1,5,6,10,12,30],"description":"Natural energetic transformation emitting heat/light." },
+  { "id":5,"name":"Magnet","hex":"A0 71 42 0A","traits":[1,3,4,5,6,10,30],"description":"Emits magnetic field; used in guidance." },
+  { "id":6,"name":"Coral Reef Fragment","hex":"80 01 62 4C","traits":[1,3,5,6,7,21,30],"description":"Biostructure with ecological significance." },
+  { "id":7,"name":"Dust Particle","hex":"84 01 40 00","traits":[1,3,5,6,8],"description":"Passive minimal biological trace matter." },
+  { "id":8,"name":"Mars Rock Sample","hex":"80 01 40 02","traits":[1,5,7,24],"description":"Material artifact with contextual scientific value." },
+  { "id":9,"name":"Sandbag","hex":"80 E3 64 0A","traits":[1,2,4,5,6,7,13,30],"description":"Man‑made structural object for resistance or training." },
+  { "id":10,"name":"Circuit Board","hex":"C0 E3 64 0A","traits":[1,2,4,5,6,7,11,13],"description":"Structured electronic platform for signal regulation." },
+  { "id":11,"name":"Glass Bottle","hex":"82 54 24 51","traits":[1,2,4,5,6,9,14,30],"description":"Container with functional purpose in systems." },
+  { "id":12,"name":"Snowflake","hex":"82 21 44 50","traits":[1,4,5,6,7,21,30],"description":"Crystal with meteorological and metaphorical meaning." },
+  { "id":13,"name":"Fossil","hex":"80 61 C4 0E","traits":[1,3,4,5,6,7,21,30],"description":"Preserved biological imprint with interpretive significance." },
+  { "id":14,"name":"Arrowhead (Stone Age)","hex":"90 23 64 0E","traits":[1,2,4,5,6,7,13,30],"description":"Ancient functional tool and symbolic artifact." },
+  { "id":15,"name":"Bone Conduction Headset","hex":"C0 61 40 04","traits":[1,2,4,10,13,30],"description":"Wearable device emitting sound via vibration." },
+  { "id":16,"name":"Tungsten Filament","hex":"C0 23 44 0E","traits":[1,2,4,5,10,12,30],"description":"Micro‑component transforming electricity into light/heat." },
+  { "id":17,"name":"Thermostat","hex":"D4 61 80 02","traits":[1,2,4,9,10,11,12,13],"description":"Logic‑driven environmental regulator." },
+  { "id":18,"name":"Mechanical Clock","hex":"C4 60 88 02","traits":[1,2,4,9,10,23],"description":"Mechanical device marking time." },
+  { "id":19,"name":"Wind Turbine","hex":"D4 61 80 02","traits":[1,2,4,9,10,14],"description":"Energy‑generating system component." },
+  { "id":20,"name":"Blockchain Node","hex":"00 23 46 0E","traits":[9,11,12,14,19,22,23],"description":"Logical entity in decentralized consensus." },
+  { "id":21,"name":"Car Ignition System","hex":"D4 70 A0 52","traits":[1,2,9,10,11,12,14,23],"description":"Signal‑based vehicle subsystem." },
+  { "id":22,"name":"Robotic Arm","hex":"D4 70 A4 42","traits":[1,2,9,10,11,12,13,23],"description":"Programmable manipulator with logic." },
+  { "id":23,"name":"Digital Alarm Clock","hex":"C4 70 88 50","traits":[1,2,9,10,11,13,23,30],"description":"Time‑activated signal emitter." },
+  { "id":24,"name":"Smart Thermometer","hex":"D4 72 80 52","traits":[1,2,9,10,11,13,23,30],"description":"Sensor device with digital interface." },
+  { "id":25,"name":"Smoke Detector","hex":"D4 70 A0 52","traits":[1,2,9,10,11,12,23],"description":"Embedded safety sensor." },
+  { "id":26,"name":"Coffee Machine","hex":"D4 78 82 52","traits":[1,2,9,10,12,13,15,23],"description":"Autonomous system brewing beverages." },
+  { "id":27,"name":"Water Filtration Unit","hex":"D4 72 A4 56","traits":[1,2,9,10,12,14,23,30],"description":"Autonomous system component transforming input." },
+  { "id":28,"name":"3D Printer","hex":"D4 72 88 54","traits":[1,2,9,10,11,12,14,23],"description":"Digital fabrication device." },
+  { "id":29,"name":"Solar Charger","hex":"C0 61 60 42","traits":[1,2,4,9,10,23],"description":"Energy harvester with temporal output." },
+  { "id":30,"name":"Pacemaker","hex":"D4 60 A4 52","traits":[1,2,9,10,11,12,14,23],"description":"Biological signal regulator." },
+  { "id":31,"name":"Air Traffic Control Radar","hex":"C0 72 C0 52","traits":[1,2,10,11,12,14,18,23],"description":"Communicative detection infrastructure." },
+  { "id":32,"name":"Autonomous Drone","hex":"FE 74 29 51","traits":[1,2,9,10,11,12,13,14,15,23,30],"description":"Multimodal autonomous system." },
+  { "id":33,"name":"Mathematical Equation","hex":"00 10 20 12","traits":[17,19,23],"description":"Symbolic, logical expression." },
+  { "id":34,"name":"Budget Spreadsheet","hex":"00 18 22 12","traits":[17,18,19,23],"description":"Communicative model of numeric abstractions." },
+  { "id":35,"name":"If‑Then Logic Rule","hex":"00 03 22 22","traits":[11,17,19,21,22],"description":"Behavior‑guiding conditional logic." },
+  { "id":36,"name":"Coordinate System","hex":"00 08 20 00","traits":[17,19],"description":"Logical spatial framework." },
+  { "id":37,"name":"Story Arc Diagram","hex":"01 13 02 32","traits":[9,17,21,24,30,32],"description":"Narrative structure map." },
+  { "id":38,"name":"Programming Language Syntax","hex":"00 1A 22 02","traits":[17,18,19,22],"description":"Formal computational rule set." },
+  { "id":39,"name":"Scientific Theory","hex":"00 18 22 12","traits":[17,18,19,22,23],"description":"Symbolic explanatory structure." },
+  { "id":40,"name":"Encryption Algorithm","hex":"00 38 26 02","traits":[17,18,19,20,22],"description":"Layered abstraction for secure transformation." },
+  { "id":41,"name":"Flowchart","hex":"00 0A 22 12","traits":[17,18,19,23],"description":"Visual logic representation." },
+  { "id":42,"name":"Chess Strategy","hex":"00 30 22 32","traits":[17,19,21,30,32],"description":"Formal symbolic heuristic strategy." },
+  { "id":43,"name":"Turing Machine","hex":"00 18 22 22","traits":[17,18,19,22],"description":"Foundational model of computation." },
+  { "id":44,"name":"Calendar","hex":"00 08 22 12","traits":[17,18,23,24],"description":"Symbolic timekeeping structure." },
+  { "id":45,"name":"Concept of Zero","hex":"00 10 20 00","traits":[17,19],"description":"Minimal pure abstraction." },
+  { "id":46,"name":"Proof (in Logic)","hex":"00 0A 20 12","traits":[17,19,23],"description":"Step‑wise logical demonstration." },
+  { "id":47,"name":"Boolean Expression","hex":"00 02 20 02","traits":[17,19,30],"description":"Simple symbolic logical output." },
+  { "id":48,"name":"Metadata Tag","hex":"00 0A 20 22","traits":[17,19,22],"description":"Meta‑conceptual descriptor." },
+  { "id":49,"name":"Passport","hex":"25 B4 E0 33","traits":[9,17,25,26,27,28,29,30,32],"description":"Regulated identity artifact." },
+  { "id":50,"name":"National Anthem","hex":"01 38 20 32","traits":[17,18,25,28,30,32],"description":"Symbolic cultural expression." },
+  { "id":51,"name":"University Degree","hex":"09 3A 26 32","traits":[9,17,18,25,26,27,29,32],"description":"Conferred symbolic identity credential." },
+  { "id":52,"name":"Protest March","hex":"05 30 24 33","traits":[9,21,24,25,29,30,32],"description":"Visible contextual behavior event." },
+  { "id":53,"name":"Copyright Law","hex":"01 38 26 32","traits":[18,25,26,28,29,32],"description":"Group‑defined governance rule." },
+  { "id":54,"name":"Military Salute","hex":"05 30 04 31","traits":[6,9,21,25,30],"description":"Behavioral ritual with visible symbolic meaning." },
+  { "id":55,"name":"Wedding Vow","hex":"05 38 24 21","traits":[9,18,24,25,30],"description":"Cultural promise with communicative form." },
+  { "id":56,"name":"Religious Holiday","hex":"05 38 20 21","traits":[9,17,18,25,30],"description":"Symbolic recurring cultural event." },
+  { "id":57,"name":"Twitter Handle","hex":"00 30 20 30","traits":[17,27,30],"description":"Online identity token." },
+  { "id":58,"name":"Tenure System","hex":"09 3A 26 33","traits":[9,17,18,25,26,27,29,32],"description":"Academic institutional structure." },
+  { "id":59,"name":"Academic Citation","hex":"01 38 26 32","traits":[18,19,25,26,29,32],"description":"Traceable symbolic knowledge marker." },
+  { "id":60,"name":"Corporate Org Chart","hex":"01 28 22 32","traits":[18,20,25,26,29,32],"description":"Hierarchical organizational map." },
+  { "id":61,"name":"Employment Contract","hex":"05 38 24 32","traits":[9,18,24,25,26,29,32],"description":"Contextual agreement of social role." },
+  { "id":62,"name":"Gender Pronoun Usage","hex":"00 30 20 31","traits":[17,25,30],"description":"Culturally visible symbolic signal." },
+  { "id":63,"name":"Cultural Taboo","hex":"00 30 24 31","traits":[24,25,30],"description":"Contextual norm boundary." },
+  { "id":64,"name":"Birth Certificate","hex":"01 38 26 31","traits":[18,25,26,27,29],"description":"Institutional identity document." }
+]
