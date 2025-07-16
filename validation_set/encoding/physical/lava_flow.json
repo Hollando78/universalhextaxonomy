@@ -1,0 +1,60 @@
+{
+  "entity": "Lava Flow",
+  "uht_code": "865A2207",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Emits output / produces effect",
+      "Transforms or modifies internal state",
+      "Part of a larger system",
+      "Autonomous in function"
+    ],
+    "abstract": [
+      "Logical / rule-based",
+      "Temporal"
+    ],
+    "social": [
+      "Teachable / transmissible",
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — Lava has tangible, spatially continuous material form.",
+    "Man-made / synthetic": "Excluded — It is a naturally occurring geological event.",
+    "Biological or biologically-inspired": "Excluded — Not derived from or imitative of biological systems.",
+    "Fixed/static": "Excluded — It is dynamic and fluid by nature.",
+    "Structural": "Excluded — It is not a load-bearing or support structure.",
+    "Perceptible": "Included — Observable by sight, touch, and thermal sensors.",
+    "Material form": "Included — Composed of molten rock, physically and chemically defined.",
+    "Passive": "Excluded — It is an active, transformative physical process.",
+    "Purposeful / intentional": "Excluded — Has no goal or design.",
+    "Emits output / produces effect": "Included — Alters terrain, generates heat, and causes environmental changes.",
+    "Processes or regulates logic/signals": "Excluded — Not informational or computational.",
+    "Transforms or modifies internal state": "Included — Cools and solidifies, transitioning material phase.",
+    "Interacts with humans directly": "Excluded — It affects humans, but not interactively or responsively.",
+    "Part of a larger system": "Included — A component of volcanic/geological cycles.",
+    "Autonomous in function": "Included — Operates according to physical principles without intervention.",
+    "System-critical": "Excluded — While significant, it is not essential to Earth’s system functions.",
+    "Symbolic / representational": "Excluded — May be metaphorically used, but not inherently symbolic.",
+    "Communicative": "Excluded — Does not convey or encode information.",
+    "Logical / rule-based": "Included — Governed by deterministic physical laws.",
+    "Hierarchical / modular": "Excluded — Not composed of parts in a modular structure.",
+    "Behavior-guiding": "Excluded — Does not instruct or guide action.",
+    "Self-referential / meta-conceptual": "Excluded — Not capable of modeling itself.",
+    "Temporal": "Included — Occurs over time and has distinct beginning and end phases.",
+    "Contextual abstraction": "Excluded — Has consistent identity regardless of context.",
+    "Socially / culturally constructed": "Excluded — Exists independently of human culture.",
+    "Defined by a group/system": "Excluded — Not defined by institutional or cultural systems.",
+    "Linked to identity or role": "Excluded — Not associated with roles or identity.",
+    "Regulated / governed": "Excluded — Not subject to governance.",
+    "Teachable / transmissible": "Included — Commonly taught in earth sciences.",
+    "Visible": "Included — Highly visible and often dramatic in appearance.",
+    "Context-sensitive": "Excluded — Meaning and function remain consistent across contexts.",
+    "Widely known": "Included — Well-known natural event worldwide."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "entity": "Mars Rock Sample",
+  "uht_code": "87000000",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Perceptible",
+      "Material form",
+      "Passive"
+    ],
+    "functional": [],
+    "abstract": [],
+    "social": []
+  },
+  "feedback": {
+    "Physical object": "Included — A bounded, tangible geological object with discrete form.",
+    "Man-made / synthetic": "Excluded — Naturally occurring; not fabricated or designed.",
+    "Biological or biologically-inspired": "Excluded — Not inherently biological or derived from biological models.",
+    "Fixed/static": "Excluded — Once extracted, it is mobile and not fixed in position.",
+    "Structural": "Excluded — Plays no structural role in its isolated form.",
+    "Perceptible": "Included — It can be seen and touched without tools; directly observable.",
+    "Material form": "Included — It has physical substance, mass, and a coherent shape.",
+    "Passive": "Included — Exhibits no agency or intrinsic behavior; only reacts under external forces.",
+    
+    "Purposeful / intentional": "Excluded — It was not designed or created for a purpose.",
+    "Emits output / produces effect": "Excluded — It does not emit or produce effects independently.",
+    "Processes or regulates logic/signals": "Excluded — No computational, regulatory, or signaling function.",
+    "Transforms or modifies internal state": "Excluded — No autonomous state change; any reaction is passive.",
+    "Interacts with humans directly": "Excluded — Any interaction is contextual, not a built-in interface.",
+    "Part of a larger system": "Excluded — Once removed from geological context, it is isolated.",
+    "Autonomous in function": "Excluded — Has no function, behavior, or system role.",
+    "System-critical": "Excluded — Not essential to any defined system by default.",
+    
+    "Symbolic / representational": "Excluded — Not symbolic unless framed externally.",
+    "Communicative": "Excluded — Does not carry or transmit information intrinsically.",
+    "Logical / rule-based": "Excluded — Not governed by internal symbolic or operational logic.",
+    "Hierarchical / modular": "Excluded — Lacks designed subsystems or modularity.",
+    "Behavior-guiding": "Excluded — Does not influence behavior directly.",
+    "Self-referential / meta-conceptual": "Excluded — It is not a model or concept about concepts.",
+    "Temporal": "Excluded — Temporal existence is not abstracted into its identity.",
+    "Contextual abstraction": "Excluded — It is a concrete material entity, not an abstraction.",
+    
+    "Socially / culturally constructed": "Excluded — Its meaning emerges from context, not construction.",
+    "Defined by a group/system": "Excluded — Classification is extrinsic, not inherent.",
+    "Linked to identity or role": "Excluded — Not tied to a role or personal identity.",
+    "Regulated / governed": "Excluded — No rules or systems intrinsically govern it.",
+    "Teachable / transmissible": "Excluded — It is not itself a semantic or symbolic unit.",
+    "Visible": "Excluded — Subsumed by 'Perceptible'; not a socially visible role.",
+    "Context-sensitive": "Excluded — Maintains identity across different contexts.",
+    "Widely known": "Excluded — Known only in specialist or scientific domains."
+  },
+  "encoding_notes": "This encoding treats the Mars rock sample as a physical geological object, isolated from institutional, symbolic, or scientific contexts. Perceptible and Passive are now correctly included: it can be directly sensed and exhibits no agency or internal behavior. All functional, abstract, and social traits remain excluded under this narrow, intrinsic framing."
+}

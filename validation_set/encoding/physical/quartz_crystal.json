@@ -1,0 +1,57 @@
+{
+  "entity": "Quartz Crystal",
+  "uht_code": "9F002203",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form",
+      "Passive"
+    ],
+    "functional": [],
+    "abstract": [
+      "Logical / rule-based",
+      "Temporal"
+    ],
+    "social": [
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A quartz crystal is a tangible, spatially discrete physical object.",
+    "Man-made / synthetic": "Excluded — Although sometimes synthesized, the default referent is a naturally occurring mineral.",
+    "Biological or biologically-inspired": "Excluded — Quartz is entirely inorganic; no biological basis or biomimicry.",
+    "Fixed/static": "Included — It is rigid, does not change form on its own, and is spatially fixed.",
+    "Structural": "Included — Has an internal crystalline structure defined by a regular atomic lattice.",
+    "Perceptible": "Included — Clearly perceptible through sight and touch.",
+    "Material form": "Included — Possesses a definite material form composed of silicon dioxide.",
+    "Passive": "Included — Does not emit, act, or self-modify; it is passively present.",
+    "Purposeful / intentional": "Excluded — It has no inherent purpose unless used by external agents.",
+    "Emits output / produces effect": "Excluded — While it can generate signals in devices, this is not intrinsic to the material itself.",
+    "Processes or regulates logic/signals": "Excluded — It does not process information or signals by design.",
+    "Transforms or modifies internal state": "Excluded — The object has no internal dynamics or state transformation under ordinary conditions.",
+    "Interacts with humans directly": "Excluded — No direct interaction or responsiveness to human input.",
+    "Part of a larger system": "Excluded — Quartz may be used in systems, but the entity alone is not system-bound.",
+    "Autonomous in function": "Excluded — Has no autonomy or inherent function.",
+    "System-critical": "Excluded — Not critical on its own to the operation of any system.",
+    "Symbolic / representational": "Excluded — Not inherently symbolic or representative.",
+    "Communicative": "Excluded — It conveys no messages or encoded communication.",
+    "Logical / rule-based": "Included — Forms according to strict geometric and chemical rules; crystal symmetry is rule-based.",
+    "Hierarchical / modular": "Excluded — Does not consist of modular or nested components.",
+    "Behavior-guiding": "Excluded — Does not influence or prescribe behavior.",
+    "Self-referential / meta-conceptual": "Excluded — Does not refer to or describe its own logic or concept.",
+    "Temporal": "Included — Quartz's vibrational regularity enables timekeeping; temporal property is essential in applied contexts.",
+    "Contextual abstraction": "Excluded — Its meaning does not flex based on context in a core material sense.",
+    "Socially / culturally constructed": "Excluded — Exists independently of cultural designation.",
+    "Defined by a group/system": "Excluded — Not defined by collective agreement or institutional designation.",
+    "Linked to identity or role": "Excluded — Not tied to any identity or role unless metaphorically assigned.",
+    "Regulated / governed": "Excluded — No regulation governs quartz itself; usage may be regulated but not the object.",
+    "Teachable / transmissible": "Excluded — Not a transmissible cultural or educational artifact in and of itself.",
+    "Visible": "Included — It is plainly visible and often visually recognized.",
+    "Context-sensitive": "Excluded — The object’s identity is stable across contexts.",
+    "Widely known": "Included — Widely known and recognized across global populations."
+  }
+}

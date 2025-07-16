@@ -1,0 +1,52 @@
+{
+  "entity": "Dust Particle",
+  "uht_code": "83000000",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Material form",
+      "Passive"
+    ],
+    "functional": [],
+    "abstract": [],
+    "social": []
+  },
+  "feedback": {
+    "Physical object": "Included — A dust particle is a tangible, bounded material entity that occupies space.",
+    "Man-made / synthetic": "Excluded — Dust particles can be natural or artificial; synthetic origin is not intrinsic.",
+    "Biological or biologically-inspired": "Excluded — Most dust is inorganic; even biological dust (e.g. dander) isn't inherently biological in identity.",
+    "Fixed/static": "Excluded — Dust is typically mobile and easily disturbed.",
+    "Structural": "Excluded — A dust particle has no load-bearing or designed structural role.",
+    "Perceptible": "Excluded — An individual dust particle is usually below visual threshold without amplification.",
+    "Material form": "Included — It consists of solid matter and occupies a specific form in space.",
+    "Passive": "Included — It has no agency and only responds to external forces (e.g., wind, electrostatics).",
+    
+    "Purposeful / intentional": "Excluded — It is not designed or purposed by default.",
+    "Emits output / produces effect": "Excluded — It doesn’t generate outputs unless in context (e.g., pollutant); not intrinsic.",
+    "Processes or regulates logic/signals": "Excluded — It has no signaling or processing capability.",
+    "Transforms or modifies internal state": "Excluded — No autonomous or inherent transformation occurs.",
+    "Interacts with humans directly": "Excluded — Any interaction is incidental, not intrinsic to identity.",
+    "Part of a larger system": "Excluded — May aggregate but not inherently systemic.",
+    "Autonomous in function": "Excluded — No autonomy or function independent of environment.",
+    "System-critical": "Excluded — Not essential to any defined system by nature.",
+    
+    "Symbolic / representational": "Excluded — Not used symbolically without imposed interpretation.",
+    "Communicative": "Excluded — Does not inherently transmit or encode information.",
+    "Logical / rule-based": "Excluded — Has no logic or structure governed by internal rules.",
+    "Hierarchical / modular": "Excluded — Not composed of subsystems or organizational levels.",
+    "Behavior-guiding": "Excluded — Does not guide or constrain actions.",
+    "Self-referential / meta-conceptual": "Excluded — Not capable of referencing or representing itself.",
+    "Temporal": "Excluded — Exists in time, but temporality is not abstracted into its identity.",
+    "Contextual abstraction": "Excluded — It is a direct physical entity, not a conceptual construct.",
+    
+    "Socially / culturally constructed": "Excluded — Its identity does not derive from social convention.",
+    "Defined by a group/system": "Excluded — Not framed by institutions or classifications by default.",
+    "Linked to identity or role": "Excluded — Not tied to roles, identities, or functions.",
+    "Regulated / governed": "Excluded — No rules govern its behavior by design.",
+    "Teachable / transmissible": "Excluded — Not a unit of knowledge or transferrable concept.",
+    "Visible": "Excluded — Not typically visible as an individual entity without tools.",
+    "Context-sensitive": "Excluded — Exists independently of specific contextual frames.",
+    "Widely known": "Excluded — Dust as a category is known, but an individual particle is not culturally salient."
+  },
+  "encoding_notes": "This encoding describes a generic, isolated dust particle, not a symbolic aggregate like 'dust' in literature or 'pollution' in policy. Perceptibility and social traits are excluded due to scale and lack of cultural framing. Passive is now correctly included, as a dust particle exhibits no agency or internal behavior."
+}

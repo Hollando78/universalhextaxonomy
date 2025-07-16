@@ -1,0 +1,59 @@
+{
+  "entity": "Paperclip",
+  "uht_code": "D78800C5",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Perceptible",
+      "Material form",
+      "Passive"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Interacts with humans directly"
+    ],
+    "abstract": [],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible, discrete object occupying space.",
+    "Man-made / synthetic": "Included — Designed and mass-produced by humans.",
+    "Biological or biologically-inspired": "Excluded — No biological origin or mimicry.",
+    "Fixed/static": "Included — Rigid in form and stable without external force.",
+    "Structural": "Excluded — Not a load-bearing or framework element.",
+    "Perceptible": "Included — Can be perceived by touch and sight.",
+    "Material form": "Included — Has defined material composition (metal/plastic).",
+    "Passive": "Included — Does not act or change autonomously.",
+    "Purposeful / intentional": "Included — Designed for a clear function: binding paper.",
+    "Emits output / produces effect": "Excluded — No emission or effect beyond holding by force.",
+    "Processes or regulates logic/signals": "Excluded — Not a processing device.",
+    "Transforms or modifies internal state": "Excluded — Does not dynamically alter itself.",
+    "Interacts with humans directly": "Included — Intended for direct manual use.",
+    "Part of a larger system": "Excluded — Not inherently system-bound or dependent.",
+    "Autonomous in function": "Excluded — Requires external manipulation.",
+    "System-critical": "Excluded — Not critical to any operational system.",
+    "Symbolic / representational": "Excluded — Not inherently symbolic.",
+    "Communicative": "Excluded — Does not transmit information.",
+    "Logical / rule-based": "Excluded — Not based on logic operations.",
+    "Hierarchical / modular": "Excluded — Not composed of modular subparts.",
+    "Behavior-guiding": "Excluded — Does not influence behavior.",
+    "Self-referential / meta-conceptual": "Excluded — Not conceptually recursive.",
+    "Temporal": "Excluded — No intrinsic relation to time.",
+    "Contextual abstraction": "Excluded — Identity remains stable across contexts.",
+    "Socially / culturally constructed": "Included — Exists only due to human cultural systems.",
+    "Defined by a group/system": "Included — Categorized and standardized within office/stationery domains.",
+    "Linked to identity or role": "Excluded — Does not signal social role or identity.",
+    "Regulated / governed": "Excluded — Not subject to meaningful regulation.",
+    "Teachable / transmissible": "Excluded — Not taught as a concept; usage is intuitive.",
+    "Visible": "Included — Commonly visible and recognizable.",
+    "Context-sensitive": "Excluded — Maintains identity and function across settings.",
+    "Widely known": "Included — Universally recognized object."
+  }
+}

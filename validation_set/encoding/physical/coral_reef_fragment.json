@@ -1,0 +1,58 @@
+{
+  "entity": "Coral Reef Fragment",
+  "uht_code": "BF04000D",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Biological or biologically-inspired",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form",
+      "Passive"
+    ],
+    "functional": [
+      "Part of a larger system"
+    ],
+    "abstract": [],
+    "social": [
+      "Teachable / transmissible",
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — Tangible material with defined shape and substance.",
+    "Man-made / synthetic": "Excluded — Naturally grown by marine organisms.",
+    "Biological or biologically-inspired": "Included — Formed by biological processes from coral polyps.",
+    "Fixed/static": "Included — Immobile and stable in form after breakage.",
+    "Structural": "Included — Provides physical support in marine environments.",
+    "Perceptible": "Included — Visually and physically obvious.",
+    "Material form": "Included — Calcareous structure, solid material.",
+    "Passive": "Included — Does not act independently once broken off.",
+    "Purposeful / intentional": "Excluded — Not designed or constructed with purpose.",
+    "Emits output / produces effect": "Excluded — No active emission or transformation.",
+    "Processes or regulates logic/signals": "Excluded — Not a signaling or computational object.",
+    "Transforms or modifies internal state": "Excluded — No intrinsic state transformation.",
+    "Interacts with humans directly": "Excluded — Not a direct interface object.",
+    "Part of a larger system": "Included — Originally part of a coral reef ecosystem.",
+    "Autonomous in function": "Excluded — Not functionally independent.",
+    "System-critical": "Excluded — A fragment is not essential on its own.",
+    "Symbolic / representational": "Excluded — May carry metaphor, but not inherent to identity.",
+    "Communicative": "Excluded — Does not encode or transmit meaning.",
+    "Logical / rule-based": "Excluded — Formation is natural, not rule-executing.",
+    "Hierarchical / modular": "Excluded — Not composed of submodules.",
+    "Behavior-guiding": "Excluded — Does not influence decisions.",
+    "Self-referential / meta-conceptual": "Excluded — Not capable of recursive reference.",
+    "Temporal": "Excluded — Does not inherently change with time.",
+    "Contextual abstraction": "Excluded — Identity stable across settings.",
+    "Socially / culturally constructed": "Excluded — Exists independently of culture.",
+    "Defined by a group/system": "Excluded — Classification exists, but does not define its being.",
+    "Linked to identity or role": "Excluded — Not used to signify identity.",
+    "Regulated / governed": "Excluded — Laws may govern collection, but not object essence.",
+    "Teachable / transmissible": "Included — Commonly studied in ecology and marine science.",
+    "Visible": "Included — Visually striking and identifiable.",
+    "Context-sensitive": "Excluded — Function and meaning remain stable.",
+    "Widely known": "Included — Recognized globally, especially in environmental contexts."
+  }
+}

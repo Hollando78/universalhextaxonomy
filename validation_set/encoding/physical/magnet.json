@@ -1,0 +1,62 @@
+{
+  "entity": "Magnet",
+  "uht_code": "D6CE200D",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Interacts with humans directly",
+      "Part of a larger system",
+      "Autonomous in function"
+    ],
+    "abstract": [
+      "Logical / rule-based"
+    ],
+    "social": [
+      "Teachable / transmissible",
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible object occupying space and observable via its magnetic effects.",
+    "Man-made / synthetic": "Included — Most magnets are industrially produced.",
+    "Biological or biologically-inspired": "Excluded — Not derived from or imitative of biological systems.",
+    "Fixed/static": "Included — Maintains polarity and shape unless physically altered.",
+    "Structural": "Excluded — Not used as a load-bearing or architectural frame.",
+    "Perceptible": "Included — Perceivable directly (shape, texture) and indirectly (magnetic force).",
+    "Material form": "Included — Composed of ferromagnetic substances like iron or neodymium.",
+    "Passive": "Excluded — Actively emits a magnetic field; not behaviorally inert.",
+    "Purposeful / intentional": "Included — Designed or selected to attract, hold, or actuate objects.",
+    "Emits output / produces effect": "Included — Emits a magnetic field with detectable force.",
+    "Processes or regulates logic/signals": "Excluded — Not a logic processor or signal controller by itself.",
+    "Transforms or modifies internal state": "Excluded — Magnetic state remains fixed unless externally altered.",
+    "Interacts with humans directly": "Included — Grasped, used, or positioned by hand in everyday applications.",
+    "Part of a larger system": "Included — Commonly found in motors, sensors, locks, or devices.",
+    "Autonomous in function": "Included — Once magnetized, operates independently without further input.",
+    "System-critical": "Excluded — Not universally critical to any system (e.g., not required in all machines).",
+    "Symbolic / representational": "Excluded — Not inherently representative or metaphorical.",
+    "Communicative": "Excluded — Does not transmit or encode meaning or information.",
+    "Logical / rule-based": "Included — Magnetic behavior obeys deterministic physical laws (e.g., Maxwell’s equations).",
+    "Hierarchical / modular": "Excluded — Not composed of distinct subunits or functional layers.",
+    "Behavior-guiding": "Excluded — Does not alter human behavior in a directive or regulatory way.",
+    "Self-referential / meta-conceptual": "Excluded — Lacks abstract recursion or self-modeling.",
+    "Temporal": "Excluded — Magnetic fields are persistent; time plays no intrinsic role.",
+    "Contextual abstraction": "Excluded — Its meaning and use are consistent across domains.",
+    "Socially / culturally constructed": "Excluded — Exists independently of human classification systems.",
+    "Defined by a group/system": "Excluded — Not defined or governed by collective human rules.",
+    "Linked to identity or role": "Excluded — Magnets are not identity markers or social role indicators.",
+    "Regulated / governed": "Excluded — Not regulated as a class of objects (though some uses might be).",
+    "Teachable / transmissible": "Included — Magnetic theory is widely taught in science education.",
+    "Visible": "Included — The magnet itself is visible, even if its field is not.",
+    "Context-sensitive": "Excluded — Identity and function remain constant regardless of setting.",
+    "Widely known": "Included — Universally recognized object with clear public familiarity."
+  }
+}

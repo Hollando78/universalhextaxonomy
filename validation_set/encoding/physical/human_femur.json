@@ -1,0 +1,54 @@
+{
+  "entity": "Human Femur",
+  "uht_code": "9F000201",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Biological or biologically-inspired",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form",
+      "Passive"
+    ],
+    "functional": [],
+    "abstract": [],
+    "social": [
+      "Visible"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — The femur is a tangible, discrete, material component of the human body.",
+    "Man-made / synthetic": "Excluded — Naturally occurring anatomical structure, not synthetic.",
+    "Biological or biologically-inspired": "Included — It is a biological organ derived from evolutionary processes.",
+    "Fixed/static": "Included — Once formed, the femur maintains a fixed shape and position relative to the body.",
+    "Structural": "Included — It is the primary load-bearing bone of the leg, contributing to bodily structure.",
+    "Perceptible": "Included — While internal, it is visible in anatomical models, scans, and dissection.",
+    "Material form": "Included — Made of calcified biological tissue, it has physical and chemical substance.",
+    "Passive": "Included — It does not act or change behavior autonomously; function is determined externally.",
+    "Purposeful / intentional": "Excluded — The femur has evolved utility but no intrinsic intention.",
+    "Emits output / produces effect": "Excluded — Does not produce output by itself; part of mechanical leverage in the body but not active.",
+    "Processes or regulates logic/signals": "Excluded — No role in cognitive, signal, or control processing.",
+    "Transforms or modifies internal state": "Excluded — Does not undergo dynamic internal changes in ordinary use.",
+    "Interacts with humans directly": "Excluded — Not externally interactive in its natural anatomical role.",
+    "Part of a larger system": "Excluded — Although anatomically part of the musculoskeletal system, UHT minimalism excludes this unless essential to identity.",
+    "Autonomous in function": "Excluded — Requires muscles, nerves, and intention to operate; no autonomy.",
+    "System-critical": "Excluded — Important biologically, but not critical as a standalone object per UHT strict standards.",
+    "Symbolic / representational": "Excluded — Not symbolic in default identity; only in anthropological or cultural contexts.",
+    "Communicative": "Excluded — Does not convey information or participate in communication.",
+    "Logical / rule-based": "Excluded — Biological formation has regularities, but not rules in the logical or computational sense.",
+    "Hierarchical / modular": "Excluded — Not composed of subordinate modules; it is a single anatomical unit.",
+    "Behavior-guiding": "Excluded — Does not affect behavior on its own.",
+    "Self-referential / meta-conceptual": "Excluded — Not conceptually recursive or self-modelling.",
+    "Temporal": "Excluded — Exists through time, but not defined by temporality in essence.",
+    "Contextual abstraction": "Excluded — Its identity is stable across contexts; not abstracted differently depending on use.",
+    "Socially / culturally constructed": "Excluded — Its existence precedes and is independent of social construction.",
+    "Defined by a group/system": "Excluded — Definition is biological, not institutionally or socially imposed.",
+    "Linked to identity or role": "Excluded — Does not indicate social identity, role, or function unless symbolically appropriated.",
+    "Regulated / governed": "Excluded — Not regulated in itself; medical treatment might be, but that is contextual.",
+    "Teachable / transmissible": "Excluded — While knowledge of it is taught, the object itself is not a teaching construct.",
+    "Visible": "Included — While normally internal, it is clearly visible in imaging, models, and education.",
+    "Context-sensitive": "Excluded — The object’s form and identity do not meaningfully shift across contexts.",
+    "Widely known": "Excluded — Recognizable within anatomy or medicine, but not universally known like 'heart' or 'eye'."
+  }
+}
