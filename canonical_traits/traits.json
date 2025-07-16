@@ -1,0 +1,39 @@
+{
+  "traits": [
+    { "index": 1, "bit": 1, "layer": "Physical", "name": "Physical object", "description": "A tangible, material entity with spatial presence." },
+    { "index": 2, "bit": 2, "layer": "Physical", "name": "Man-made / synthetic", "description": "Created or significantly altered by human processes." },
+    { "index": 3, "bit": 3, "layer": "Physical", "name": "Biological or biologically-inspired", "description": "Derived from, related to, or mimicking biological systems." },
+    { "index": 4, "bit": 4, "layer": "Physical", "name": "Fixed/static", "description": "Physically immobile or not designed to move." },
+    { "index": 5, "bit": 5, "layer": "Physical", "name": "Structural", "description": "Serves as a frame, support, or skeleton for something else." },
+    { "index": 6, "bit": 6, "layer": "Physical", "name": "Perceptible", "description": "Detectable by human senses or measuring instruments." },
+    { "index": 7, "bit": 7, "layer": "Physical", "name": "Material form", "description": "Embodied in matter; not purely informational or conceptual." },
+    { "index": 8, "bit": 8, "layer": "Physical", "name": "Passive", "description": "Does not generate or modify its own behavior or output." },
+
+    { "index": 9, "bit": 9, "layer": "Functional", "name": "Purposeful / intentional", "description": "Designed or evolved to serve a specific function or purpose." },
+    { "index": 10, "bit": 10, "layer": "Functional", "name": "Emits output / produces effect", "description": "Generates signals, force, data, or any measurable result." },
+    { "index": 11, "bit": 11, "layer": "Functional", "name": "Processes or regulates logic/signals", "description": "Operates on input to transform, route, or decide behavior." },
+    { "index": 12, "bit": 12, "layer": "Functional", "name": "Transforms or modifies internal state", "description": "Changes its own structure, configuration, or values over time." },
+    { "index": 13, "bit": 13, "layer": "Functional", "name": "Interacts with humans directly", "description": "Designed for user interaction or human engagement." },
+    { "index": 14, "bit": 14, "layer": "Functional", "name": "Part of a larger system", "description": "Functions as a component within a broader system or assembly." },
+    { "index": 15, "bit": 15, "layer": "Functional", "name": "Autonomous in function", "description": "Operates independently or without continuous external control." },
+    { "index": 16, "bit": 16, "layer": "Functional", "name": "System-critical", "description": "Essential to the operation or integrity of a larger system." },
+
+    { "index": 17, "bit": 17, "layer": "Abstract", "name": "Symbolic / representational", "description": "Stands in for or encodes something beyond itself." },
+    { "index": 18, "bit": 18, "layer": "Abstract", "name": "Communicative", "description": "Designed to convey, transmit, or receive information." },
+    { "index": 19, "bit": 19, "layer": "Abstract", "name": "Logical / rule-based", "description": "Operates or is defined by structured rules or reasoning." },
+    { "index": 20, "bit": 20, "layer": "Abstract", "name": "Hierarchical / modular", "description": "Organized in layers, modules, or nested parts." },
+    { "index": 21, "bit": 21, "layer": "Abstract", "name": "Behavior-guiding", "description": "Constrains or directs behavior, interpretation, or action." },
+    { "index": 22, "bit": 22, "layer": "Abstract", "name": "Self-referential / meta-conceptual", "description": "Refers to its own logic, class, or modelling structure." },
+    { "index": 23, "bit": 23, "layer": "Abstract", "name": "Temporal", "description": "Changes over or refers to time." },
+    { "index": 24, "bit": 24, "layer": "Abstract", "name": "Contextual abstraction", "description": "Meaning depends on surrounding systems, frames, or conventions." },
+
+    { "index": 25, "bit": 25, "layer": "Social", "name": "Socially / culturally constructed", "description": "Exists because of collective human agreement or practice." },
+    { "index": 26, "bit": 26, "layer": "Social", "name": "Defined by a group/system", "description": "Gains meaning through membership in a defined structure." },
+    { "index": 27, "bit": 27, "layer": "Social", "name": "Linked to identity or role", "description": "Carries implications about the identity or role of its user or context." },
+    { "index": 28, "bit": 28, "layer": "Social", "name": "Regulated / governed", "description": "Subject to rules, policies, or laws." },
+    { "index": 29, "bit": 29, "layer": "Social", "name": "Teachable / transmissible", "description": "Knowledge or use can be taught, learned, or shared." },
+    { "index": 30, "bit": 30, "layer": "Social", "name": "Visible", "description": "Designed to be seen or recognized by others." },
+    { "index": 31, "bit": 31, "layer": "Social", "name": "Context-sensitive", "description": "Meaning or behavior varies based on situational factors." },
+    { "index": 32, "bit": 32, "layer": "Social", "name": "Widely known", "description": "Recognized or acknowledged by a broad audience or culture." }
+  ]
+}
