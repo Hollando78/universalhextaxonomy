@@ -1,0 +1,68 @@
+{
+  "entity": "Coffee Machine",
+  "uht_code": "DEFA2205",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Interacts with humans directly",
+      "Autonomous in function"
+    ],
+    "abstract": [
+      "Logical / rule-based",
+      "Temporal"
+    ],
+    "social": [
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible appliance commonly placed on kitchen counters or office stations.",
+    "Man-made / synthetic": "Included — Fully designed and manufactured using human-made materials and components.",
+    "Biological or biologically-inspired": "Excluded — No reference to biological systems or processes.",
+    "Fixed/static": "Included — Typically remains in a fixed location while in use.",
+    "Structural": "Included — Internal layout (water tank, heater, brew chamber) is essential to its operation.",
+    "Perceptible": "Included — Features visible buttons, displays, and output of aroma, sound, and liquid.",
+    "Material form": "Included — Constructed from durable plastics, metals, and glass.",
+    "Passive": "Excluded — Performs active operations like heating and pumping during brewing.",
+    
+    "Purposeful / intentional": "Included — Designed specifically to produce brewed coffee.",
+    "Emits output / produces effect": "Included — Delivers hot liquid (coffee) as functional output.",
+    "Processes or regulates logic/signals": "Included — Controls temperature, brewing cycle, and possibly programmable settings.",
+    "Transforms or modifies internal state": "Included — Water is heated and transformed into brewed coffee; internal components track brewing stage.",
+    "Interacts with humans directly": "Included — Operated via buttons or touchscreen; gives feedback via light, sound, or display.",
+    "Part of a larger system": "Excluded — Typically functions independently, not networked or integrative.",
+    "Autonomous in function": "Included — Can complete brewing cycles without human intervention after start.",
+    "System-critical": "Excluded — Not essential to any broader infrastructure.",
+    
+    "Symbolic / representational": "Excluded — Its outputs and states are functional, not representational.",
+    "Communicative": "Excluded — Does not convey symbolic or coded information.",
+    "Logical / rule-based": "Included — Brewing behavior follows defined internal logic and sequences.",
+    "Hierarchical / modular": "Excluded — While componentized, it's not abstractly modular in behavior.",
+    "Behavior-guiding": "Excluded — May support routine, but doesn’t semantically guide behavior.",
+    "Self-referential / meta-conceptual": "Excluded — No awareness or representation of its own function.",
+    "Temporal": "Included — Brewing involves time tracking (preheat, brew, delay-start).",
+    "Contextual abstraction": "Excluded — Function remains consistent across contexts.",
+    
+    "Socially / culturally constructed": "Excluded — Common across many cultures without culturally determined semantics.",
+    "Defined by a group/system": "Excluded — Not defined or classified by social systems.",
+    "Linked to identity or role": "Excluded — No intrinsic link to social roles.",
+    "Regulated / governed": "Excluded — May conform to standards, but not semantically governed.",
+    "Teachable / transmissible": "Excluded — Can be taught to use, but not itself a teaching object.",
+    "Visible": "Included — Displayed prominently; design aesthetics often emphasize visibility.",
+    "Context-sensitive": "Excluded — Operates the same across environments.",
+    "Widely known": "Included — Recognized globally in both domestic and commercial spaces."
+  },
+  "encoding_notes": "This encoding captures the coffee machine as a semi-autonomous, user-facing appliance with clearly structured physical and logical behavior. Its traits emphasize function, perceptibility, and ubiquity, while abstract and social characteristics remain minimal due to its utilitarian purpose."
+}

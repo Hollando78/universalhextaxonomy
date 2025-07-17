@@ -1,0 +1,67 @@
+{
+  "entity": "Pacemaker",
+  "uht_code": "FAF72231",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Biological or biologically-inspired",
+      "Fixed/static",
+      "Structural",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Part of a larger system",
+      "Autonomous in function",
+      "System-critical"
+    ],
+    "abstract": [
+      "Logical / rule-based",
+      "Temporal"
+    ],
+    "social": [
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible, implantable device with distinct physical casing and electrodes.",
+    "Man-made / synthetic": "Included — Fully engineered and fabricated using advanced manufacturing processes.",
+    "Biological or biologically-inspired": "Included — Functionally replicates a core biological process (cardiac rhythm regulation); design mimics sinoatrial node logic.",
+    "Fixed/static": "Included — Surgically implanted and remains in position.",
+    "Structural": "Included — Functional integrity depends on its architecture and component placement.",
+    "Perceptible": "Excluded — Typically not externally perceivable; embedded and non-sensory.",
+    "Material form": "Included — Composed of durable encapsulated materials like titanium or polymer composites.",
+    "Passive": "Excluded — Actively monitors cardiac signals and initiates stimulation when needed.",
+    "Purposeful / intentional": "Included — Specifically designed to assist or take over cardiac pacing.",
+    "Emits output / produces effect": "Included — Generates electrical pulses to stimulate the heart.",
+    "Processes or regulates logic/signals": "Included — Senses heart activity and triggers output based on programmed logic.",
+    "Transforms or modifies internal state": "Included — Adjusts behavior over time (adaptive pacing, mode changes).",
+    "Interacts with humans directly": "Excluded — Functions autonomously without direct interaction.",
+    "Part of a larger system": "Included — Integrates with and influences the cardiovascular system.",
+    "Autonomous in function": "Included — Once implanted, operates independently under its own regulation.",
+    "System-critical": "Included — May be essential for survival or basic health depending on condition.",
+    "Symbolic / representational": "Excluded — Not a symbolic or metaphorical device.",
+    "Communicative": "Excluded — Does not convey abstract messages; telemetry is secondary.",
+    "Logical / rule-based": "Included — Operates on embedded timing and sensing algorithms.",
+    "Hierarchical / modular": "Excluded — Has subsystems but not conceptually modular in semantic structure.",
+    "Behavior-guiding": "Excluded — Does not prescribe or guide user behavior explicitly.",
+    "Self-referential / meta-conceptual": "Excluded — Does not reflect on its own processes or abstract structure.",
+    "Temporal": "Included — Timing is fundamental (e.g., refractory periods, pacing intervals).",
+    "Contextual abstraction": "Excluded — Operates based on physical context, not abstract social/cultural cues.",
+    "Socially / culturally constructed": "Excluded — Grounded in function, not socially defined semantics.",
+    "Defined by a group/system": "Excluded — Standardized, but identity isn’t defined by collective system semantics.",
+    "Linked to identity or role": "Included — Presence of device alters personal identity role (e.g., ID disclosures, medical protocols); this identity linkage persists structurally.",
+    "Regulated / governed": "Included — Subject to strict medical device regulations and clinical protocols.",
+    "Teachable / transmissible": "Excluded — Not a teaching tool or semantically transmissible system.",
+    "Visible": "Excluded — Usually not externally visible after implantation.",
+    "Context-sensitive": "Excluded — Behavior is physiological, not socially contextual.",
+    "Widely known": "Included — Broadly recognized across medical, technical, and public domains."
+  },
+  "encoding_notes": "Encoding reflects the pacemaker as a critical biomedical cybernetic system that emulates natural cardiac rhythm via embedded logic. It is governed, widely recognized, and role-defining for its bearer. Excluded traits are ruled out due to lack of symbolic, communicative, or contextual abstraction functions. The hex code 'FAF72231' preserves alignment with the previously vetted encoding and upholds the minimal-yet-sufficient trait standard."
+}

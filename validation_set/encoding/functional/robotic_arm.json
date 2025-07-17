@@ -1,0 +1,69 @@
+{
+  "entity": "Robotic Arm",
+  "uht_code": "FEFE2005",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Biological or biologically-inspired",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Interacts with humans directly",
+      "Part of a larger system",
+      "Autonomous in function"
+    ],
+    "abstract": [
+      "Logical / rule-based"
+    ],
+    "social": [
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible mechanical device occupying space.",
+    "Man-made / synthetic": "Included — Fully engineered and constructed by humans.",
+    "Biological or biologically-inspired": "Included — Modeled after human or animal limb structures.",
+    "Fixed/static": "Included — Anchored in a workspace or robotic base.",
+    "Structural": "Included — Mechanical frame and joints are essential to its function.",
+    "Perceptible": "Included — Visibly present, often with motion and sound during operation.",
+    "Material form": "Included — Made of physical components like actuators, sensors, and joints.",
+    "Passive": "Excluded — Actively performs actions through powered control.",
+    
+    "Purposeful / intentional": "Included — Designed to execute precise tasks.",
+    "Emits output / produces effect": "Included — Moves, manipulates, or activates tools.",
+    "Processes or regulates logic/signals": "Included — Executes embedded or external control logic.",
+    "Transforms or modifies internal state": "Included — Tracks joint angles, motion paths, and status.",
+    "Interacts with humans directly": "Included — Especially in collaborative, surgical, or educational contexts.",
+    "Part of a larger system": "Included — Often part of a manufacturing cell, lab setup, or robotic suite.",
+    "Autonomous in function": "Included — Can execute preprogrammed tasks without live control.",
+    "System-critical": "Excluded — Important but often modular or substitutable.",
+    
+    "Symbolic / representational": "Excluded — A functional tool, not a symbol or metaphor.",
+    "Communicative": "Excluded — Does not convey symbolic information unless explicitly programmed to.",
+    "Logical / rule-based": "Included — Operates under programmed instructions and constraints.",
+    "Hierarchical / modular": "Excluded — Physically modular but not abstractly structured for hierarchy.",
+    "Behavior-guiding": "Excluded — Executes behavior but does not guide it.",
+    "Self-referential / meta-conceptual": "Excluded — Does not monitor itself conceptually.",
+    "Temporal": "Excluded — Operates in time but not time-defined.",
+    "Contextual abstraction": "Excluded — Concrete tool, not a contextual abstraction.",
+    
+    "Socially / culturally constructed": "Excluded — Functionally defined, not socially categorized.",
+    "Defined by a group/system": "Excluded — Specification-driven, but not semantically defined by a group.",
+    "Linked to identity or role": "Excluded — Not tied to social identity.",
+    "Regulated / governed": "Excluded — Safety-regulated but not semantically governed.",
+    "Teachable / transmissible": "Excluded — Can be taught about, but not a teaching artifact itself.",
+    "Visible": "Included — Usually prominently placed and deliberately observable.",
+    "Context-sensitive": "Excluded — Maintains identity across contexts.",
+    "Widely known": "Included — Widely recognized as a component of robotics and automation."
+  },
+  "encoding_notes": "This encoding treats the robotic arm as a programmable, articulated mechanical agent within a functional and physical system. It is bio-inspired and interacts with humans in various domains but is not socially constructed or symbolically expressive. High representation in physical and functional layers reflects its engineered form and behavior."
+}

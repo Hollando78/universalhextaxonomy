@@ -1,0 +1,67 @@
+{
+  "entity": "Water Filtration Unit",
+  "uht_code": "DFD60205",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form",
+      "Passive"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Transforms or modifies internal state",
+      "Part of a larger system",
+      "Autonomous in function"
+    ],
+    "abstract": [
+      "Temporal"
+    ],
+    "social": [
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible unit composed of housings, chambers, and filter media.",
+    "Man-made / synthetic": "Included — Designed and manufactured by humans for a clear technical function.",
+    "Biological or biologically-inspired": "Excluded — May mimic natural filtering effects, but not conceptually modeled on biology.",
+    "Fixed/static": "Included — Typically remains stationary during use, whether installed or gravity-fed.",
+    "Structural": "Included — Geometry and layering of materials directly determine filtration performance.",
+    "Perceptible": "Included — User-visible, manually operated or replaceable.",
+    "Material form": "Included — Constructed from durable solid-state materials.",
+    "Passive": "Included — Most operate without active sensors, software, or external power.",
+    
+    "Purposeful / intentional": "Included — Built specifically to remove unwanted substances from water.",
+    "Emits output / produces effect": "Included — Produces filtered water as output.",
+    "Processes or regulates logic/signals": "Excluded — Operates mechanically, not by logical control.",
+    "Transforms or modifies internal state": "Included — Filters accumulate contaminants over time.",
+    "Interacts with humans directly": "Excluded — Generally no interactive UI or active feedback.",
+    "Part of a larger system": "Included — Can be integrated with plumbing or broader water systems.",
+    "Autonomous in function": "Included — Operates on its own during fluid flow; user not required to intervene mid-process.",
+    "System-critical": "Excluded — May be important, but not semantically critical for broader system operation.",
+    
+    "Symbolic / representational": "Excluded — Functionally concrete, not symbolic.",
+    "Communicative": "Excluded — No symbolic or signal-based communication.",
+    "Logical / rule-based": "Excluded — Behavior arises from physical dynamics, not encoded logic.",
+    "Hierarchical / modular": "Excluded — Internal construction does not imply modular semantic structure.",
+    "Behavior-guiding": "Excluded — Does not guide user decisions or social behavior.",
+    "Self-referential / meta-conceptual": "Excluded — No reflection or internal representation of function.",
+    "Temporal": "Included — Filter degradation and replacement cycles are time-dependent.",
+    "Contextual abstraction": "Excluded — Purpose and behavior do not change across social contexts.",
+    
+    "Socially / culturally constructed": "Excluded — Grounded in universal physical function.",
+    "Defined by a group/system": "Excluded — Standards may exist, but not semantically defined by social systems.",
+    "Linked to identity or role": "Excluded — Not associated with personal or group roles.",
+    "Regulated / governed": "Excluded — Regulation may apply externally but does not define the device's nature.",
+    "Teachable / transmissible": "Excluded — Use may be taught, but this is not a core semantic trait.",
+    "Visible": "Included — Deliberately accessible and often user-facing for replacement or monitoring.",
+    "Context-sensitive": "Excluded — Identity and behavior remain stable across different uses.",
+    "Widely known": "Included — Commonly recognized and used in domestic and public contexts."
+  },
+  "encoding_notes": "This encoding treats the water filtration unit as a structurally fixed, passive physical mechanism with autonomous function and no symbolic or computational capacity. It includes time-dependence and broad recognizability while excluding overextensions into abstract or interactive domains."
+}

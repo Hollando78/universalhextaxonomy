@@ -1,0 +1,68 @@
+{
+  "entity": "Smart Thermometer",
+  "uht_code": "EEFC2205",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Biological or biologically-inspired",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Interacts with humans directly",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Logical / rule-based",
+      "Temporal"
+    ],
+    "social": [
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible, handheld or wearable sensing device.",
+    "Man-made / synthetic": "Included — Designed and built entirely through human engineering.",
+    "Biological or biologically-inspired": "Included — Often models biological thermoregulation or is used in human health contexts.",
+    "Fixed/static": "Excluded — Designed for portability or wearable use.",
+    "Structural": "Included — Its internal architecture (sensors, circuits, housing) supports sensing and communication.",
+    "Perceptible": "Included — Displayed readings, tactile buttons, and sometimes sound or light alerts.",
+    "Material form": "Included — Constructed with durable polymers, metal probes, and embedded electronics.",
+    "Passive": "Excluded — Senses input and produces active digital feedback.",
+    
+    "Purposeful / intentional": "Included — Built to measure and transmit temperature data.",
+    "Emits output / produces effect": "Included — Communicates readings via display or wireless connection.",
+    "Processes or regulates logic/signals": "Included — Interprets sensor inputs and applies software logic.",
+    "Transforms or modifies internal state": "Included — May store readings, update thresholds, or log user data.",
+    "Interacts with humans directly": "Included — Displayed feedback, app integration, or direct input.",
+    "Part of a larger system": "Included — Often integrated into health monitoring or environmental automation.",
+    "Autonomous in function": "Excluded — Typically user-initiated or context-triggered.",
+    "System-critical": "Excluded — Helpful but not generally essential for broader system survival.",
+    
+    "Symbolic / representational": "Excluded — Displays numerical data but not symbolically abstract.",
+    "Communicative": "Excluded — Communicates data but not via symbolic or language-based systems.",
+    "Logical / rule-based": "Included — Operates based on thresholds, timing, and rules (e.g., fever alerts).",
+    "Hierarchical / modular": "Excluded — May contain components, but not semantically modular.",
+    "Behavior-guiding": "Excluded — Suggests behavior (e.g., seek help) but does not encode guidance.",
+    "Self-referential / meta-conceptual": "Excluded — Does not reflect on its own data or process.",
+    "Temporal": "Included — Time-stamped data logging or historical trend tracking is common.",
+    "Contextual abstraction": "Excluded — Operates on concrete measurement rather than symbolic context.",
+    
+    "Socially / culturally constructed": "Excluded — Defined by technical function, not cultural negotiation.",
+    "Defined by a group/system": "Excluded — Not semantically defined by institutions.",
+    "Linked to identity or role": "Excluded — Not inherently tied to social roles.",
+    "Regulated / governed": "Excluded — May be subject to regulation, but not intrinsic to semantic identity.",
+    "Teachable / transmissible": "Excluded — Use is teachable, but the device is not a teaching tool itself.",
+    "Visible": "Included — Designed to display outputs and status visibly.",
+    "Context-sensitive": "Excluded — Measurement behavior remains stable across settings.",
+    "Widely known": "Included — Common in healthcare, parenting, and smart home contexts."
+  },
+  "encoding_notes": "This encoding reflects a smart thermometer as a biologically contextual, digitally enabled tool that senses, interprets, and communicates temperature. Physical and functional layers dominate due to its engineered and interactive role, while abstraction is limited to logic and temporality. Social traits are limited to visibility and general public familiarity."
+}
