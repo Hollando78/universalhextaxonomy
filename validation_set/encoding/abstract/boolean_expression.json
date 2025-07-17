@@ -1,0 +1,68 @@
+{
+  "entity": "Boolean Expression",
+  "uht_code": "4080FFCF",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [
+      "Purposeful / intentional"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Self-referential / meta-conceptual",
+      "Temporal",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A Boolean expression is an abstract formalism, not a material thing.",
+    "Man-made / synthetic": "Included — Boolean logic is a human-created symbolic system.",
+    "Biological or biologically-inspired": "Excluded — Not based on biological models.",
+    "Fixed/static": "Excluded — Boolean expressions are formalisms, not static entities.",
+    "Structural": "Excluded — Logical, not physical, structure.",
+    "Perceptible": "Excluded — Only visible when rendered, not inherently perceptible.",
+    "Material form": "Excluded — Exists independently of any medium.",
+    "Passive": "Excluded — Not a physically passive entity.",
+    
+    "Purposeful / intentional": "Included — Constructed to represent binary logic and enable formal reasoning.",
+    "Emits output / produces effect": "Excluded — Alone, it encodes logic but does not execute or produce output.",
+    "Processes or regulates logic/signals": "Excluded — Describes logic, but does not perform processing.",
+    "Transforms or modifies internal state": "Excluded — Not a dynamic entity.",
+    "Interacts with humans directly": "Excluded — Understood by humans, but not interactive.",
+    "Part of a larger system": "Excluded — Used in systems, but not a system component in itself.",
+    "Autonomous in function": "Excluded — Passive structure; requires evaluation context.",
+    "System-critical": "Excluded — Foundational, but not critical on its own.",
+    
+    "Symbolic / representational": "Included — Uses symbolic variables and operators (AND, OR, NOT).",
+    "Communicative": "Included — Encodes logical conditions or constraints.",
+    "Logical / rule-based": "Included — Entirely governed by formal logical syntax and semantics.",
+    "Hierarchical / modular": "Included — Boolean expressions can be nested and composed modularly.",
+    "Behavior-guiding": "Included — Guides program control flow, system design, and decisions.",
+    "Self-referential / meta-conceptual": "Included — Can describe logic about logic (e.g., tautologies, contradictions).",
+    "Temporal": "Included — Expression evaluation depends on time-based input states (e.g., in circuits or execution).",
+    "Contextual abstraction": "Included — Meaning depends on interpretation context, variable assignment, etc.",
+    
+    "Socially / culturally constructed": "Included — Formalized and maintained within mathematics and computer science.",
+    "Defined by a group/system": "Included — Standardized in digital logic, formal methods, and programming.",
+    "Linked to identity or role": "Excluded — Not inherently tied to personal or group identity.",
+    "Regulated / governed": "Excluded — No legal or institutional enforcement.",
+    "Teachable / transmissible": "Included — Taught in logic, mathematics, and programming curricula.",
+    "Visible": "Included — Expressed in symbols, text, or circuit diagrams.",
+    "Context-sensitive": "Included — Interpretation depends on logical context or variable state.",
+    "Widely known": "Included — Commonly taught and understood in technical domains."
+  },
+  "encoding_notes": "A Boolean Expression is a symbolic, logical, and culturally embedded abstraction with formal purpose and syntactic clarity. It is not a processor or emitter but a representational structure used for reasoning and control. This encoding mirrors the UHT profile of other abstract formal entities such as 'Proof (in Logic)'."
+}

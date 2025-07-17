@@ -1,0 +1,65 @@
+{
+  "entity": "Flowchart",
+  "uht_code": "4488F9CF",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic",
+      "Perceptible"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Interacts with humans directly"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A flowchart is a conceptual diagram, not a tangible object.",
+    "Man-made / synthetic": "Included — Flowcharts are constructed using agreed-upon symbolic conventions.",
+    "Biological or biologically-inspired": "Excluded — There is no biological basis in its structure or logic.",
+    "Fixed/static": "Excluded — While instances may be fixed, the concept itself is abstract and modifiable.",
+    "Structural": "Excluded — It does not have a physical or material structure.",
+    "Perceptible": "Included — A flowchart is explicitly visual and designed to be seen and interpreted.",
+    "Material form": "Excluded — The diagram is abstract; it may be drawn on material, but is not material itself.",
+    "Passive": "Excluded — The concept of passivity is not meaningfully applicable to a static diagram.",
+    "Purposeful / intentional": "Included — Created with the intent to convey process logic or workflow.",
+    "Emits output / produces effect": "Excluded — It does not intrinsically generate output.",
+    "Processes or regulates logic/signals": "Excluded — It represents processing but does not execute logic.",
+    "Transforms or modifies internal state": "Excluded — It has no internal state to change.",
+    "Interacts with humans directly": "Included — Designed for humans to view, interpret, and use in real-time.",
+    "Part of a larger system": "Excluded — While often embedded in documents or systems, its identity is not system-bound.",
+    "Autonomous in function": "Excluded — It requires interpretation; does not operate independently.",
+    "System-critical": "Excluded — Rarely a critical system component; a tool for understanding and design.",
+    "Symbolic / representational": "Included — Encodes logic or decision flows using abstract symbols.",
+    "Communicative": "Included — The primary purpose is to communicate structure or logic.",
+    "Logical / rule-based": "Included — Follows conventions like decision trees, branching logic.",
+    "Hierarchical / modular": "Included — Can represent nested or modular processes.",
+    "Behavior-guiding": "Included — Used to instruct or constrain actions (e.g., in training or design).",
+    "Self-referential / meta-conceptual": "Excluded — Does not describe or encode itself.",
+    "Temporal": "Excluded — It shows sequencing but is not inherently time-based.",
+    "Contextual abstraction": "Included — Meaning can change across software engineering, business analysis, etc.",
+    "Socially / culturally constructed": "Included — Diagram conventions arise from shared technical and communicative norms.",
+    "Defined by a group/system": "Included — Standardized symbols are maintained by technical communities.",
+    "Linked to identity or role": "Excluded — A flowchart does not define the identity of users or groups.",
+    "Regulated / governed": "Excluded — No institutional regulation governs flowcharts directly.",
+    "Teachable / transmissible": "Included — Widely taught in education and training contexts.",
+    "Visible": "Included — Its utility depends on being visually rendered and interpreted.",
+    "Context-sensitive": "Included — Interpretation depends on the domain (software, logic, business modeling).",
+    "Widely known": "Included — Commonly used across technical and educational fields."
+  },
+  "encoding_notes": "This corrected encoding positions the flowchart as a visual symbolic representation of logical processes. It is primarily abstract and social in nature, with a clear human interface. The updated UHT code reflects the full set of conceptual and social dependencies without introducing unjustified functional or physical traits."
+}

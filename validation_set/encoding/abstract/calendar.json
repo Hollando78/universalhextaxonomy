@@ -1,0 +1,68 @@
+{
+  "entity": "Calendar",
+  "uht_code": "4480F7CF",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic",
+      "Perceptible"
+    ],
+    "functional": [
+      "Purposeful / intentional"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Temporal",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A calendar system is not a physical object; wall calendars and apps are its representations.",
+    "Man-made / synthetic": "Included — Calendar systems are invented and maintained by human cultures.",
+    "Biological or biologically-inspired": "Excluded — While inspired by astronomical cycles, their structure is synthetic.",
+    "Fixed/static": "Excluded — Calendar systems evolve over time and differ by culture.",
+    "Structural": "Excluded — Its structure is formal and conceptual, not architectural.",
+    "Perceptible": "Included — Calendars are visually rendered to support their use.",
+    "Material form": "Excluded — The concept of a calendar is not made of matter.",
+    "Passive": "Excluded — It has no reactive or dynamic function in itself.",
+    
+    "Purposeful / intentional": "Included — Created for coordinating events and structuring time.",
+    "Emits output / produces effect": "Excluded — Does not autonomously generate results; output depends on interpretation.",
+    "Processes or regulates logic/signals": "Excluded — Encodes logic, but is not a processor.",
+    "Transforms or modifies internal state": "Excluded — Its use does not involve internal transformation.",
+    "Interacts with humans directly": "Excluded — The system itself is static; interaction is through media.",
+    "Part of a larger system": "Excluded — Can be integrated but is not inherently part of another system.",
+    "Autonomous in function": "Excluded — Requires human use to function.",
+    "System-critical": "Excluded — Helpful but not structurally essential to a system’s operation.",
+    
+    "Symbolic / representational": "Included — Uses symbolic structures to represent temporal information.",
+    "Communicative": "Included — Expresses dates, durations, and cycles to others.",
+    "Logical / rule-based": "Included — Built on formalized leap-year rules, cycles, and sequences.",
+    "Hierarchical / modular": "Included — Days form weeks, weeks form months, months form years.",
+    "Behavior-guiding": "Included — Used to guide planning, rituals, and deadlines.",
+    "Self-referential / meta-conceptual": "Excluded — The system does not encode itself or refer to its own principles.",
+    "Temporal": "Included — Its entire domain is the structure of time.",
+    "Contextual abstraction": "Included — Calendars differ by religion, culture, and purpose.",
+    
+    "Socially / culturally constructed": "Included — Calendars are culturally maintained artifacts.",
+    "Defined by a group/system": "Included — Institutionalized by religious or governmental bodies.",
+    "Linked to identity or role": "Excluded — Not specific to personal or group identity.",
+    "Regulated / governed": "Excluded — While adopted officially, calendar logic is not formally enforced everywhere.",
+    "Teachable / transmissible": "Included — Core knowledge taught in basic education worldwide.",
+    "Visible": "Included — Always instantiated in a visible form for use.",
+    "Context-sensitive": "Included — Varies across geopolitical and cultural contexts.",
+    "Widely known": "Included — Universal across human societies."
+  },
+  "encoding_notes": "This encoding treats the calendar as a symbolic, logic-based, culturally constructed abstraction designed for temporal organization. It is not a physical object or a processor, but a framework used to coordinate and guide behavior within human systems. The uht_code reflects its highly abstract and socially embedded nature with minimal functional operation."
+}
