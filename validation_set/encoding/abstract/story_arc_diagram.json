@@ -1,0 +1,65 @@
+{
+  "entity": "Story Arc Diagram",
+  "uht_code": "4488F9CF",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic",
+      "Perceptible"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Interacts with humans directly"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A diagram is not inherently a physical object, though it can be instantiated as one.",
+    "Man-made / synthetic": "Included — It is a human-created conceptual and visual tool.",
+    "Biological or biologically-inspired": "Excluded — It has no biological basis.",
+    "Fixed/static": "Excluded — As a concept, it is not physically immobile or fixed in form.",
+    "Structural": "Excluded — It has no material or physical structure.",
+    "Perceptible": "Included — It is inherently visual; designed to be seen and interpreted.",
+    "Material form": "Excluded — Exists conceptually and visually, not materially.",
+    "Passive": "Excluded — This trait is not meaningfully applicable to an abstract entity.",
+    "Purposeful / intentional": "Included — It was created for the specific purpose of organizing narrative progression.",
+    "Emits output / produces effect": "Excluded — It does not generate any intrinsic output.",
+    "Processes or regulates logic/signals": "Excluded — Not a logical processor, only a representational frame.",
+    "Transforms or modifies internal state": "Excluded — Has no internal state or reactive function.",
+    "Interacts with humans directly": "Included — Designed to be read, interpreted, and manipulated by humans.",
+    "Part of a larger system": "Excluded — It may be used in systems (e.g., education), but is not structurally embedded.",
+    "Autonomous in function": "Excluded — Requires external interpretation.",
+    "System-critical": "Excluded — Not essential to any system’s operation.",
+    "Symbolic / representational": "Included — Uses symbols and structure to represent a non-physical concept (narrative tension).",
+    "Communicative": "Included — Communicates progression, climax, and resolution.",
+    "Logical / rule-based": "Included — Follows a narrative logic (e.g., rising action precedes climax).",
+    "Hierarchical / modular": "Included — Typically has nested structures like acts or beats.",
+    "Behavior-guiding": "Included — Guides writers’ and analysts’ choices in structuring stories.",
+    "Self-referential / meta-conceptual": "Excluded — It represents story structure but does not reflect on itself.",
+    "Temporal": "Excluded — Represents temporal progression, but is not itself temporal.",
+    "Contextual abstraction": "Included — Its meaning depends on the genre, medium, or narrative model.",
+    "Socially / culturally constructed": "Included — Varies across cultures and eras; not a universal form.",
+    "Defined by a group/system": "Included — Taught and maintained by literary communities.",
+    "Linked to identity or role": "Excluded — Not tied to personal or social identity.",
+    "Regulated / governed": "Excluded — No institutional enforcement.",
+    "Teachable / transmissible": "Included — Taught in creative writing, media studies, and storytelling.",
+    "Visible": "Included — Exists specifically as a visual schema.",
+    "Context-sensitive": "Included — Interpretation shifts with genre or story type.",
+    "Widely known": "Included — Freytag’s Pyramid, Hero’s Journey, etc. are broadly familiar."
+  },
+  "encoding_notes": "This encoding captures the Story Arc Diagram as a perceptual, symbolic structure that organizes narrative logic. It is not an active functional entity but rather an interpretive and context-shaped tool for human use. It is widely taught, seen, and socially maintained, making its abstract and social layers prominent."
+}

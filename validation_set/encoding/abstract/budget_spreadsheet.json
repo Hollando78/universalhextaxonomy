@@ -1,0 +1,68 @@
+{
+  "entity": "Budget Spreadsheet",
+  "uht_code": "448CF7DF",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic",
+      "Perceptible"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Interacts with humans directly",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Temporal",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A budget spreadsheet is a conceptual and digital entity, not a tangible object.",
+    "Man-made / synthetic": "Included — It is a human-created software artifact with a defined structure and purpose.",
+    "Biological or biologically-inspired": "Excluded — It has no connection to biological systems or processes.",
+    "Fixed/static": "Excluded — A spreadsheet is a dynamic file that can be moved or copied; it is not physically fixed.",
+    "Structural": "Excluded — Its structure (cells, rows, columns) is a conceptual organization, not a physical or load-bearing one.",
+    "Perceptible": "Included — It is perceived visually through a screen or printed copy.",
+    "Material form": "Excluded — It is a logical entity (software, data) that exists only on hardware, not as a physical material form itself.",
+    "Passive": "Excluded — It is an active tool that performs calculations and manipulations on data.",
+    "Purposeful / intentional": "Included — Designed with the explicit purpose of managing and tracking financial data.",
+    "Emits output / produces effect": "Excluded — While it displays results, it does not generate external signals or effects. The output is conceptual and visual.",
+    "Processes or regulates logic/signals": "Excluded — It represents logic but requires human initiation; it is not an autonomous process or regulator.",
+    "Transforms or modifies internal state": "Excluded — Changes in cell values and formulas are data mutation, not intrinsic state transformation in the sense of a self-modifying system.",
+    "Interacts with humans directly": "Included — Designed for direct user input and real-time feedback via a user interface.",
+    "Part of a larger system": "Included — Functions within a broader financial management or personal accounting ecosystem.",
+    "Autonomous in function": "Excluded — It requires human input and direction to perform its core function.",
+    "System-critical": "Excluded — It is a personal or organizational tool, not an essential component of a broader infrastructure.",
+    "Symbolic / representational": "Included — Numbers and cells represent financial concepts and real-world transactions.",
+    "Communicative": "Included — It conveys financial status and information to its users.",
+    "Logical / rule-based": "Included — Its operations are governed by logical formulas and rules (e.g., `IF` statements, `SUM` functions).",
+    "Hierarchical / modular": "Included — Composed of a clear hierarchy (e.g., tabs, rows, columns, cells) and modular components (formulas).",
+    "Behavior-guiding": "Included — The financial data it presents is designed to guide and inform user decisions and behavior.",
+    "Self-referential / meta-conceptual": "Excluded — It does not typically reflect on its own structure or purpose.",
+    "Temporal": "Included — It is used to track and analyze financial data over periods of time.",
+    "Contextual abstraction": "Included — Its meaning and validity are entirely dependent on the specific context of the budget it represents.",
+    "Socially / culturally constructed": "Included — The very concept of budgeting and financial management is a social and cultural construct.",
+    "Defined by a group/system": "Included — Its structure and use are often defined by accounting, business, or financial standards.",
+    "Linked to identity or role": "Excluded — A spreadsheet user may have a role, but the spreadsheet itself does not semantically embody that role.",
+    "Regulated / governed": "Included — Its use may be subject to legal and regulatory compliance (e.g., tax law, accounting standards).",
+    "Teachable / transmissible": "Included — The concept and skills for using a budget spreadsheet are a fundamental part of financial education.",
+    "Visible": "Included — It is a visual interface designed to be viewed and manipulated on a screen.",
+    "Context-sensitive": "Included — Its interpretation depends on its specific use, audience, and data.",
+    "Widely known": "Included — The idea of a budget spreadsheet is globally recognized and foundational."
+  },
+  "encoding_notes": "This encoding reflects a highly compressed and minimalist view of a budget spreadsheet as a purely abstract, conceptual tool. Physical and functional traits are excluded unless absolutely core to its identity as a non-autonomous software agent, while its abstract and social traits are fully represented due to its role in human knowledge and cultural systems. The resulting code is optimized for semantic density, excluding traits that are merely a result of its interpretation or use rather than its intrinsic nature."
+}

@@ -226,57 +226,57 @@
   {
     "id": 33,
     "name": "Mathematical Equation",
-    "hex": "00 10 20 12",
-    "traits": [17, 19, 23],
+    "hex": "408CF1DF",
+    "traits": [2, 9, 13, 14, 17, 18, 19, 20, 24, 25, 26, 28, 29, 30, 31, 32],
     "description": "Symbolic, logical expression."
   },
   {
     "id": 34,
     "name": "Budget Spreadsheet",
-    "hex": "00 18 22 12",
-    "traits": [17, 18, 19, 23],
+    "hex": "448CF7DF",
+    "traits": [2, 6, 9, 13, 14, 17, 18, 19, 20, 21, 23, 24, 25, 26, 28, 29, 30, 31, 32],
     "description": "Communicative model of numeric abstractions."
   },
   {
     "id": 35,
     "name": "If‑Then Logic Rule",
-    "hex": "00 03 22 22",
-    "traits": [11, 17, 19, 21, 22],
+    "hex": "4000FDDD",
+    "traits": [2, 17, 18, 19, 20, 21, 22, 24, 25, 26, 28, 29, 30, 32],
     "description": "Behavior‑guiding conditional logic."
   },
   {
     "id": 36,
     "name": "Coordinate System",
-    "hex": "00 08 20 00",
-    "traits": [17, 19],
+    "hex": "4000FBDF",
+    "traits": [2, 17, 18, 19, 20, 21, 22, 24, 25, 26, 29, 30, 31, 32],
     "description": "Logical spatial framework."
   },
   {
     "id": 37,
     "name": "Story Arc Diagram",
-    "hex": "01 13 02 32",
-    "traits": [9, 17, 21, 24, 30, 32],
+    "hex": "4488F9CF",
+    "traits": [2, 6, 9, 13, 17, 18, 19, 20, 21, 24, 25, 26, 29, 30, 31, 32],
     "description": "Narrative structure map."
   },
   {
     "id": 38,
     "name": "Programming Language Syntax",
-    "hex": "00 1A 22 02",
-    "traits": [17, 18, 19, 22],
+    "hex": "4000FDCF",
+    "traits": [2, 17, 18, 19, 20, 21, 22, 24, 25, 26, 29, 30, 31, 32],
     "description": "Formal computational rule set."
   },
   {
     "id": 39,
     "name": "Scientific Theory",
-    "hex": "00 18 22 12",
-    "traits": [17, 18, 19, 22, 23],
+    "hex": "4000FFCF",
+    "traits": [2, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 29, 30, 31, 32],
     "description": "Symbolic explanatory structure."
   },
   {
     "id": 40,
     "name": "Encryption Algorithm",
-    "hex": "00 38 26 02",
-    "traits": [17, 18, 19, 20, 22],
+    "hex": "40F7FDDF",
+    "traits": [2, 9, 10, 11, 12, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 28, 29, 30, 31, 32],
     "description": "Layered abstraction for secure transformation."
   },
   {
