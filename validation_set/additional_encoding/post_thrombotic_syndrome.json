@@ -1,0 +1,55 @@
+{
+  "entity": "Post-Thrombotic Syndrome",
+  "uht_code": "A6100000",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Biological or biologically-inspired",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Transforms or modifies internal state"
+    ],
+    "abstract": [],
+    "social": []
+  },
+  "feedback": {
+    "Physical object": "Included — It manifests materially in affected tissue (e.g., swelling, skin changes).",
+    "Man-made / synthetic": "Excluded — The syndrome is biological in origin, not engineered.",
+    "Biological or biologically-inspired": "Included — It results from thrombotic damage within biological venous systems.",
+    "Fixed/static": "Excluded — It is a progressive condition with dynamic symptoms.",
+    "Structural": "Excluded — It is not a structure, but a dysfunction affecting structure.",
+    "Perceptible": "Included — Symptoms are often visible and physically experienced.",
+    "Material form": "Included — It is embodied in physical tissues and circulatory function.",
+    "Passive": "Excluded — It actively causes physiological degradation or symptoms.",
+    
+    "Purposeful / intentional": "Excluded — It serves no designed function.",
+    "Emits output / produces effect": "Excluded — Consequences exist, but are not functional outputs.",
+    "Processes or regulates logic/signals": "Excluded — No intrinsic logic or signal processing.",
+    "Transforms or modifies internal state": "Included — It disrupts vascular function and tissue state.",
+    "Interacts with humans directly": "Excluded — It affects humans but is not an interactive agent.",
+    "Part of a larger system": "Excluded — While it arises in venous systems, the *syndrome* is not a system component.",
+    "Autonomous in function": "Excluded — It is not a self-operating mechanism.",
+    "System-critical": "Excluded — It is pathological, not structurally critical.",
+    
+    "Symbolic / representational": "Excluded — It is not symbolic in nature.",
+    "Communicative": "Excluded — It does not inherently transmit or communicate information.",
+    "Logical / rule-based": "Excluded — It follows no encoded or rule-based structure.",
+    "Hierarchical / modular": "Excluded — It is not a modular or layered construct.",
+    "Behavior-guiding": "Excluded — While it may influence behavior (e.g., via pain), it does not inherently guide it.",
+    "Self-referential / meta-conceptual": "Excluded — It does not reflect on itself or model systems.",
+    "Temporal": "Excluded — Although chronic, temporality is not intrinsic to its identity.",
+    "Contextual abstraction": "Excluded — It is a direct physical-biological event, not a context-defined abstraction.",
+    
+    "Socially / culturally constructed": "Excluded — It exists independently of social framing.",
+    "Defined by a group/system": "Excluded — Although named and diagnosed, the entity itself precedes definition.",
+    "Linked to identity or role": "Excluded — Not identity-forming in essence.",
+    "Regulated / governed": "Excluded — Not a governed process.",
+    "Teachable / transmissible": "Excluded — Not inherently instructional or contagious.",
+    "Visible": "Excluded — Though symptoms may be visible, the syndrome itself is not identity-visible in all cases.",
+    "Context-sensitive": "Excluded — Exists regardless of cultural or situational framing.",
+    "Widely known": "Excluded — Not universally known outside medical contexts."
+  },
+  "encoding_notes": "Encoded purely as a biological pathological state, not as a diagnosis, classification, or medical concept. Trait selection mirrors that of other somatic dysfunctions such as Chronic Venous Insufficiency. The traits reflect only those intrinsic to the syndrome's biological manifestation."
+}

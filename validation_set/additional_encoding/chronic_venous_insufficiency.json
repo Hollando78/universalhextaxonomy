@@ -1,0 +1,55 @@
+{
+  "entity": "Chronic Venous Insufficiency",
+  "uht_code": "A6100000",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Biological or biologically-inspired",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Transforms or modifies internal state"
+    ],
+    "abstract": [],
+    "social": []
+  },
+  "feedback": {
+    "Physical object": "Included — It physically manifests as dysfunction in leg veins with material presence.",
+    "Man-made / synthetic": "Excluded — It is a natural biological condition, not engineered.",
+    "Biological or biologically-inspired": "Included — It is inherently biological, affecting living tissue.",
+    "Fixed/static": "Excluded — It is dynamic and progresses over time.",
+    "Structural": "Excluded — While affecting structure, the condition itself is not structural in identity.",
+    "Perceptible": "Included — It causes visible symptoms like swelling and varicose veins.",
+    "Material form": "Included — It is instantiated in biological tissue.",
+    "Passive": "Excluded — The condition evolves and causes physiological changes.",
+    
+    "Purposeful / intentional": "Excluded — It is not designed for a purpose.",
+    "Emits output / produces effect": "Excluded — The effects (e.g., edema) are consequences, not outputs in a functional sense.",
+    "Processes or regulates logic/signals": "Excluded — It does not involve signal or logic processing.",
+    "Transforms or modifies internal state": "Included — It disrupts and alters vascular function.",
+    "Interacts with humans directly": "Excluded — It affects humans, but is not interactive in design.",
+    "Part of a larger system": "Excluded — The veins are part of a system; the condition is not a designed subsystem.",
+    "Autonomous in function": "Excluded — It has no autonomous function; it is a pathological state.",
+    "System-critical": "Excluded — Not critical in system terms; it's a failure mode, not a component.",
+    
+    "Symbolic / representational": "Excluded — It has no symbolic identity.",
+    "Communicative": "Excluded — The condition does not communicate by design.",
+    "Logical / rule-based": "Excluded — Not a logic-based construct.",
+    "Hierarchical / modular": "Excluded — Not a modular or layered system.",
+    "Behavior-guiding": "Excluded — It does not guide or regulate behavior.",
+    "Self-referential / meta-conceptual": "Excluded — It has no meta-identity.",
+    "Temporal": "Excluded — Though it changes over time, temporality is not its identity.",
+    "Contextual abstraction": "Excluded — It is a concrete, not abstract, pathological condition.",
+    
+    "Socially / culturally constructed": "Excluded — It is medically recognized but not socially constructed.",
+    "Defined by a group/system": "Excluded — Diagnosis may involve systems, but the condition exists biologically regardless.",
+    "Linked to identity or role": "Excluded — Not intrinsically tied to identity.",
+    "Regulated / governed": "Excluded — The condition itself is not governed; treatment protocols might be.",
+    "Teachable / transmissible": "Excluded — It is not transmissible or inherently teachable.",
+    "Visible": "Excluded — Effects are visible, but the condition itself is not identity-visible in all cases.",
+    "Context-sensitive": "Excluded — The condition exists regardless of cultural or social context.",
+    "Widely known": "Excluded — Awareness is common in medical fields, but not universal in lay society."
+  },
+  "encoding_notes": "This encoding treats CVI strictly as a medical condition, excluding any traits belonging to healthcare systems, diagnoses, or treatment devices. The condition is embedded biologically and functionally alters blood return flow, but lacks symbolic, social, or abstract traits under strict UHT standards."
+}
