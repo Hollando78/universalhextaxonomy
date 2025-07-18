@@ -373,78 +373,78 @@
   {
     "id": 54,
     "name": "Military Salute",
-    "hex": "05 30 04 31",
-    "traits": [6, 9, 21, 25, 30],
+    "hex": "0084C8FF",
+    "traits": [9, 14, 17, 18, 21, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Behavioral ritual with visible symbolic meaning."
   },
   {
     "id": 55,
     "name": "Wedding Vow",
-    "hex": "05 38 24 21",
-    "traits": [9, 18, 24, 25, 30],
+    "hex": "0080C8FF",
+    "traits": [9, 17, 18, 21, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Cultural promise with communicative form."
   },
   {
     "id": 56,
     "name": "Religious Holiday",
-    "hex": "05 38 20 21",
-    "traits": [9, 17, 18, 25, 30],
+    "hex": "00848AFF",
+    "traits": [9, 14, 17, 21, 23, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Symbolic recurring cultural event."
   },
   {
     "id": 57,
     "name": "Twitter Handle",
-    "hex": "00 30 20 30",
-    "traits": [17, 27, 30],
+    "hex": "00C4C1FF",
+    "traits": [9, 10, 14, 17, 18, 24, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Online identity token."
   },
   {
     "id": 58,
     "name": "Tenure System",
-    "hex": "09 3A 26 33",
-    "traits": [9, 17, 18, 25, 26, 27, 29, 32],
+    "hex": "00848DFF",
+    "traits": [9, 14, 17, 21, 22, 24, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Academic institutional structure."
   },
   {
     "id": 59,
     "name": "Academic Citation",
-    "hex": "01 38 26 32",
-    "traits": [18, 19, 25, 26, 29, 32],
+    "hex": "0084C1FF",
+    "traits": [9, 14, 17, 18, 24, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Traceable symbolic knowledge marker."
   },
   {
     "id": 60,
     "name": "Corporate Org Chart",
-    "hex": "01 28 22 32",
-    "traits": [18, 20, 25, 26, 29, 32],
+    "hex": "0084B0FF",
+    "traits": [9, 14, 17, 19, 20, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Hierarchical organizational map."
   },
   {
     "id": 61,
     "name": "Employment Contract",
-    "hex": "05 38 24 32",
-    "traits": [9, 18, 24, 25, 26, 29, 32],
+    "hex": "0084A9FF",
+    "traits": [9, 14, 17, 19, 21, 24, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Contextual agreement of social role."
   },
   {
     "id": 62,
     "name": "Gender Pronoun Usage",
-    "hex": "00 30 20 31",
-    "traits": [17, 25, 30],
+    "hex": "0084C9FF",
+    "traits": [9, 14, 17, 18, 21, 24, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Culturally visible symbolic signal."
   },
   {
     "id": 63,
     "name": "Cultural Taboo",
-    "hex": "00 30 24 31",
-    "traits": [24, 25, 30],
+    "hex": "000089FF",
+    "traits": [17, 21, 24, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Contextual norm boundary."
   },
   {
     "id": 64,
     "name": "Birth Certificate",
-    "hex": "01 38 26 31",
-    "traits": [18, 25, 26, 27, 29],
+    "hex": "0084C1FF",
+    "traits": [9, 14, 17, 18, 24, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Institutional identity document."
   }
 ]

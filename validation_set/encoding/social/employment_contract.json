@@ -1,0 +1,65 @@
+{
+  "entity": "Employment Contract",
+  "uht_code": "0084A9FF",
+  "traits": {
+    "physical": [],
+    "functional": [
+      "Purposeful / intentional",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Logical / rule-based",
+      "Behavior-guiding",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — The contract is an abstract agreement, even if instantiated on paper or screen.",
+    "Man-made / synthetic": "Excluded — While drafted by humans, its identity is not based on material fabrication.",
+    "Biological or biologically-inspired": "Excluded — It is not derived from biological systems.",
+    "Fixed/static": "Excluded — Terms can be amended or renegotiated.",
+    "Structural": "Excluded — It is not a physical or architectural structure.",
+    "Perceptible": "Excluded — The content can be read, but the contract as a semantic entity is abstract.",
+    "Material form": "Excluded — Instantiated via documents, but not materially defined.",
+    "Passive": "Excluded — It imposes obligations and grants rights; not passive.",
+
+    "Purposeful / intentional": "Included — Created deliberately to define working relationships and obligations.",
+    "Emits output / produces effect": "Excluded — It does not generate output directly, though it has legal effects.",
+    "Processes or regulates logic/signals": "Excluded — Not computational or signal-based.",
+    "Transforms or modifies internal state": "Excluded — Relies on parties for enforcement and interpretation.",
+    "Interacts with humans directly": "Excluded — Not an interface, but a formalized agreement.",
+    "Part of a larger system": "Included — Exists within legal, corporate, and labor systems.",
+    "Autonomous in function": "Excluded — Dependent on recognition and enforcement.",
+    "System-critical": "Excluded — Important, but not essential to the operation of all systems.",
+
+    "Symbolic / representational": "Included — Encodes mutual obligations and roles.",
+    "Communicative": "Excluded — Communicates indirectly through format, but not communicative in structure.",
+    "Logical / rule-based": "Included — Expresses rules, obligations, and permissions.",
+    "Hierarchical / modular": "Excluded — Often structured, but not intrinsically modular.",
+    "Behavior-guiding": "Included — Directs permissible and expected actions.",
+    "Self-referential / meta-conceptual": "Excluded — Not self-reflective or modeling higher-order concepts.",
+    "Temporal": "Excluded — May reference durations but not inherently temporal.",
+    "Contextual abstraction": "Included — Only meaningful within legal, cultural, and organizational context.",
+
+    "Socially / culturally constructed": "Included — Rooted in societal norms and employment law.",
+    "Defined by a group/system": "Included — Shaped and enforced by employers, legal institutions, and labor bodies.",
+    "Linked to identity or role": "Included — Defines an individual’s formal occupational role.",
+    "Regulated / governed": "Included — Subject to labor law, policy, and enforcement mechanisms.",
+    "Teachable / transmissible": "Included — Understood through professional norms, training, and education.",
+    "Visible": "Included — Formally shared, archived, or disclosed.",
+    "Context-sensitive": "Included — Its interpretation depends on institutional, legal, and cultural setting.",
+    "Widely known": "Included — Employment contracts are universally recognized structures."
+  },
+  "encoding_notes": "This encoding models the employment contract as an abstract, symbolic, rule-based social artifact situated within legal and institutional frameworks. It defines roles and behaviors without being a physical or autonomous agent. The corrected code '0084A9FF' reflects its rule-governed, identity-defining, and socially embedded nature."
+}

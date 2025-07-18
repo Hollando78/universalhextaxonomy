@@ -1,0 +1,63 @@
+{
+  "entity": "Wedding Vow",
+  "uht_code": "0080C8FF",
+  "traits": {
+    "physical": [],
+    "functional": [
+      "Purposeful / intentional"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Behavior-guiding"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A wedding vow is not a tangible, physical entity.",
+    "Man-made / synthetic": "Excluded — While culturally created, it lacks material or constructed form in itself.",
+    "Biological or biologically-inspired": "Excluded — It has no biological characteristics.",
+    "Fixed/static": "Excluded — A vow can be rephrased, modified, and varies between individuals.",
+    "Structural": "Excluded — It does not serve as a physical or architectural structure.",
+    "Perceptible": "Excluded — The spoken or written expression may be perceptible, but the vow itself as an abstract entity is not inherently so.",
+    "Material form": "Excluded — It has no intrinsic material form.",
+    "Passive": "Excluded — It actively expresses intent or commitment when performed.",
+
+    "Purposeful / intentional": "Included — A vow is a deliberate commitment or promise.",
+    "Emits output / produces effect": "Excluded — It does not generate a measurable output on its own.",
+    "Processes or regulates logic/signals": "Excluded — It is not a processing entity.",
+    "Transforms or modifies internal state": "Excluded — It does not autonomously cause internal transformation.",
+    "Interacts with humans directly": "Excluded — It is a concept, not an agent or interface.",
+    "Part of a larger system": "Excluded — While used within ceremonies, the vow itself is standalone as a semantic entity. [Consider revisiting]",
+    "Autonomous in function": "Excluded — It requires a human agent to exist and be expressed.",
+    "System-critical": "Excluded — Not structurally necessary for systems outside ritual/cultural framing.",
+
+    "Symbolic / representational": "Included — A vow represents a personal and cultural promise.",
+    "Communicative": "Included — It functions explicitly as speech or writing to convey intent.",
+    "Logical / rule-based": "Excluded — Vows are often emotional, poetic, or idiosyncratic rather than rule-based.",
+    "Hierarchical / modular": "Excluded — A vow is typically a single unit of meaning, not composed of subsystems.",
+    "Behavior-guiding": "Included — It expresses and shapes future behavior or commitment.",
+    "Self-referential / meta-conceptual": "Excluded — It does not refer to itself or model conceptual structures.",
+    "Temporal": "Excluded — While performed in time, it is not intrinsically temporal in meaning.",
+    "Contextual abstraction": "Excluded — Its abstract meaning is tightly coupled to social context, but not abstracted from it.",
+
+    "Socially / culturally constructed": "Included — Vows arise from cultural traditions and social contracts.",
+    "Defined by a group/system": "Included — Religious, legal, or cultural institutions define their typical structure.",
+    "Linked to identity or role": "Included — Vows often signify relational roles such as 'spouse'.",
+    "Regulated / governed": "Included — Ceremonial or legal standards often constrain the vow’s form.",
+    "Teachable / transmissible": "Included — Vows are taught, modeled, and passed on in rituals.",
+    "Visible": "Included — Often performed in public; expressed through language and gesture.",
+    "Context-sensitive": "Included — A vow has meaning only within specific ceremonial or relational contexts.",
+    "Widely known": "Included — The concept of a wedding vow is broadly recognized across cultures."
+  },
+  "encoding_notes": "This encoding treats the 'Wedding Vow' as a social-abstract construct: an intentional, symbolic commitment shaped and maintained by cultural systems. No physical traits are included, and only those functional traits intrinsic to its communicative and purposive nature are selected. The encoding avoids trait inflation by not attributing structural, temporal, or autonomous properties unless they are integral to the vow's semantic identity. The exclusion of 'Part of a larger system' is debatable and flagged for possible revision in future harmonization passes."
+}

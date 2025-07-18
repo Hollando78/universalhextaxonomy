@@ -1,0 +1,64 @@
+{
+  "entity": "Corporate Org Chart",
+  "uht_code": "0084B0FF",
+  "traits": {
+    "physical": [],
+    "functional": [
+      "Purposeful / intentional",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Logical / rule-based",
+      "Hierarchical / modular"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — The org chart is typically a visual or digital abstraction, not a tangible object itself.",
+    "Man-made / synthetic": "Excluded — While created by humans, it has no synthetic material form.",
+    "Biological or biologically-inspired": "Excluded — Its structure may echo biological hierarchies, but it is not biologically based.",
+    "Fixed/static": "Excluded — Org charts evolve over time with company structure.",
+    "Structural": "Excluded — It is not a physical structure but a conceptual one.",
+    "Perceptible": "Excluded — Its depiction is perceptible, but the chart as a system is abstract.",
+    "Material form": "Excluded — Exists in printed or digital forms, but not as intrinsic material entity.",
+    "Passive": "Excluded — It plays an active role in communicating hierarchy and authority.",
+
+    "Purposeful / intentional": "Included — Org charts are created to communicate organizational roles and authority.",
+    "Emits output / produces effect": "Excluded — It does not independently generate effects.",
+    "Processes or regulates logic/signals": "Excluded — It is not a signal processor.",
+    "Transforms or modifies internal state": "Excluded — It does not autonomously alter system states.",
+    "Interacts with humans directly": "Excluded — It is a reference diagram, not an interface.",
+    "Part of a larger system": "Included — It reflects the formal structure of a corporate or institutional system.",
+    "Autonomous in function": "Excluded — It must be updated and maintained by people.",
+    "System-critical": "Excluded — Useful but not foundational to the existence of the organization.",
+
+    "Symbolic / representational": "Included — Represents roles, reporting lines, and institutional hierarchy.",
+    "Communicative": "Excluded — While it conveys information, it is not itself a communicative agent.",
+    "Logical / rule-based": "Included — Encodes relationships based on organizational rules and policies.",
+    "Hierarchical / modular": "Included — It is a direct representation of hierarchical structure.",
+    "Behavior-guiding": "Excluded — It reflects roles rather than prescribes behavior.",
+    "Self-referential / meta-conceptual": "Excluded — It does not describe itself or model model-making.",
+    "Temporal": "Excluded — Though subject to change over time, it does not intrinsically express time.",
+    "Contextual abstraction": "Excluded — It is specific to organizational context but not abstracted across contexts.",
+
+    "Socially / culturally constructed": "Included — Reflects social and cultural norms about organization and hierarchy.",
+    "Defined by a group/system": "Included — Created and maintained by the institution it represents.",
+    "Linked to identity or role": "Included — Maps roles to people, embedding identity in structure.",
+    "Regulated / governed": "Included — Conforms to HR policies and corporate governance standards.",
+    "Teachable / transmissible": "Included — Used in training and orientation.",
+    "Visible": "Included — Presented in public/internal documents, slide decks, and dashboards.",
+    "Context-sensitive": "Included — Varies significantly across cultures and institutions.",
+    "Widely known": "Included — The concept and format of org charts are broadly recognized across industries."
+  },
+  "encoding_notes": "The corporate org chart is modeled here as a symbolic-abstract-social artifact that encodes organizational structure and roles. It is intentionally designed, embedded in institutional logic, and governed by formal rules. While visually represented, it is not a physical object, but rather a model of social architecture. The corrected code '0084B0FF' faithfully reflects the selected traits."
+}

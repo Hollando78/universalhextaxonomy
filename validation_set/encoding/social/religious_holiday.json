@@ -1,0 +1,64 @@
+{
+  "entity": "Religious Holiday",
+  "uht_code": "00848AFF",
+  "traits": {
+    "physical": [],
+    "functional": [
+      "Purposeful / intentional",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Behavior-guiding",
+      "Temporal"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A holiday is a temporal and cultural construct, not a physical object.",
+    "Man-made / synthetic": "Excluded — While culturally constructed, it is not a manufactured or synthetic entity.",
+    "Biological or biologically-inspired": "Excluded — It has no biological properties.",
+    "Fixed/static": "Excluded — The date or form may vary across calendars or traditions.",
+    "Structural": "Excluded — A holiday does not form a physical or functional structure.",
+    "Perceptible": "Excluded — Though associated events may be perceivable, the holiday itself is not inherently sensory.",
+    "Material form": "Excluded — It does not exist as a tangible substance.",
+    "Passive": "Excluded — It actively drives behavior and societal coordination.",
+
+    "Purposeful / intentional": "Included — Religious holidays are intentionally created to fulfill spiritual, commemorative, or ritual purposes.",
+    "Emits output / produces effect": "Excluded — It does not produce a measurable or signal-based output.",
+    "Processes or regulates logic/signals": "Excluded — It is not a processing system.",
+    "Transforms or modifies internal state": "Excluded — While it may influence mood or behavior, this is not its structural identity.",
+    "Interacts with humans directly": "Excluded — It is not an interface or agent.",
+    "Part of a larger system": "Included — Religious holidays are intrinsic components of religious systems and calendars.",
+    "Autonomous in function": "Excluded — It requires observance and social structures to exist.",
+    "System-critical": "Excluded — The religion can exist without a specific holiday, though holidays reinforce system structure.",
+
+    "Symbolic / representational": "Included — Religious holidays represent key doctrines, historical events, or beliefs (e.g., resurrection, liberation, revelation).",
+    "Communicative": "Excluded — It is not itself a channel of communication.",
+    "Logical / rule-based": "Excluded — It is observed via rules, but the concept itself is not inherently logical.",
+    "Hierarchical / modular": "Excluded — It is not composed of modular sub-parts in a structural way.",
+    "Behavior-guiding": "Included — Holidays guide ritual behavior, abstention, celebration, or acts of devotion.",
+    "Self-referential / meta-conceptual": "Excluded — It does not reference its own concept or model abstraction.",
+    "Temporal": "Included — A holiday is, by definition, a temporally anchored occasion.",
+    "Contextual abstraction": "Excluded — It is tightly bound to its contextual tradition.",
+
+    "Socially / culturally constructed": "Included — Holidays are created and maintained by cultural and religious traditions.",
+    "Defined by a group/system": "Included — A religious body or tradition defines the holiday.",
+    "Linked to identity or role": "Included — Observance often expresses group identity and affiliation.",
+    "Regulated / governed": "Included — Rituals, calendars, and authorities govern the holiday.",
+    "Teachable / transmissible": "Included — It is passed down through generations and formal education.",
+    "Visible": "Included — Celebrations are observable in public or ritual spaces.",
+    "Context-sensitive": "Included — Its meaning depends entirely on cultural and religious context.",
+    "Widely known": "Included — Major religious holidays are broadly recognized within or across cultures."
+  },
+  "encoding_notes": "This revision addresses prior conceptual underrepresentation by incorporating traits that are essential to the identity of a religious holiday. It now reflects its symbolic nature, temporality, and its embeddedness within larger religious systems. The corrected code '00848AFF' now faithfully matches the selected traits."
+}
