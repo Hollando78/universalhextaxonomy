@@ -1,0 +1,59 @@
+{
+  "entity": "University Degree",
+  "uht_code": "0080C0E9",
+  "traits": {
+    "physical": [],
+    "functional": [
+      "Purposeful / intentional"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Teachable / transmissible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — The encoding targets the credential as institutional recognition, not the physical diploma.",
+    "Man-made / synthetic": "Excluded — It is not a fabricated or constructed object, but a symbolic role assignment.",
+    "Biological or biologically-inspired": "Excluded — No biological basis.",
+    "Fixed/static": "Excluded — A degree does not have physical fixity; its recognition persists independently of a medium.",
+    "Structural": "Excluded — Not a structural system or form.",
+    "Perceptible": "Excluded — The credential is abstract; perceptibility depends on instantiation (e.g., paper diploma).",
+    "Material form": "Excluded — The concept itself is immaterial.",
+    "Passive": "Excluded — Not meaningfully applicable to abstract status.",
+    
+    "Purposeful / intentional": "Included — It is granted deliberately to signify achievement and status.",
+    "Emits output / produces effect": "Excluded — It does not generate or emit anything directly.",
+    "Processes or regulates logic/signals": "Excluded — It does not involve transformation or control.",
+    "Transforms or modifies internal state": "Excluded — It alters social standing, but not its own internal state.",
+    "Interacts with humans directly": "Excluded — The recognition is socially interpreted, not interactive.",
+    "Part of a larger system": "Excluded — While institutionally related, it is not a structural subsystem.",
+    "Autonomous in function": "Excluded — It has no autonomous properties.",
+    "System-critical": "Excluded — Not necessary for any system’s function.",
+    
+    "Symbolic / representational": "Included — It signifies completion of educational criteria.",
+    "Communicative": "Included — Encodes information about field, level, and issuing institution.",
+    "Logical / rule-based": "Excluded — Degrees result from a process governed by rules, but the degree itself is not a rule system.",
+    "Hierarchical / modular": "Excluded — Does not consist of nested symbolic units.",
+    "Behavior-guiding": "Excluded — It enables opportunity but does not dictate behavior.",
+    "Self-referential / meta-conceptual": "Excluded — Not reflective of its own structure.",
+    "Temporal": "Excluded — While time-dependent in issuance, the degree itself is not temporal.",
+    "Contextual abstraction": "Excluded — Its interpretation is relatively stable and codified across contexts.",
+    
+    "Socially / culturally constructed": "Included — The degree is a cultural invention.",
+    "Defined by a group/system": "Included — Institutions determine what it means and how it is granted.",
+    "Linked to identity or role": "Included — Strongly tied to personal and professional identity.",
+    "Regulated / governed": "Excluded — Institutions define and issue degrees, but there is no single governing body or legal framework enforcing meaning.",
+    "Teachable / transmissible": "Included — Though it is a status, it results from formal instruction and is widely transmitted.",
+    "Visible": "Excluded — The recognition is abstract; visibility applies only to physical instances (certificates, transcripts).",
+    "Context-sensitive": "Excluded — Interpretation is relatively consistent across cultural and professional domains.",
+    "Widely known": "Included — Universally recognized across academic and professional contexts."
+  },
+  "encoding_notes": "This encoding captures the degree as a symbolic, communicative social artifact, defined and transmitted by institutions but not intrinsically structured or perceptible. It has no active function but conveys highly consequential social identity."
+}

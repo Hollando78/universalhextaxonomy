@@ -338,36 +338,36 @@
   {
     "id": 49,
     "name": "Passport",
-    "hex": "25 B4 E0 33",
-    "traits": [9, 17, 25, 26, 27, 28, 29, 30, 32],
+    "hex": "40DCF9FF",
+    "traits": [2, 9, 10, 12, 13, 14, 17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Regulated identity artifact."
   },
   {
     "id": 50,
     "name": "National Anthem",
-    "hex": "01 38 20 32",
-    "traits": [17, 18, 25, 28, 30, 32],
+    "hex": "0080C9FF",
+    "traits": [9, 17, 18, 21, 24, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Symbolic cultural expression."
   },
   {
     "id": 51,
     "name": "University Degree",
-    "hex": "09 3A 26 32",
+    "hex": "0080C0E9",
     "traits": [9, 17, 18, 25, 26, 27, 29, 32],
     "description": "Conferred symbolic identity credential."
   },
   {
     "id": 52,
     "name": "Protest March",
-    "hex": "05 30 24 33",
-    "traits": [9, 21, 24, 25, 29, 30, 32],
+    "hex": "008009FF",
+    "traits": [9, 21, 24, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Visible contextual behavior event."
   },
   {
     "id": 53,
     "name": "Copyright Law",
-    "hex": "01 38 26 32",
-    "traits": [18, 25, 26, 28, 29, 32],
+    "hex": "0000F9FF",
+    "traits": [17, 18, 19, 20, 21, 24, 25, 26, 27, 28, 29, 30, 31, 32],
     "description": "Group‑defined governance rule."
   },
   {
