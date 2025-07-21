@@ -1,5 +1,5 @@
 # Universal Hex Taxonomy (UHT)
-**White Paper v1.0 | July 2025**
+**White Paper v1.0 | April 2025**
 
 **Author:** Steven Holland (steven.holland@outlook.com)  
 **Date:** July 2025
@@ -137,18 +137,20 @@ Semantic compression is the process of encoding the essential meaning of an obje
 
 ### 4.3 Semantic Proximity
 
-Comparing two UHT codes by their Hamming distance—the number of differing bits—reveals their semantic proximity. For example:
+Comparing two UHT codes by their Hamming distance—the number of differing bits—reveals how semantically similar two entities are. The more bits they share, the closer they are in meaning.
 
-| Entity A           | Code      | Entity B         | Code      | Hamming Distance |
-|--------------------|-----------|------------------|-----------|------------------|
-| Paperclip          | D78800C5  | Digital Clock    | DEF82205  | 7                |
-| Smart Thermometer  | EEFC2205  | Turing Machine   | 40F3FFCF  | 18               |
+| Entity A             | Code      | Entity B             | Code      | Hamming Distance |
+|----------------------|-----------|----------------------|-----------|------------------|
+| Mechanical Clock     | CEF02205  | Digital Alarm Clock  | DEF82205  | 5                |
+| Coffee Machine       | EEF62225  | Water Filtration Unit| EEF40221  | 4                |
+| Paperclip            | D78800C5  | National Anthem      | 0080C9FF  | 18               |
 
-A smaller distance implies a closer semantic match.
+**Intuitive Results:**
+- The **Mechanical Clock** and **Digital Alarm Clock** are both output-driven, human-interactive timekeepers with temporal function and visible cues.
+- The **Coffee Machine** and **Water Filtration Unit** share key physical and functional traits—both transform and emit, are system-critical, and serve human needs.
+- The **Paperclip** and **National Anthem** are conceptually distant: one is a tangible fastener, the other a symbolic, regulated cultural expression.
 
-### 4.4 Transparency
-
-Unlike neural embeddings or black-box classification systems, UHT codes remain human-readable. Every trait is explicit. Differences between entities can be directly traced to the bits that differ. This transparency supports explainable AI, traceable metadata, and structured comparison across domains.
+Unlike neural embeddings or black-box classification systems, UHT codes remain human-readable. Every trait is explicit. Differences between entities can be directly traced to the bits that differ. This transparency supports explainable AI, traceable metadata, and structured comparison across domains. or black-box classification systems, UHT codes remain human-readable. Every trait is explicit. Differences between entities can be directly traced to the bits that differ. This transparency supports explainable AI, traceable metadata, and structured comparison across domains.
 
 
 ## 5. Worked Examples
