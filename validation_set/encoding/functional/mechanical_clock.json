@@ -1,6 +1,7 @@
 {
   "entity": "Mechanical Clock",
   "uht_code": "DEF42205",
+  "image_url": "/validation_set/images/mechanical_clock.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -63,5 +64,6 @@
     "Context-sensitive": "Excluded — Displays absolute time, not contextually altered.",
     "Widely known": "Included — Clocks are globally recognized and ubiquitous."
   },
-  "encoding_notes": "This encoding reflects the mechanical clock as a traditional timekeeping apparatus, emphasizing its engineered structure, functional logic, and universal recognizability. Abstract traits are limited to its time-based logic, while social traits are included only when visually and culturally universal. It excludes interaction and autonomy due to its passive user interface and reliance on manual winding."
+  "encoding_notes": "This encoding reflects the mechanical clock as a traditional timekeeping apparatus, emphasizing its engineered structure, functional logic, and universal recognizability. Abstract traits are limited to its time-based logic, while social traits are included only when visually and culturally universal. It excludes interaction and autonomy due to its passive user interface and reliance on manual winding.",
+  "image": "images/mechanical_clock.png"
 }

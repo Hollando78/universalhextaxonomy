@@ -1,6 +1,7 @@
 {
   "entity": "Fossil",
   "uht_code": "BF000201",
+  "image_url": "/validation_set/images/fossil.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -56,5 +57,6 @@
     "Context-sensitive": "Excluded — Meaning is fairly stable regardless of setting.",
     "Widely known": "Included — Fossils are globally recognized and commonly understood objects."
   },
-  "encoding_notes": "This encoding frames the fossil as a naturally formed physical remnant of past biological life. While it has educational and scientific significance, only intrinsic traits — not attributed meanings — are included. Temporal relevance is marked due to its preserved, ancient identity."
+  "encoding_notes": "This encoding frames the fossil as a naturally formed physical remnant of past biological life. While it has educational and scientific significance, only intrinsic traits — not attributed meanings — are included. Temporal relevance is marked due to its preserved, ancient identity.",
+  "image": "images/fossil.png"
 }

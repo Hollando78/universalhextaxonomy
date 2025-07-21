@@ -1,6 +1,7 @@
 {
   "entity": "Birth Certificate",
   "uht_code": "0084C1FF",
+  "image_url": "/validation_set/images/birth_certificate.png",
   "traits": {
     "physical": [],
     "functional": [

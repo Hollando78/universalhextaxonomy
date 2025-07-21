@@ -1,6 +1,7 @@
 {
   "entity": "University Degree",
   "uht_code": "0080C0E9",
+  "image_url": "/validation_set/images/university_degree.png",
   "traits": {
     "physical": [],
     "functional": [

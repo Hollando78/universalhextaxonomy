@@ -1,6 +1,7 @@
 {
   "entity": "National Anthem",
   "uht_code": "0080C9FF",
+  "image_url": "/validation_set/images/national_anthem.png",
   "traits": {
     "physical": [],
     "functional": [

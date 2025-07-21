@@ -1,6 +1,7 @@
 {
   "entity": "Digital Alarm Clock",
   "uht_code": "DEF82205",
+  "image_url": "/validation_set/images/digital_alarm_clock.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -63,5 +64,6 @@
     "Context-sensitive": "Excluded — Function unchanged by setting.",
     "Widely known": "Included — Universally recognized domestic object."
   },
-  "encoding_notes": "This encoding captures the digital alarm clock as a physical, standalone device that fulfills timekeeping and alert functions. Its traits are concentrated in the physical and functional layers, with modest abstraction (rule-based and temporal) and socially relevant visibility. Social constructs and symbolic communication are excluded due to its direct, utilitarian design."
+  "encoding_notes": "This encoding captures the digital alarm clock as a physical, standalone device that fulfills timekeeping and alert functions. Its traits are concentrated in the physical and functional layers, with modest abstraction (rule-based and temporal) and socially relevant visibility. Social constructs and symbolic communication are excluded due to its direct, utilitarian design.",
+  "image": "images/digital_alarm_clock.png"
 }

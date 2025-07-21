@@ -1,6 +1,7 @@
 {
   "entity": "Encryption Algorithm",
   "uht_code": "40F7FDDF",
+  "image_url": "/validation_set/images/encryption_algorithm.png",
   "traits": {
     "physical": [
       "Man-made / synthetic"
@@ -67,5 +68,6 @@
     "Context-sensitive": "Included — Implementation behavior depends on context of use.",
     "Widely known": "Included — Major algorithms are widely disseminated and scrutinized."
   },
-  "encoding_notes": "This encoding captures the Encryption Algorithm as a symbolic, logical, and socially governed construct with real functional significance. It is not a physical object but operates within highly structured technical and cultural frameworks. It is distinct from software *implementations* which would include more physical and functional traits."
+  "encoding_notes": "This encoding captures the Encryption Algorithm as a symbolic, logical, and socially governed construct with real functional significance. It is not a physical object but operates within highly structured technical and cultural frameworks. It is distinct from software *implementations* which would include more physical and functional traits.",
+  "image": "images/encryption_algorithm.png"
 }

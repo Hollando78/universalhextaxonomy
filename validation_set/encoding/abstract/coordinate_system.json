@@ -1,6 +1,7 @@
 {
   "entity": "Coordinate System",
   "uht_code": "4000FBDF",
+  "image_url": "/validation_set/images/coordinate_system.png",
   "traits": {
     "physical": [
       "Man-made / synthetic"
@@ -58,5 +59,6 @@
     "Context-sensitive": "Included — Interpretation depends on mathematical context (e.g., `x = y` in algebra vs. logic).",
     "Widely known": "Included — The concept of a coordinate system is globally recognized and foundational."
   },
-  "encoding_notes": "This encoding captures the Coordinate System as a purely abstract, human-created conceptual entity. It is defined by its symbolic, logical, and social properties, and its core function is to guide behavior and communicate spatial relationships. Functional traits are excluded based on UHT standards for non-executing frameworks. The inclusion of both Contextual abstraction (24) and Context-sensitive (31) reflects its dual epistemic and interpretive dependencies."
+  "encoding_notes": "This encoding captures the Coordinate System as a purely abstract, human-created conceptual entity. It is defined by its symbolic, logical, and social properties, and its core function is to guide behavior and communicate spatial relationships. Functional traits are excluded based on UHT standards for non-executing frameworks. The inclusion of both Contextual abstraction (24) and Context-sensitive (31) reflects its dual epistemic and interpretive dependencies.",
+  "image": "images/coordinate_system.png"
 }

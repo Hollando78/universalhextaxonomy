@@ -1,6 +1,7 @@
 {
   "entity": "Employment Contract",
   "uht_code": "0084A9FF",
+  "image_url": "/validation_set/images/employment_contract.png",
   "traits": {
     "physical": [],
     "functional": [

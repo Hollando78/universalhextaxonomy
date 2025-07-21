@@ -1,6 +1,7 @@
 {
   "entity": "Military Salute",
   "uht_code": "0084C8FF",
+  "image_url": "/validation_set/images/military_salute.png",
   "traits": {
     "physical": [],
     "functional": [

@@ -1,6 +1,7 @@
 {
   "entity": "Religious Holiday",
   "uht_code": "00848AFF",
+  "image_url": "/validation_set/images/religious_holiday.png",
   "traits": {
     "physical": [],
     "functional": [

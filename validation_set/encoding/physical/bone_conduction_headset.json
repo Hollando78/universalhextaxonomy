@@ -1,6 +1,7 @@
 {
   "entity": "Bone Conduction Headset",
   "uht_code": "FEEC40CD",
+  "image_url": "/validation_set/images/bone_conduction_headset.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -66,5 +67,6 @@
     "Context-sensitive": "Excluded — Usage is relatively stable across environments.",
     "Widely known": "Included — Commonly recognized as a distinct class of consumer audio hardware."
   },
-  "encoding_notes": "This encoding captures the bone conduction headset as a biologically inspired, socially embedded, and functionally communicative consumer device. Passive and regulated traits are excluded based on the standard that only traits intrinsic to the object itself, not context or external governance, are included. The correction from `02` to `40` in the Abstract layer reflects accurate placement of the 'Communicative' trait."
+  "encoding_notes": "This encoding captures the bone conduction headset as a biologically inspired, socially embedded, and functionally communicative consumer device. Passive and regulated traits are excluded based on the standard that only traits intrinsic to the object itself, not context or external governance, are included. The correction from `02` to `40` in the Abstract layer reflects accurate placement of the 'Communicative' trait.",
+  "image": "images/bone_conduction_headset.png"
 }

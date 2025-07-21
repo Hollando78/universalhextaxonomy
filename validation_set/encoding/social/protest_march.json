@@ -1,6 +1,7 @@
 {
   "entity": "Protest March",
   "uht_code": "008009FF",
+  "image_url": "/validation_set/images/protest_march.png",
   "traits": {
     "physical": [],
     "functional": [

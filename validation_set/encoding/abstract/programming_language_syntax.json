@@ -1,6 +1,7 @@
 {
   "entity": "Programming Language Syntax",
   "uht_code": "4000FDCF",
+  "image_url": "/validation_set/images/programming_language_syntax.png",
   "traits": {
     "physical": [
       "Man-made / synthetic"
@@ -61,5 +62,6 @@
     "Context-sensitive": "Included — Depends on grammar scope, indentation, and semantic rules.",
     "Widely known": "Included — Ubiquitous in global software and education domains."
   },
-  "encoding_notes": "This encoding defines programming language syntax as a symbolic, logical, and socially transmitted abstraction. It is not executable or perceptible by itself, but governs structure across all source code and is widely disseminated through education and tooling. Abstract and social layers are dominant, functional traits excluded by design."
+  "encoding_notes": "This encoding defines programming language syntax as a symbolic, logical, and socially transmitted abstraction. It is not executable or perceptible by itself, but governs structure across all source code and is widely disseminated through education and tooling. Abstract and social layers are dominant, functional traits excluded by design.",
+  "image": "images/programming_language_syntax.png"
 }

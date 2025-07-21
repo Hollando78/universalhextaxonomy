@@ -1,6 +1,7 @@
 {
   "entity": "Wind Turbine",
   "uht_code": "DEF62205",
+  "image_url": "/validation_set/images/wind_turbine.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -64,5 +65,6 @@
     "Context-sensitive": "Excluded — Performs the same functional role across contexts.",
     "Widely known": "Included — A globally familiar renewable energy technology."
   },
-  "encoding_notes": "This encoding treats the wind turbine as an industrial energy-generation mechanism. It emphasizes its engineered material form, functional automation, and logical control systems. While perceptible and visible, social traits are limited to public familiarity rather than culturally constructed meaning. Abstract traits reflect internal control logic and time-based operation, without symbolic or communicative intention."
+  "encoding_notes": "This encoding treats the wind turbine as an industrial energy-generation mechanism. It emphasizes its engineered material form, functional automation, and logical control systems. While perceptible and visible, social traits are limited to public familiarity rather than culturally constructed meaning. Abstract traits reflect internal control logic and time-based operation, without symbolic or communicative intention.",
+  "image": "images/wind_turbine.png"
 }

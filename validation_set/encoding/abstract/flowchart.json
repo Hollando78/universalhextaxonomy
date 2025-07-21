@@ -1,6 +1,7 @@
 {
   "entity": "Flowchart",
   "uht_code": "4488F9CF",
+  "image_url": "/validation_set/images/flowchart.png",
   "traits": {
     "physical": [
       "Man-made / synthetic",
@@ -61,5 +62,6 @@
     "Context-sensitive": "Included — Interpretation depends on the domain (software, logic, business modeling).",
     "Widely known": "Included — Commonly used across technical and educational fields."
   },
-  "encoding_notes": "This corrected encoding positions the flowchart as a visual symbolic representation of logical processes. It is primarily abstract and social in nature, with a clear human interface. The updated UHT code reflects the full set of conceptual and social dependencies without introducing unjustified functional or physical traits."
+  "encoding_notes": "This corrected encoding positions the flowchart as a visual symbolic representation of logical processes. It is primarily abstract and social in nature, with a clear human interface. The updated UHT code reflects the full set of conceptual and social dependencies without introducing unjustified functional or physical traits.",
+  "image": "images/flowchart.png"
 }

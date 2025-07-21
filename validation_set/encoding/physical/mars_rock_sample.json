@@ -1,6 +1,7 @@
 {
   "entity": "Mars Rock Sample",
   "uht_code": "87000000",
+  "image_url": "/validation_set/images/mars_rock_sample.png",
   "traits": {
     "physical": [
       "Physical object",

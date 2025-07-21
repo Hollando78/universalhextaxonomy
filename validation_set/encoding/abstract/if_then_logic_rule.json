@@ -1,6 +1,7 @@
 {
   "entity": "If-Then Logic Rule",
   "uht_code": "4000FDDD",
+  "image_url": "/validation_set/images/if_then_logic_rule.png",
   "traits": {
     "physical": [
       "Man-made / synthetic"
@@ -58,5 +59,6 @@
     "Context-sensitive": "Excluded — This trait is more aptly described by 'Contextual abstraction' in the abstract layer.",
     "Widely known": "Included — The basic concept of 'If-Then' is a globally recognized and foundational idea."
   },
-  "encoding_notes": "This encoding captures the If-Then Logic Rule as a purely abstract, human-created conceptual entity. It is defined by its symbolic, logical, and social properties, and its core function is to guide behavior, a key distinction from other abstract entities. The resulting code reflects its lack of physical and functional traits, with high density in the abstract and social layers."
+  "encoding_notes": "This encoding captures the If-Then Logic Rule as a purely abstract, human-created conceptual entity. It is defined by its symbolic, logical, and social properties, and its core function is to guide behavior, a key distinction from other abstract entities. The resulting code reflects its lack of physical and functional traits, with high density in the abstract and social layers.",
+  "image": "images/if_then_logic_rule.png"
 }

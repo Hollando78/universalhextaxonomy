@@ -1,6 +1,7 @@
 {
   "entity": "Lava Flow",
   "uht_code": "865A2207",
+  "image_url": "/validation_set/images/lava_flow.png",
   "traits": {
     "physical": [
       "Physical object",

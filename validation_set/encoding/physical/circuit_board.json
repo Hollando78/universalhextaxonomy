@@ -1,6 +1,7 @@
 {
   "entity": "Circuit Board",
   "uht_code": "DEE40002",
+  "image_url": "/validation_set/images/circuit_board.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -58,5 +59,6 @@
     "Context-sensitive": "Included — Meaning and function vary depending on system context.",
     "Widely known": "Excluded — Known to specialists, not widely recognized by the general public."
   },
-  "encoding_notes": "This encoding treats a circuit board as a general-purpose hardware substrate, distinct from higher-order symbolic or interactive systems. Only traits that are structurally and functionally inherent to the board itself are included. State transformation, symbolism, and social significance are excluded unless intrinsic to the board’s identity."
+  "encoding_notes": "This encoding treats a circuit board as a general-purpose hardware substrate, distinct from higher-order symbolic or interactive systems. Only traits that are structurally and functionally inherent to the board itself are included. State transformation, symbolism, and social significance are excluded unless intrinsic to the board’s identity.",
+  "image": "images/circuit_board.png"
 }

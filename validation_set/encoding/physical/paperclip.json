@@ -1,6 +1,7 @@
 {
   "entity": "Paperclip",
   "uht_code": "D78800C5",
+  "image_url": "/validation_set/images/paperclip.png",
   "traits": {
     "physical": [
       "Physical object",

@@ -1,6 +1,7 @@
 {
   "entity": "Glass Bottle",
   "uht_code": "DF880001",
+  "image_url": "/validation_set/images/glass_bottle.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -57,5 +58,6 @@
     "Context-sensitive": "Excluded — Function is generally stable across contexts.",
     "Widely known": "Included — Commonly recognized and understood across cultures."
   },
-  "encoding_notes": "This encoding treats the glass bottle as a general-purpose physical container. Traits are limited to intrinsic structural and functional aspects. No symbolic, logical, or institutional roles are inferred, keeping the representation minimal and precise."
+  "encoding_notes": "This encoding treats the glass bottle as a general-purpose physical container. Traits are limited to intrinsic structural and functional aspects. No symbolic, logical, or institutional roles are inferred, keeping the representation minimal and precise.",
+  "image": "images/glass_bottle.png"
 }

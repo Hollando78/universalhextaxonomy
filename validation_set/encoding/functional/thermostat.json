@@ -1,6 +1,7 @@
 {
   "entity": "Thermostat",
   "uht_code": "DEFC2000",
+  "image_url": "/validation_set/images/thermostat.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -60,5 +61,6 @@
     "Context-sensitive": "Excluded — Its operation changes with context, but the object remains semantically stable.",
     "Widely known": "Excluded — Commonplace, but not included unless widespread recognition is core to identity."
   },
-  "encoding_notes": "This encoding captures the thermostat as a standard environmental control device. It emphasizes its engineered form, rule-based logic, and role in functional systems. Social and abstract traits are excluded unless directly integral to its design or conceptual identity. Autonomous and critical roles are omitted due to reliance on preset input and replaceability in many systems."
+  "encoding_notes": "This encoding captures the thermostat as a standard environmental control device. It emphasizes its engineered form, rule-based logic, and role in functional systems. Social and abstract traits are excluded unless directly integral to its design or conceptual identity. Autonomous and critical roles are omitted due to reliance on preset input and replaceability in many systems.",
+  "image": "images/thermostat.png"
 }

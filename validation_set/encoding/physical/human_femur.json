@@ -1,6 +1,7 @@
 {
   "entity": "Human Femur",
   "uht_code": "9F000201",
+  "image_url": "/validation_set/images/human_femur.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -17,6 +18,7 @@
       "Visible"
     ]
   },
+  "image": "images/human_femur.png",
   "feedback": {
     "Physical object": "Included — The femur is a tangible, discrete, material component of the human body.",
     "Man-made / synthetic": "Excluded — Naturally occurring anatomical structure, not synthetic.",

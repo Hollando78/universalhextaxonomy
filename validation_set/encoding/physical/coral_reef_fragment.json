@@ -1,6 +1,7 @@
 {
   "entity": "Coral Reef Fragment",
   "uht_code": "BF04000D",
+  "image_url": "/validation_set/images/coral_reef_fragment.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -54,5 +55,6 @@
     "Visible": "Included — Visually striking and identifiable.",
     "Context-sensitive": "Excluded — Function and meaning remain stable.",
     "Widely known": "Included — Recognized globally, especially in environmental contexts."
-  }
+  },
+  "image": "images/coral_reef_fragment.png"
 }

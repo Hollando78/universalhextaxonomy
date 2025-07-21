@@ -1,6 +1,7 @@
 {
   "entity": "Twitter Handle",
   "uht_code": "00C4C1FF",
+  "image_url": "/validation_set/images/twitter_handle.png", 
   "traits": {
     "physical": [],
     "functional": [

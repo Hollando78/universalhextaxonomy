@@ -1,6 +1,7 @@
 {
   "entity": "Wedding Vow",
   "uht_code": "0080C8FF",
+  "image_url": "/validation_set/images/wedding_vow.png",
   "traits": {
     "physical": [],
     "functional": [

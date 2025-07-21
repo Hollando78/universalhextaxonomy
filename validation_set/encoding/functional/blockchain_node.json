@@ -1,6 +1,7 @@
 {
   "entity": "Blockchain Node",
   "uht_code": "44F7FFFB",
+  "image_url": "/validation_set/images/blockchain_node.png",
   "traits": {
     "physical": [
       "Man-made / synthetic",
@@ -72,5 +73,6 @@
     "Context-sensitive": "Included — Behavior shifts depending on role (e.g., archival, light, validator).",
     "Widely known": "Included — Well-recognized and discussed in technical and public discourse."
   },
-  "encoding_notes": "This encoding treats the blockchain node as a logical and functional software entity within a decentralized system. Physical and visible traits are excluded to preserve distinction between software role and physical host. High trait density in functional, abstract, and social layers reflects the node’s role as a rule-enforcing, symbolic actor embedded in cultural and governance systems."
+  "encoding_notes": "This encoding treats the blockchain node as a logical and functional software entity within a decentralized system. Physical and visible traits are excluded to preserve distinction between software role and physical host. High trait density in functional, abstract, and social layers reflects the node’s role as a rule-enforcing, symbolic actor embedded in cultural and governance systems.",
+  "image": "images/blockchain_node.png"
 }

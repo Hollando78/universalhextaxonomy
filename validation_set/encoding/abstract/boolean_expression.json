@@ -1,6 +1,7 @@
 {
   "entity": "Boolean Expression",
   "uht_code": "4080FFCF",
+  "image_url": "/validation_set/images/boolean_expression.png",
   "traits": {
     "physical": [
       "Man-made / synthetic"
@@ -64,5 +65,6 @@
     "Context-sensitive": "Included — Interpretation depends on logical context or variable state.",
     "Widely known": "Included — Commonly taught and understood in technical domains."
   },
-  "encoding_notes": "A Boolean Expression is a symbolic, logical, and culturally embedded abstraction with formal purpose and syntactic clarity. It is not a processor or emitter but a representational structure used for reasoning and control. This encoding mirrors the UHT profile of other abstract formal entities such as 'Proof (in Logic)'."
+  "encoding_notes": "A Boolean Expression is a symbolic, logical, and culturally embedded abstraction with formal purpose and syntactic clarity. It is not a processor or emitter but a representational structure used for reasoning and control. This encoding mirrors the UHT profile of other abstract formal entities such as 'Proof (in Logic)'.",
+  "image": "images/boolean_expression.png"
 }

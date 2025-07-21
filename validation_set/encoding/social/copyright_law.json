@@ -1,6 +1,7 @@
 {
   "entity": "Copyright Law",
   "uht_code": "0000F9FF",
+  "image_url": "/validation_set/images/copyright_law.png",
   "traits": {
     "physical": [],
     "functional": [],

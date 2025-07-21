@@ -1,6 +1,7 @@
 {
   "entity": "Tenure System",
   "uht_code": "00848DFF",
+  "image_url": "/validation_set/images/tenure_system.png",
   "traits": {
     "physical": [],
     "functional": [

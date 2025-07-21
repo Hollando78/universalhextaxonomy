@@ -1,6 +1,7 @@
 {
   "entity": "Magnet",
   "uht_code": "D6CE200D",
+  "image_url": "/validation_set/images/magnet.png",
   "traits": {
     "physical": [
       "Physical object",

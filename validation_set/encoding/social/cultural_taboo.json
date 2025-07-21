@@ -1,0 +1,62 @@
+{
+  "entity": "Cultural Taboo",
+  "uht_code": "000089FF",
+  "image_url": "/validation_set/images/cultural_taboo.png",
+  "traits": {
+    "physical": [],
+    "functional": [],
+    "abstract": [
+      "Symbolic / representational",
+      "Behavior-guiding",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A taboo is not a tangible entity or object.",
+    "Man-made / synthetic": "Excluded — It is socially emergent rather than synthetically designed.",
+    "Biological or biologically-inspired": "Excluded — Taboos are not grounded in biological function or form.",
+    "Fixed/static": "Excluded — They vary across cultures and time.",
+    "Structural": "Excluded — Lacks physical or architectural structure.",
+    "Perceptible": "Excluded — Not directly perceivable through the senses.",
+    "Material form": "Excluded — Does not possess any material instantiation.",
+    "Passive": "Excluded — Not an inert or reactive entity.",
+    
+    "Purposeful / intentional": "Excluded — While culturally enforced, a taboo is not a designed agent or tool.",
+    "Emits output / produces effect": "Excluded — It influences behavior, but not through outputs in a functional system sense.",
+    "Processes or regulates logic/signals": "Excluded — Not a logical or computational regulator.",
+    "Transforms or modifies internal state": "Excluded — Not an active agent modifying its own state or others’ states.",
+    "Interacts with humans directly": "Excluded — It exerts influence via norms, not through interface-like interaction.",
+    "Part of a larger system": "Excluded — Though embedded in culture, it is not a technical system component.",
+    "Autonomous in function": "Excluded — Relies on cultural context and enforcement.",
+    "System-critical": "Excluded — Not a required subsystem of a formal system.",
+    
+    "Symbolic / representational": "Included — Taboos represent abstract boundaries or prohibitions.",
+    "Communicative": "Excluded — A taboo is not itself a medium for transmission, even if its presence is communicated.",
+    "Logical / rule-based": "Excluded — Often enforced without consistent logical rules.",
+    "Hierarchical / modular": "Excluded — Not part of a nested or tiered structure.",
+    "Behavior-guiding": "Included — Its primary role is to guide or constrain behavior.",
+    "Self-referential / meta-conceptual": "Excluded — Does not model itself or reference its own logic.",
+    "Temporal": "Excluded — Not intrinsically defined by time or temporal behavior.",
+    "Contextual abstraction": "Included — Taboos are highly abstract and deeply dependent on social and cultural context.",
+    
+    "Socially / culturally constructed": "Included — By definition, taboos emerge from social norms and customs.",
+    "Defined by a group/system": "Included — A taboo only exists through shared social agreement.",
+    "Linked to identity or role": "Included — Observing or violating taboos can signify identity or role within a group.",
+    "Regulated / governed": "Included — They are often enforced by implicit or explicit rules within communities.",
+    "Teachable / transmissible": "Included — Passed on through socialization, instruction, and cultural norms.",
+    "Visible": "Included — While abstract, the consequences or boundaries are usually visible through social reaction.",
+    "Context-sensitive": "Included — What constitutes a taboo is dependent on culture, time, and situation.",
+    "Widely known": "Included — A taboo must be broadly recognized within its group to function effectively."
+  },
+  "encoding_notes": "This encoding treats 'Cultural Taboo' as a **conceptual boundary or prohibition** that is culturally transmitted and behaviorally enforced. It avoids inclusion of any traits that rely on metaphor, physical embodiment, or enforcement mechanisms unless they are intrinsic to the definition of the taboo itself."
+}

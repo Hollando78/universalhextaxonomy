@@ -1,6 +1,7 @@
 {
   "entity": "Arrowhead (Stone Age)",
   "uht_code": "DF8C02C9",
+  "image_url": "/validation_set/images/arrowhead_stone_age.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -63,5 +64,6 @@
     "Context-sensitive": "Excluded — Its identity and purpose are relatively stable regardless of context.",
     "Widely known": "Included — Recognized globally as a cultural and historical artifact."
   },
-  "encoding_notes": "This encoding frames the arrowhead as a purposeful, prehistoric technological artifact — one designed by humans, embedded in cultural practices, and preserved in historical time. Abstract and symbolic traits are excluded unless directly embedded in the object’s structure or function. Social traits are carefully selected to reflect group-level crafting knowledge and recognition without overextending into metaphor."
+  "encoding_notes": "This encoding frames the arrowhead as a purposeful, prehistoric technological artifact — one designed by humans, embedded in cultural practices, and preserved in historical time. Abstract and symbolic traits are excluded unless directly embedded in the object’s structure or function. Social traits are carefully selected to reflect group-level crafting knowledge and recognition without overextending into metaphor.",
+  "image": "images/arrowhead_stone_age.png"
 }

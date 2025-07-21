@@ -1,6 +1,7 @@
 {
   "entity": "Budget Spreadsheet",
   "uht_code": "448CF7DF",
+  "image_url": "/validation_set/images/budget_spreadsheet.png",
   "traits": {
     "physical": [
       "Man-made / synthetic",
@@ -64,5 +65,6 @@
     "Context-sensitive": "Included — Its interpretation depends on its specific use, audience, and data.",
     "Widely known": "Included — The idea of a budget spreadsheet is globally recognized and foundational."
   },
-  "encoding_notes": "This encoding reflects a highly compressed and minimalist view of a budget spreadsheet as a purely abstract, conceptual tool. Physical and functional traits are excluded unless absolutely core to its identity as a non-autonomous software agent, while its abstract and social traits are fully represented due to its role in human knowledge and cultural systems. The resulting code is optimized for semantic density, excluding traits that are merely a result of its interpretation or use rather than its intrinsic nature."
+  "encoding_notes": "This encoding reflects a highly compressed and minimalist view of a budget spreadsheet as a purely abstract, conceptual tool. Physical and functional traits are excluded unless absolutely core to its identity as a non-autonomous software agent, while its abstract and social traits are fully represented due to its role in human knowledge and cultural systems. The resulting code is optimized for semantic density, excluding traits that are merely a result of its interpretation or use rather than its intrinsic nature.",
+  "image": "images/budget_spreadsheet.png"
 }

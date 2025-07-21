@@ -1,6 +1,7 @@
 {
   "entity": "Smoke Detector",
   "uht_code": "DEF72215",
+  "image_url": "/validation_set/images/smoke_detector.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -66,5 +67,6 @@
     "Context-sensitive": "Excluded — Operates the same across environments.",
     "Widely known": "Included — Universally recognized life safety device."
   },
-  "encoding_notes": "This encoding reflects a smoke detector as a structurally fixed, perceptible, and autonomous safety device. It is defined by logical sensing and regulatory inclusion. Though not user-interactive or symbolic, its system-critical function and legal mandate justify inclusion of autonomy and governance traits."
+  "encoding_notes": "This encoding reflects a smoke detector as a structurally fixed, perceptible, and autonomous safety device. It is defined by logical sensing and regulatory inclusion. Though not user-interactive or symbolic, its system-critical function and legal mandate justify inclusion of autonomy and governance traits.",
+  "image": "images/smoke_detector.png"
 }

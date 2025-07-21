@@ -1,6 +1,7 @@
 {
   "entity": "Solar Charger",
   "uht_code": "DED60205",
+  "image_url": "/validation_set/images/solar_charger.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -62,5 +63,6 @@
     "Context-sensitive": "Excluded — Function doesn’t vary semantically with setting.",
     "Widely known": "Included — Recognized globally as a sustainable energy solution."
   },
-  "encoding_notes": "This encoding treats the solar charger as a physical, autonomous energy transformation device with a time-dependent function and broad public familiarity. Logical, symbolic, or socially defined traits are excluded, reflecting the charger's grounded, passive-operating design."
+  "encoding_notes": "This encoding treats the solar charger as a physical, autonomous energy transformation device with a time-dependent function and broad public familiarity. Logical, symbolic, or socially defined traits are excluded, reflecting the charger's grounded, passive-operating design.",
+  "image": "images/solar_charger.png"
 }

@@ -1,6 +1,7 @@
 {
   "entity": "Calendar",
   "uht_code": "4480F7CF",
+  "image_url": "/validation_set/images/calendar.png",
   "traits": {
     "physical": [
       "Man-made / synthetic",
@@ -64,5 +65,6 @@
     "Context-sensitive": "Included — Varies across geopolitical and cultural contexts.",
     "Widely known": "Included — Universal across human societies."
   },
-  "encoding_notes": "This encoding treats the calendar as a symbolic, logic-based, culturally constructed abstraction designed for temporal organization. It is not a physical object or a processor, but a framework used to coordinate and guide behavior within human systems. The uht_code reflects its highly abstract and socially embedded nature with minimal functional operation."
+  "encoding_notes": "This encoding treats the calendar as a symbolic, logic-based, culturally constructed abstraction designed for temporal organization. It is not a physical object or a processor, but a framework used to coordinate and guide behavior within human systems. The uht_code reflects its highly abstract and socially embedded nature with minimal functional operation.",
+  "image": "images/calendar.png"
 }

@@ -1,6 +1,7 @@
 {
   "entity": "Story Arc Diagram",
   "uht_code": "4488F9CF",
+  "image_url": "/validation_set/images/story_arc_diagram.png",
   "traits": {
     "physical": [
       "Man-made / synthetic",
@@ -61,5 +62,6 @@
     "Context-sensitive": "Included — Interpretation shifts with genre or story type.",
     "Widely known": "Included — Freytag’s Pyramid, Hero’s Journey, etc. are broadly familiar."
   },
-  "encoding_notes": "This encoding captures the Story Arc Diagram as a perceptual, symbolic structure that organizes narrative logic. It is not an active functional entity but rather an interpretive and context-shaped tool for human use. It is widely taught, seen, and socially maintained, making its abstract and social layers prominent."
+  "encoding_notes": "This encoding captures the Story Arc Diagram as a perceptual, symbolic structure that organizes narrative logic. It is not an active functional entity but rather an interpretive and context-shaped tool for human use. It is widely taught, seen, and socially maintained, making its abstract and social layers prominent.",
+  "image": "images/story_arc_diagram.png"
 }

@@ -1,6 +1,7 @@
 {
   "entity": "Chess Strategy",
   "uht_code": "4088FFCB",
+  "image_url": "/validation_set/images/chess_strategy.png",
   "traits": {
     "physical": [
       "Man-made / synthetic"
@@ -61,5 +62,6 @@
     "Context-sensitive": "Included — Effectiveness depends on many surrounding conditions.",
     "Widely known": "Included — Well-known strategies (e.g., King's Indian Defense) are broadly familiar."
   },
-  "encoding_notes": "This encoding represents chess strategy as a symbolic, abstract, and socially-evolved conceptual tool. It is not a physical or autonomous system but one designed to guide human behavior within a formal ruleset. Its role in structured play, education, and community discourse is well reflected in the inclusion of nearly all abstract and social traits."
+  "encoding_notes": "This encoding represents chess strategy as a symbolic, abstract, and socially-evolved conceptual tool. It is not a physical or autonomous system but one designed to guide human behavior within a formal ruleset. Its role in structured play, education, and community discourse is well reflected in the inclusion of nearly all abstract and social traits.",
+  "image": "images/chess_strategy.png"
 }

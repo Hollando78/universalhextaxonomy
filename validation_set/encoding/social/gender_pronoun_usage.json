@@ -1,6 +1,7 @@
 {
   "entity": "Gender Pronoun Usage",
   "uht_code": "0084C9FF",
+  "image_url": "/validation_set/images/gender_pronoun_usage.png",
   "traits": {
     "physical": [],
     "functional": [

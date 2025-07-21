@@ -1,6 +1,7 @@
 {
   "entity": "Water Filtration Unit",
   "uht_code": "DFD60205",
+  "image_url": "/validation_set/images/water_filtration_unit.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -63,5 +64,6 @@
     "Context-sensitive": "Excluded — Identity and behavior remain stable across different uses.",
     "Widely known": "Included — Commonly recognized and used in domestic and public contexts."
   },
-  "encoding_notes": "This encoding treats the water filtration unit as a structurally fixed, passive physical mechanism with autonomous function and no symbolic or computational capacity. It includes time-dependence and broad recognizability while excluding overextensions into abstract or interactive domains."
+  "encoding_notes": "This encoding treats the water filtration unit as a structurally fixed, passive physical mechanism with autonomous function and no symbolic or computational capacity. It includes time-dependence and broad recognizability while excluding overextensions into abstract or interactive domains.",
+  "image": "images/water_filtration_unit.png"
 }

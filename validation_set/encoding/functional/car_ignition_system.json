@@ -1,6 +1,7 @@
 {
   "entity": "Car Ignition System",
   "uht_code": "DEFC2005",
+  "image_url": "/validation_set/images/car_ignition_system.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -63,5 +64,6 @@
     "Context-sensitive": "Excluded — Performs the same function regardless of environment.",
     "Widely known": "Included — Well-known component of nearly all vehicles."
   },
-  "encoding_notes": "This encoding treats the ignition system as a functional component embedded in a car's architecture. It scores strongly in the physical and functional layers due to its material presence, human interaction, and purposeful activation of electrical processes. A single abstract trait is included for its logical role in validating startup conditions. Social traits are limited to public recognizability and physical visibility."
+  "encoding_notes": "This encoding treats the ignition system as a functional component embedded in a car's architecture. It scores strongly in the physical and functional layers due to its material presence, human interaction, and purposeful activation of electrical processes. A single abstract trait is included for its logical role in validating startup conditions. Social traits are limited to public recognizability and physical visibility.",
+  "image": "images/car_ignition_system.png"
 }

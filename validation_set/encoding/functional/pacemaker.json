@@ -1,6 +1,7 @@
 {
   "entity": "Pacemaker",
   "uht_code": "FAF72231",
+  "image_url": "/validation_set/images/pacemaker.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -63,5 +64,6 @@
     "Context-sensitive": "Excluded — Behavior is physiological, not socially contextual.",
     "Widely known": "Included — Broadly recognized across medical, technical, and public domains."
   },
-  "encoding_notes": "Encoding reflects the pacemaker as a critical biomedical cybernetic system that emulates natural cardiac rhythm via embedded logic. It is governed, widely recognized, and role-defining for its bearer. Excluded traits are ruled out due to lack of symbolic, communicative, or contextual abstraction functions. The hex code 'FAF72231' preserves alignment with the previously vetted encoding and upholds the minimal-yet-sufficient trait standard."
+  "encoding_notes": "Encoding reflects the pacemaker as a critical biomedical cybernetic system that emulates natural cardiac rhythm via embedded logic. It is governed, widely recognized, and role-defining for its bearer. Excluded traits are ruled out due to lack of symbolic, communicative, or contextual abstraction functions. The hex code 'FAF72231' preserves alignment with the previously vetted encoding and upholds the minimal-yet-sufficient trait standard.",
+  "image": "images/pacemaker.png"
 }

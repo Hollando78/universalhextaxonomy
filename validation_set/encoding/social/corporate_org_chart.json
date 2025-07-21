@@ -1,6 +1,7 @@
 {
   "entity": "Corporate Org Chart",
   "uht_code": "0084B0FF",
+  "image_url": "/validation_set/images/corporate_org_chart.png",
   "traits": {
     "physical": [],
     "functional": [

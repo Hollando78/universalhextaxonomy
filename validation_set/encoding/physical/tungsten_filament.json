@@ -1,6 +1,7 @@
 {
   "entity": "Tungsten Filament",
   "uht_code": "DEC40045",
+  "image_url": "/validation_set/images/tungsten_filament.png",
   "traits": {
     "physical": [
       "Physical object",

@@ -1,6 +1,7 @@
 {
   "entity": "Passport",
   "uht_code": "40DCF9FF",
+  "image_url": "/validation_set/images/passport.png",
   "traits": {
     "physical": [
       "Man-made / synthetic"

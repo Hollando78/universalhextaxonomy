@@ -1,6 +1,7 @@
 {
   "entity": "3D Printer",
   "uht_code": "DEFE3205",
+  "image_url": "/validation_set/images/3d_printer.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -66,5 +67,6 @@
     "Context-sensitive": "Excluded — Functions uniformly regardless of social or environmental context.",
     "Widely known": "Included — Recognized broadly in consumer, educational, and industrial contexts."
   },
-  "encoding_notes": "This encoding reflects the 3D printer as a digitally controlled, semi-autonomous fabrication machine that transforms formal instruction sets into physical output. Its traits emphasize mechanical structure, functional logic, and integration into larger design systems, while remaining grounded in practical, observable operation."
+  "encoding_notes": "This encoding reflects the 3D printer as a digitally controlled, semi-autonomous fabrication machine that transforms formal instruction sets into physical output. Its traits emphasize mechanical structure, functional logic, and integration into larger design systems, while remaining grounded in practical, observable operation.",
+  "image": "images/3d_printer.png"
 }

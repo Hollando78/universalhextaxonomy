@@ -1,6 +1,7 @@
 {
   "entity": "Dust Particle",
   "uht_code": "83000000",
+  "image_url": "/validation_set/images/dust_particle.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -48,5 +49,6 @@
     "Context-sensitive": "Excluded — Exists independently of specific contextual frames.",
     "Widely known": "Excluded — Dust as a category is known, but an individual particle is not culturally salient."
   },
-  "encoding_notes": "This encoding describes a generic, isolated dust particle, not a symbolic aggregate like 'dust' in literature or 'pollution' in policy. Perceptibility and social traits are excluded due to scale and lack of cultural framing. Passive is now correctly included, as a dust particle exhibits no agency or internal behavior."
+  "encoding_notes": "This encoding describes a generic, isolated dust particle, not a symbolic aggregate like 'dust' in literature or 'pollution' in policy. Perceptibility and social traits are excluded due to scale and lack of cultural framing. Passive is now correctly included, as a dust particle exhibits no agency or internal behavior.",
+  "image": "images/dust_particle.png"
 }

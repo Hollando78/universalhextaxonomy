@@ -1,6 +1,7 @@
 {
   "entity": "Turing Machine",
   "uht_code": "40F3FFCF",
+  "image_url": "/validation_set/images/turing_machine.png",
   "traits": {
     "physical": [
       "Man-made / synthetic"
@@ -69,5 +70,6 @@
     "Context-sensitive": "Included — Interpretation depends on the specific configuration and tape alphabet.",
     "Widely known": "Included — A canonical symbol of computation theory."
   },
-  "encoding_notes": "This encoding recognizes the Turing Machine as a purely formal, symbolic, and logical system. Its purpose, outputs, internal transitions, and autonomy in execution qualify it for inclusion of several key functional traits, while all abstract traits are essential. It is not a physical object, but its social and educational significance is widely acknowledged. The corrected code reflects both theoretical fidelity and alignment with UHT’s minimalist encoding philosophy."
+  "encoding_notes": "This encoding recognizes the Turing Machine as a purely formal, symbolic, and logical system. Its purpose, outputs, internal transitions, and autonomy in execution qualify it for inclusion of several key functional traits, while all abstract traits are essential. It is not a physical object, but its social and educational significance is widely acknowledged. The corrected code reflects both theoretical fidelity and alignment with UHT’s minimalist encoding philosophy.",
+  "image": "images/turing_machine.png"
 }

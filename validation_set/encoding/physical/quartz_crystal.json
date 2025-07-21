@@ -1,6 +1,7 @@
 {
   "entity": "Quartz Crystal",
   "uht_code": "9F002203",
+  "image_url": "/validation_set/images/quartz_crystal.png",
   "traits": {
     "physical": [
       "Physical object",

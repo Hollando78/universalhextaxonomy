@@ -1,6 +1,7 @@
 {
   "entity": "Concept of Zero",
   "uht_code": "4080FFCF",
+  "image_url": "/validation_set/images/concept_of_zero.png",
   "traits": {
     "physical": [
       "Man-made / synthetic"
@@ -61,5 +62,6 @@
     "Context-sensitive": "Included — Its interpretation depends on domain and symbolic framework.",
     "Widely known": "Included — Zero is known and used across nearly all cultures and systems."
   },
-  "encoding_notes": "This encoding captures the Concept of Zero as an intentional, symbolic, logical abstraction with cultural and pedagogical significance. It is not a functional agent but plays a critical representational role across disciplines. The code correctly places weight in the abstract and social layers, with minimal physical or functional attribution."
+  "encoding_notes": "This encoding captures the Concept of Zero as an intentional, symbolic, logical abstraction with cultural and pedagogical significance. It is not a functional agent but plays a critical representational role across disciplines. The code correctly places weight in the abstract and social layers, with minimal physical or functional attribution.",
+  "image": "images/concept_of_zero.png"
 }

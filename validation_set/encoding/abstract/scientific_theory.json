@@ -1,6 +1,7 @@
 {
   "entity": "Scientific Theory",
   "uht_code": "4000FFCF",
+  "image_url": "/validation_set/images/scientific_theory.png",
   "traits": {
     "physical": [
       "Man-made / synthetic"
@@ -62,5 +63,6 @@
     "Context-sensitive": "Included — The meaning and applicability of a theory depend on domain-specific assumptions.",
     "Widely known": "Included — Prominent theories are globally recognized in academic, educational, and cultural contexts."
   },
-  "encoding_notes": "This encoding captures the Scientific Theory as an abstract, symbolic, and socially embedded framework for explaining phenomena. While it exhibits all abstract traits, its expression and adoption are deeply influenced by social systems. It does not perform functions on its own but guides epistemic and behavioral structures. The code reflects this abstraction-heavy, socially-defined essence with no functional traits."
+  "encoding_notes": "This encoding captures the Scientific Theory as an abstract, symbolic, and socially embedded framework for explaining phenomena. While it exhibits all abstract traits, its expression and adoption are deeply influenced by social systems. It does not perform functions on its own but guides epistemic and behavioral structures. The code reflects this abstraction-heavy, socially-defined essence with no functional traits.",
+  "image": "images/scientific_theory.png"
 }

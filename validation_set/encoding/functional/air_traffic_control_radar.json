@@ -1,6 +1,7 @@
 {
   "entity": "Air Traffic Control Radar",
   "uht_code": "DEF52211",
+  "image_url": "/validation_set/images/air_traffic_control_radar.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -61,5 +62,6 @@
     "Context-sensitive": "Excluded — Operates based on signal logic, not social or semantic context.",
     "Widely known": "Included — The concept of 'radar' is broadly recognized across technical and public domains."
   },
-  "encoding_notes": "Air Traffic Control Radar is encoded as a regulated, fixed-location signal system that emits, processes, and updates tracking data in real-time. It is part of a broader aviation safety infrastructure, uses formal timing logic, and is widely known but not symbolic or identity-linked. Autonomous and communicative traits are excluded due to operator control and lack of symbolic expression. Final UHT code DEF52211 correctly includes regulated and known status in the social layer."
+  "encoding_notes": "Air Traffic Control Radar is encoded as a regulated, fixed-location signal system that emits, processes, and updates tracking data in real-time. It is part of a broader aviation safety infrastructure, uses formal timing logic, and is widely known but not symbolic or identity-linked. Autonomous and communicative traits are excluded due to operator control and lack of symbolic expression. Final UHT code DEF52211 correctly includes regulated and known status in the social layer.",
+  "image": "images/air_traffic_control_radar.png"
 }

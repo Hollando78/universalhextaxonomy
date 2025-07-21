@@ -1,6 +1,7 @@
 {
   "entity": "Mathematical Equation",
   "uht_code": "408CF1DF",
+  "image_url": "/validation_set/images/mathematical_equation.png",
   "traits": {
     "physical": [
       "Man-made / synthetic"
@@ -61,5 +62,6 @@
     "Context-sensitive": "Included — Interpretation depends on mathematical context (e.g., `x = y` in algebra vs. logic).",
     "Widely known": "Included — The idea of an equation is globally recognized and foundational."
   },
-  "encoding_notes": "This encoding captures the equation as a symbolic, rule-based, communicative structure situated within formal systems and cultural transmission. It is not physical or agentive, but it plays a vital abstract and social role in human knowledge systems."
+  "encoding_notes": "This encoding captures the equation as a symbolic, rule-based, communicative structure situated within formal systems and cultural transmission. It is not physical or agentive, but it plays a vital abstract and social role in human knowledge systems.",
+  "image": "images/mathematical_equation.png"
 }

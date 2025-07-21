@@ -1,6 +1,7 @@
 {
   "entity": "Academic Citation",
   "uht_code": "0084C1FF",
+  "image_url": "/validation_set/images/academic_citation.png",
   "traits": {
     "physical": [],
     "functional": [

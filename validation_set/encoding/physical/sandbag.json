@@ -1,6 +1,7 @@
 {
   "entity": "Sandbag",
   "uht_code": "D3000000",
+  "image_url": "/validation_set/images/sandbag.png",
   "traits": {
     "physical": [
       "Physical object",

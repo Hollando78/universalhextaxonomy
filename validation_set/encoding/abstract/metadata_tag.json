@@ -1,6 +1,7 @@
 {
   "entity": "Metadata Tag",
   "uht_code": "4080F9CF",
+  "image_url": "/validation_set/images/metadata_tag.png",
   "traits": {
     "physical": [
       "Man-made / synthetic"
@@ -62,5 +63,6 @@
     "Context-sensitive": "Included — The interpretation of a tag varies by system or domain.",
     "Widely known": "Included — The concept of tagging is pervasive across platforms and domains."
   },
-  "encoding_notes": "A metadata tag is a symbolic abstraction used to structure and describe data. It is a communicative and behavior-guiding unit designed for context-dependent interpretation within data systems. Though essential to metadata infrastructure, it is not inherently physical or functional—it is an informational construct embedded in human-made logical and social frameworks."
+  "encoding_notes": "A metadata tag is a symbolic abstraction used to structure and describe data. It is a communicative and behavior-guiding unit designed for context-dependent interpretation within data systems. Though essential to metadata infrastructure, it is not inherently physical or functional—it is an informational construct embedded in human-made logical and social frameworks.",
+  "image": "images/metadata_tag.png"
 }

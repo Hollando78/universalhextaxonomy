@@ -1,6 +1,7 @@
 {
   "entity": "Snowflake",
   "uht_code": "9F000001",
+  "image_url": "/validation_set/images/snowflake.png",
   "traits": {
     "physical": [
       "Physical object",

@@ -1,6 +1,7 @@
 {
   "entity": "Robotic Arm",
   "uht_code": "FEFE2005",
+  "image_url": "/validation_set/images/robotic_arm.png",
   "traits": {
     "physical": [
       "Physical object",
@@ -65,5 +66,6 @@
     "Context-sensitive": "Excluded — Maintains identity across contexts.",
     "Widely known": "Included — Widely recognized as a component of robotics and automation."
   },
-  "encoding_notes": "This encoding treats the robotic arm as a programmable, articulated mechanical agent within a functional and physical system. It is bio-inspired and interacts with humans in various domains but is not socially constructed or symbolically expressive. High representation in physical and functional layers reflects its engineered form and behavior."
+  "encoding_notes": "This encoding treats the robotic arm as a programmable, articulated mechanical agent within a functional and physical system. It is bio-inspired and interacts with humans in various domains but is not socially constructed or symbolically expressive. High representation in physical and functional layers reflects its engineered form and behavior.",
+  "image": "images/robotic_arm.png"
 }
