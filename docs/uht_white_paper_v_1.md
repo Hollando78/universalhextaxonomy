@@ -141,8 +141,8 @@ Comparing two UHT codes by their Hamming distance—the number of differing bits
 
 | Entity A             | Code      | Entity B             | Code      | Hamming Distance |
 |----------------------|-----------|----------------------|-----------|------------------|
-| Mechanical Clock     | CEF02205  | Digital Alarm Clock  | DEF82205  | 5                |
-| Coffee Machine       | EEF62225  | Water Filtration Unit| EEF40221  | 4                |
+| Mechanical Clock     | DEF42205  | Digital Alarm Clock  | DEF82205  | 2                |
+| Coffee Machine       | DEFA2205  | Water Filtration Unit| DFD60205  | 5                |
 | Paperclip            | D78800C5  | National Anthem      | 0080C9FF  | 18               |
 
 **Intuitive Results:**
