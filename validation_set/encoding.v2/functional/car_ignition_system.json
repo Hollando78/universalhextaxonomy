@@ -1,69 +1,75 @@
 {
   "entity": "Car Ignition System",
-  "uht_code": "DEFC2005",
+  "uht_code": "5BFF6219",
   "image_url": "/validation_set/images/car_ignition_system.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Physical object",
-      "Man-made / synthetic",
-      "Fixed/static",
+      "Synthetic",
+      "Powered",
       "Structural",
-      "Perceptible",
-      "Material form"
+      "Physical Medium",
+      "Active"
     ],
     "functional": [
-      "Purposeful / intentional",
-      "Emits output / produces effect",
-      "Processes or regulates logic/signals",
-      "Transforms or modifies internal state",
-      "Interacts with humans directly",
-      "Part of a larger system"
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Processes Signals/Logic",
+      "State-Transforming",
+      "Human-Interactive",
+      "System-integrated",
+      "Functionally Autonomous",
+      "System-Essential"
     ],
     "abstract": [
-      "Logical / rule-based"
+      "Signalling",
+      "Rule-governed",
+      "Temporal"
     ],
     "social": [
-      "Visible",
-      "Widely known"
+      "Regulated",
+      "Economically Significant",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Included — A tangible hardware assembly within the car's engine system.",
-    "Man-made / synthetic": "Included — Designed and manufactured entirely by humans.",
-    "Biological or biologically-inspired": "Excluded — Purely mechanical/electrical in design and function.",
-    "Fixed/static": "Included — Installed in a permanent position within the vehicle.",
-    "Structural": "Included — Composed of interconnected housing, switches, and wiring.",
-    "Perceptible": "Included — User-facing interface elements such as key slot or start button.",
-    "Material form": "Included — Constructed from metal, plastic, and electronic components.",
-    "Passive": "Excluded — Actively engages the ignition and control circuitry.",
+    "Physical Object": "Excluded — The ignition system is a distributed set of components rather than a singular, bounded object.",
+    "Synthetic": "Included — Engineered and assembled using industrial processes.",
+    "Biological/Biomimetic": "Excluded — No relationship to biological systems.",
+    "Powered": "Included — Requires battery power to drive sensors, ignition coils, and ECUs.",
+    "Structural": "Included — Embedded physically in the engine and dashboard architecture.",
+    "Observable": "Excluded — Only visible through user interface elements, not as a unit.",
+    "Physical Medium": "Included — Built from metal, wiring, and electronic modules.",
+    "Active": "Included — Drives electrical and mechanical changes to initiate engine function.",
+
+    "Intentionally Designed": "Included — Built specifically to control engine startup and input logic.",
+    "Outputs Effect": "Included — Triggers electrical and mechanical ignition events.",
+    "Processes Signals/Logic": "Included — Validates key/fob, handles timing and conditions.",
+    "State-Transforming": "Included — Switches engine from off to active.",
+    "Human-Interactive": "Included — Activated via key, button, or electronic trigger by the driver.",
+    "System-integrated": "Included — Embedded within vehicle’s engine and control system.",
+    "Functionally Autonomous": "Included — Operates automatically once triggered.",
+    "System-Essential": "Included — Without it, the vehicle cannot start.",
     
-    "Purposeful / intentional": "Included — Built to initiate the engine's start sequence.",
-    "Emits output / produces effect": "Included — Produces ignition spark and system activation signals.",
-    "Processes or regulates logic/signals": "Included — Especially in modern cars with anti-theft and diagnostics.",
-    "Transforms or modifies internal state": "Included — Transitions the engine and vehicle systems from 'off' to 'on'.",
-    "Interacts with humans directly": "Included — Requires human input (turn key, press button, detect key fob).",
-    "Part of a larger system": "Included — Functions within the broader vehicle electrical and mechanical system.",
-    "Autonomous in function": "Excluded — Requires a deliberate user action to initiate.",
-    "System-critical": "Excluded — Critical for start, but bypassable with overrides in some systems.",
+    "Symbolic": "Excluded — Not inherently representational.",
+    "Signalling": "Included — Communicates ignition status via dashboard lights, feedback tones, and security indicators.",
+    "Rule-governed": "Included — Operates under deterministic timing and safety logic.",
+    "Compositional": "Excluded — Not an abstract modular system.",
+    "Normative": "Excluded — Does not prescribe behavior.",
+    "Meta": "Excluded — Does not self-represent or manage metadata.",
+    "Temporal": "Included — Relies on timing for ignition spark and safety delays.",
+    "Digital/Virtual": "Excluded — A physical system.",
     
-    "Symbolic / representational": "Excluded — Not a representational or metaphorical device.",
-    "Communicative": "Excluded — Interfaces with system but not designed to transmit symbolic messages.",
-    "Logical / rule-based": "Included — Executes startup conditions and safety logic.",
-    "Hierarchical / modular": "Excluded — Not abstractly modular beyond physical subcomponents.",
-    "Behavior-guiding": "Excluded — Does not guide behavior directly.",
-    "Self-referential / meta-conceptual": "Excluded — No self-monitoring or conceptual tracking.",
-    "Temporal": "Excluded — Functions instantly; not defined by time management.",
-    "Contextual abstraction": "Excluded — Role is consistent across vehicle contexts.",
-    
-    "Socially / culturally constructed": "Excluded — Functionally standardized across cultures.",
-    "Defined by a group/system": "Excluded — Standardized by engineering, not semantically.",
-    "Linked to identity or role": "Excluded — Not associated with personal or social roles.",
-    "Regulated / governed": "Excluded — Subject to safety standards, but not an intrinsic regulatory artifact.",
-    "Teachable / transmissible": "Excluded — Commonly taught, but not inherently educative.",
-    "Visible": "Included — Interface components are user-facing.",
-    "Context-sensitive": "Excluded — Performs the same function regardless of environment.",
-    "Widely known": "Included — Well-known component of nearly all vehicles."
+    "Social Construct": "Excluded — Defined materially and functionally, not by social agreement.",
+    "Institutionally Defined": "Excluded — Defined by engineering and design, not by classification alone.",
+    "Identity-Linked": "Excluded — Not tied to identity or symbolic role.",
+    "Regulated": "Included — Subject to formal emissions, anti-theft, and safety standards.",
+    "Economically Significant": "Included — Critical to the function and value of all vehicles.",
+    "Politicised": "Excluded — Not subject to ideological conflict or cultural controversy.",
+    "Ritualised": "Excluded — Not involved in cultural or ceremonial behavior.",
+    "Ethically Significant": "Included — Directly tied to safety, theft prevention, and emissions responsibility."
   },
-  "encoding_notes": "This encoding treats the ignition system as a functional component embedded in a car's architecture. It scores strongly in the physical and functional layers due to its material presence, human interaction, and purposeful activation of electrical processes. A single abstract trait is included for its logical role in validating startup conditions. Social traits are limited to public recognizability and physical visibility.",
-  "image": "images/car_ignition_system.png"
+  "encoding_notes": "This encoding defines the ignition system as a structurally embedded, functionally autonomous subsystem critical to vehicle operation. It communicates with users and is subject to regulation, reflecting its real-world complexity."
 }
