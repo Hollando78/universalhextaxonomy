@@ -1,0 +1,68 @@
+{
+  "traits": [
+    {
+      "bit": 1,
+      "name": "Physical Object",
+      "layer": "Physical",
+      "short_description": "A discrete, bounded physical entity.",
+      "expanded_definition": "A tangible object that has physical boundaries and occupies space. It is not a process, idea, or distributed field. Physical objects may be natural or artificial, but their form is defined by matter and boundedness.",
+      "url": "https://universalhex.org/traits/1"
+    },
+    {
+      "bit": 2,
+      "name": "Synthetic",
+      "layer": "Physical",
+      "short_description": "Created or manufactured by humans.",
+      "expanded_definition": "The entity was created, manufactured, constructed, or significantly shaped by human activity or intention. It contrasts with natural formations that emerge without design or intervention.",
+      "url": "https://universalhex.org/traits/2"
+    },
+    {
+      "bit": 3,
+      "name": "Biological/Biomimetic",
+      "layer": "Physical",
+      "short_description": "Has biological origin or structure inspired by biology.",
+      "expanded_definition": "Either a biological organism, component, or artifact that mimics or draws design inspiration from biological structures or behaviors (e.g., neural nets, bionic limbs).",
+      "url": "https://universalhex.org/traits/3"
+    },
+    {
+      "bit": 4,
+      "name": "Powered",
+      "layer": "Physical",
+      "short_description": "Functionally dependent on supplied energy.",
+      "expanded_definition": "The entity requires an energy source (electrical, chemical, kinetic, etc.) to operate or activate. This reliance on power is embedded in its design or structure, even if dormant.",
+      "url": "https://universalhex.org/traits/4"
+    },
+    {
+      "bit": 5,
+      "name": "Structural",
+      "layer": "Physical",
+      "short_description": "Serves a load-bearing or structural function.",
+      "expanded_definition": "An element that contributes to the integrity or stability of a larger physical form, especially in engineered or constructed systems. Often crucial for shape retention, safety, or support.",
+      "url": "https://universalhex.org/traits/5"
+    },
+    {
+      "bit": 6,
+      "name": "Observable",
+      "layer": "Physical",
+      "short_description": "Detectable by human senses or instruments.",
+      "expanded_definition": "The entity can be directly sensed — visually, audibly, tactilely — without requiring deep interpretation. It may also be detectable through instruments that extend human perception.",
+      "url": "https://universalhex.org/traits/6"
+    },
+    {
+      "bit": 7,
+      "name": "Physical Medium",
+      "layer": "Physical",
+      "short_description": "Composed of physical matter.",
+      "expanded_definition": "The entity has substance, occupying space and consisting of matter. This distinguishes it from data, ideas, or energy patterns with no physical substrate.",
+      "url": "https://universalhex.org/traits/7"
+    },
+    {
+      "bit": 8,
+      "name": "Active",
+      "layer": "Physical",
+      "short_description": "Capable of initiating behavior or internal change.",
+      "expanded_definition": "The entity is capable of autonomous or internally driven change or behavior. It contrasts with passive entities that only respond when acted upon.",
+      "url": "https://universalhex.org/traits/8"
+    }
+  ]
+}

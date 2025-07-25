@@ -1,0 +1,260 @@
+{
+  "traits": [
+    {
+      "bit": 1,
+      "name": "Physical Object",
+      "layer": "Physical",
+      "short_description": "A discrete, bounded physical entity.",
+      "expanded_definition": "A tangible object that has physical boundaries and occupies space. It is not a process, idea, or distributed field. Physical objects may be natural or artificial, but their form is defined by matter and boundedness.",
+      "url": "https://universalhex.org/traits/1"
+    },
+    {
+      "bit": 2,
+      "name": "Synthetic",
+      "layer": "Physical",
+      "short_description": "Created or manufactured by humans.",
+      "expanded_definition": "The entity was created, manufactured, constructed, or significantly shaped by human activity or intention. It contrasts with natural formations that emerge without design or intervention.",
+      "url": "https://universalhex.org/traits/2"
+    },
+    {
+      "bit": 3,
+      "name": "Biological/Biomimetic",
+      "layer": "Physical",
+      "short_description": "Has biological origin or structure inspired by biology.",
+      "expanded_definition": "Either a biological organism, component, or artifact that mimics or draws design inspiration from biological structures or behaviors (e.g., neural nets, bionic limbs).",
+      "url": "https://universalhex.org/traits/3"
+    },
+    {
+      "bit": 4,
+      "name": "Powered",
+      "layer": "Physical",
+      "short_description": "Immobile or permanently affixed.",
+      "expanded_definition": "An entity that is stationary by design or physical circumstance. It is not intended to move freely and is either affixed in place or has inherent stability that resists movement.",
+      "url": "https://universalhex.org/traits/4"
+    },
+    {
+      "bit": 5,
+      "name": "Structural",
+      "layer": "Physical",
+      "short_description": "Serves a load-bearing or structural function.",
+      "expanded_definition": "An element that contributes to the integrity or stability of a larger physical form, especially in engineered or constructed systems. Often crucial for shape retention, safety, or support.",
+      "url": "https://universalhex.org/traits/5"
+    },
+    {
+      "bit": 6,
+      "name": "Observable",
+      "layer": "Physical",
+      "short_description": "Detectable by human senses or instruments.",
+      "expanded_definition": "The entity can be directly sensed \u2014 visually, audibly, tactilely \u2014 without requiring deep interpretation. It may also be detectable through instruments that extend human perception.",
+      "url": "https://universalhex.org/traits/6"
+    },
+    {
+      "bit": 7,
+      "name": "Physical Medium",
+      "layer": "Physical",
+      "short_description": "Composed of physical matter.",
+      "expanded_definition": "The entity has substance, occupying space and consisting of matter. This distinguishes it from data, ideas, or energy patterns with no physical substrate.",
+      "url": "https://universalhex.org/traits/7"
+    },
+    {
+      "bit": 8,
+      "name": "Active",
+      "layer": "Physical",
+      "short_description": "Lacks autonomous behavior; responds only to external forces.",
+      "expanded_definition": "The entity does not initiate actions or exhibit behavior on its own. It may respond when acted upon but lacks agency or internal dynamism.",
+      "url": "https://universalhex.org/traits/8"
+    },
+    {
+      "bit": 9,
+      "name": "Intentionally Designed",
+      "layer": "Functional",
+      "short_description": "Designed or intended for a specific function.",
+      "expanded_definition": "The entity was created or adapted with a goal, use, or deliberate purpose in mind. Its form or behavior reflects an intentional function.",
+      "url": "https://universalhex.org/traits/9"
+    },
+    {
+      "bit": 10,
+      "name": "Outputs Effect",
+      "layer": "Functional",
+      "short_description": "Actively produces signals, energy, or effects.",
+      "expanded_definition": "The entity generates or outputs some measurable effect, such as light, sound, force, heat, or information, in its typical operation.",
+      "url": "https://universalhex.org/traits/10"
+    },
+    {
+      "bit": 11,
+      "name": "Processes Signals/Logic",
+      "layer": "Functional",
+      "short_description": "Performs information processing or control.",
+      "expanded_definition": "The entity interprets, transforms, or routes inputs such as data, logic, or signals \u2014 mechanically, electronically, or symbolically.",
+      "url": "https://universalhex.org/traits/11"
+    },
+    {
+      "bit": 12,
+      "name": "State-Transforming",
+      "layer": "Functional",
+      "short_description": "Undergoes internal change or self\u2011modification.",
+      "expanded_definition": "The entity can change its own internal configuration, condition, or status based on inputs or internal mechanisms.",
+      "url": "https://universalhex.org/traits/12"
+    },
+    {
+      "bit": 13,
+      "name": "Human-Interactive",
+      "layer": "Functional",
+      "short_description": "Interfaces with humans purposefully.",
+      "expanded_definition": "The entity is designed to be used, touched, interpreted, or activated by humans as part of its typical function.",
+      "url": "https://universalhex.org/traits/13"
+    },
+    {
+      "bit": 14,
+      "name": "System-integrated",
+      "layer": "Functional",
+      "short_description": "Inherently integrated within a system or network.",
+      "expanded_definition": "This entity depends on or operates within a structured set of other entities. Its role is defined in part by the system it belongs to.",
+      "url": "https://universalhex.org/traits/14"
+    },
+    {
+      "bit": 15,
+      "name": "Functionally Autonomous",
+      "layer": "Functional",
+      "short_description": "Operates without external control; self\u2011governing.",
+      "expanded_definition": "The entity performs actions or operations independently, often using internal logic or sensing to adapt to conditions.",
+      "url": "https://universalhex.org/traits/15"
+    },
+    {
+      "bit": 16,
+      "name": "System-Essential",
+      "layer": "Functional",
+      "short_description": "Essential to a system\u2019s operation or integrity.",
+      "expanded_definition": "The system would fail, degrade, or lose identity if this component were removed or failed. It is integral to the whole.",
+      "url": "https://universalhex.org/traits/16"
+    },
+    {
+      "bit": 17,
+      "name": "Symbolic",
+      "layer": "Abstract",
+      "short_description": "Represents ideas, concepts, or other entities.",
+      "expanded_definition": "The entity stands in for something else \u2014 such as an idea, reference, or identity \u2014 through symbols, signs, models, or proxies.",
+      "url": "https://universalhex.org/traits/17"
+    },
+    {
+      "bit": 18,
+      "name": "Signalling",
+      "layer": "Abstract",
+      "short_description": "Transmits information or meaning.",
+      "expanded_definition": "The entity conveys or encodes information intentionally through signals, language, media, or conventions.",
+      "url": "https://universalhex.org/traits/18"
+    },
+    {
+      "bit": 19,
+      "name": "Rule-governed",
+      "layer": "Abstract",
+      "short_description": "Governed by abstract rules or logic.",
+      "expanded_definition": "The behavior or structure of the entity is defined by formal or abstract rules \u2014 such as algorithms, grammars, protocols, or laws.",
+      "url": "https://universalhex.org/traits/19"
+    },
+    {
+      "bit": 20,
+      "name": "Compositional",
+      "layer": "Abstract",
+      "short_description": "Structured in layers or modules.",
+      "expanded_definition": "The entity has parts or subcomponents arranged into a meaningful hierarchy or modular pattern.",
+      "url": "https://universalhex.org/traits/20"
+    },
+    {
+      "bit": 21,
+      "name": "Normative",
+      "layer": "Abstract",
+      "short_description": "Directs or constrains behavior or actions.",
+      "expanded_definition": "The entity serves to influence or govern actions, often by instruction, rule, example, or constraint.",
+      "url": "https://universalhex.org/traits/21"
+    },
+    {
+      "bit": 22,
+      "name": "Meta",
+      "layer": "Abstract",
+      "short_description": "Refers to itself or to conceptual structures.",
+      "expanded_definition": "The entity addresses or reflects upon itself, its category, or the system that defines it. Often used in reflection or abstraction.",
+      "url": "https://universalhex.org/traits/22"
+    },
+    {
+      "bit": 23,
+      "name": "Temporal",
+      "layer": "Abstract",
+      "short_description": "Has intrinsic temporal ordering or dynamics.",
+      "expanded_definition": "Time plays a defining role in the entity\u2019s identity, structure, or effect. It may unfold over time or embed a timeline.",
+      "url": "https://universalhex.org/traits/23"
+    },
+    {
+      "bit": 24,
+      "name": "Digital/Virtual",
+      "layer": "Abstract",
+      "short_description": "Abstracted based on context or perspective.",
+      "expanded_definition": "The meaning or structure of the entity depends heavily on context, framing, or level of abstraction applied.",
+      "url": "https://universalhex.org/traits/24"
+    },
+    {
+      "bit": 25,
+      "name": "Social Construct",
+      "layer": "Social",
+      "short_description": "Exists by virtue of social or cultural meaning.",
+      "expanded_definition": "The entity derives existence or identity from collective understanding or consensus. It is not purely natural or material.",
+      "url": "https://universalhex.org/traits/25"
+    },
+    {
+      "bit": 26,
+      "name": "Institutionally Defined",
+      "layer": "Social",
+      "short_description": "Classification depends on institutional or systemic definitions.",
+      "expanded_definition": "The entity\u2019s definition, category, or function is based on formal rules, standards, or group agreement (e.g., legal terms, medical categories).",
+      "url": "https://universalhex.org/traits/26"
+    },
+    {
+      "bit": 27,
+      "name": "Identity-Linked",
+      "layer": "Social",
+      "short_description": "Tied to a social identity or functional role.",
+      "expanded_definition": "The entity is associated with a personal, social, or occupational role or function \u2014 such as titles, uniforms, or user roles.",
+      "url": "https://universalhex.org/traits/27"
+    },
+    {
+      "bit": 28,
+      "name": "Regulated",
+      "layer": "Social",
+      "short_description": "Subject to rules, norms, or regulation.",
+      "expanded_definition": "The entity is formally or informally regulated by laws, standards, norms, or institutional procedures.",
+      "url": "https://universalhex.org/traits/28"
+    },
+    {
+      "bit": 29,
+      "name": "Economically Significant",
+      "layer": "Social",
+      "short_description": "Functions as a unit of education or transmission.",
+      "expanded_definition": "The entity is part of cultural or institutional learning. It is passed on through training, teaching, or demonstration.",
+      "url": "https://universalhex.org/traits/29"
+    },
+    {
+      "bit": 30,
+      "name": "Politicised",
+      "layer": "Social",
+      "short_description": "Openly known or publicly recognizable.",
+      "expanded_definition": "The entity is perceptible not just physically, but in terms of its recognized social presence, status, or attention.",
+      "url": "https://universalhex.org/traits/30"
+    },
+    {
+      "bit": 31,
+      "name": "Ritualised",
+      "layer": "Social",
+      "short_description": "Meaning or function shifts based on context.",
+      "expanded_definition": "The social or functional meaning of the entity changes significantly depending on where, when, or how it is used.",
+      "url": "https://universalhex.org/traits/31"
+    },
+    {
+      "bit": 32,
+      "name": "Ethically Significant",
+      "layer": "Social",
+      "short_description": "Universally or broadly known across cultures.",
+      "expanded_definition": "The entity has broad recognition or familiarity in a culture, globally or within a defined population.",
+      "url": "https://universalhex.org/traits/32"
+    }
+  ]
+}
