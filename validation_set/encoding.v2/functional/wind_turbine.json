@@ -1,70 +1,74 @@
 {
   "entity": "Wind Turbine",
-  "uht_code": "DEF62205",
+  "uht_code": "DFF6220D",
   "image_url": "/validation_set/images/wind_turbine.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Physical object",
-      "Man-made / synthetic",
-      "Fixed/static",
+      "Physical Object",
+      "Synthetic",
+      "Powered",
       "Structural",
-      "Perceptible",
-      "Material form"
+      "Observable",
+      "Physical Medium",
+      "Active"
     ],
     "functional": [
-      "Purposeful / intentional",
-      "Emits output / produces effect",
-      "Processes or regulates logic/signals",
-      "Transforms or modifies internal state",
-      "Part of a larger system",
-      "Autonomous in function"
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Processes Signals/Logic",
+      "State-Transforming",
+      "System-integrated",
+      "Functionally Autonomous"
     ],
     "abstract": [
-      "Logical / rule-based",
+      "Rule-governed",
       "Temporal"
     ],
     "social": [
-      "Visible",
-      "Widely known"
+      "Economically Significant",
+      "Politicised",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Included — A large, physically installed machine composed of mechanical and electronic components.",
-    "Man-made / synthetic": "Included — Entirely engineered and manufactured by humans.",
-    "Biological or biologically-inspired": "Excluded — Not modeled after biological systems or behaviors.",
-    "Fixed/static": "Included — Stationary tower structure anchored in place.",
-    "Structural": "Included — Load-bearing design critical to its mechanical function.",
-    "Perceptible": "Included — Highly visible in landscape; audible in operation.",
-    "Material form": "Included — Constructed from composite, steel, and other engineered materials.",
-    "Passive": "Excluded — Actively converts wind into energy via motion and control logic.",
-
-    "Purposeful / intentional": "Included — Designed explicitly for harvesting wind energy.",
-    "Emits output / produces effect": "Included — Produces mechanical or electrical power output.",
-    "Processes or regulates logic/signals": "Included — Embedded control systems manage rotation, yaw, and pitch.",
-    "Transforms or modifies internal state": "Included — Adjusts settings and modes based on wind and system data.",
-    "Interacts with humans directly": "Excluded — Operates remotely, not designed for user interaction.",
-    "Part of a larger system": "Included — Integrated with wind farms and energy grids.",
-    "Autonomous in function": "Included — Performs key operations without direct human input.",
-    "System-critical": "Excluded — Can be taken offline or replaced without total system failure.",
-
-    "Symbolic / representational": "Excluded — Functional rather than symbolic.",
-    "Communicative": "Excluded — Not intended to transmit information symbolically.",
-    "Logical / rule-based": "Included — Governed by programmed rules for safe and efficient operation.",
-    "Hierarchical / modular": "Excluded — Has subsystems but not abstractly modular.",
-    "Behavior-guiding": "Excluded — Does not influence human behavior directly.",
-    "Self-referential / meta-conceptual": "Excluded — Not capable of reflective or conceptual modeling.",
-    "Temporal": "Included — Continuously measures wind speed and reacts over time.",
-    "Contextual abstraction": "Excluded — Interprets environment physically, not abstractly.",
-
-    "Socially / culturally constructed": "Excluded — Recognized across cultures but not culturally defined.",
-    "Defined by a group/system": "Excluded — Subject to regulations, but definition is technical, not semantic.",
-    "Linked to identity or role": "Excluded — Not tied to social or personal identity.",
-    "Regulated / governed": "Excluded — While regulated in use, regulation is external.",
-    "Teachable / transmissible": "Excluded — Education about it is common, but not inherent to the device.",
-    "Visible": "Included — Prominent in landscapes and often discussed in public discourse.",
-    "Context-sensitive": "Excluded — Performs the same functional role across contexts.",
-    "Widely known": "Included — A globally familiar renewable energy technology."
+    "Physical Object": "Included — A massive discrete structure with clearly defined boundaries.",
+    "Synthetic": "Included — Manufactured and assembled through human industrial processes.",
+    "Biological/Biomimetic": "Excluded — While some blades may be inspired by biology, biomimicry is not essential to the identity of a wind turbine.",
+    "Powered": "Included — Requires electricity to operate yaw motors, blade pitch control, sensors, and control systems.",
+    "Structural": "Included — Reinforced tower and nacelle architecture provide load-bearing support.",
+    "Observable": "Included — Visually and aurally perceptible from long distances.",
+    "Physical Medium": "Included — Composed of tangible materials like steel, carbon fiber, concrete.",
+    "Active": "Included — Continuously rotates, tracks wind, and adjusts orientation or pitch.",
+    
+    "Intentionally Designed": "Included — Purpose-built to harvest wind energy and convert it into electricity.",
+    "Outputs Effect": "Included — Produces electrical output with measurable external consequence.",
+    "Processes Signals/Logic": "Included — Onboard systems process sensor data and control blade pitch, yaw, and braking.",
+    "State-Transforming": "Included — Adjusts multiple internal and environmental-facing states in real-time.",
+    "Human-Interactive": "Excluded — Operates autonomously with minimal direct manipulation.",
+    "System-integrated": "Included — Deployed as part of a wind farm or energy grid.",
+    "Functionally Autonomous": "Included — Manages its behavior and safety in changing wind conditions.",
+    "System-Essential": "Excluded — Replaceable and modular; no single turbine is indispensable.",
+    
+    "Signalling": "Excluded — Does not communicate symbolic or informational content to humans.",
+    "Rule-governed": "Included — Operates according to well-defined control logic and physical laws.",
+    "Temporal": "Included — Function is fundamentally tied to time-based dynamics (wind patterns, cycles).",
+    "Symbolic": "Excluded — May be symbolic in context, but not intrinsically.",
+    "Compositional": "Excluded — Not abstractly modular in its encoded structure.",
+    "Normative": "Excluded — Does not prescribe behavior.",
+    "Meta": "Excluded — Not self-referential.",
+    "Digital/Virtual": "Excluded — Encoded here as a physical energy system.",
+    
+    "Economically Significant": "Included — A core component of modern renewable infrastructure and capital investment.",
+    "Politicised": "Included — Frequently debated in energy policy, land use, and climate discourse.",
+    "Ethically Significant": "Included — Directly tied to climate ethics and environmental sustainability.",
+    "Social Construct": "Excluded — Material object with intrinsic function.",
+    "Institutionally Defined": "Excluded — Not defined by institutional fiat.",
+    "Identity-Linked": "Excluded — Not inherently tied to individual or group identity.",
+    "Regulated": "Excluded — Subject to policy constraints, but not intrinsically defined by them.",
+    "Ritualised": "Excluded — Not used in ceremonial contexts."
   },
-  "encoding_notes": "This encoding treats the wind turbine as an industrial energy-generation mechanism. It emphasizes its engineered material form, functional automation, and logical control systems. While perceptible and visible, social traits are limited to public familiarity rather than culturally constructed meaning. Abstract traits reflect internal control logic and time-based operation, without symbolic or communicative intention.",
-  "image": "images/wind_turbine.png"
+  "encoding_notes": "This encoding treats the wind turbine as an autonomous, powered, system-integrated energy technology. Biomimicry was excluded based on the minimalist standard, as it is not essential to the category. Final UHT code: DFF6220D."
 }

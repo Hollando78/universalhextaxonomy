@@ -1,69 +1,73 @@
 {
   "entity": "Mechanical Clock",
-  "uht_code": "DEF42205",
+  "uht_code": "DFFD6208",
   "image_url": "/validation_set/images/mechanical_clock.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Physical object",
-      "Man-made / synthetic",
-      "Fixed/static",
+      "Physical Object",
+      "Synthetic",
+      "Powered",
       "Structural",
-      "Perceptible",
-      "Material form"
+      "Observable",
+      "Physical Medium",
+      "Active"
     ],
     "functional": [
-      "Purposeful / intentional",
-      "Emits output / produces effect",
-      "Processes or regulates logic/signals",
-      "Transforms or modifies internal state",
-      "Part of a larger system"
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Processes Signals/Logic",
+      "State-Transforming",
+      "Human-Interactive",
+      "Functionally Autonomous"
     ],
     "abstract": [
-      "Logical / rule-based",
+      "Signalling",
+      "Rule-governed",
       "Temporal"
     ],
     "social": [
-      "Visible",
-      "Widely known"
+      "Economically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Included — A tangible mechanical device composed of gears, hands, and casing.",
-    "Man-made / synthetic": "Included — Designed and constructed by humans.",
-    "Biological or biologically-inspired": "Excluded — Mechanisms are based on physics and engineering, not biology.",
-    "Fixed/static": "Included — Generally stationary and not meant to be moved during operation.",
-    "Structural": "Included — Its internal operation depends on precise physical structure (gears, springs, escapement).",
-    "Perceptible": "Included — Meant to be seen and/or heard (e.g., ticking or chimes).",
-    "Material form": "Included — Made from durable, manufactured materials (metal, glass, etc.).",
-    "Passive": "Excluded — Actively moves through internal mechanical energy.",
+    "Physical Object": "Included — A discrete and tangible mechanical housing with moving parts.",
+    "Synthetic": "Included — Crafted by humans using industrial or artisanal methods.",
+    "Biological/Biomimetic": "Excluded — Not inspired by or derived from biological forms.",
+    "Powered": "Included — Requires wound spring, gravity, or kinetic energy input.",
+    "Structural": "Included — Rigid framework of gears, shafts, and supports.",
+    "Observable": "Included — Movement and dial are perceptible to human senses.",
+    "Physical Medium": "Included — Built from tangible materials (wood, brass, glass, etc.).",
+    "Active": "Included — Moves autonomously while powered.",
     
-    "Purposeful / intentional": "Included — Designed to keep and display time.",
-    "Emits output / produces effect": "Included — Shows time visually and sometimes audibly.",
-    "Processes or regulates logic/signals": "Included — Internal escapement mechanism regulates consistent time intervals.",
-    "Transforms or modifies internal state": "Included — Winding modifies spring tension; mechanisms release energy over time.",
-    "Interacts with humans directly": "Excluded — Users observe it but do not interact with it functionally.",
-    "Part of a larger system": "Included — May synchronize or be integrated into broader timekeeping or architectural systems.",
-    "Autonomous in function": "Excluded — Requires periodic winding or external energy input.",
-    "System-critical": "Excluded — Timekeeping is often helpful but not mission-critical in most settings.",
+    "Intentionally Designed": "Included — Engineered specifically to keep and display time.",
+    "Outputs Effect": "Included — Emits structured output (time display, ticking, chimes).",
+    "Processes Signals/Logic": "Included — Regulates motion via mechanical logic (escapement, ratios).",
+    "State-Transforming": "Included — Advances its internal state in relation to time passage.",
+    "Human-Interactive": "Included — Set, adjusted, and wound by human users.",
+    "System-integrated": "Excluded — Typically self-contained, not embedded in larger functional networks.",
+    "Functionally Autonomous": "Included — Runs independently once activated.",
+    "System-Essential": "Excluded — Not required as a component within another system.",
     
-    "Symbolic / representational": "Excluded — Not inherently symbolic or abstract.",
-    "Communicative": "Excluded — Displays time but not in a communicative or coded way.",
-    "Logical / rule-based": "Included — Internally operates on consistent, rule-based mechanical logic.",
-    "Hierarchical / modular": "Excluded — Not composed of conceptual modules, only mechanical parts.",
-    "Behavior-guiding": "Excluded — It provides information but doesn’t prescribe behavior.",
-    "Self-referential / meta-conceptual": "Excluded — Does not reflect on itself or represent abstract systems.",
-    "Temporal": "Included — Core function is to represent and track time.",
-    "Contextual abstraction": "Excluded — Operates consistently regardless of symbolic or abstract context.",
+    "Signalling": "Included — Communicates structured temporal information via dials or sound.",
+    "Rule-governed": "Included — Operates under fixed, formal physical rules.",
+    "Temporal": "Included — Identity and purpose are defined entirely by timekeeping.",
+    "Symbolic": "Excluded — May have symbolic meaning contextually, but not intrinsically.",
+    "Compositional": "Excluded — Not composed of abstract modular subunits.",
+    "Normative": "Excluded — Does not prescribe behavior.",
+    "Meta": "Excluded — Not self-referential.",
+    "Digital/Virtual": "Excluded — Entirely physical and analog.",
     
-    "Socially / culturally constructed": "Excluded — Functionally universal, not constructed by cultural consensus.",
-    "Defined by a group/system": "Excluded — Exists across many systems but not semantically defined by any one.",
-    "Linked to identity or role": "Excluded — Not tied to personal or social roles.",
-    "Regulated / governed": "Excluded — Some clocks are certified, but the concept isn’t intrinsically governed.",
-    "Teachable / transmissible": "Excluded — Can be taught, but this is not central to its form.",
-    "Visible": "Included — Deliberately designed to be viewed (often publicly).",
-    "Context-sensitive": "Excluded — Displays absolute time, not contextually altered.",
-    "Widely known": "Included — Clocks are globally recognized and ubiquitous."
+    "Economically Significant": "Included — Historically foundational to industrial and maritime systems; still valuable in luxury and precision timekeeping markets.",
+    "Politicised": "Excluded — Not involved in political discourse or regulation.",
+    "Ritualised": "Excluded — Not part of ceremonial practice in its basic form.",
+    "Ethically Significant": "Excluded — Not morally charged in production or use.",
+    "Social Construct": "Excluded — Exists as a physical object regardless of cultural framing.",
+    "Institutionally Defined": "Excluded — Not defined by regulation or classification.",
+    "Identity-Linked": "Excluded — Not inherently associated with roles or status.",
+    "Regulated": "Excluded — No intrinsic legal or institutional restrictions."
   },
-  "encoding_notes": "This encoding reflects the mechanical clock as a traditional timekeeping apparatus, emphasizing its engineered structure, functional logic, and universal recognizability. Abstract traits are limited to its time-based logic, while social traits are included only when visually and culturally universal. It excludes interaction and autonomy due to its passive user interface and reliance on manual winding.",
-  "image": "images/mechanical_clock.png"
+  "encoding_notes": "This encoding captures the mechanical clock as a powered, autonomous, rule-based timekeeping system with historical and present-day economic significance. Symbolic or ritual traits are excluded. Final UHT code: DFFD6208."
 }
