@@ -1,0 +1,62 @@
+{
+  "entity": "Coral Reef Fragment",
+  "uht_code": "AE00000D",
+  "image_url": "/validation_set/images/coral_reef_fragment.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Biological/Biomimetic",
+      "Structural",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [],
+    "abstract": [],
+    "social": [
+      "Economically Significant",
+      "Politicised",
+      "Ethically Significant"
+    ]
+  },
+  "feedback": {
+    "Physical Object": "Included — A discrete, bounded specimen with solid form.",
+    "Synthetic": "Excluded — Naturally formed without human intervention.",
+    "Biological/Biomimetic": "Included — Produced by biological organisms (coral polyps).",
+    "Powered": "Excluded — No dependence on energy supply.",
+    "Structural": "Included — Rigid, load-bearing structure contributing to reef formations.",
+    "Observable": "Included — Visibly identifiable and perceptible to touch and sight.",
+    "Physical Medium": "Included — Composed of solid matter (calcium carbonate).",
+    "Active": "Excluded — It has no autonomous internal behavior or dynamic response.",
+    
+    "Intentionally Designed": "Excluded — Naturally formed, not designed.",
+    "Outputs Effect": "Excluded — Does not emit energy, signal, or force.",
+    "Processes Signals/Logic": "Excluded — No informational or logical operations.",
+    "State-Transforming": "Excluded — Inert; no internal or functional change occurs.",
+    "Human-Interactive": "Excluded — Not intrinsically designed for user interaction.",
+    "System-integrated": "Excluded — A detached fragment, no longer part of a living reef system.",
+    "Functionally Autonomous": "Excluded — Lacks autonomous behavior or internal control.",
+    "System-Essential": "Excluded — Not a critical component of any active system.",
+    
+    "Symbolic": "Excluded — Not inherently a symbol, even if symbolically interpreted in culture.",
+    "Signalling": "Excluded — Does not convey structured information or meaning on its own.",
+    "Rule-governed": "Excluded — No abstract rules define its structure or use.",
+    "Compositional": "Excluded — Not organized from modular subcomponents with distinct function.",
+    "Normative": "Excluded — Does not guide behavior or enforce norms.",
+    "Meta": "Excluded — Not conceptually self-referential.",
+    "Temporal": "Excluded — Has no time-based function or dependency.",
+    "Digital/Virtual": "Excluded — Entirely physical and real-world in substance.",
+    
+    "Social Construct": "Excluded — Exists independently of social categorization.",
+    "Institutionally Defined": "Excluded — Not defined by law, classification, or official status.",
+    "Identity-Linked": "Excluded — Not tied to personal, group, or role identity.",
+    "Regulated": "Excluded — While coral trade may be regulated, the fragment itself is not intrinsically governed.",
+    "Economically Significant": "Included — Has material value in trade, tourism, and ornamentation.",
+    "Politicised": "Included — Involved in conservation policy, climate discourse, and marine territorial debates.",
+    "Ritualised": "Excluded — May be used ceremonially, but this is a secondary cultural attribution.",
+    "Ethically Significant": "Included — Its status as a harvested fragment implies ecological and conservation-related ethical concerns."
+  },
+  "encoding_notes": "Encoding reflects a coral reef fragment as a biological, material object with no symbolic or systemic function. Ethical and political significance are intrinsic to its detached status in the context of reef exploitation and global ecological awareness."
+}

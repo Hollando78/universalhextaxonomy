@@ -1,0 +1,65 @@
+{
+  "entity": "Military Salute",
+  "uht_code": "0084C8FF",
+  "image_url": "/validation_set/images/military_salute.png",
+  "traits": {
+    "physical": [],
+    "functional": [
+      "Purposeful / intentional",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Behavior-guiding"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — The salute is not a discrete material object but a performative gesture.",
+    "Man-made / synthetic": "Excluded — The gesture itself is not a fabricated artifact, but an enacted social signal.",
+    "Biological or biologically-inspired": "Excluded — Not rooted in biological structure or inspiration.",
+    "Fixed/static": "Excluded — It is temporally enacted, not spatially fixed.",
+    "Structural": "Excluded — It does not exhibit internal components or organization.",
+    "Perceptible": "Excluded — While observable, its perceptibility does not define its ontological status.",
+    "Material form": "Excluded — It has no persistent material embodiment.",
+    "Passive": "Excluded — It requires intentional human performance.",
+
+    "Purposeful / intentional": "Included — Deliberate act of social ritual with codified intention.",
+    "Emits output / produces effect": "Excluded — Produces no autonomous effect; signaling depends on interpretation.",
+    "Processes or regulates logic/signals": "Excluded — Not a computational or signal-processing entity.",
+    "Transforms or modifies internal state": "Excluded — It does not inherently track or update state.",
+    "Interacts with humans directly": "Excluded — Enacted by humans, but not interactive in the UHT sense.",
+    "Part of a larger system": "Included — Exists only within hierarchical institutions that define it.",
+    "Autonomous in function": "Excluded — Requires human initiation and performance.",
+    "System-critical": "Excluded — Culturally meaningful, but not infrastructurally essential.",
+
+    "Symbolic / representational": "Included — The gesture stands for abstract values like respect, allegiance, and discipline.",
+    "Communicative": "Included — Conveys nonverbal information about status, protocol, or recognition.",
+    "Logical / rule-based": "Excluded — Though enacted according to rules, it does not itself embody logical structures.",
+    "Hierarchical / modular": "Excluded — The concept is not built from separable internal parts.",
+    "Behavior-guiding": "Included — Prescribes specific actions and responses according to role.",
+    "Self-referential / meta-conceptual": "Excluded — The concept does not reference or model itself.",
+    "Temporal": "Excluded — Executed in time, but not defined by temporal structuring.",
+    "Contextual abstraction": "Excluded — Its meaning is socially fixed and not flexibly abstracted across domains.",
+
+    "Socially / culturally constructed": "Included — Embedded in long-standing traditions and military culture.",
+    "Defined by a group/system": "Included — Officially codified by institutions such as national militaries.",
+    "Linked to identity or role": "Included — Reflects status, allegiance, and role within an organizational hierarchy.",
+    "Regulated / governed": "Included — Specific procedures and interpretations governed by manuals and doctrine.",
+    "Teachable / transmissible": "Included — Explicitly trained and transmitted through formal instruction.",
+    "Visible": "Included — Publicly enacted for mutual recognition.",
+    "Context-sensitive": "Included — Its meaning and appropriateness depend on situation and role.",
+    "Widely known": "Included — Recognized across many societies and institutional systems."
+  },
+  "encoding_notes": "Revised to include symbolic and communicative functions intrinsic to the ritualized gesture. Exclusions strictly follow the non-object, non-autonomous, non-logical nature of the act. Represents a signal embedded in hierarchy and ceremony."
+}

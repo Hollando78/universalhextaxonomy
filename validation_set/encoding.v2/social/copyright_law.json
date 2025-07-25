@@ -1,0 +1,65 @@
+{
+  "entity": "Copyright Law",
+  "uht_code": "0000F9FF",
+  "image_url": "/validation_set/images/copyright_law.png",
+  "traits": {
+    "physical": [],
+    "functional": [],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A law is an abstract construct with no inherent materiality.",
+    "Man-made / synthetic": "Excluded — This trait is reserved for tangible, constructed entities.",
+    "Biological or biologically-inspired": "Excluded — No relation to biology.",
+    "Fixed/static": "Excluded — Laws evolve over time through amendments.",
+    "Structural": "Excluded — The structure is conceptual, not physical.",
+    "Perceptible": "Excluded — Perception occurs through its representations.",
+    "Material form": "Excluded — The document is material, but the law is not.",
+    "Passive": "Excluded — Not relevant for non-material entities.",
+    
+    "Purposeful / intentional": "Excluded — While created intentionally, the law itself is not a functioning agent.",
+    "Emits output / produces effect": "Excluded — Enforcement causes effects, not the law intrinsically.",
+    "Processes or regulates logic/signals": "Excluded — Law is referenced and interpreted, not autonomously processing anything.",
+    "Transforms or modifies internal state": "Excluded — It does not possess a mutable state.",
+    "Interacts with humans directly": "Excluded — It is intermediated through institutions or documents.",
+    "Part of a larger system": "Excluded — Not a mechanistic subsystem.",
+    "Autonomous in function": "Excluded — Requires agents for effect.",
+    "System-critical": "Excluded — Fundamental to society, but not to a system in a functional engineering sense.",
+    
+    "Symbolic / representational": "Included — Expresses abstract rights, duties, and principles.",
+    "Communicative": "Included — Written and broadcast to inform behavior and expectations.",
+    "Logical / rule-based": "Included — Defines structured conditions for permission, prohibition, and enforcement.",
+    "Hierarchical / modular": "Included — Legal systems organize laws into articles, sections, and precedence structures.",
+    "Behavior-guiding": "Included — Explicitly intended to guide and constrain human action.",
+    "Self-referential / meta-conceptual": "Excluded — A law does not inherently refer to itself.",
+    "Temporal": "Excluded — While it has temporal conditions (e.g. durations), that is not intrinsic to all laws.",
+    "Contextual abstraction": "Included — Applicability depends on jurisdiction, context, and interpretation.",
+    
+    "Socially / culturally constructed": "Included — Law is an institutional norm system.",
+    "Defined by a group/system": "Included — Formally defined by governments or courts.",
+    "Linked to identity or role": "Included — It governs authorship, ownership, and access.",
+    "Regulated / governed": "Included — It is the codification of governance.",
+    "Teachable / transmissible": "Included — A foundation of civic and legal education.",
+    "Visible": "Included — Publicly documented and referenced.",
+    "Context-sensitive": "Included — Application and enforcement vary by case and region.",
+    "Widely known": "Included — Copyright is a well-known concept even among laypeople."
+  },
+  "encoding_notes": "This encoding captures Copyright Law as an abstract, symbolic, behavior-guiding system embedded in formal social regulation. It deliberately excludes all physical and functional traits, emphasizing law’s identity as a logical rule set that exists only through social consensus and institutional enforcement. The prior omission of hierarchical structure has been corrected to reflect legal modularity."
+}

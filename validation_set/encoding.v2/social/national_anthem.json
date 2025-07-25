@@ -1,0 +1,62 @@
+{
+  "entity": "National Anthem",
+  "uht_code": "0080C9FF",
+  "image_url": "/validation_set/images/national_anthem.png",
+  "traits": {
+    "physical": [],
+    "functional": [
+      "Purposeful / intentional"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Behavior-guiding",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — The anthem is a symbolic or auditory construct, not a tangible object.",
+    "Man-made / synthetic": "Excluded — The focus is on the national anthem as a formalized cultural abstraction, not any individual recording.",
+    "Biological or biologically-inspired": "Excluded — Entirely cultural in origin.",
+    "Fixed/static": "Excluded — Anthems may be modified over time or reinterpreted.",
+    "Structural": "Excluded — No material or spatial structure.",
+    "Perceptible": "Excluded — The abstract anthem exists beyond any specific performance or hearing.",
+    "Material form": "Excluded — Not made of matter; it is a conceptual designation.",
+    "Passive": "Excluded — It has no reactivity or mechanistic behavior.",
+    "Purposeful / intentional": "Included — National anthems are created deliberately to symbolize and represent nations.",
+    "Emits output / produces effect": "Excluded — Requires human performance; the anthem itself is inert.",
+    "Processes or regulates logic/signals": "Excluded — No inherent signal or logic processing.",
+    "Transforms or modifies internal state": "Excluded — It does not evolve or update its own state.",
+    "Interacts with humans directly": "Excluded — Interaction occurs through mediated performance.",
+    "Part of a larger system": "Excluded — Though related to national protocols, it is not a system component.",
+    "Autonomous in function": "Excluded — It does not operate on its own.",
+    "System-critical": "Excluded — A nation functions without it.",
+    "Symbolic / representational": "Included — It is fundamentally symbolic, often tied to historical narratives.",
+    "Communicative": "Included — Conveys identity, values, and emotion.",
+    "Logical / rule-based": "Excluded — Not governed by logical structure.",
+    "Hierarchical / modular": "Excluded — While songs may have sections, this is not semantically modular.",
+    "Behavior-guiding": "Included — Associated with ceremonial behaviors like standing or saluting.",
+    "Self-referential / meta-conceptual": "Excluded — It does not comment on its own structure.",
+    "Temporal": "Excluded — Although performed in time, its semantic identity is not intrinsically time-based.",
+    "Contextual abstraction": "Included — Its significance and usage vary with political context, events, or rituals.",
+    "Socially / culturally constructed": "Included — Defined within specific cultural or national contexts.",
+    "Defined by a group/system": "Included — Officially designated by governments or national institutions.",
+    "Linked to identity or role": "Included — Strongly tied to national and collective identity.",
+    "Regulated / governed": "Included — Usage and performance often governed by official protocol.",
+    "Teachable / transmissible": "Included — Passed down via school systems, media, and tradition.",
+    "Visible": "Included — Often printed, displayed, or performed in public.",
+    "Context-sensitive": "Included — Performance and interpretation shift depending on occasion (e.g., protest vs. sports event).",
+    "Widely known": "Included — Recognized and often memorized nationally and internationally."
+  },
+  "encoding_notes": "This encoding captures the National Anthem as a behavior-guiding, communicative, and symbolic cultural construct, embedded in formal and informal structures of identity and ceremony. The inclusion of both Contextual Abstraction and Context-sensitive is critical for capturing its shifting meanings and uses across diverse settings. It is not a physical or functional object, but rather a dense node of symbolic and social meaning."
+}

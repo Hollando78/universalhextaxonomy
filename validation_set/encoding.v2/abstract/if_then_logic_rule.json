@@ -1,0 +1,64 @@
+{
+  "entity": "If-Then Logic Rule",
+  "uht_code": "4000FDDD",
+  "image_url": "/validation_set/images/if_then_logic_rule.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Self-referential / meta-conceptual",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — The rule is a concept, not a tangible object. Its physical form is a representation of the concept.",
+    "Man-made / synthetic": "Included — It is a human-created logical construct with a defined syntax and function.",
+    "Biological or biologically-inspired": "Excluded — It does not mimic or derive from biological systems.",
+    "Fixed/static": "Excluded — As a conceptual entity, it has no spatial immobility in the physical sense.",
+    "Structural": "Excluded — Its structure is conceptual (syntax, grammar, nesting), not physically load-bearing.",
+    "Perceptible": "Excluded — It is not perceived physically, but intellectually or semantically through its representation.",
+    "Material form": "Excluded — It is a formal concept, not composed of matter.",
+    "Passive": "Excluded — This trait is not meaningfully applicable to a conceptual entity.",
+    "Purposeful / intentional": "Excluded — A rule is a statement of a relationship; its purpose is assigned by the system it is part of, not intrinsic to the rule itself.",
+    "Emits output / produces effect": "Excluded — The rule itself does not generate output; it is a precondition for a result.",
+    "Processes or regulates logic/signals": "Excluded — It is a representation of logic, but does not act or process autonomously.",
+    "Transforms or modifies internal state": "Excluded — It is a static, timeless concept and does not have a dynamic internal state.",
+    "Interacts with humans directly": "Excluded — It is a static concept, not an interactive interface.",
+    "Part of a larger system": "Excluded — It is a building block of a system, but its identity is not system-bound.",
+    "Autonomous in function": "Excluded — It requires an external system to evaluate and execute it.",
+    "System-critical": "Excluded — It is a component, not an entire system itself, and thus not critical on its own.",
+    "Symbolic / representational": "Included — It uses symbols (`if`, `then`, `x`, `y`) to represent a logical relationship.",
+    "Communicative": "Included — Its primary purpose is to communicate a conditional relationship between concepts.",
+    "Logical / rule-based": "Included — It is the fundamental building block of logical systems and is defined by strict logical rules.",
+    "Hierarchical / modular": "Included — Rules can be nested within other rules and combined to form more complex systems.",
+    "Behavior-guiding": "Included — Its primary purpose is to guide the behavior of a system or agent based on specific conditions.",
+    "Self-referential / meta-conceptual": "Included — It can be used to describe or reference other rules or logical systems.",
+    "Temporal": "Excluded — It is a timeless concept, even if it is used to describe time-based events.",
+    "Contextual abstraction": "Included — Its meaning and validity are dependent on the context and domain of its application.",
+    "Socially / culturally constructed": "Included — The concepts of formal logic and the symbols used are products of human development.",
+    "Defined by a group/system": "Included — The rules of formal logic and the standards of its use are defined by the relevant community (e.g., computer science, philosophy).",
+    "Linked to identity or role": "Excluded — It does not define the identity or role of a person or group.",
+    "Regulated / governed": "Included — The use of a logic rule is governed by formal proof systems and a set of shared rules.",
+    "Teachable / transmissible": "Included — The concept is a fundamental unit of knowledge that can be taught and transmitted.",
+    "Visible": "Included — It is presented in a visual form to be read and understood.",
+    "Context-sensitive": "Excluded — This trait is more aptly described by 'Contextual abstraction' in the abstract layer.",
+    "Widely known": "Included — The basic concept of 'If-Then' is a globally recognized and foundational idea."
+  },
+  "encoding_notes": "This encoding captures the If-Then Logic Rule as a purely abstract, human-created conceptual entity. It is defined by its symbolic, logical, and social properties, and its core function is to guide behavior, a key distinction from other abstract entities. The resulting code reflects its lack of physical and functional traits, with high density in the abstract and social layers.",
+  "image": "images/if_then_logic_rule.png"
+}

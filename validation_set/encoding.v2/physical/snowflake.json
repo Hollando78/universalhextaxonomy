@@ -1,0 +1,57 @@
+{
+  "entity": "Snowflake",
+  "uht_code": "8E000000",
+  "image_url": "/validation_set/images/snowflake.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Structural",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [],
+    "abstract": [],
+    "social": []
+  },
+  "feedback": {
+    "Physical Object": "Included — A discrete, bounded crystal of frozen water.",
+    "Synthetic": "Excluded — Naturally formed; not manufactured.",
+    "Biological/Biomimetic": "Excluded — Not of biological origin or inspired by biology.",
+    "Powered": "Excluded — Exists passively; requires no energy source.",
+    "Structural": "Included — Its crystalline symmetry defines its physical identity.",
+    "Observable": "Included — Visible to the naked eye or via magnification.",
+    "Physical Medium": "Included — Composed of solid matter (ice).",
+    "Active": "Excluded — Does not initiate behavior or internal change autonomously.",
+    
+    "Intentionally Designed": "Excluded — Formed by natural atmospheric conditions, not design.",
+    "Outputs Effect": "Excluded — Does not emit energy, force, or signal.",
+    "Processes Signals/Logic": "Excluded — No capacity for computation or signal handling.",
+    "State-Transforming": "Excluded — Changes only under external heat; not self-transforming.",
+    "Human-Interactive": "Excluded — Not designed for human engagement.",
+    "System-integrated": "Excluded — Exists independently of systems.",
+    "Functionally Autonomous": "Excluded — No internal agency or operational logic.",
+    "System-Essential": "Excluded — Not core to any structured system.",
+    
+    "Symbolic": "Excluded — Cultural symbolism is external, not intrinsic.",
+    "Signalling": "Excluded — Does not convey structured information.",
+    "Rule-governed": "Excluded — Follows physical laws, not abstract rule systems.",
+    "Compositional": "Excluded — Not an abstract system of meaningful subunits.",
+    "Normative": "Excluded — Does not guide or constrain behavior.",
+    "Meta": "Excluded — Not self-referential or abstract.",
+    "Temporal": "Excluded — Not intrinsically defined by sequence or timing.",
+    "Digital/Virtual": "Excluded — Exists only as physical matter.",
+    
+    "Social Construct": "Excluded — Exists independently of human classification.",
+    "Institutionally Defined": "Excluded — Not defined or categorized by institutions.",
+    "Identity-Linked": "Excluded — Not associated with roles or social identity.",
+    "Regulated": "Excluded — Not subject to legal or institutional control.",
+    "Economically Significant": "Excluded — Holds no intrinsic economic value.",
+    "Politicised": "Excluded — No political relevance.",
+    "Ritualised": "Excluded — Not used in cultural or symbolic ritual.",
+    "Ethically Significant": "Excluded — No intrinsic moral implications."
+  },
+  "encoding_notes": "This encoding captures a snowflake strictly as a physical ice crystal. Symbolic and abstract interpretations are excluded. Structural identity is retained, but no modularity or system-level function is present."
+}

@@ -1,0 +1,66 @@
+{
+  "entity": "Thermostat",
+  "uht_code": "DEFC2000",
+  "image_url": "/validation_set/images/thermostat.png",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Interacts with humans directly",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Logical / rule-based"
+    ],
+    "social": []
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible device typically mounted on walls or embedded in systems.",
+    "Man-made / synthetic": "Included — Fully designed and manufactured by humans.",
+    "Biological or biologically-inspired": "Excluded — Does not mimic or derive from biological systems.",
+    "Fixed/static": "Included — Usually stationary once installed.",
+    "Structural": "Included — Enclosed in a case that supports its interface, sensors, and logic board.",
+    "Perceptible": "Included — Users can see and often interact with its screen, dial, or buttons.",
+    "Material form": "Included — Composed of plastic, metal, glass, and circuitry.",
+    "Passive": "Excluded — Actively reads, processes, and acts on temperature input.",
+    
+    "Purposeful / intentional": "Included — Created to regulate environmental temperature.",
+    "Emits output / produces effect": "Included — Activates heating/cooling systems based on readings.",
+    "Processes or regulates logic/signals": "Included — Executes internal logic based on programmed thresholds.",
+    "Transforms or modifies internal state": "Included — Stores configuration settings and changes state depending on input.",
+    "Interacts with humans directly": "Included — User interfaces allow setting temperature and modes.",
+    "Part of a larger system": "Included — Integrated with HVAC or automation systems.",
+    "Autonomous in function": "Excluded — Most require human configuration and lack fully autonomous adaptation.",
+    "System-critical": "Excluded — System can function manually or with alternate input in many cases.",
+    
+    "Symbolic / representational": "Excluded — Not symbolic or representative in primary function.",
+    "Communicative": "Excluded — Displays data but not for symbolic communication.",
+    "Logical / rule-based": "Included — Follows defined logic such as threshold-based activation.",
+    "Hierarchical / modular": "Excluded — May be part of a system but not composed of abstracted submodules.",
+    "Behavior-guiding": "Excluded — Influences environment, not behavior directly.",
+    "Self-referential / meta-conceptual": "Excluded — Not reflective or conceptual.",
+    "Temporal": "Excluded — Time-related features are secondary or absent in standard models.",
+    "Contextual abstraction": "Excluded — Operates in real-time, not abstracted or generalized conceptually.",
+    
+    "Socially / culturally constructed": "Excluded — Functional device, not socially defined.",
+    "Defined by a group/system": "Excluded — Regulated design standards may exist, but not semantically defining.",
+    "Linked to identity or role": "Excluded — Not linked to user roles or identity markers.",
+    "Regulated / governed": "Excluded — Product standards exist but are external.",
+    "Teachable / transmissible": "Excluded — Can be taught about, but not inherently an educational medium.",
+    "Visible": "Excluded — Though seen, not semantically defining to its function.",
+    "Context-sensitive": "Excluded — Its operation changes with context, but the object remains semantically stable.",
+    "Widely known": "Excluded — Commonplace, but not included unless widespread recognition is core to identity."
+  },
+  "encoding_notes": "This encoding captures the thermostat as a standard environmental control device. It emphasizes its engineered form, rule-based logic, and role in functional systems. Social and abstract traits are excluded unless directly integral to its design or conceptual identity. Autonomous and critical roles are omitted due to reliance on preset input and replaceability in many systems.",
+  "image": "images/thermostat.png"
+}

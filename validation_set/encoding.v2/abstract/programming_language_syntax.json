@@ -1,0 +1,67 @@
+{
+  "entity": "Programming Language Syntax",
+  "uht_code": "4000FDCF",
+  "image_url": "/validation_set/images/programming_language_syntax.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Self-referential / meta-conceptual",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — Syntax is an abstract rule system, not a physical object.",
+    "Man-made / synthetic": "Included — It is designed by humans through formal language engineering.",
+    "Biological or biologically-inspired": "Excluded — Not based on biological principles.",
+    "Fixed/static": "Excluded — Syntax changes between versions or dialects.",
+    "Structural": "Excluded — Abstract structure only, not physical.",
+    "Perceptible": "Excluded — It must be instantiated (e.g., in code) to be observed.",
+    "Material form": "Excluded — Not made of matter.",
+    "Passive": "Excluded — Does not operate or exist as a passive entity.",
+    
+    "Purposeful / intentional": "Excluded — It enables purpose but is not purposeful on its own.",
+    "Emits output / produces effect": "Excluded — It does not produce output independently.",
+    "Processes or regulates logic/signals": "Excluded — Syntax governs structure, not logic execution.",
+    "Transforms or modifies internal state": "Excluded — Syntax has no state.",
+    "Interacts with humans directly": "Excluded — Interaction is mediated through code, not with the syntax itself.",
+    "Part of a larger system": "Excluded — Used in systems, but not structurally dependent.",
+    "Autonomous in function": "Excluded — Inert until interpreted.",
+    "System-critical": "Excluded — Foundational but not itself critical to system operation.",
+    
+    "Symbolic / representational": "Included — Uses symbols to represent meaning and structure.",
+    "Communicative": "Included — Syntax communicates program logic to humans and machines.",
+    "Logical / rule-based": "Included — Defined via formal grammars.",
+    "Hierarchical / modular": "Included — Syntax trees and scoping models are modular.",
+    "Behavior-guiding": "Included — Dictates allowable program forms.",
+    "Self-referential / meta-conceptual": "Included — Syntax can describe itself in meta-grammars.",
+    "Temporal": "Excluded — Syntax is structural, not time-based.",
+    "Contextual abstraction": "Included — Meaning varies by local context (e.g., indentation, scope).",
+    
+    "Socially / culturally constructed": "Included — Developed by language communities and institutions.",
+    "Defined by a group/system": "Included — Governed by language designers or standardization bodies.",
+    "Linked to identity or role": "Excluded — Not identity-defining in itself.",
+    "Regulated / governed": "Excluded — Not formally regulated (e.g., by law).",
+    "Teachable / transmissible": "Included — Syntax is central in programming education.",
+    "Visible": "Included — Realized visually in code, examples, and documentation.",
+    "Context-sensitive": "Included — Depends on grammar scope, indentation, and semantic rules.",
+    "Widely known": "Included — Ubiquitous in global software and education domains."
+  },
+  "encoding_notes": "This encoding defines programming language syntax as a symbolic, logical, and socially transmitted abstraction. It is not executable or perceptible by itself, but governs structure across all source code and is widely disseminated through education and tooling. Abstract and social layers are dominant, functional traits excluded by design.",
+  "image": "images/programming_language_syntax.png"
+}

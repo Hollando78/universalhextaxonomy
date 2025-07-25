@@ -1,0 +1,67 @@
+{
+  "entity": "Air Traffic Control Radar",
+  "uht_code": "DEF52211",
+  "image_url": "/validation_set/images/air_traffic_control_radar.png",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Part of a larger system",
+      "System-critical"
+    ],
+    "abstract": [
+      "Logical / rule-based",
+      "Temporal"
+    ],
+    "social": [
+      "Regulated / governed",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — The radar system is a tangible installation composed of hardware like antennas, rotors, and enclosures.",
+    "Man-made / synthetic": "Included — Fully engineered and constructed by humans for signal detection and tracking.",
+    "Biological or biologically-inspired": "Excluded — It does not mimic or derive from biological forms or functions.",
+    "Fixed/static": "Included — Typically mounted at permanent or semi-permanent locations like airports or control stations.",
+    "Structural": "Included — Function depends on mechanical structure (e.g., parabolic dish or phased array orientation).",
+    "Perceptible": "Included — The radar array and support structures are visible to observers.",
+    "Material form": "Included — Constructed from physical materials like steel, composite, and electrical components.",
+    "Passive": "Excluded — It actively transmits radio signals and processes returns.",
+    "Purposeful / intentional": "Included — Specifically designed to monitor and guide aircraft through detection and tracking.",
+    "Emits output / produces effect": "Included — Emits electromagnetic pulses and outputs data to controllers and systems.",
+    "Processes or regulates logic/signals": "Included — Interprets echoes using signal-processing algorithms and tracking software.",
+    "Transforms or modifies internal state": "Included — Continuously updates aircraft positions, headings, and tracking metadata.",
+    "Interacts with humans directly": "Excluded — Operated by humans but not interacted with directly by general users (e.g., pilots, passengers).",
+    "Part of a larger system": "Included — Integrated into national and international air traffic control infrastructure.",
+    "Autonomous in function": "Excluded — Typically requires operator oversight and control.",
+    "System-critical": "Included — A foundational component of aviation safety and airspace coordination.",
+    "Symbolic / representational": "Excluded — It does not represent ideas or concepts symbolically.",
+    "Communicative": "Excluded — It sends signals, but not for abstract or symbolic communication.",
+    "Logical / rule-based": "Included — Operates under strict signal-processing rules and tracking logic.",
+    "Hierarchical / modular": "Excluded — While built from subsystems, it is not semantically modular in identity.",
+    "Behavior-guiding": "Excluded — Provides input to guide decisions but does not prescribe behavior itself.",
+    "Self-referential / meta-conceptual": "Excluded — Does not model itself or operate at a meta-conceptual level.",
+    "Temporal": "Included — Timing is essential to its operation (e.g., pulse repetition intervals, Doppler shifts).",
+    "Contextual abstraction": "Excluded — Operates in fixed physical/logical contexts, not cultural or interpretive ones.",
+    "Socially / culturally constructed": "Excluded — Its function is technical and regulatory, not socially symbolic.",
+    "Defined by a group/system": "Excluded — Standardized, but not defined in its identity by group membership.",
+    "Linked to identity or role": "Excluded — Does not inherently define or carry personal or group identity.",
+    "Regulated / governed": "Included — Operation is strictly governed by aviation and communications authorities.",
+    "Teachable / transmissible": "Excluded — It is not itself a teaching device or educational artifact.",
+    "Visible": "Excluded — The structure is visible, but its function and semantics are not inherently visible.",
+    "Context-sensitive": "Excluded — Operates based on signal logic, not social or semantic context.",
+    "Widely known": "Included — The concept of 'radar' is broadly recognized across technical and public domains."
+  },
+  "encoding_notes": "Air Traffic Control Radar is encoded as a regulated, fixed-location signal system that emits, processes, and updates tracking data in real-time. It is part of a broader aviation safety infrastructure, uses formal timing logic, and is widely known but not symbolic or identity-linked. Autonomous and communicative traits are excluded due to operator control and lack of symbolic expression. Final UHT code DEF52211 correctly includes regulated and known status in the social layer.",
+  "image": "images/air_traffic_control_radar.png"
+}

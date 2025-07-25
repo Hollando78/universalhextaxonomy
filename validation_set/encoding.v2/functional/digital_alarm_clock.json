@@ -1,0 +1,69 @@
+{
+  "entity": "Digital Alarm Clock",
+  "uht_code": "DEF82205",
+  "image_url": "/validation_set/images/digital_alarm_clock.png",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Interacts with humans directly"
+    ],
+    "abstract": [
+      "Logical / rule-based",
+      "Temporal"
+    ],
+    "social": [
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A self-contained physical device typically placed on a surface.",
+    "Man-made / synthetic": "Included — Fully designed and manufactured by humans.",
+    "Biological or biologically-inspired": "Excluded — Not derived from or mimicking biological systems.",
+    "Fixed/static": "Included — Intended to remain in a fixed location (e.g., nightstand).",
+    "Structural": "Included — Display, buttons, and casing are mechanically integrated.",
+    "Perceptible": "Included — User interacts with its sounds, lights, and visual time display.",
+    "Material form": "Included — Composed of plastics, electronics, and visible screens.",
+    "Passive": "Excluded — Outputs sounds and light, and performs logic-driven behavior.",
+    
+    "Purposeful / intentional": "Included — Engineered to track time and wake users.",
+    "Emits output / produces effect": "Included — Produces audible alarms and visual indicators.",
+    "Processes or regulates logic/signals": "Included — Follows programmed timing and alarm logic.",
+    "Transforms or modifies internal state": "Included — Allows setting and changing alarm and time values.",
+    "Interacts with humans directly": "Included — Requires user input to set and operate.",
+    "Part of a larger system": "Excluded — Typically standalone, not integrated into broader systems.",
+    "Autonomous in function": "Excluded — Needs initial setup and operates on schedule.",
+    "System-critical": "Excluded — Auxiliary device, not essential for broader operations.",
+    
+    "Symbolic / representational": "Excluded — Displays numeric time but not symbolically expressive.",
+    "Communicative": "Excluded — Delivers alerts, but not symbolic or dialogic communication.",
+    "Logical / rule-based": "Included — Uses internal logic to trigger alarms and manage display.",
+    "Hierarchical / modular": "Excluded — Simple architecture, not abstractly modular.",
+    "Behavior-guiding": "Excluded — May shape routine, but not functionally guiding behavior.",
+    "Self-referential / meta-conceptual": "Excluded — Does not reflect on its own operation.",
+    "Temporal": "Included — Tracks and responds to linear time.",
+    "Contextual abstraction": "Excluded — Operates uniformly regardless of environment.",
+    
+    "Socially / culturally constructed": "Excluded — Functionally consistent across contexts and not socially constructed.",
+    "Defined by a group/system": "Excluded — Product-defined, not by social or institutional consensus.",
+    "Linked to identity or role": "Excluded — Not socially identity-bearing.",
+    "Regulated / governed": "Excluded — Minimal regulation beyond safety standards.",
+    "Teachable / transmissible": "Excluded — Teachable, but not itself a transmissible semantic unit.",
+    "Visible": "Included — Designed to be prominently displayed.",
+    "Context-sensitive": "Excluded — Function unchanged by setting.",
+    "Widely known": "Included — Universally recognized domestic object."
+  },
+  "encoding_notes": "This encoding captures the digital alarm clock as a physical, standalone device that fulfills timekeeping and alert functions. Its traits are concentrated in the physical and functional layers, with modest abstraction (rule-based and temporal) and socially relevant visibility. Social constructs and symbolic communication are excluded due to its direct, utilitarian design.",
+  "image": "images/digital_alarm_clock.png"
+}

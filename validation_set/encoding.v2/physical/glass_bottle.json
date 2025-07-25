@@ -1,0 +1,63 @@
+{
+  "entity": "Glass Bottle",
+  "uht_code": "CE880001",
+  "image_url": "/validation_set/images/glass_bottle.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Synthetic",
+      "Structural",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [
+      "Intentionally Designed",
+      "Human-Interactive"
+    ],
+    "abstract": [],
+    "social": [
+      "Ethically Significant"
+    ]
+  },
+  "feedback": {
+    "Physical Object": "Included — A bounded, rigid container with a defined physical form.",
+    "Synthetic": "Included — Manufactured from silica and additives through industrial processes.",
+    "Biological/Biomimetic": "Excluded — Has no biological origin or design inspiration.",
+    "Powered": "Excluded — Inert and not dependent on energy input.",
+    "Structural": "Included — Provides rigid containment and mechanical resistance.",
+    "Observable": "Included — Visually and tactilely perceptible.",
+    "Physical Medium": "Included — Composed of solid material (glass), with mass and volume.",
+    "Active": "Excluded — Passive and unresponsive to environment or input.",
+    
+    "Intentionally Designed": "Included — Specifically formed to hold liquids, interface with closures, and enable pouring.",
+    "Outputs Effect": "Excluded — Does not emit force, signal, or change.",
+    "Processes Signals/Logic": "Excluded — No signal-processing or computational behavior.",
+    "State-Transforming": "Excluded — Remains static in form unless externally altered.",
+    "Human-Interactive": "Included — Designed for human handling, opening, and usage.",
+    "System-integrated": "Excluded — May be used in systems but is not intrinsically embedded.",
+    "Functionally Autonomous": "Excluded — Requires external use; no built-in autonomy.",
+    "System-Essential": "Excluded — Not critical to any one system by default.",
+    
+    "Symbolic": "Excluded — Not inherently a symbol.",
+    "Signalling": "Excluded — Does not communicate or encode information.",
+    "Rule-governed": "Excluded — No logical or formal structure governs its behavior.",
+    "Compositional": "Excluded — Not a modular or layered abstraction.",
+    "Normative": "Excluded — Does not constrain behavior.",
+    "Meta": "Excluded — Not self-referential or conceptually structured.",
+    "Temporal": "Excluded — Not intrinsically defined by time.",
+    "Digital/Virtual": "Excluded — Entirely physical.",
+    
+    "Social Construct": "Excluded — Exists materially regardless of interpretation.",
+    "Institutionally Defined": "Excluded — Not defined by regulation in its form.",
+    "Identity-Linked": "Excluded — Not associated with role or group identity.",
+    "Regulated": "Excluded — May be subject to recycling policies, but not inherently regulated.",
+    "Economically Significant": "Excluded — Common object with low standalone economic value.",
+    "Politicised": "Excluded — Not directly involved in political discourse.",
+    "Ritualised": "Excluded — Not formally used in symbolic practice.",
+    "Ethically Significant": "Included — Tied to energy consumption and environmental ethics through its manufacture and disposal lifecycle."
+  },
+  "encoding_notes": "This encoding treats the glass bottle as a passive, manufactured container. Its physical and functional traits are clear, and its ethical relevance arises directly from its material lifecycle impact. All contextual uses or symbolic meanings are excluded."
+}

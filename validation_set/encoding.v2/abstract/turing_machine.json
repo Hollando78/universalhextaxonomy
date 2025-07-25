@@ -1,0 +1,75 @@
+{
+  "entity": "Turing Machine",
+  "uht_code": "40F3FFCF",
+  "image_url": "/validation_set/images/turing_machine.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Autonomous in function",
+      "System-critical"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Self-referential / meta-conceptual",
+      "Temporal",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — The Turing Machine is a formal abstraction, not a tangible or instantiated object.",
+    "Man-made / synthetic": "Included — It is a mathematical construct defined entirely by human design.",
+    "Biological or biologically-inspired": "Excluded — It is based on formal computation, not biological models.",
+    "Fixed/static": "Excluded — As a concept, it is not spatially constrained or physically fixed.",
+    "Structural": "Excluded — Any structure it has is abstract and logical, not material.",
+    "Perceptible": "Excluded — The abstract definition is not perceivable without a representation.",
+    "Material form": "Excluded — A Turing Machine has no material instantiation unless simulated.",
+    "Passive": "Excluded — Not applicable to symbolic or procedural constructs.",
+    
+    "Purposeful / intentional": "Included — Created to formalize the idea of mechanical computation.",
+    "Emits output / produces effect": "Included — Output is intrinsic to its operation via symbols written on tape.",
+    "Processes or regulates logic/signals": "Included — It embodies logical computation through defined transitions.",
+    "Transforms or modifies internal state": "Included — The core model involves state transitions.",
+    "Interacts with humans directly": "Excluded — It is not interactive except through simulations or models.",
+    "Part of a larger system": "Excluded — It is conceptually foundational, not a subsystem.",
+    "Autonomous in function": "Included — Once defined, it operates deterministically without external input.",
+    "System-critical": "Included — It underpins the definition of algorithmic computation and computability theory.",
+    
+    "Symbolic / representational": "Included — Uses symbols and transition rules to represent logic and state.",
+    "Communicative": "Included — It defines a language through accepted symbol manipulation.",
+    "Logical / rule-based": "Included — Entirely defined through logical rules and state transitions.",
+    "Hierarchical / modular": "Included — It can be extended into modular or multitape machines.",
+    "Behavior-guiding": "Included — Guides how abstract machines or algorithms behave over inputs.",
+    "Self-referential / meta-conceptual": "Included — Turing Machines can simulate other Turing Machines (universal machines).",
+    "Temporal": "Included — Operates step by step across time as transitions progress.",
+    "Contextual abstraction": "Included — Behavior and interpretation depend on symbol sets and defined transitions.",
+    
+    "Socially / culturally constructed": "Included — Formalized by Turing, shaped and maintained by mathematical communities.",
+    "Defined by a group/system": "Included — Its definition is standardized in theoretical computer science.",
+    "Linked to identity or role": "Excluded — It is not tied to personhood or role-based identity.",
+    "Regulated / governed": "Excluded — Not subject to institutional or legal regulation.",
+    "Teachable / transmissible": "Included — A foundational concept in computation theory curricula.",
+    "Visible": "Included — Represented in textbooks, diagrams, or code for comprehension.",
+    "Context-sensitive": "Included — Interpretation depends on the specific configuration and tape alphabet.",
+    "Widely known": "Included — A canonical symbol of computation theory."
+  },
+  "encoding_notes": "This encoding recognizes the Turing Machine as a purely formal, symbolic, and logical system. Its purpose, outputs, internal transitions, and autonomy in execution qualify it for inclusion of several key functional traits, while all abstract traits are essential. It is not a physical object, but its social and educational significance is widely acknowledged. The corrected code reflects both theoretical fidelity and alignment with UHT’s minimalist encoding philosophy.",
+  "image": "images/turing_machine.png"
+}

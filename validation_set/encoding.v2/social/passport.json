@@ -1,0 +1,73 @@
+{
+  "entity": "Passport",
+  "uht_code": "40DCF9FF",
+  "image_url": "/validation_set/images/passport.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Transforms or modifies internal state",
+      "Interacts with humans directly",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — This encoding refers to the conceptual function of a passport, not the physical booklet.",
+    "Man-made / synthetic": "Included — A passport is a human-designed socio-legal construct.",
+    "Biological or biologically-inspired": "Excluded — There is no biological origin or inspiration.",
+    "Fixed/static": "Excluded — Passport data (e.g., validity) can change; not fixed.",
+    "Structural": "Excluded — Lacks a physical load-bearing or spatial structure.",
+    "Perceptible": "Excluded — The concept is known via representation, not directly perceived.",
+    "Material form": "Excluded — The formal definition is informational, not material.",
+    "Passive": "Excluded — Not a valid descriptor for a conceptual/legal artifact.",
+    
+    "Purposeful / intentional": "Included — Created to fulfill the function of identity verification and legal authorization.",
+    "Emits output / produces effect": "Included — Triggers authorization, travel rights, or alerts in systems.",
+    "Processes or regulates logic/signals": "Excluded — Verification is done by external systems, not by the passport itself.",
+    "Transforms or modifies internal state": "Included — Legal state (e.g., valid, expired, revoked) is intrinsic to its function.",
+    "Interacts with humans directly": "Included — Designed to be presented, inspected, and processed by people.",
+    "Part of a larger system": "Included — Embedded in global immigration, governance, and identity systems.",
+    "Autonomous in function": "Excluded — Requires external agents or systems to act upon it.",
+    "System-critical": "Excluded — Essential in contexts, but not universally mission-critical as a system component.",
+    
+    "Symbolic / representational": "Included — Encodes a person’s national and legal status via symbols.",
+    "Communicative": "Included — Conveys structured identity data across borders and institutions.",
+    "Logical / rule-based": "Included — Operates under formal rules for issuance, validity, format, and use.",
+    "Hierarchical / modular": "Included — Structured into information zones (e.g., machine-readable zone, visas, biometrics).",
+    "Behavior-guiding": "Included — Directs action: access granted or denied based on presence/absence of valid passport.",
+    "Self-referential / meta-conceptual": "Excluded — It does not refer to or describe its own system or structure.",
+    "Temporal": "Excluded — Though it has an expiration date, the concept itself is not time-referential.",
+    "Contextual abstraction": "Included — The meaning of its fields and authority vary by country and legal context.",
+    
+    "Socially / culturally constructed": "Included — Its significance and legitimacy are entirely socially determined.",
+    "Defined by a group/system": "Included — Defined and issued by nation-states and international governance bodies.",
+    "Linked to identity or role": "Included — Fundamentally encodes citizenship and personal identity.",
+    "Regulated / governed": "Included — Strictly controlled by institutional frameworks and international law.",
+    "Teachable / transmissible": "Included — Understanding and use of passports is learned through formal and informal instruction.",
+    "Visible": "Included — Intended to be presented and visually examined.",
+    "Context-sensitive": "Included — A passport’s utility and validity depend on political, geographic, and diplomatic context.",
+    "Widely known": "Included — Recognized globally as a standard form of legal identification."
+  },
+  "encoding_notes": "This encoding reflects the passport not as a physical document but as a formal identity artifact — a functional, abstract, and socially defined construct. It communicates identity, guides legal access, and exists only within structured human institutions. It is not an autonomous actor, nor does it directly regulate logic, but it remains essential to a complex legal-social infrastructure."
+}

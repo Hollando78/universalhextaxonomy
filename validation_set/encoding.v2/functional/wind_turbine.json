@@ -1,0 +1,70 @@
+{
+  "entity": "Wind Turbine",
+  "uht_code": "DEF62205",
+  "image_url": "/validation_set/images/wind_turbine.png",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Part of a larger system",
+      "Autonomous in function"
+    ],
+    "abstract": [
+      "Logical / rule-based",
+      "Temporal"
+    ],
+    "social": [
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A large, physically installed machine composed of mechanical and electronic components.",
+    "Man-made / synthetic": "Included — Entirely engineered and manufactured by humans.",
+    "Biological or biologically-inspired": "Excluded — Not modeled after biological systems or behaviors.",
+    "Fixed/static": "Included — Stationary tower structure anchored in place.",
+    "Structural": "Included — Load-bearing design critical to its mechanical function.",
+    "Perceptible": "Included — Highly visible in landscape; audible in operation.",
+    "Material form": "Included — Constructed from composite, steel, and other engineered materials.",
+    "Passive": "Excluded — Actively converts wind into energy via motion and control logic.",
+
+    "Purposeful / intentional": "Included — Designed explicitly for harvesting wind energy.",
+    "Emits output / produces effect": "Included — Produces mechanical or electrical power output.",
+    "Processes or regulates logic/signals": "Included — Embedded control systems manage rotation, yaw, and pitch.",
+    "Transforms or modifies internal state": "Included — Adjusts settings and modes based on wind and system data.",
+    "Interacts with humans directly": "Excluded — Operates remotely, not designed for user interaction.",
+    "Part of a larger system": "Included — Integrated with wind farms and energy grids.",
+    "Autonomous in function": "Included — Performs key operations without direct human input.",
+    "System-critical": "Excluded — Can be taken offline or replaced without total system failure.",
+
+    "Symbolic / representational": "Excluded — Functional rather than symbolic.",
+    "Communicative": "Excluded — Not intended to transmit information symbolically.",
+    "Logical / rule-based": "Included — Governed by programmed rules for safe and efficient operation.",
+    "Hierarchical / modular": "Excluded — Has subsystems but not abstractly modular.",
+    "Behavior-guiding": "Excluded — Does not influence human behavior directly.",
+    "Self-referential / meta-conceptual": "Excluded — Not capable of reflective or conceptual modeling.",
+    "Temporal": "Included — Continuously measures wind speed and reacts over time.",
+    "Contextual abstraction": "Excluded — Interprets environment physically, not abstractly.",
+
+    "Socially / culturally constructed": "Excluded — Recognized across cultures but not culturally defined.",
+    "Defined by a group/system": "Excluded — Subject to regulations, but definition is technical, not semantic.",
+    "Linked to identity or role": "Excluded — Not tied to social or personal identity.",
+    "Regulated / governed": "Excluded — While regulated in use, regulation is external.",
+    "Teachable / transmissible": "Excluded — Education about it is common, but not inherent to the device.",
+    "Visible": "Included — Prominent in landscapes and often discussed in public discourse.",
+    "Context-sensitive": "Excluded — Performs the same functional role across contexts.",
+    "Widely known": "Included — A globally familiar renewable energy technology."
+  },
+  "encoding_notes": "This encoding treats the wind turbine as an industrial energy-generation mechanism. It emphasizes its engineered material form, functional automation, and logical control systems. While perceptible and visible, social traits are limited to public familiarity rather than culturally constructed meaning. Abstract traits reflect internal control logic and time-based operation, without symbolic or communicative intention.",
+  "image": "images/wind_turbine.png"
+}

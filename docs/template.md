@@ -31,48 +31,64 @@ Provide a `.json` object with the following structure. Fill in the `uht_code` on
 
 ```json
 {
-  "entity": "[Your Entity Name Here]",
-  "uht_code": "[Calculated 8-character hex code]",
+  "entity": "[ENTITY NAME]",
+  "uht_code": "[8-digit HEX CODE]",
+  "image_url": "/validation_set/images/[filename].png",
+  "version": "v2",
+  "encoding_date": "[YYYY-MM-DD]",
+  "traits_version": "traits.v2.json",
   "traits": {
-    "physical": [],
-    "functional": [],
-    "abstract": [],
-    "social": []
+    "physical": [
+      // e.g., "Physical Object", "Observable"
+    ],
+    "functional": [
+      // e.g., "Intentionally Designed"
+    ],
+    "abstract": [
+      // e.g., "Symbolic"
+    ],
+    "social": [
+      // e.g., "Ethically Significant"
+    ]
   },
   "feedback": {
-    "Physical object": "Excluded — [e.g., This is an action or gesture, not a material object.]",
-    "Man-made / synthetic": "Included — [e.g., It is a human-created logical construct.]",
-    "Biological or biologically-inspired": "Excluded — [e.g., No biological basis.]",
-    "Fixed/static": "Excluded — [e.g., A concept is not fixed.]",
-    "Structural": "Excluded — [e.g., No physical structure.]",
-    "Perceptible": "Excluded — [e.g., The concept is not perceptible.]",
-    "Material form": "Excluded — [e.g., Not composed of matter.]",
-    "Passive": "Excluded — [e.g., Not applicable to abstract concepts.]",
-    "Purposeful / intentional": "Included — [e.g., Created with a specific goal.]",
-    "Emits output / produces effect": "Excluded — [e.g., A concept does not emit outputs.]",
-    "Processes or regulates logic/signals": "Excluded — [e.g., It represents logic but does not process it.]",
-    "Transforms or modifies internal state": "Excluded — [e.g., No internal state to transform.]",
-    "Interacts with humans directly": "Excluded — [e.g., Interaction is mediated through interfaces.]",
-    "Part of a larger system": "Excluded — [e.g., It is a foundational part of systems but not a subsystem.]",
-    "Autonomous in function": "Excluded — [e.g., Requires human interpretation.]",
-    "System-critical": "Excluded — [e.g., Not critical to system operation.]",
-    "Symbolic / representational": "Included — [e.g., It is fundamentally symbolic.]",
-    "Communicative": "Included — [e.g., Its purpose is to convey a relationship.]",
-    "Logical / rule-based": "Included — [e.g., Defined by rules of logic.]",
-    "Hierarchical / modular": "Included — [e.g., It can be nested.]",
-    "Behavior-guiding": "Included — [e.g., Its purpose is to guide behavior.]",
-    "Self-referential / meta-conceptual": "Included — [e.g., It can refer to itself.]",
-    "Temporal": "Included — [e.g., It is defined by time-based concepts.]",
-    "Contextual abstraction": "Included — [e.g., Its meaning depends on context.]",
-    "Socially / culturally constructed": "Included — [e.g., It is a shared human concept.]",
-    "Defined by a group/system": "Included — [e.g., Its rules are defined by a group.]",
-    "Linked to identity or role": "Included — [e.g., It defines a social role.]",
-    "Regulated / governed": "Included — [e.g., It is legally enforced.]",
-    "Teachable / transmissible": "Included — [e.g., It is taught in schools.]",
-    "Visible": "Included — [e.g., It is meant to be seen.]",
-    "Context-sensitive": "Included — [e.g., Its interpretation depends on the situation.]",
-    "Widely known": "Included — [e.g., It is universally recognized.]"
+    "Physical Object": "[Include/Exclude — Justification]",
+    "Synthetic": "[Include/Exclude — Justification]",
+    "Biological/Biomimetic": "[...]",
+    "Powered": "[...]",
+    "Structural": "[...]",
+    "Observable": "[...]",
+    "Physical Medium": "[...]",
+    "Active": "[...]",
+    
+    "Intentionally Designed": "[...]",
+    "Outputs Effect": "[...]",
+    "Processes Signals/Logic": "[...]",
+    "State-Transforming": "[...]",
+    "Human-Interactive": "[...]",
+    "System-integrated": "[...]",
+    "Functionally Autonomous": "[...]",
+    "System-Essential": "[...]",
+    
+    "Symbolic": "[...]",
+    "Signalling": "[...]",
+    "Rule-governed": "[...]",
+    "Compositional": "[...]",
+    "Normative": "[...]",
+    "Meta": "[...]",
+    "Temporal": "[...]",
+    "Digital/Virtual": "[...]",
+    
+    "Social Construct": "[...]",
+    "Institutionally Defined": "[...]",
+    "Identity-Linked": "[...]",
+    "Regulated": "[...]",
+    "Economically Significant": "[...]",
+    "Politicised": "[...]",
+    "Ritualised": "[...]",
+    "Ethically Significant": "[...]"
   },
-  "encoding_notes": "[Optional - A space for notes on the encoding strategy.]"
+  "encoding_notes": "[Explain rationale, scope, exclusions. E.g., 'Encoding prioritizes physical and ethical traits without symbolic or abstract interpretation.']"
 }
+
 ```

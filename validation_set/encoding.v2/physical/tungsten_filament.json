@@ -1,0 +1,70 @@
+{
+  "entity": "Tungsten Filament",
+  "uht_code": "DFB5000D",
+  "image_url": "/validation_set/images/tungsten_filament.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Synthetic",
+      "Powered",
+      "Structural",
+      "Observable",
+      "Physical Medium",
+      "Active"
+    ],
+    "functional": [
+      "Intentionally Designed",
+      "Outputs Effect",
+      "State-Transforming",
+      "System-integrated",
+      "System-Essential"
+    ],
+    "abstract": [],
+    "social": [
+      "Economically Significant",
+      "Politicised",
+      "Ethically Significant"
+    ]
+  },
+  "feedback": {
+    "Physical Object": "Included — A discrete, solid coil of wire with defined boundaries.",
+    "Synthetic": "Included — Manufactured via industrial metallurgical processes.",
+    "Biological/Biomimetic": "Excluded — No biological origin or design inspiration.",
+    "Powered": "Included — Designed to operate by having electric current passed through it.",
+    "Structural": "Included — Its coiled form is designed to resist deformation at high temperatures.",
+    "Observable": "Included — Visible as the light-emitting element within a larger assembly.",
+    "Physical Medium": "Included — Composed of tangible tungsten metal.",
+    "Active": "Included — Heats up and radiates light and thermal energy when powered.",
+    
+    "Intentionally Designed": "Included — Engineered to produce light through incandescence.",
+    "Outputs Effect": "Included — Its primary function is to output light and heat.",
+    "Processes Signals/Logic": "Excluded — Does not interpret or manage data.",
+    "State-Transforming": "Included — Transitions between a cold, inert state and a hot, glowing state.",
+    "Human-Interactive": "Excluded — Not designed for direct human manipulation.",
+    "System-integrated": "Included — Always functions as a core component within a larger system (e.g., a light bulb).",
+    "Functionally Autonomous": "Excluded — Entirely dependent on an external power source.",
+    "System-Essential": "Included — The system (an incandescent bulb) cannot perform its function without it.",
+    
+    "Symbolic": "Excluded — Any symbolism is contextual, not intrinsic to the object.",
+    "Signalling": "Excluded — Does not inherently encode or transmit structured information.",
+    "Rule-governed": "Excluded — Obeys physical laws, not abstract or formal rules.",
+    "Compositional": "Excluded — Not an abstract system composed of meaningful modules.",
+    "Normative": "Excluded — Does not guide or constrain behavior.",
+    "Meta": "Excluded — Not self-referential.",
+    "Temporal": "Excluded — Not defined by a time-based sequence or identity.",
+    "Digital/Virtual": "Excluded — A physical artifact.",
+    
+    "Social Construct": "Excluded — Exists as a material object independent of social agreement.",
+    "Institutionally Defined": "Excluded — Not defined by any formal institution.",
+    "Identity-Linked": "Excluded — Not tied to social or personal identity.",
+    "Regulated": "Excluded — While its use in bulbs is regulated, the filament itself is not.",
+    "Economically Significant": "Included — A key historical and industrial component in lighting technology.",
+    "Politicised": "Included — Central to political debates and legislation regarding energy efficiency and the phase-out of incandescent technology.",
+    "Ritualised": "Excluded — Not used in any formal cultural or ceremonial practice.",
+    "Ethically Significant": "Included — Directly tied to ethical considerations of energy waste and environmental impact."
+  },
+  "encoding_notes": "This encoding captures the tungsten filament as a key technological component. It includes not only its physical and functional roles but also the intrinsic economic, political, and ethical significance arising from its use in a globally impactful technology. The UHT code was corrected to include the 'System-Essential' trait, resulting in final code DFB5000D."
+}

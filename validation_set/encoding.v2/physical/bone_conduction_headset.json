@@ -1,0 +1,74 @@
+{
+  "entity": "Bone Conduction Headset",
+  "uht_code": "FFFE4009",
+  "image_url": "/validation_set/images/bone_conduction_headset.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Synthetic",
+      "Biological/Biomimetic",
+      "Powered",
+      "Structural",
+      "Observable",
+      "Physical Medium",
+      "Active"
+    ],
+    "functional": [
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Processes Signals/Logic",
+      "State-Transforming",
+      "Human-Interactive",
+      "System-integrated",
+      "Functionally Autonomous"
+    ],
+    "abstract": [
+      "Signalling"
+    ],
+    "social": [
+      "Economically Significant",
+      "Ethically Significant"
+    ]
+  },
+  "feedback": {
+    "Physical Object": "Included — A bounded, wearable audio device with defined shape.",
+    "Synthetic": "Included — Manufactured from plastic, metal, and electronic components.",
+    "Biological/Biomimetic": "Included — Leverages a biological principle: bone conduction.",
+    "Powered": "Included — Requires battery or external power to operate.",
+    "Structural": "Included — Form factor designed to hold shape and transmit vibration.",
+    "Observable": "Included — Perceivable visually and by touch.",
+    "Physical Medium": "Included — Composed of solid matter.",
+    "Active": "Included — Engages in vibration and sound output during operation.",
+    
+    "Intentionally Designed": "Included — Created for direct human use and sensory experience.",
+    "Outputs Effect": "Included — Emits vibration-based sound as its main effect.",
+    "Processes Signals/Logic": "Included — Converts digital/analog signals to mechanical motion.",
+    "State-Transforming": "Included — Has dynamic power modes, volume, and connectivity states.",
+    "Human-Interactive": "Included — Worn, operated, and controlled by humans.",
+    "System-integrated": "Included — Links with external systems like phones or computers.",
+    "Functionally Autonomous": "Included — Operates independently once powered (e.g., standalone listening).",
+    "System-Essential": "Excluded — Can be swapped or removed from systems without compromising function.",
+    
+    "Symbolic": "Excluded — Not used to represent anything abstract.",
+    "Signalling": "Included — Transmits structured auditory information (speech, music).",
+    "Rule-governed": "Excluded — Not an abstract rule-based system.",
+    "Compositional": "Excluded — Modular in hardware but not semantically abstract.",
+    "Normative": "Excluded — Does not prescribe behavior.",
+    "Meta": "Excluded — Not self-referential.",
+    "Temporal": "Excluded — Not time-defined in function.",
+    "Digital/Virtual": "Excluded — A physical artifact.",
+    
+    "Social Construct": "Excluded — Materially exists independent of social categorization.",
+    "Institutionally Defined": "Excluded — Not institutionally framed.",
+    "Identity-Linked": "Excluded — Not inherently tied to identity.",
+    "Regulated": "Excluded — May be regulated in practice, but not intrinsically defined by regulation.",
+    "Economically Significant": "Included — Commercially produced and marketed globally.",
+    "Politicised": "Excluded — Not inherently political.",
+    "Ritualised": "Excluded — Not culturally symbolic.",
+    "Ethically Significant": "Included — Involves accessibility, inclusion, and design ethics."
+  },
+  "encoding_notes": "This encoding captures the bone conduction headset as a multisensory, powered, biologically-informed communication device. It includes social traits only where tied directly to ethical and market relevance. Final UHT code and trait labeling fully conform to the UHT v2 standard."
+}

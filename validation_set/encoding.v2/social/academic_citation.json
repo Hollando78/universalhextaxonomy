@@ -1,0 +1,65 @@
+{
+  "entity": "Academic Citation",
+  "uht_code": "0084C1FF",
+  "image_url": "/validation_set/images/academic_citation.png",
+  "traits": {
+    "physical": [],
+    "functional": [
+      "Purposeful / intentional",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A citation is a referential structure, not a tangible item.",
+    "Man-made / synthetic": "Excluded — Though created, it is abstract and not fabricated.",
+    "Biological or biologically-inspired": "Excluded — It has no biological or organic origin.",
+    "Fixed/static": "Excluded — Citation formats and usages evolve.",
+    "Structural": "Excluded — It is not a structural framework.",
+    "Perceptible": "Excluded — Its visual form is perceptible, but the citation concept itself is abstract.",
+    "Material form": "Excluded — Exists as formatted text, not a material entity.",
+    "Passive": "Excluded — It carries active functional and referential intent.",
+
+    "Purposeful / intentional": "Included — Citations are deliberate acts of attribution and reference.",
+    "Emits output / produces effect": "Excluded — It does not produce output independently.",
+    "Processes or regulates logic/signals": "Excluded — It is not a logical operator.",
+    "Transforms or modifies internal state": "Excluded — It does not perform transformation.",
+    "Interacts with humans directly": "Excluded — It is not an interface or tool.",
+    "Part of a larger system": "Included — Citations are integral to academic writing and publication ecosystems.",
+    "Autonomous in function": "Excluded — Requires human authorship and system context.",
+    "System-critical": "Excluded — Though important, not singularly critical to knowledge systems.",
+
+    "Symbolic / representational": "Included — Represents a source, credit, or intellectual lineage.",
+    "Communicative": "Included — Communicates acknowledgment, provenance, and relationships.",
+    "Logical / rule-based": "Excluded — Though governed by rules, it is not itself a logic structure.",
+    "Hierarchical / modular": "Excluded — Not modular by design.",
+    "Behavior-guiding": "Excluded — While it influences practices, that’s secondary to its referential role.",
+    "Self-referential / meta-conceptual": "Excluded — Does not reference itself or model systems.",
+    "Temporal": "Excluded — Although tied to time (publication date), that’s metadata not core identity.",
+    "Contextual abstraction": "Included — Its meaning and function depend on the surrounding academic context.",
+
+    "Socially / culturally constructed": "Included — Citation norms vary by discipline and culture.",
+    "Defined by a group/system": "Included — Governed by academic style guides and institutions.",
+    "Linked to identity or role": "Included — Citations directly associate content with authorship, linking to personal and professional identity.",
+    "Regulated / governed": "Included — Subject to formal citation rules and formatting standards.",
+    "Teachable / transmissible": "Included — Taught in educational settings as a fundamental scholarly practice.",
+    "Visible": "Included — Rendered textually in documents.",
+    "Context-sensitive": "Included — Meaning changes by context (discipline, genre, citation style).",
+    "Widely known": "Included — Broadly understood in academic and publishing circles."
+  },
+  "encoding_notes": "The citation is treated here as an abstract-social artifact that functions symbolically and communicatively within the academic knowledge system. Its identity depends on institutional context, conventions, and referential purpose. The corrected code '0084C1FF' faithfully reflects its linked identity function and embedded social meaning."
+}

@@ -1,0 +1,68 @@
+{
+  "entity": "Scientific Theory",
+  "uht_code": "4000FFCF",
+  "image_url": "/validation_set/images/scientific_theory.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Self-referential / meta-conceptual",
+      "Temporal",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A theory is not a tangible object but a conceptual structure.",
+    "Man-made / synthetic": "Included — Theories are human-constructed explanatory models, even when describing natural phenomena.",
+    "Biological or biologically-inspired": "Excluded — Theories are logical abstractions, not biologically derived systems.",
+    "Fixed/static": "Excluded — Theories evolve with new evidence and paradigms.",
+    "Structural": "Excluded — They have internal logical structure but no physical form.",
+    "Perceptible": "Excluded — One cannot perceive a theory itself, only its representations.",
+    "Material form": "Excluded — Theories are not composed of matter.",
+    "Passive": "Excluded — Theories do not exhibit action or reactivity.",
+    
+    "Purposeful / intentional": "Excluded — Theories are results of intentional design but are not themselves acting entities.",
+    "Emits output / produces effect": "Excluded — Theories describe and predict, but do not output or cause events.",
+    "Processes or regulates logic/signals": "Excluded — Theories frame logic but do not execute or process it.",
+    "Transforms or modifies internal state": "Excluded — Theories are static until revised by agents.",
+    "Interacts with humans directly": "Excluded — The interaction is mediated through communication and application.",
+    "Part of a larger system": "Excluded — Though used within scientific systems, theories are not embedded components.",
+    "Autonomous in function": "Excluded — They require interpretation and application by humans.",
+    "System-critical": "Excluded — A theory may be foundational but not structurally essential to system operation.",
+    
+    "Symbolic / representational": "Included — They represent knowledge using language, models, and diagrams.",
+    "Communicative": "Included — Theories convey explanatory structures and predictions.",
+    "Logical / rule-based": "Included — A theory must follow coherent, testable, and falsifiable logical rules.",
+    "Hierarchical / modular": "Included — Theories are often composed of layered or component ideas (e.g., sub-theories).",
+    "Behavior-guiding": "Included — They guide the design of experiments and interpretation of phenomena.",
+    "Self-referential / meta-conceptual": "Included — Some theories reflect on the structure of theory itself (e.g., philosophy of science).",
+    "Temporal": "Included — Many theories explain time-based processes (e.g., causality, evolution, motion).",
+    "Contextual abstraction": "Included — The interpretation of theories depends on methodological, disciplinary, and historical context.",
+    
+    "Socially / culturally constructed": "Included — The content and acceptance of theories are shaped by historical and cultural frameworks.",
+    "Defined by a group/system": "Included — Scientific communities and institutions define, refine, and accept theories.",
+    "Linked to identity or role": "Excluded — Theories are not directly tied to individual or group identity.",
+    "Regulated / governed": "Excluded — There is no legal or formal regulation of theory content.",
+    "Teachable / transmissible": "Included — Core to education and scientific training.",
+    "Visible": "Included — Theories are expressed through visual models, publications, and diagrams.",
+    "Context-sensitive": "Included — The meaning and applicability of a theory depend on domain-specific assumptions.",
+    "Widely known": "Included — Prominent theories are globally recognized in academic, educational, and cultural contexts."
+  },
+  "encoding_notes": "This encoding captures the Scientific Theory as an abstract, symbolic, and socially embedded framework for explaining phenomena. While it exhibits all abstract traits, its expression and adoption are deeply influenced by social systems. It does not perform functions on its own but guides epistemic and behavioral structures. The code reflects this abstraction-heavy, socially-defined essence with no functional traits.",
+  "image": "images/scientific_theory.png"
+}

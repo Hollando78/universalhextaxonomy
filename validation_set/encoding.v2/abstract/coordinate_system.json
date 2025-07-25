@@ -1,0 +1,64 @@
+{
+  "entity": "Coordinate System",
+  "uht_code": "4000FBDF",
+  "image_url": "/validation_set/images/coordinate_system.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Self-referential / meta-conceptual",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — It is a conceptual framework for defining relationships in space, not a tangible object.",
+    "Man-made / synthetic": "Included — The concept of a coordinate system and its notation are human-created conventions.",
+    "Biological or biologically-inspired": "Excluded — It is based on mathematical principles, not biological systems.",
+    "Fixed/static": "Excluded — As a conceptual entity, it has no physical immobility.",
+    "Structural": "Excluded — Its structure is a conceptual framework, not a physical or load-bearing one.",
+    "Perceptible": "Excluded — It is perceived through its representation (e.g., on a graph), not as a physical entity itself.",
+    "Material form": "Excluded — It is a formal concept and is not composed of matter.",
+    "Passive": "Excluded — This trait is not meaningfully applicable to a conceptual entity.",
+    "Purposeful / intentional": "Excluded — Its purpose is to represent, not to act; intentionality is applied by the user.",
+    "Emits output / produces effect": "Excluded — It provides a framework for output, but does not produce effects itself.",
+    "Processes or regulates logic/signals": "Excluded — It is a representation of a logical system, not a process that executes logic.",
+    "Transforms or modifies internal state": "Excluded — It is a static, unchanging concept.",
+    "Interacts with humans directly": "Excluded — It is a static concept, not an interactive interface.",
+    "Part of a larger system": "Excluded — It is a foundational component of many systems, but its identity is not system-bound.",
+    "Autonomous in function": "Excluded — It has no autonomous function.",
+    "System-critical": "Excluded — While foundational, it is a conceptual tool, not a critical part of a system's operation.",
+    "Symbolic / representational": "Included — It uses symbols (e.g., x, y, z) to represent a spatial relationship.",
+    "Communicative": "Included — Its primary purpose is to communicate location and spatial relationships.",
+    "Logical / rule-based": "Included — It is defined by and operates on strict mathematical and logical rules.",
+    "Hierarchical / modular": "Included — It can be scaled and has a nested structure (e.g., 2D within 3D).",
+    "Behavior-guiding": "Included — Its primary purpose is to guide behavior, such as navigation or design.",
+    "Self-referential / meta-conceptual": "Included — It can be used to describe its own axes or origin point.",
+    "Temporal": "Excluded — The concept itself is atemporal, even when used to represent time.",
+    "Contextual abstraction": "Included — Its meaning and validity are dependent on the context (e.g., Cartesian vs. polar, geographic vs. celestial).",
+    "Socially / culturally constructed": "Included — The concept and notation of coordinate systems are human-created and agreed upon.",
+    "Defined by a group/system": "Included — The standards for its use are defined by scientific and mathematical communities.",
+    "Linked to identity or role": "Excluded — It does not define the identity or role of a person or group.",
+    "Regulated / governed": "Excluded — While standardized, there’s no global regulatory enforcement across all domains.",
+    "Teachable / transmissible": "Included — The knowledge and application of it are a fundamental part of education.",
+    "Visible": "Included — It is presented in a visual form (e.g., a graph, a map) to be understood.",
+    "Context-sensitive": "Included — Interpretation depends on mathematical context (e.g., `x = y` in algebra vs. logic).",
+    "Widely known": "Included — The concept of a coordinate system is globally recognized and foundational."
+  },
+  "encoding_notes": "This encoding captures the Coordinate System as a purely abstract, human-created conceptual entity. It is defined by its symbolic, logical, and social properties, and its core function is to guide behavior and communicate spatial relationships. Functional traits are excluded based on UHT standards for non-executing frameworks. The inclusion of both Contextual abstraction (24) and Context-sensitive (31) reflects its dual epistemic and interpretive dependencies.",
+  "image": "images/coordinate_system.png"
+}

@@ -1,0 +1,61 @@
+{
+  "entity": "Sandbag",
+  "uht_code": "CE880000",
+  "image_url": "/validation_set/images/sandbag.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Synthetic",
+      "Structural",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [
+      "Intentionally Designed",
+      "Human-Interactive"
+    ],
+    "abstract": [],
+    "social": []
+  },
+  "feedback": {
+    "Physical Object": "Included — A bounded, discrete object with defined physical form.",
+    "Synthetic": "Included — Manufactured using human-made materials (fabric, stitching).",
+    "Biological/Biomimetic": "Excluded — Not derived from biological sources or inspired by biology.",
+    "Powered": "Excluded — Does not rely on an external energy supply.",
+    "Structural": "Included — Used to create barriers or add physical weight for resistance or support.",
+    "Observable": "Included — Clearly visible and tactile.",
+    "Physical Medium": "Included — Made of physical matter (sand and bag) and occupies space.",
+    "Active": "Excluded — Exhibits no self-initiated behavior or internal transformation.",
+    
+    "Intentionally Designed": "Included — Specifically made to serve as a physical counterweight, barrier, or tool.",
+    "Outputs Effect": "Excluded — Does not emit energy or signal.",
+    "Processes Signals/Logic": "Excluded — No informational or logical function.",
+    "State-Transforming": "Excluded — No built-in state change occurs during its use.",
+    "Human-Interactive": "Included — Designed to be carried, placed, and adjusted by people.",
+    "System-integrated": "Excluded — Can be used within systems (e.g., levees), but not inherently system-bound.",
+    "Functionally Autonomous": "Excluded — Passive and requires human placement/use.",
+    "System-Essential": "Excluded — Not indispensable to any singular system identity.",
+    
+    "Symbolic": "Excluded — Not inherently symbolic.",
+    "Signalling": "Excluded — Does not convey messages or information.",
+    "Rule-governed": "Excluded — No abstract rules structure its identity.",
+    "Compositional": "Excluded — Not a structured abstraction with modular components.",
+    "Normative": "Excluded — Does not prescribe or direct behavior.",
+    "Meta": "Excluded — Not self-referential or conceptual.",
+    "Temporal": "Excluded — Not defined by time-dependent sequences.",
+    "Digital/Virtual": "Excluded — Entirely material.",
+    
+    "Social Construct": "Excluded — Exists materially, regardless of interpretation.",
+    "Institutionally Defined": "Excluded — Not officially categorized or defined by institutions.",
+    "Identity-Linked": "Excluded — Not associated with personal or social identity.",
+    "Regulated": "Excluded — Not subject to legal or procedural regulation in its form.",
+    "Economically Significant": "Excluded — Holds minimal intrinsic economic value.",
+    "Politicised": "Excluded — Contextual use may be political, but the object itself is not.",
+    "Ritualised": "Excluded — Not used in formalized or traditional rituals.",
+    "Ethically Significant": "Excluded — Does not carry intrinsic moral implications."
+  },
+  "encoding_notes": "This encoding considers the sandbag as a functional, passive, human-designed object. Abstract and social traits are excluded as non-intrinsic. Interaction is recognized as physical manipulation intentionally built into its use."
+}

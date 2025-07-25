@@ -1,0 +1,67 @@
+{
+  "entity": "Mathematical Equation",
+  "uht_code": "408CF1DF",
+  "image_url": "/validation_set/images/mathematical_equation.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Interacts with humans directly",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — The equation itself is not a tangible object; it exists abstractly.",
+    "Man-made / synthetic": "Included — The form and structure of equations are human-constructed symbolic conventions.",
+    "Biological or biologically-inspired": "Excluded — There is no bio-mimicry or organic origin involved.",
+    "Fixed/static": "Excluded — Equations may represent dynamic systems and are not inherently fixed in form or implication.",
+    "Structural": "Excluded — Not a load-bearing or physically structural element.",
+    "Perceptible": "Excluded — Visibility arises from rendering (e.g., on paper), not intrinsic to the equation itself.",
+    "Material form": "Excluded — It is not composed of matter; it is a conceptual structure.",
+    "Passive": "Excluded — Not meaningfully applicable to abstract representations.",
+    "Purposeful / intentional": "Included — Equations are intentionally designed to express relationships and constraints.",
+    "Emits output / produces effect": "Excluded — An equation itself does not generate a signal or effect outside of its interpretation.",
+    "Processes or regulates logic/signals": "Excluded — It represents logic, but does not act or process autonomously.",
+    "Transforms or modifies internal state": "Excluded — Static by nature unless interpreted or manipulated externally.",
+    "Interacts with humans directly": "Included — Created for and used by humans to convey or derive meaning.",
+    "Part of a larger system": "Included — Exists within mathematical, scientific, or logical frameworks.",
+    "Autonomous in function": "Excluded — Requires external interpretation or manipulation to be active.",
+    "System-critical": "Excluded — While often important, it is not irreducibly essential to any one system.",
+    "Symbolic / representational": "Included — Its function is explicitly symbolic; it stands in for relationships or models.",
+    "Communicative": "Included — Equations convey formal meaning via symbolic language.",
+    "Logical / rule-based": "Included — Their validity and interpretation are strictly governed by mathematical rules.",
+    "Hierarchical / modular": "Included — Equations can contain nested expressions and subcomponents (modular structure).",
+    "Behavior-guiding": "Excluded — Not designed to guide behavior directly (like laws or instructions).",
+    "Self-referential / meta-conceptual": "Excluded — Some equations are, but this is not typical or essential.",
+    "Temporal": "Excluded — Most equations are atemporal unless modeling time explicitly.",
+    "Contextual abstraction": "Included — Meaning may change based on symbolic context, domain assumptions, or notation system.",
+    "Socially / culturally constructed": "Included — The concept and notation of equations are created and maintained by cultures and disciplines.",
+    "Defined by a group/system": "Included — Meaning and validity arise from being defined within formal systems (e.g., math, physics).",
+    "Linked to identity or role": "Excluded — Not identity-bearing or role-specific in typical usage.",
+    "Regulated / governed": "Included — Usage governed by syntactic and semantic rules of formal disciplines.",
+    "Teachable / transmissible": "Included — Fundamental unit in mathematical and scientific education.",
+    "Visible": "Included — Commonly represented in visual symbolic form.",
+    "Context-sensitive": "Included — Interpretation depends on mathematical context (e.g., `x = y` in algebra vs. logic).",
+    "Widely known": "Included — The idea of an equation is globally recognized and foundational."
+  },
+  "encoding_notes": "This encoding captures the equation as a symbolic, rule-based, communicative structure situated within formal systems and cultural transmission. It is not physical or agentive, but it plays a vital abstract and social role in human knowledge systems.",
+  "image": "images/mathematical_equation.png"
+}

@@ -1,0 +1,66 @@
+{
+  "entity": "Tenure System",
+  "uht_code": "00848DFF",
+  "image_url": "/validation_set/images/tenure_system.png",
+  "traits": {
+    "physical": [],
+    "functional": [
+      "Purposeful / intentional",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Behavior-guiding",
+      "Self-referential / meta-conceptual",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — The tenure system is a policy structure, not a tangible object.",
+    "Man-made / synthetic": "Excluded — It is institutional, not materially fabricated.",
+    "Biological or biologically-inspired": "Excluded — It is not derived from biological models.",
+    "Fixed/static": "Excluded — Policies can evolve; tenure standards shift over time.",
+    "Structural": "Excluded — It is not a material or physical structure.",
+    "Perceptible": "Excluded — Its effects are visible, but the system itself is conceptual.",
+    "Material form": "Excluded — It has no material embodiment.",
+    "Passive": "Excluded — It functions through rules and decisions, not passive presence.",
+
+    "Purposeful / intentional": "Included — Designed to ensure academic freedom and employment stability.",
+    "Emits output / produces effect": "Excluded — It influences outcomes indirectly via roles and protections.",
+    "Processes or regulates logic/signals": "Excluded — It is not a signal system.",
+    "Transforms or modifies internal state": "Excluded — It does not autonomously transform.",
+    "Interacts with humans directly": "Excluded — It is not an interface or agent.",
+    "Part of a larger system": "Included — Embedded within academic governance and institutional policy frameworks.",
+    "Autonomous in function": "Excluded — Relies on governance and enforcement to operate.",
+    "System-critical": "Excluded — Important but not universally essential to the operation of an institution.",
+
+    "Symbolic / representational": "Included — Tenure symbolizes institutional trust and professional status.",
+    "Communicative": "Excluded — It is not inherently communicative, though it conveys status indirectly.",
+    "Logical / rule-based": "Excluded — While implemented via rules, this trait reflects internal logic processing.",
+    "Hierarchical / modular": "Excluded — It is not internally modularized as a concept.",
+    "Behavior-guiding": "Included — Strongly shapes academic behaviors and career choices.",
+    "Self-referential / meta-conceptual": "Included — The system reflects upon its own governance mechanisms.",
+    "Temporal": "Excluded — Though time-bound in process (e.g., probationary periods), it is not intrinsically temporal.",
+    "Contextual abstraction": "Included — The system only exists within institutional and sociocultural context.",
+
+    "Socially / culturally constructed": "Included — Defined and maintained through academic culture.",
+    "Defined by a group/system": "Included — Institutions formally define its rules.",
+    "Linked to identity or role": "Included — It grants the role/status of 'tenured faculty'.",
+    "Regulated / governed": "Included — Governed by policy documents, bylaws, and committees.",
+    "Teachable / transmissible": "Included — Explained and handed down through policy, mentorship, and onboarding.",
+    "Visible": "Included — Publicly recognized through announcements and directories.",
+    "Context-sensitive": "Included — Varies dramatically by institution, discipline, and country.",
+    "Widely known": "Included — Recognized across the academic world and often beyond."
+  },
+  "encoding_notes": "The tenure system is modeled as a deeply social and abstract construct with strong behavioral and identity-signaling functions. Though not a communicative or logical processor itself, it operates symbolically, structurally, and within complex institutional systems. The corrected code '00848DFF' now faithfully reflects the selected traits."
+}

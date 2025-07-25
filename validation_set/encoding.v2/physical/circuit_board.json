@@ -1,0 +1,69 @@
+{
+  "entity": "Circuit Board",
+  "uht_code": "DEE41009",
+  "image_url": "/validation_set/images/circuit_board.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Synthetic",
+      "Powered",
+      "Structural",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Processes Signals/Logic",
+      "System-integrated"
+    ],
+    "abstract": [
+      "Compositional"
+    ],
+    "social": [
+      "Economically Significant",
+      "Ethically Significant"
+    ]
+  },
+  "feedback": {
+    "Physical Object": "Included — A bounded, solid manufactured item with physical dimensions.",
+    "Synthetic": "Included — Produced through industrial fabrication.",
+    "Biological/Biomimetic": "Excluded — No design features draw from biology; layout is dictated by electronics constraints.",
+    "Powered": "Included — Operates only when conducting electrical power.",
+    "Structural": "Included — Supports components and physically integrates parts of a device.",
+    "Observable": "Included — Inspectable via human or instrument-based visual means.",
+    "Physical Medium": "Included — Composed of fiberglass, copper, and epoxy resin; material substance is core to its function.",
+    "Active": "Excluded — Does not perform autonomous behaviors; routing is passive.",
+    
+    "Intentionally Designed": "Included — Engineered layout for signal control and component integration.",
+    "Outputs Effect": "Included — Enables signals and power to reach destination components.",
+    "Processes Signals/Logic": "Included — Directs and shapes flow of logical and analog signals.",
+    "State-Transforming": "Excluded — Does not change its own internal state.",
+    "Human-Interactive": "Excluded — Not meant for direct use or interface by a person.",
+    "System-integrated": "Included — Always serves as a component in a larger device or electrical system.",
+    "Functionally Autonomous": "Excluded — Not independently functional.",
+    "System-Essential": "Excluded — May be essential to a system, but that status is context-specific.",
+    
+    "Symbolic": "Excluded — Not used to represent anything beyond itself.",
+    "Signalling": "Excluded — Enables signals but does not intrinsically communicate meaning.",
+    "Rule-governed": "Excluded — Design follows physical constraints, not abstract logic.",
+    "Compositional": "Included — Contains nested and modular structure (layers, traces, ground planes).",
+    "Normative": "Excluded — Does not influence behavior or norms.",
+    "Meta": "Excluded — Not reflective or conceptual.",
+    "Temporal": "Excluded — Not defined by time-based behavior.",
+    "Digital/Virtual": "Excluded — Entirely physical.",
+    
+    "Social Construct": "Excluded — Exists regardless of human agreement or consensus.",
+    "Institutionally Defined": "Excluded — Commonplace technology, not defined by legal or formal status.",
+    "Identity-Linked": "Excluded — Not tied to identity or social role.",
+    "Regulated": "Excluded — May be subject to import/export controls, but not intrinsically regulated in form.",
+    "Economically Significant": "Included — Core component of global electronics; critical to multiple industries.",
+    "Politicised": "Excluded — Not inherently involved in political discourse.",
+    "Ritualised": "Excluded — Not involved in formalized or symbolic ritual.",
+    "Ethically Significant": "Included — Directly tied to environmental and labor issues across sourcing and disposal."
+  },
+  "encoding_notes": "Encoding isolates the circuit board as a compositional, signal-routing object. It excludes symbolic or system-wide roles while recognizing the deep ethical and economic significance tied to its material production and global role."
+}

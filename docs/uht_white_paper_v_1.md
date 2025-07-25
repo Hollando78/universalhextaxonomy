@@ -1,5 +1,5 @@
 # Universal Hex Taxonomy (UHT)
-**White Paper v1.0 | April 2025**
+**White Paper v2.0 | July 2025**
 
 **Author:** Steven Holland (steven.holland@outlook.com)  
 **Date:** July 2025
@@ -33,22 +33,22 @@ Each code consists of 32 bits divided into four groups of eight. These correspon
 | 17–24     | Abstract   | Symbolism, logic         |
 | 25–32     | Social     | Culture, visibility      |
 
-Each number maps to a trait (see Section 3). Group the bits into four bytes and convert to hexadecimal for readability (for example, `D78800C5`).
+Each number maps to a trait (see Section 3). Group the bits into four bytes and convert to hexadecimal for readability (for example, `CE880000`).
 
 ### 2.2 Converting Bits to Hex
 
-1. List the 32-bit string in groups of eight. Example (Paperclip): `11010111 10001000 00000000 11000101`
+1. List the 32-bit string in groups of eight. Example (Paperclip): `11001110 10001000 00000000 00000000`
 2. Split into bytes:
-   - Byte 1: `11010111`
+   - Byte 1: `11001110`
    - Byte 2: `10001000`
    - Byte 3: `00000000`
-   - Byte 4: `11000101`
+   - Byte 4: `00000000`
 3. Convert each byte to hex:
-   - `11010111` → `D7`
+   - `11001110` → `CE`
    - `10001000` → `88`
    - `00000000` → `00`
-   - `11000101` → `C5`
-4. Concatenate: `D78800C5`
+   - `00000000` → `00`
+4. Concatenate: `CE880000`
 
 To decode, reverse these steps: split the hex into bytes, convert to binary, and match each bit to its corresponding trait.
 
@@ -76,48 +76,45 @@ To decode, reverse these steps: split the hex into bytes, convert to binary, and
 Each of the 32 bits corresponds to a named property. Bits are either on (1) or off (0).
 
 ### Physical (1–8)
-
-- Physical object
-- Synthetic or manmade
-- Biological or bio-inspired
-- Fixed or static
-- Structural
-- Perceptible
-- Material form
-- Passive
+1. **Physical Object** — A tangible object with boundaries that occupies space.
+2. **Synthetic** — Created or manufactured by human action.
+3. **Biological/Biomimetic** — Has biological origin or mimics biology.
+4. **Powered** — Requires energy to function.
+5. **Structural** — Load-bearing or supportive in design.
+6. **Observable** — Detectable via senses or instruments.
+7. **Physical Medium** — Composed of matter or physical substrate.
+8. **Active** — Capable of internal behavior or self-initiation.
 
 ### Functional (9–16)
-
-- Intentional or purposeful
-- Emits output or produces effect
-- Processes or regulates
-- State-transforming
-- Human-interactive
-- Part of a larger system
-- Autonomous
-- System-critical
+9. **Intentionally Designed** — Built for a specific purpose.
+10. **Outputs Effect** — Emits energy, signal, or change.
+11. **Processes Signals/Logic** — Performs control or interpretation.
+12. **State-Transforming** — Undergoes or causes internal change.
+13. **Human-Interactive** — Meant to interface with humans.
+14. **System-integrated** — Designed to work within a system.
+15. **Functionally Autonomous** — Operates independently.
+16. **System-Essential** — Necessary for overall system function.
 
 ### Abstract (17–24)
-
-- Symbolic or representational
-- Communicative
-- Logical or rule-based
-- Hierarchical or modular
-- Behavior-guiding
-- Meta-conceptual
-- Temporal
-- Contextual
+17. **Symbolic** — Represents other things via signs.
+18. **Signalling** — Conveys meaning via interpretable forms.
+19. **Rule-governed** — Follows or defines logical rules.
+20. **Compositional** — Structured in modular parts.
+21. **Normative** — Guides or constrains behavior.
+22. **Meta** — Refers to its own structure or category.
+23. **Temporal** — Defined or structured by time.
+24. **Digital/Virtual** — Exists in encoded or virtual form.
 
 ### Social (25–32)
+25. **Social Construct** — Exists via social consensus.
+26. **Institutionally Defined** — Defined by a formal group.
+27. **Identity-Linked** — Tied to roles or social identity.
+28. **Regulated** — Governed by formal/informal rules.
+29. **Economically Significant** — Has economic impact.
+30. **Politicised** — Involved in political dynamics.
+31. **Ritualised** — Part of cultural ritual or tradition.
+32. **Ethically Significant** — Subject to ethical judgment.
 
-- Culturally constructed
-- Defined by a group or system
-- Identity or role
-- Regulated or governed
-- Teachable or transmissible
-- Visible
-- Context-sensitive
-- Widely known
 
 ---
 

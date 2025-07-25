@@ -1,0 +1,69 @@
+{
+  "entity": "Car Ignition System",
+  "uht_code": "DEFC2005",
+  "image_url": "/validation_set/images/car_ignition_system.png",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Interacts with humans directly",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Logical / rule-based"
+    ],
+    "social": [
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible hardware assembly within the car's engine system.",
+    "Man-made / synthetic": "Included — Designed and manufactured entirely by humans.",
+    "Biological or biologically-inspired": "Excluded — Purely mechanical/electrical in design and function.",
+    "Fixed/static": "Included — Installed in a permanent position within the vehicle.",
+    "Structural": "Included — Composed of interconnected housing, switches, and wiring.",
+    "Perceptible": "Included — User-facing interface elements such as key slot or start button.",
+    "Material form": "Included — Constructed from metal, plastic, and electronic components.",
+    "Passive": "Excluded — Actively engages the ignition and control circuitry.",
+    
+    "Purposeful / intentional": "Included — Built to initiate the engine's start sequence.",
+    "Emits output / produces effect": "Included — Produces ignition spark and system activation signals.",
+    "Processes or regulates logic/signals": "Included — Especially in modern cars with anti-theft and diagnostics.",
+    "Transforms or modifies internal state": "Included — Transitions the engine and vehicle systems from 'off' to 'on'.",
+    "Interacts with humans directly": "Included — Requires human input (turn key, press button, detect key fob).",
+    "Part of a larger system": "Included — Functions within the broader vehicle electrical and mechanical system.",
+    "Autonomous in function": "Excluded — Requires a deliberate user action to initiate.",
+    "System-critical": "Excluded — Critical for start, but bypassable with overrides in some systems.",
+    
+    "Symbolic / representational": "Excluded — Not a representational or metaphorical device.",
+    "Communicative": "Excluded — Interfaces with system but not designed to transmit symbolic messages.",
+    "Logical / rule-based": "Included — Executes startup conditions and safety logic.",
+    "Hierarchical / modular": "Excluded — Not abstractly modular beyond physical subcomponents.",
+    "Behavior-guiding": "Excluded — Does not guide behavior directly.",
+    "Self-referential / meta-conceptual": "Excluded — No self-monitoring or conceptual tracking.",
+    "Temporal": "Excluded — Functions instantly; not defined by time management.",
+    "Contextual abstraction": "Excluded — Role is consistent across vehicle contexts.",
+    
+    "Socially / culturally constructed": "Excluded — Functionally standardized across cultures.",
+    "Defined by a group/system": "Excluded — Standardized by engineering, not semantically.",
+    "Linked to identity or role": "Excluded — Not associated with personal or social roles.",
+    "Regulated / governed": "Excluded — Subject to safety standards, but not an intrinsic regulatory artifact.",
+    "Teachable / transmissible": "Excluded — Commonly taught, but not inherently educative.",
+    "Visible": "Included — Interface components are user-facing.",
+    "Context-sensitive": "Excluded — Performs the same function regardless of environment.",
+    "Widely known": "Included — Well-known component of nearly all vehicles."
+  },
+  "encoding_notes": "This encoding treats the ignition system as a functional component embedded in a car's architecture. It scores strongly in the physical and functional layers due to its material presence, human interaction, and purposeful activation of electrical processes. A single abstract trait is included for its logical role in validating startup conditions. Social traits are limited to public recognizability and physical visibility.",
+  "image": "images/car_ignition_system.png"
+}

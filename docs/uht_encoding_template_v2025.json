@@ -1,0 +1,53 @@
+{
+  "entity": "[Your Entity Name Here]",
+  "uht_code": "[8-character hex code]",
+  "traits": {
+    "physical": [
+      "List of included Physical traits"
+    ],
+    "functional": [
+      "List of included Functional traits"
+    ],
+    "abstract": [
+      "List of included Abstract traits"
+    ],
+    "social": [
+      "List of included Social traits"
+    ]
+  },
+  "feedback": {
+    "Physical Object": "Excluded \u2014 [Reason]",
+    "Synthetic": "Excluded \u2014 [Reason]",
+    "Biological/Biomimetic": "Excluded \u2014 [Reason]",
+    "Powered": "Excluded \u2014 [Reason]",
+    "Structural": "Excluded \u2014 [Reason]",
+    "Observable": "Excluded \u2014 [Reason]",
+    "Physical Medium": "Excluded \u2014 [Reason]",
+    "Active": "Excluded \u2014 [Reason]",
+    "Intentionally Designed": "Excluded \u2014 [Reason]",
+    "Outputs Effect": "Excluded \u2014 [Reason]",
+    "Processes Signals/Logic": "Excluded \u2014 [Reason]",
+    "State-Transforming": "Excluded \u2014 [Reason]",
+    "Human-Interactive": "Excluded \u2014 [Reason]",
+    "System-integrated": "Excluded \u2014 [Reason]",
+    "Functionally Autonomous": "Excluded \u2014 [Reason]",
+    "System-Essential": "Excluded \u2014 [Reason]",
+    "Symbolic": "Excluded \u2014 [Reason]",
+    "Signalling": "Excluded \u2014 [Reason]",
+    "Rule-governed": "Excluded \u2014 [Reason]",
+    "Compositional": "Excluded \u2014 [Reason]",
+    "Normative": "Excluded \u2014 [Reason]",
+    "Meta": "Excluded \u2014 [Reason]",
+    "Temporal": "Excluded \u2014 [Reason]",
+    "Digital/Virtual": "Excluded \u2014 [Reason]",
+    "Social Construct": "Excluded \u2014 [Reason]",
+    "Institutionally Defined": "Excluded \u2014 [Reason]",
+    "Identity-Linked": "Excluded \u2014 [Reason]",
+    "Regulated": "Excluded \u2014 [Reason]",
+    "Economically Significant": "Excluded \u2014 [Reason]",
+    "Politicised": "Excluded \u2014 [Reason]",
+    "Ritualised": "Excluded \u2014 [Reason]",
+    "Ethically Significant": "Excluded \u2014 [Reason]"
+  },
+  "encoding_notes": "[Optional \u2014 Include rationale, assumptions, or edge case clarifications.]"
+}

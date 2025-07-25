@@ -1,0 +1,72 @@
+{
+  "entity": "Smoke Detector",
+  "uht_code": "DEF72215",
+  "image_url": "/validation_set/images/smoke_detector.png",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Part of a larger system",
+      "Autonomous in function",
+      "System-critical"
+    ],
+    "abstract": [
+      "Logical / rule-based",
+      "Temporal"
+    ],
+    "social": [
+      "Regulated / governed",
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A mounted, enclosed sensing unit occupying physical space.",
+    "Man-made / synthetic": "Included — Fully engineered and mass-produced.",
+    "Biological or biologically-inspired": "Excluded — Detection based on photoelectric or ionization physics, not biology.",
+    "Fixed/static": "Included — Installed on ceilings or walls for permanent operation.",
+    "Structural": "Included — Internal chamber and layout affect sensing performance.",
+    "Perceptible": "Included — Alarms are loud and visible, with obvious device presence.",
+    "Material form": "Included — Plastic housing and embedded electronics.",
+    "Passive": "Excluded — Continuously monitors and emits alerts; not inert.",
+    
+    "Purposeful / intentional": "Included — Built for the specific task of smoke detection and alert.",
+    "Emits output / produces effect": "Included — Produces audible (and often visual) alarm signals.",
+    "Processes or regulates logic/signals": "Included — Uses logic to detect smoke density and decide threshold events.",
+    "Transforms or modifies internal state": "Included — Tracks alarm states, test results, or battery conditions.",
+    "Interacts with humans directly": "Excluded — Has minimal interaction beyond alarm sound and test button.",
+    "Part of a larger system": "Included — May be networked with other detectors or security systems.",
+    "Autonomous in function": "Included — Operates continuously without manual input.",
+    "System-critical": "Included — Essential for life safety in many regulated spaces.",
+    
+    "Symbolic / representational": "Excluded — Operates functionally, not as a symbol.",
+    "Communicative": "Excluded — Communicates alerts but not through symbolic content.",
+    "Logical / rule-based": "Included — Triggers alarm only when predefined thresholds are exceeded.",
+    "Hierarchical / modular": "Excluded — Usually not semantically modular, though hardware may be.",
+    "Behavior-guiding": "Excluded — May prompt action but does not prescribe behavior.",
+    "Self-referential / meta-conceptual": "Excluded — No reflective logic or awareness of self.",
+    "Temporal": "Included — Constant time-based sensing, with potential logging features.",
+    "Contextual abstraction": "Excluded — Operates independently of symbolic or social context.",
+    
+    "Socially / culturally constructed": "Excluded — Function defined by physics, not social meaning.",
+    "Defined by a group/system": "Excluded — While manufactured to spec, not semantically group-defined.",
+    "Linked to identity or role": "Excluded — Not identity-bearing.",
+    "Regulated / governed": "Included — Subject to strict building codes and fire safety standards.",
+    "Teachable / transmissible": "Excluded — Can be explained, but not designed for didactic use.",
+    "Visible": "Included — Visibly present and designed for easy recognition.",
+    "Context-sensitive": "Excluded — Operates the same across environments.",
+    "Widely known": "Included — Universally recognized life safety device."
+  },
+  "encoding_notes": "This encoding reflects a smoke detector as a structurally fixed, perceptible, and autonomous safety device. It is defined by logical sensing and regulatory inclusion. Though not user-interactive or symbolic, its system-critical function and legal mandate justify inclusion of autonomy and governance traits.",
+  "image": "images/smoke_detector.png"
+}

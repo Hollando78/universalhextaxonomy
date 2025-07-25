@@ -1,0 +1,70 @@
+{
+  "entity": "Autonomous Drone",
+  "uht_code": "CEF67217",
+  "image_url": "/validation_set/images/autonomous_drone.png",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Part of a larger system",
+      "Autonomous in function"
+    ],
+    "abstract": [
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Temporal"
+    ],
+    "social": [
+      "Regulated / governed",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — The drone has a tangible, embodied form with motors, frame, and sensors.",
+    "Man-made / synthetic": "Included — Fully engineered and constructed using synthetic components.",
+    "Biological or biologically-inspired": "Excluded — It does not mimic biological structure or behavior.",
+    "Fixed/static": "Excluded — It is a mobile aerial system, not stationary.",
+    "Structural": "Included — Rotor arm layout, center of mass, and frame design are essential to function.",
+    "Perceptible": "Included — Visibly apparent and audible during flight.",
+    "Material form": "Included — Made from plastics, metals, and composites.",
+    "Passive": "Excluded — It is an active system that generates thrust and processes information.",
+    "Purposeful / intentional": "Included — Designed to carry out defined tasks (e.g., surveillance, delivery).",
+    "Emits output / produces effect": "Included — Produces lift, image data, signals, or environmental effects.",
+    "Processes or regulates logic/signals": "Included — Uses onboard logic to interpret data and navigate.",
+    "Transforms or modifies internal state": "Included — Adapts internal flight states and behaviors (e.g., hover, reroute).",
+    "Interacts with humans directly": "Excluded — Indirect interaction only; not a human interface device.",
+    "Part of a larger system": "Included — Often linked to fleet control, airspace systems, or data networks.",
+    "Autonomous in function": "Included — Capable of independent operation without real-time human input.",
+    "System-critical": "Excluded — Important but typically not indispensable in the overall system.",
+    "Symbolic / representational": "Excluded — Not symbolic; used for function, not representation.",
+    "Communicative": "Included — Sends telemetry, video, and status updates to human or system receivers.",
+    "Logical / rule-based": "Included — Operates by programmed instructions, rules, or constraints.",
+    "Hierarchical / modular": "Included — Composed of defined functional modules (e.g., flight control, camera, sensors).",
+    "Behavior-guiding": "Excluded — Does not instruct or guide the behavior of others.",
+    "Self-referential / meta-conceptual": "Excluded — Does not analyze or reflect on its own operation.",
+    "Temporal": "Included — Flight operation and control loops are deeply time-dependent.",
+    "Contextual abstraction": "Excluded — Adapts to physical environment but not abstract cultural context.",
+    "Socially / culturally constructed": "Excluded — Primarily technical and not defined by cultural meaning.",
+    "Defined by a group/system": "Excluded — Operates in systems but not semantically defined by group identity.",
+    "Linked to identity or role": "Excluded — Not intrinsically tied to a personal or group role.",
+    "Regulated / governed": "Included — Subject to aviation and UAV operation laws and airspace protocols.",
+    "Teachable / transmissible": "Excluded — Not inherently educational or transmissible in itself.",
+    "Visible": "Included — Visibly detectable when in use.",
+    "Context-sensitive": "Included — Responds dynamically to environment (obstacles, GPS conditions, wind).",
+    "Widely known": "Included — Publicly recognized and common in commercial, recreational, and security contexts."
+  },
+  "encoding_notes": "This encoding reflects the autonomous drone as a self-navigating, logic-driven electromechanical system embedded in physical and airspace environments. It outputs, senses, adapts, and communicates within operational and regulatory frameworks. While highly intelligent and visible, it is not symbolic or identity-linked, and is excluded from traits implying personal, cultural, or educational function.",
+  "image": "images/autonomous_drone.png"
+}

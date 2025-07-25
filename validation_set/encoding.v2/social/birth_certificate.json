@@ -1,0 +1,65 @@
+{
+  "entity": "Birth Certificate",
+  "uht_code": "0084C1FF",
+  "image_url": "/validation_set/images/birth_certificate.png",
+  "traits": {
+    "physical": [],
+    "functional": [
+      "Purposeful / intentional",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — The certificate is a document, but its semantic identity is informational and abstract.",
+    "Man-made / synthetic": "Excluded — Though created by institutions, its essence is not that of a synthetic object.",
+    "Biological or biologically-inspired": "Excluded — It pertains to biological facts but is not itself biological.",
+    "Fixed/static": "Excluded — It may be amended (e.g., name or gender corrections).",
+    "Structural": "Excluded — It is not a component of a physical or architectural structure.",
+    "Perceptible": "Excluded — Its content is readable, but the birth certificate as an institutional construct is abstract.",
+    "Material form": "Excluded — The physical form is incidental; its function lies in its encoded identity.",
+    "Passive": "Excluded — It enables bureaucratic and legal action, so not purely passive.",
+
+    "Purposeful / intentional": "Included — Issued deliberately to document and authorize a legal identity.",
+    "Emits output / produces effect": "Excluded — Does not independently produce signals or data.",
+    "Processes or regulates logic/signals": "Excluded — Not a processing system.",
+    "Transforms or modifies internal state": "Excluded — While impactful, it does not enact change autonomously.",
+    "Interacts with humans directly": "Excluded — It is not an interface or tool.",
+    "Part of a larger system": "Included — Embedded in vital records, health, identity, and legal systems.",
+    "Autonomous in function": "Excluded — Requires validation and use by external institutions.",
+    "System-critical": "Excluded — A system can function even with incomplete record coverage.",
+
+    "Symbolic / representational": "Included — Encodes personal identity and legal recognition.",
+    "Communicative": "Included — Communicates certified information to institutions and individuals.",
+    "Logical / rule-based": "Excluded — Structured by rules, but not itself a logic-executing object.",
+    "Hierarchical / modular": "Excluded — Not decomposable into modular parts.",
+    "Behavior-guiding": "Excluded — While influential, it does not prescribe behavior directly.",
+    "Self-referential / meta-conceptual": "Excluded — It does not describe or encode its own function.",
+    "Temporal": "Excluded — It records a date, but temporality is not its identity.",
+    "Contextual abstraction": "Included — Its validity and interpretation depend entirely on legal and bureaucratic context.",
+
+    "Socially / culturally constructed": "Included — Exists due to social conventions of identity tracking.",
+    "Defined by a group/system": "Included — Created and authorized by legal or governmental institutions.",
+    "Linked to identity or role": "Included — Defines a legal identity at birth.",
+    "Regulated / governed": "Included — Subject to formal record-keeping laws and certification standards.",
+    "Teachable / transmissible": "Included — Its role and function are taught through civic and bureaucratic systems.",
+    "Visible": "Included — Used as proof in legal and bureaucratic contexts.",
+    "Context-sensitive": "Included — The meaning and format vary across nations, jurisdictions, and historical periods.",
+    "Widely known": "Included — Nearly universally recognized as an institutional category."
+  },
+  "encoding_notes": "The birth certificate is encoded as a symbolic, communicative, legally embedded construct that represents identity through institutional context. While instantiated in physical documents, its ontological role is abstract and systemic. The corrected code '0084C1FF' reflects its functional intent, referential role, and social regulation."
+}

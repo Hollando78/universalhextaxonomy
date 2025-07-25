@@ -1,0 +1,60 @@
+{
+  "entity": "Human Femur",
+  "uht_code": "AE000001",
+  "image_url": "/validation_set/images/human_femur.png",
+  "version": "v2",
+  "encoding_date": "2025-05-27",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Biological/Biomimetic",
+      "Structural",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [],
+    "abstract": [],
+    "social": [
+      "Ethically Significant"
+    ]
+  },
+  "feedback": {
+    "Physical Object": "Included — A discrete, bounded physical structure within the human body.",
+    "Synthetic": "Excluded — Naturally occurring, not human-made.",
+    "Biological/Biomimetic": "Included — Composed of living tissue with direct biological origin.",
+    "Powered": "Excluded — Does not rely on supplied energy to operate.",
+    "Structural": "Included — Major load-bearing bone crucial for physical stability and locomotion.",
+    "Observable": "Included — Detectable via visual, tactile, and medical means (e.g. X-ray).",
+    "Physical Medium": "Included — Composed of calcified biological matter; has substance.",
+    "Active": "Excluded — Does not self-initiate behavior or change.",
+    
+    "Intentionally Designed": "Excluded — Not designed with purpose; shaped by biological development.",
+    "Outputs Effect": "Excluded — Does not emit signal, energy, or functional output.",
+    "Processes Signals/Logic": "Excluded — No informational or control function.",
+    "State-Transforming": "Excluded — Not stateful or self-transforming in any functional sense.",
+    "Human-Interactive": "Excluded — Not designed for manipulation or interaction.",
+    "System-integrated": "Excluded — While it is part of the body, the femur is not an engineered subsystem.",
+    "Functionally Autonomous": "Excluded — Does not operate independently.",
+    "System-Essential": "Excluded — A body can technically survive or function without it (prosthetics, etc).",
+    
+    "Symbolic": "Excluded — Not intended to represent ideas or categories.",
+    "Signalling": "Excluded — No signaling or communicative function.",
+    "Rule-governed": "Excluded — Not structured or constrained by abstract rules.",
+    "Compositional": "Excluded — Not made of logical or modular subcomponents.",
+    "Normative": "Excluded — Does not guide or enforce behavior.",
+    "Meta": "Excluded — Not self-referential or abstract.",
+    "Temporal": "Excluded — Not structured around time.",
+    "Digital/Virtual": "Excluded — Entirely physical, not virtual or encoded.",
+    
+    "Social Construct": "Excluded — Exists regardless of social interpretation.",
+    "Institutionally Defined": "Excluded — Not defined by a group or authority.",
+    "Identity-Linked": "Excluded — Not inherently tied to role, group, or social identity.",
+    "Regulated": "Excluded — Not subject to legal or policy constraints in itself.",
+    "Economically Significant": "Excluded — Has no direct market value in most contexts.",
+    "Politicised": "Excluded — Not part of political discourse.",
+    "Ritualised": "Excluded — Not part of cultural ceremony per se.",
+    "Ethically Significant": "Included — Human bones invoke ethical treatment standards in medicine, archaeology, and burial practices."
+  },
+  "encoding_notes": "This encoding interprets the human femur strictly as a biological object with structural function. 'Powered' is excluded as it does not consume energy. 'Ethically Significant' is included due to its role in medical, forensic, and cultural contexts."
+}

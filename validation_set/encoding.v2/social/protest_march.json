@@ -1,0 +1,63 @@
+{
+  "entity": "Protest March",
+  "uht_code": "008009FF",
+  "image_url": "/validation_set/images/protest_march.png",
+  "traits": {
+    "physical": [],
+    "functional": [
+      "Purposeful / intentional"
+    ],
+    "abstract": [
+      "Behavior-guiding",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A protest march is an emergent event, not a bounded material object.",
+    "Man-made / synthetic": "Excluded — While human-organized, it is not a fabricated artifact.",
+    "Biological or biologically-inspired": "Excluded — Not rooted in biological form or processes.",
+    "Fixed/static": "Excluded — Defined by its transience and mobility.",
+    "Structural": "Excluded — No persistent material structure.",
+    "Perceptible": "Excluded — While observable, perception is not intrinsic to its definition.",
+    "Material form": "Excluded — It is not a material object.",
+    "Passive": "Excluded — A protest march is inherently active by design.",
+
+    "Purposeful / intentional": "Included — A protest is a deliberative, goal-driven act.",
+    "Emits output / produces effect": "Excluded — Any output is emergent or symbolic, not functional.",
+    "Processes or regulates logic/signals": "Excluded — Not a system that interprets or transforms input signals.",
+    "Transforms or modifies internal state": "Excluded — Lacks defined internal states.",
+    "Interacts with humans directly": "Excluded — Participation is human-driven; not interaction in the UHT sense.",
+    "Part of a larger system": "Excluded — Not modular or system-integrated in a technical sense.",
+    "Autonomous in function": "Excluded — Requires human organization and action.",
+    "System-critical": "Excluded — Non-essential to systemic function.",
+
+    "Symbolic / representational": "Excluded — Symbolism may be present, but not inherent.",
+    "Communicative": "Excluded — Message is implicit, not structurally defined.",
+    "Logical / rule-based": "Excluded — Not governed by formal logic.",
+    "Hierarchical / modular": "Excluded — May have structure, but not intrinsic modularity.",
+    "Behavior-guiding": "Included — Participants adopt ritualized forms (e.g. chanting, route-following).",
+    "Self-referential / meta-conceptual": "Excluded — Does not intrinsically refer to itself.",
+    "Temporal": "Excluded — Time-bound but not temporally structured.",
+    "Contextual abstraction": "Included — Interpretation depends on political, cultural, and spatial context.",
+
+    "Socially / culturally constructed": "Included — Exists within and because of social frameworks.",
+    "Defined by a group/system": "Included — Emerges from group coordination and collective will.",
+    "Linked to identity or role": "Included — Frequently expresses collective or individual identity.",
+    "Regulated / governed": "Included — Often subject to permits, surveillance, or legal regulation.",
+    "Teachable / transmissible": "Included — Practices and tactics passed through activist traditions.",
+    "Visible": "Included — Public visibility is core to its impact.",
+    "Context-sensitive": "Included — Meaning and reception depend on socio-political environment.",
+    "Widely known": "Included — Globally recognizable form of civil resistance."
+  },
+  "encoding_notes": "This encoding defines a protest march as a symbolic, identity-expressive, and purpose-driven social ritual. While not a physical or technological system, it guides behavior through cultural context and visible collective action. The UHT traits selected capture its emergent, contextual, and communicative nature without projecting systemic or technical properties."
+}

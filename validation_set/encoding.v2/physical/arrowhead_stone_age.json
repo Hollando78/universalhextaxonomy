@@ -1,0 +1,65 @@
+{
+  "entity": "Arrowhead (Stone Age)",
+  "uht_code": "CEC80009",
+  "image_url": "/validation_set/images/arrowhead.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Synthetic",
+      "Structural",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Human-Interactive"
+    ],
+    "abstract": [],
+    "social": [
+      "Economically Significant",
+      "Ethically Significant"
+    ]
+  },
+  "feedback": {
+    "Physical Object": "Included — A discrete artifact with defined physical boundaries.",
+    "Synthetic": "Included — Deliberately crafted by humans using flintknapping and shaping techniques.",
+    "Biological/Biomimetic": "Excluded — Composed of stone, not derived from or inspired by biological systems.",
+    "Powered": "Excluded — Passive; does not require energy input.",
+    "Structural": "Included — Has rigid form and penetrative capacity when paired with a shaft.",
+    "Observable": "Included — Directly perceivable and measurable.",
+    "Physical Medium": "Included — Made of stone or other mineral matter.",
+    "Active": "Excluded — No autonomous action or internal change.",
+    
+    "Intentionally Designed": "Included — Purpose-built for hunting and defense.",
+    "Outputs Effect": "Included — Inflicts damage or penetration when deployed.",
+    "Processes Signals/Logic": "Excluded — Does not process data or logic.",
+    "State-Transforming": "Excluded — Inert unless externally altered.",
+    "Human-Interactive": "Included — Requires human handling and use.",
+    "System-integrated": "Excluded — May be part of a weapon, but is not system-bound in isolation.",
+    "Functionally Autonomous": "Excluded — Passive and dependent on user.",
+    "System-Essential": "Excluded — Not intrinsically tied to any structured system.",
+    
+    "Symbolic": "Excluded — May acquire symbolism culturally, but not intrinsic to object itself.",
+    "Signalling": "Excluded — Does not convey structured meaning.",
+    "Rule-governed": "Excluded — No abstract logic governs its form.",
+    "Compositional": "Excluded — Typically a single unit, not a modular abstraction.",
+    "Normative": "Excluded — Does not constrain behavior or values.",
+    "Meta": "Excluded — Not self-referential.",
+    "Temporal": "Excluded — Its identity is not tied to time-sequence in form or function.",
+    "Digital/Virtual": "Excluded — Entirely physical.",
+    
+    "Social Construct": "Excluded — Materially exists regardless of social classification.",
+    "Institutionally Defined": "Excluded — Not defined by formal rules or categories.",
+    "Identity-Linked": "Excluded — Not inherently tied to roles or groups in this form.",
+    "Regulated": "Excluded — May be controlled in modern contexts, but not inherently so.",
+    "Economically Significant": "Included — Served as a critical trade good and survival tool.",
+    "Politicised": "Excluded — Not symbolically tied to political systems.",
+    "Ritualised": "Excluded — May have been used ritually, but not intrinsically so.",
+    "Ethically Significant": "Included — Directly linked to harm and survival; raises moral questions regarding its use."
+  },
+  "encoding_notes": "This encoding treats the arrowhead as a functional prehistoric object — designed for hunting and conflict. It captures physical, functional, and moral dimensions without attributing symbolic or systemic context not intrinsic to the artifact itself. Code corrected to reflect all selected traits."
+}

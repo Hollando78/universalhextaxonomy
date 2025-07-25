@@ -1,0 +1,68 @@
+{
+  "entity": "Solar Charger",
+  "uht_code": "DED60205",
+  "image_url": "/validation_set/images/solar_charger.png",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Transforms or modifies internal state",
+      "Part of a larger system",
+      "Autonomous in function"
+    ],
+    "abstract": [
+      "Temporal"
+    ],
+    "social": [
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible item consisting of solar panels, casing, and connectors.",
+    "Man-made / synthetic": "Included — Engineered and assembled using synthetic materials like silicon, polymers, and metal.",
+    "Biological or biologically-inspired": "Excluded — No modeling on biological systems, even if conceptually reminiscent of photosynthesis.",
+    "Fixed/static": "Included — Operates from a stationary position while in use (mounted or positioned for sun exposure).",
+    "Structural": "Included — Frame, cell layout, and orientation determine performance.",
+    "Perceptible": "Included — Designed to be positioned and observed by the user.",
+    "Material form": "Included — A physical apparatus built from durable materials.",
+    "Passive": "Excluded — Converts solar energy to electrical output — an active energy transformation process.",
+    
+    "Purposeful / intentional": "Included — Created for the explicit function of charging batteries or devices using solar energy.",
+    "Emits output / produces effect": "Included — Generates and delivers electrical current.",
+    "Processes or regulates logic/signals": "Excluded — Basic models lack logical control or signal interpretation.",
+    "Transforms or modifies internal state": "Included — Converts light energy into electrical energy; may involve tracking or storing charge.",
+    "Interacts with humans directly": "Excluded — Typically has no interactive interface or real-time feedback.",
+    "Part of a larger system": "Included — Can integrate with batteries, microgrids, or portable power banks.",
+    "Autonomous in function": "Included — Functions automatically when exposed to sunlight, requiring no further user input.",
+    "System-critical": "Excluded — May be important contextually, but not inherently critical to broader system operation.",
+    
+    "Symbolic / representational": "Excluded — Not designed to convey symbols or meaning.",
+    "Communicative": "Excluded — Does not emit or receive coded communication.",
+    "Logical / rule-based": "Excluded — Function is physically governed, not logically encoded.",
+    "Hierarchical / modular": "Excluded — Typically a monolithic system without conceptual subsystems.",
+    "Behavior-guiding": "Excluded — Does not instruct or influence user behavior semantically.",
+    "Self-referential / meta-conceptual": "Excluded — No reflective or modeling capability.",
+    "Temporal": "Included — Depends on time of day and duration of sunlight exposure for performance.",
+    "Contextual abstraction": "Excluded — Function remains consistent regardless of symbolic or cultural context.",
+    
+    "Socially / culturally constructed": "Excluded — Grounded in physical utility, not cultural framing.",
+    "Defined by a group/system": "Excluded — May be standardized, but not semantically defined by groups.",
+    "Linked to identity or role": "Excluded — Not inherently identity-associated.",
+    "Regulated / governed": "Excluded — Regulation may apply, but is not intrinsic to the object’s function.",
+    "Teachable / transmissible": "Excluded — Use can be taught, but that’s not a defining trait.",
+    "Visible": "Included — Often positioned in sunlight-exposed areas, visibility is intentional.",
+    "Context-sensitive": "Excluded — Function doesn’t vary semantically with setting.",
+    "Widely known": "Included — Recognized globally as a sustainable energy solution."
+  },
+  "encoding_notes": "This encoding treats the solar charger as a physical, autonomous energy transformation device with a time-dependent function and broad public familiarity. Logical, symbolic, or socially defined traits are excluded, reflecting the charger's grounded, passive-operating design.",
+  "image": "images/solar_charger.png"
+}

@@ -1,0 +1,63 @@
+{
+  "entity": "Magnet",
+  "uht_code": "CEC00008",
+  "image_url": "/validation_set/images/magnet.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Synthetic",
+      "Structural",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [
+      "Intentionally Designed",
+      "Outputs Effect"
+    ],
+    "abstract": [],
+    "social": [
+      "Economically Significant"
+    ]
+  },
+  "feedback": {
+    "Physical Object": "Included — A solid, bounded object with discrete shape.",
+    "Synthetic": "Included — Manufactured and magnetized by human processes.",
+    "Biological/Biomimetic": "Excluded — Not of biological origin or design.",
+    "Powered": "Excluded — Does not require energy input; its field is a passive material property.",
+    "Structural": "Included — Exerts stabilizing or positioning force on other objects.",
+    "Observable": "Included — Perceptible directly or through magnetic detection.",
+    "Physical Medium": "Included — Composed of physical matter.",
+    "Active": "Excluded — Exhibits no autonomous behavior or internal transformation.",
+    
+    "Intentionally Designed": "Included — Shaped and magnetized for functional uses across industries.",
+    "Outputs Effect": "Included — Emits a static magnetic field, causing observable influence.",
+    "Processes Signals/Logic": "Excluded — Does not interpret or transform signals.",
+    "State-Transforming": "Excluded — Stable material; no internal state changes without external force.",
+    "Human-Interactive": "Excluded — Not designed for direct interaction.",
+    "System-integrated": "Excluded — May be used in systems, but not inherently embedded in one.",
+    "Functionally Autonomous": "Excluded — No internal control or autonomy.",
+    "System-Essential": "Excluded — Not indispensable to a defined system on its own.",
+    
+    "Symbolic": "Excluded — May be interpreted metaphorically but is not inherently symbolic.",
+    "Signalling": "Excluded — Does not encode or transmit meaning.",
+    "Rule-governed": "Excluded — Behavior governed by physical laws, not logical systems.",
+    "Compositional": "Excluded — Not made of meaningful modular subcomponents.",
+    "Normative": "Excluded — Does not guide or prescribe behavior.",
+    "Meta": "Excluded — Not self-referential or conceptually reflective.",
+    "Temporal": "Excluded — No essential time-based structure or function.",
+    "Digital/Virtual": "Excluded — A tangible physical object.",
+    
+    "Social Construct": "Excluded — Exists independently of social agreement.",
+    "Institutionally Defined": "Excluded — Not defined or categorized by formal institutions.",
+    "Identity-Linked": "Excluded — Not tied to roles or identity.",
+    "Regulated": "Excluded — No direct governance or policy relevance.",
+    "Economically Significant": "Included — Core to many technologies and industries with substantial market value.",
+    "Politicised": "Excluded — Not involved in ideological or governance structures.",
+    "Ritualised": "Excluded — No role in cultural or ceremonial practice.",
+    "Ethically Significant": "Excluded — No intrinsic ethical implications."
+  },
+  "encoding_notes": "Encoding applies to a standalone magnet as a passive functional object, excluding roles in symbolic or system-based contexts. Economic significance is included due to material-critical status in global industry."
+}

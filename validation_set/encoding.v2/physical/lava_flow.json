@@ -1,0 +1,64 @@
+{
+  "entity": "Lava Flow",
+  "uht_code": "0E504201",
+  "image_url": "/validation_set/images/lava_flow.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Structural",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [
+      "Outputs Effect",
+      "State-Transforming"
+    ],
+    "abstract": [
+      "Signalling",
+      "Temporal"
+    ],
+    "social": [
+      "Ethically Significant"
+    ]
+  },
+  "feedback": {
+    "Physical Object": "Excluded — A lava flow is a dynamic, unbounded process, not a discrete or static object.",
+    "Synthetic": "Excluded — Naturally occurring, not created or altered by human design.",
+    "Biological/Biomimetic": "Excluded — Has no biological origin or biomimetic design.",
+    "Powered": "Excluded — It contains energy but is not powered by a designed input source.",
+    "Structural": "Included — It reshapes terrain and can form structural features like solidified layers and landforms.",
+    "Observable": "Included — Easily detected visually and thermally; observable by both humans and instruments.",
+    "Physical Medium": "Included — Composed of physical matter, occupying space and made of molten rock.",
+    "Active": "Excluded — It does not initiate behavior autonomously; changes result from external forces.",
+    
+    "Intentionally Designed": "Excluded — It has no intentional structure or purpose.",
+    "Outputs Effect": "Included — Emits heat, light, and mechanical force; alters environments through direct effects.",
+    "Processes Signals/Logic": "Excluded — It does not interpret or transform informational content.",
+    "State-Transforming": "Included — Undergoes phase changes, solidifies, and chemically alters as it flows.",
+    "Human-Interactive": "Excluded — Any interaction is incidental or hazardous, not designed for human engagement.",
+    "System-integrated": "Excluded — Not inherently part of an integrated system or network.",
+    "Functionally Autonomous": "Excluded — Behavior results from physics, not internal logic or control.",
+    "System-Essential": "Excluded — It is not a required component of a defined system.",
+    
+    "Symbolic": "Excluded — While culturally interpreted as symbolic, it is not inherently a symbol.",
+    "Signalling": "Included — Its presence signals volcanic activity or environmental change, even without symbolic meaning.",
+    "Rule-governed": "Excluded — Follows physical laws but no abstract or logical rules.",
+    "Compositional": "Excluded — Not hierarchically modular or component-based.",
+    "Normative": "Excluded — Does not direct or constrain behavior intrinsically.",
+    "Meta": "Excluded — Does not refer to itself or any abstract system.",
+    "Temporal": "Included — Its identity as a flow is defined by time-based transformation and motion.",
+    "Digital/Virtual": "Excluded — Entirely physical, not abstracted or simulated.",
+    
+    "Social Construct": "Excluded — Exists independently of social belief or consensus.",
+    "Institutionally Defined": "Excluded — Not defined by institutional categories.",
+    "Identity-Linked": "Excluded — Not tied to personal, group, or role-based identity.",
+    "Regulated": "Excluded — Not subject to laws or governance.",
+    "Economically Significant": "Excluded — May affect economies, but is not economically defined.",
+    "Politicised": "Excluded — Not intrinsically tied to political conflict or governance.",
+    "Ritualised": "Excluded — Ceremonial uses relate to interpretation, not the lava itself.",
+    "Ethically Significant": "Included — Its impact on human life and ecosystems makes it ethically relevant."
+  },
+  "encoding_notes": "This encoding treats lava flow strictly as a physical geologic process — not as a symbolic, cultural, or mythic construct. Interpretive overlays (e.g., ritual, symbolism) are excluded as external attributions. Traits are selected based solely on the entity’s intrinsic properties and operation."
+}

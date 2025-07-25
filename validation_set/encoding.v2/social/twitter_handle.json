@@ -1,0 +1,66 @@
+{
+  "entity": "Twitter Handle",
+  "uht_code": "00C4C1FF",
+  "image_url": "/validation_set/images/twitter_handle.png", 
+  "traits": {
+    "physical": [],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A Twitter handle is not a tangible entity.",
+    "Man-made / synthetic": "Excluded — It is a digital construct but not a synthetic object in material terms.",
+    "Biological or biologically-inspired": "Excluded — It has no biological basis.",
+    "Fixed/static": "Excluded — Handles can be changed by the user or system.",
+    "Structural": "Excluded — It does not constitute part of a physical or architectural structure.",
+    "Perceptible": "Excluded — The handle's representation (text) is perceivable, but the handle itself as an entity is abstract.",
+    "Material form": "Excluded — It does not exist in material form.",
+    "Passive": "Excluded — It functions as a pointer and can generate activity through tagging, mentions, etc.",
+
+    "Purposeful / intentional": "Included — Twitter handles are created intentionally to represent users or entities online.",
+    "Emits output / produces effect": "Included — Handles are used to direct mentions, trigger notifications, and represent accounts.",
+    "Processes or regulates logic/signals": "Excluded — It does not perform computation or signal processing.",
+    "Transforms or modifies internal state": "Excluded — It is not dynamic on its own.",
+    "Interacts with humans directly": "Excluded — It is a reference to an account, not an interface.",
+    "Part of a larger system": "Included — Twitter handles are integral to the platform's identity and tagging system.",
+    "Autonomous in function": "Excluded — It requires a platform and user context to operate.",
+    "System-critical": "Excluded — The platform can technically exist without any one specific handle.",
+
+    "Symbolic / representational": "Included — It symbolically represents a user or entity.",
+    "Communicative": "Included — It functions as a communicative handle through mentions and tags.",
+    "Logical / rule-based": "Excluded — Its use is governed by conventions, but it is not a logic structure.",
+    "Hierarchical / modular": "Excluded — It does not contain internal hierarchy.",
+    "Behavior-guiding": "Excluded — It does not direct behavior intrinsically.",
+    "Self-referential / meta-conceptual": "Excluded — It does not encode or reflect upon itself.",
+    "Temporal": "Excluded — It does not inherently represent time.",
+    "Contextual abstraction": "Included — It is an abstract pointer whose meaning depends entirely on social and platform context.",
+
+    "Socially / culturally constructed": "Included — The concept and structure of handles are culturally constructed.",
+    "Defined by a group/system": "Included — Twitter defines the naming conventions and usage.",
+    "Linked to identity or role": "Included — It serves as an online identifier.",
+    "Regulated / governed": "Included — Usage is governed by Twitter’s rules and policies.",
+    "Teachable / transmissible": "Included — People are taught how to use and refer to handles.",
+    "Visible": "Included — Handles are prominently displayed and searchable.",
+    "Context-sensitive": "Included — Their meaning depends on who uses them, in what setting.",
+    "Widely known": "Included — The convention of handles is well known in digital communication."
+  },
+  "encoding_notes": "The Twitter handle is modeled here as a symbolic, communicative, socially-defined pointer within a digital system. It lacks physical and autonomous properties but is deeply embedded in platform logic and online identity structures. The corrected code '00C4C1FF' faithfully reflects the selected traits."
+}

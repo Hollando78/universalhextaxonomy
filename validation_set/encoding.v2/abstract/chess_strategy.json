@@ -1,0 +1,67 @@
+{
+  "entity": "Chess Strategy",
+  "uht_code": "4088FFCB",
+  "image_url": "/validation_set/images/chess_strategy.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Self-referential / meta-conceptual",
+      "Temporal",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A strategy is a conceptual plan, not a physical object.",
+    "Man-made / synthetic": "Included — Chess strategies are entirely human-invented constructs.",
+    "Biological or biologically-inspired": "Excluded — Rooted in logic and planning, not biological principles.",
+    "Fixed/static": "Excluded — Strategies are adaptable and change with conditions.",
+    "Structural": "Excluded — Has no physical structure.",
+    "Perceptible": "Excluded — Strategies are inferred from moves, not directly observed.",
+    "Material form": "Excluded — Not composed of matter.",
+    "Passive": "Excluded — Not a passive entity; it implies decision-making but does not enact it.",
+    "Purposeful / intentional": "Included — Strategies are devised with specific goals in mind (e.g., control center, exploit weakness).",
+    "Emits output / produces effect": "Excluded — The strategy itself does not produce output, though it influences it.",
+    "Processes or regulates logic/signals": "Excluded — A strategy informs reasoning, but does not process logic actively.",
+    "Transforms or modifies internal state": "Excluded — It modifies behavior, not its own state.",
+    "Interacts with humans directly": "Excluded — Understood and used by humans, but not interacted with directly.",
+    "Part of a larger system": "Included — Strategies exist within the larger system of chess play and training.",
+    "Autonomous in function": "Excluded — Requires human application; not self-operating.",
+    "System-critical": "Excluded — Not essential to the existence of chess, though often important for success.",
+    "Symbolic / representational": "Included — Strategic patterns and ideas are encoded in language, notation, and conceptual models.",
+    "Communicative": "Included — Can be described, taught, and debated.",
+    "Logical / rule-based": "Included — Strategy is constrained and shaped by the rules of chess.",
+    "Hierarchical / modular": "Included — Composed of smaller ideas and phases (e.g., openings, middlegame, endgame).",
+    "Behavior-guiding": "Included — Core function is to guide player decisions.",
+    "Self-referential / meta-conceptual": "Included — Strategies often reflect on or counter other strategies (e.g., meta-game planning).",
+    "Temporal": "Included — Strategies evolve over the course of a match and are phase-dependent.",
+    "Contextual abstraction": "Included — Validity of a strategy depends on opponent, position, and phase of game.",
+    "Socially / culturally constructed": "Included — Strategies evolve through human discourse and competition.",
+    "Defined by a group/system": "Included — Recognized and categorized by the chess community.",
+    "Linked to identity or role": "Excluded — Strategies are not tied to personal or group identity.",
+    "Regulated / governed": "Excluded — No formal governing body enforces strategy use.",
+    "Teachable / transmissible": "Included — Central to chess education.",
+    "Visible": "Excluded — The strategic intent is inferred, not directly perceived.",
+    "Context-sensitive": "Included — Effectiveness depends on many surrounding conditions.",
+    "Widely known": "Included — Well-known strategies (e.g., King's Indian Defense) are broadly familiar."
+  },
+  "encoding_notes": "This encoding represents chess strategy as a symbolic, abstract, and socially-evolved conceptual tool. It is not a physical or autonomous system but one designed to guide human behavior within a formal ruleset. Its role in structured play, education, and community discourse is well reflected in the inclusion of nearly all abstract and social traits.",
+  "image": "images/chess_strategy.png"
+}

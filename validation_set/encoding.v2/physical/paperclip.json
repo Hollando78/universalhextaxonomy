@@ -1,0 +1,61 @@
+{
+  "entity": "Paperclip",
+  "uht_code": "CE880000",
+  "image_url": "/validation_set/images/paperclip.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Synthetic",
+      "Structural",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [
+      "Intentionally Designed",
+      "Human-Interactive"
+    ],
+    "abstract": [],
+    "social": []
+  },
+  "feedback": {
+    "Physical Object": "Included — A discrete, tangible item with defined physical boundaries.",
+    "Synthetic": "Included — Manufactured through human industrial design.",
+    "Biological/Biomimetic": "Excluded — No biological origin or biomimetic qualities.",
+    "Powered": "Excluded — Operates without any form of supplied energy.",
+    "Structural": "Included — Its shape and elasticity exert mechanical force to hold papers together.",
+    "Observable": "Included — Easily perceptible visually and tactilely.",
+    "Physical Medium": "Included — Made of metal wire; composed of physical matter.",
+    "Active": "Excluded — Does not initiate change or behavior internally.",
+    
+    "Intentionally Designed": "Included — Created explicitly to bind sheets of paper via mechanical tension.",
+    "Outputs Effect": "Excluded — Does not emit energy, signal, or output beyond passive constraint.",
+    "Processes Signals/Logic": "Excluded — Performs no information processing or control.",
+    "State-Transforming": "Excluded — Does not undergo internal transformation beyond minor deformation.",
+    "Human-Interactive": "Included — Requires human manipulation to function as intended.",
+    "System-integrated": "Excluded — Functions independently, not designed as part of a larger system.",
+    "Functionally Autonomous": "Excluded — Has no autonomy; entirely user-driven.",
+    "System-Essential": "Excluded — Not mission-critical to any formal system or infrastructure.",
+    
+    "Symbolic": "Excluded — Not designed to represent anything conceptually.",
+    "Signalling": "Excluded — Does not convey information or meaning through form or function.",
+    "Rule-governed": "Excluded — Not governed by formal logical or operational rules.",
+    "Compositional": "Excluded — Single integrated object, not modular or hierarchical.",
+    "Normative": "Excluded — Does not define or prescribe behavior.",
+    "Meta": "Excluded — Does not refer to its own structure or role.",
+    "Temporal": "Excluded — No essential temporal identity or sequencing.",
+    "Digital/Virtual": "Excluded — A fully physical artifact with no virtual component.",
+    
+    "Social Construct": "Excluded — Exists as a material artifact independent of social agreement.",
+    "Institutionally Defined": "Excluded — Not categorized or defined by any institution.",
+    "Identity-Linked": "Excluded — Not tied to roles, personas, or social identity.",
+    "Regulated": "Excluded — Not subject to legal or procedural governance.",
+    "Economically Significant": "Excluded — Holds negligible standalone economic value.",
+    "Politicised": "Excluded — Not subject to political discourse or contention.",
+    "Ritualised": "Excluded — Not used in formalized cultural or ceremonial behavior.",
+    "Ethically Significant": "Excluded — Raises no moral or ethical considerations."
+  },
+  "encoding_notes": "This encoding treats the paperclip strictly as a passive, synthetic tool with no symbolic or systemic identity. All traits included are intrinsic to its form and purpose. No traits are granted based on cultural ubiquity or inferred meaning."
+}

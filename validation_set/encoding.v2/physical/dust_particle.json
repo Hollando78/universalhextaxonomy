@@ -1,0 +1,57 @@
+{
+  "entity": "Dust Particle",
+  "uht_code": "A6000000",
+  "image_url": "/validation_set/images/dust_particle.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Biological/Biomimetic",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [],
+    "abstract": [],
+    "social": []
+  },
+  "feedback": {
+    "Physical Object": "Included — A discrete, bounded speck of matter.",
+    "Synthetic": "Excluded — Naturally occurring, not manufactured or shaped by human design.",
+    "Biological/Biomimetic": "Included — Dust often contains organic traces (e.g., skin cells, pollen).",
+    "Powered": "Excluded — Does not rely on supplied energy to exist or function.",
+    "Structural": "Excluded — Too small and fragile to bear loads or contribute to structural integrity.",
+    "Observable": "Included — Detectable by visual observation (in aggregates) or instruments (microscopes, light scattering).",
+    "Physical Medium": "Included — Made of physical matter, occupying tangible space.",
+    "Active": "Excluded — Has no internal mechanism or self-initiated change.",
+    
+    "Intentionally Designed": "Excluded — Not created with intent; forms through natural disintegration.",
+    "Outputs Effect": "Excluded — Does not emit energy, force, or signal in any intrinsic way.",
+    "Processes Signals/Logic": "Excluded — No capacity for interpretation or transformation of signals.",
+    "State-Transforming": "Excluded — Inert at rest; does not alter internal state autonomously.",
+    "Human-Interactive": "Excluded — Not meant to be interacted with intentionally.",
+    "System-integrated": "Excluded — Exists independently; not embedded within a system.",
+    "Functionally Autonomous": "Excluded — No internal logic or reactive behavior.",
+    "System-Essential": "Excluded — Not essential to the identity or function of any defined system.",
+    
+    "Symbolic": "Excluded — Not intrinsically representative of concepts or identities.",
+    "Signalling": "Excluded — Does not communicate structured or interpretive meaning.",
+    "Rule-governed": "Excluded — No formal or logical structure applies.",
+    "Compositional": "Excluded — Not composed of modular subcomponents with abstract significance.",
+    "Normative": "Excluded — Does not direct or influence behavior.",
+    "Meta": "Excluded — Not reflective or self-referential.",
+    "Temporal": "Excluded — Not defined by time-based change.",
+    "Digital/Virtual": "Excluded — Exists entirely in physical form.",
+    
+    "Social Construct": "Excluded — Exists independently of social or cultural designation.",
+    "Institutionally Defined": "Excluded — Not defined by any formal institution.",
+    "Identity-Linked": "Excluded — No relation to social or personal identity.",
+    "Regulated": "Excluded — Not intrinsically governed by laws or policy.",
+    "Economically Significant": "Excluded — Holds no intrinsic financial or trade value.",
+    "Politicised": "Excluded — No direct relation to political structures or discourse.",
+    "Ritualised": "Excluded — Not involved in any cultural or symbolic ritual practice.",
+    "Ethically Significant": "Excluded — Does not present ethical concerns in its existence alone."
+  },
+  "encoding_notes": "This encoding treats a dust particle as a naturally occurring trace matter unit. Traits are limited strictly to its physical properties — not symbolic, systemic, or contextual interpretations."
+}

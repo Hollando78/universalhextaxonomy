@@ -1,0 +1,68 @@
+{
+  "entity": "Metadata Tag",
+  "uht_code": "4080F9CF",
+  "image_url": "/validation_set/images/metadata_tag.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [
+      "Purposeful / intentional"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A metadata tag is not a tangible entity; it exists as an abstract label or marker.",
+    "Man-made / synthetic": "Included — Tags are human-defined conventions.",
+    "Biological or biologically-inspired": "Excluded — Not biologically modeled.",
+    "Fixed/static": "Excluded — Tags can vary by context, application, or data.",
+    "Structural": "Excluded — Logical structure only.",
+    "Perceptible": "Excluded — Not inherently perceptible outside of representation.",
+    "Material form": "Excluded — Exists in data structures, not physical materials.",
+    "Passive": "Excluded — A tag itself doesn't exhibit passive physical behavior.",
+
+    "Purposeful / intentional": "Included — Tags are created to classify, mark, or organize data intentionally.",
+    "Emits output / produces effect": "Excluded — Does not generate output by itself.",
+    "Processes or regulates logic/signals": "Excluded — Does not perform processing.",
+    "Transforms or modifies internal state": "Excluded — Tags are descriptors, not state machines.",
+    "Interacts with humans directly": "Excluded — Accessed through systems, not inherently interactive.",
+    "Part of a larger system": "Excluded — While used in systems, the tag itself is a unit of abstraction, not a subsystem.",
+    "Autonomous in function": "Excluded — Tags require context to function meaningfully.",
+    "System-critical": "Excluded — Tags support metadata frameworks but are not critical individually.",
+
+    "Symbolic / representational": "Included — Tags symbolically reference categories or attributes.",
+    "Communicative": "Included — Tags convey meaning about data.",
+    "Logical / rule-based": "Included — Tags often follow naming rules, schemas, or ontologies.",
+    "Hierarchical / modular": "Included — Tags may be part of structured vocabularies or hierarchies.",
+    "Behavior-guiding": "Included — Tags can guide system or user behavior (e.g., filtering, formatting, access).",
+    "Self-referential / meta-conceptual": "Excluded — While related to metadata, the tag itself is not self-referential.",
+    "Temporal": "Excluded — Tags are not inherently time-based.",
+    "Contextual abstraction": "Included — Tags acquire meaning only within a given schema, system, or domain.",
+
+    "Socially / culturally constructed": "Included — Metadata schemes and tagging vocabularies are socially negotiated.",
+    "Defined by a group/system": "Included — Commonly established by institutions, platforms, or standards bodies.",
+    "Linked to identity or role": "Excluded — Tags label data, not people.",
+    "Regulated / governed": "Excluded — Rarely enforced legally, though schema adherence may be required.",
+    "Teachable / transmissible": "Included — Standard tagging practices are teachable.",
+    "Visible": "Included — Tags are visible to users, systems, or developers depending on access.",
+    "Context-sensitive": "Included — The interpretation of a tag varies by system or domain.",
+    "Widely known": "Included — The concept of tagging is pervasive across platforms and domains."
+  },
+  "encoding_notes": "A metadata tag is a symbolic abstraction used to structure and describe data. It is a communicative and behavior-guiding unit designed for context-dependent interpretation within data systems. Though essential to metadata infrastructure, it is not inherently physical or functional—it is an informational construct embedded in human-made logical and social frameworks.",
+  "image": "images/metadata_tag.png"
+}

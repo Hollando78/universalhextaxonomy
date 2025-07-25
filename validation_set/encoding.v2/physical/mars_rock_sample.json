@@ -1,0 +1,60 @@
+{
+  "entity": "Mars Rock Sample",
+  "uht_code": "8600000D",
+  "image_url": "/validation_set/images/mars_rock_sample.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [],
+    "abstract": [],
+    "social": [
+      "Economically Significant",
+      "Politicised",
+      "Ethically Significant"
+    ]
+  },
+  "feedback": {
+    "Physical Object": "Included — A discrete, bounded geological specimen.",
+    "Synthetic": "Excluded — Naturally formed; not manufactured.",
+    "Biological/Biomimetic": "Excluded — No biological origin or design influence.",
+    "Powered": "Excluded — Does not consume or emit energy.",
+    "Structural": "Excluded — Not load-bearing or infrastructural in function.",
+    "Observable": "Included — Directly viewable and measurable via instrumentation or visually.",
+    "Physical Medium": "Included — Composed of physical matter; tangible and space-occupying.",
+    "Active": "Excluded — Exhibits no autonomous or internally initiated behavior.",
+    
+    "Intentionally Designed": "Excluded — Not shaped or purposed by intent.",
+    "Outputs Effect": "Excluded — Does not emit energy or signal in function.",
+    "Processes Signals/Logic": "Excluded — No computational or signal-processing role.",
+    "State-Transforming": "Excluded — Static and inert without applied external forces.",
+    "Human-Interactive": "Excluded — Not designed for interaction (though may be handled).",
+    "System-integrated": "Excluded — Not part of an operating system or mechanism.",
+    "Functionally Autonomous": "Excluded — No logic or autonomous behavior.",
+    "System-Essential": "Excluded — Not critical to a functioning system in isolation.",
+    
+    "Symbolic": "Excluded — Any symbolic interpretation is extrinsic.",
+    "Signalling": "Excluded — Does not inherently communicate meaning or intent.",
+    "Rule-governed": "Excluded — No internal logic or system of rules.",
+    "Compositional": "Excluded — Not composed of abstract modules or nested structure.",
+    "Normative": "Excluded — Does not prescribe or enforce behaviors.",
+    "Meta": "Excluded — Not self-referential or conceptual in form.",
+    "Temporal": "Excluded — Not defined by temporal phases or sequence.",
+    "Digital/Virtual": "Excluded — A physical object, not a simulated abstraction.",
+    
+    "Social Construct": "Excluded — Exists independently of human agreement.",
+    "Institutionally Defined": "Excluded — May be cataloged, but not defined in identity by an institution.",
+    "Identity-Linked": "Excluded — Not tied to roles, identity, or group membership.",
+    "Regulated": "Excluded — Subject to protocol, but regulation is not inherent to the object.",
+    "Economically Significant": "Included — High-investment artifact with scientific and financial value.",
+    "Politicised": "Included — Central to national prestige, exploration policy, and international rivalry.",
+    "Ritualised": "Excluded — Not part of symbolic or ceremonial practice.",
+    "Ethically Significant": "Included — Raises critical planetary protection concerns on contamination, custody, and responsibility."
+  },
+  "encoding_notes": "This encoding isolates the Mars rock sample as a high-significance physical entity, separate from mission or data context. Its extraordinary economic, political, and ethical implications are intrinsic to its presence as a Martian material under Earth custody."
+}

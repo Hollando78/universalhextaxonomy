@@ -1,0 +1,67 @@
+{
+  "entity": "Concept of Zero",
+  "uht_code": "4080FFCF",
+  "image_url": "/validation_set/images/concept_of_zero.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [
+      "Purposeful / intentional"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Self-referential / meta-conceptual",
+      "Temporal",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — Zero is a conceptual abstraction, not a tangible or physical object.",
+    "Man-made / synthetic": "Included — Zero was invented and formalized by humans in multiple historical contexts.",
+    "Biological or biologically-inspired": "Excluded — It has no biological basis or origin.",
+    "Fixed/static": "Excluded — It is a symbolic placeholder and not inherently fixed in form or function.",
+    "Structural": "Excluded — It has no material or spatial structure.",
+    "Perceptible": "Excluded — It is not inherently perceptible; it must be represented visually or symbolically.",
+    "Material form": "Excluded — It is not composed of physical matter.",
+    "Passive": "Excluded — Not a passive entity in any material or functional sense.",
+    "Purposeful / intentional": "Included — Zero was created intentionally to solve numeric, positional, and representational problems.",
+    "Emits output / produces effect": "Excluded — It does not generate any intrinsic output or effect.",
+    "Processes or regulates logic/signals": "Excluded — It is not an agent or system for processing anything.",
+    "Transforms or modifies internal state": "Excluded — It has no state to transform.",
+    "Interacts with humans directly": "Excluded — It is accessed through representation or language, not via direct interaction.",
+    "Part of a larger system": "Excluded — While it is used in systems (e.g., mathematics), it is not itself modular or systemic.",
+    "Autonomous in function": "Excluded — It does not act or operate independently.",
+    "System-critical": "Excluded — It is foundational but not functionally critical in any operational sense.",
+    "Symbolic / representational": "Included — Zero is a symbolic construct used to represent absence, quantity, and position.",
+    "Communicative": "Included — Enables efficient numeric communication, especially in positional systems.",
+    "Logical / rule-based": "Included — Zero is used in and defined by formal logic systems and arithmetic rules.",
+    "Hierarchical / modular": "Included — Zero operates at various conceptual levels (e.g., positional value, null quantity).",
+    "Behavior-guiding": "Included — The concept influences mathematical and computational reasoning.",
+    "Self-referential / meta-conceptual": "Included — It can be referenced in terms of itself (e.g., 'zero of zero'), and has meta-conceptual uses.",
+    "Temporal": "Included — It plays a role in representing time (e.g., zero point, starting state).",
+    "Contextual abstraction": "Included — Its meaning varies by domain (e.g., null vs zero vs origin).",
+    "Socially / culturally constructed": "Included — Zero emerged through specific historical and cultural developments (e.g., India, Babylon, Mesoamerica).",
+    "Defined by a group/system": "Included — It is standardized within mathematical systems and formal education.",
+    "Linked to identity or role": "Excluded — Zero does not reflect social identity or personal roles.",
+    "Regulated / governed": "Excluded — Its use is widespread and standardized, but not governed by legal or institutional regulation.",
+    "Teachable / transmissible": "Included — It is universally taught and foundational in mathematics.",
+    "Visible": "Included — It is rendered in symbols (e.g., 0) across notation systems.",
+    "Context-sensitive": "Included — Its interpretation depends on domain and symbolic framework.",
+    "Widely known": "Included — Zero is known and used across nearly all cultures and systems."
+  },
+  "encoding_notes": "This encoding captures the Concept of Zero as an intentional, symbolic, logical abstraction with cultural and pedagogical significance. It is not a functional agent but plays a critical representational role across disciplines. The code correctly places weight in the abstract and social layers, with minimal physical or functional attribution.",
+  "image": "images/concept_of_zero.png"
+}

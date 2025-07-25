@@ -1,0 +1,67 @@
+{
+  "entity": "Proof (in Logic)",
+  "uht_code": "4080FFCF",
+  "image_url": "/validation_set/images/proof_in_logic.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [
+      "Purposeful / intentional"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Self-referential / meta-conceptual",
+      "Temporal",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — A proof is a formal abstraction, not a tangible thing.",
+    "Man-made / synthetic": "Included — Formal proof is an invention of mathematical logic.",
+    "Biological or biologically-inspired": "Excluded — Based on abstract reasoning, not biology.",
+    "Fixed/static": "Excluded — Proofs are not fixed entities; they are composed and can be revised.",
+    "Structural": "Excluded — Structure is logical, not material.",
+    "Perceptible": "Excluded — Not inherently perceivable without representation.",
+    "Material form": "Excluded — A proof exists independently of any physical medium.",
+    "Passive": "Excluded — Does not exhibit passive physical qualities.",
+    "Purposeful / intentional": "Included — Constructed to demonstrate or derive a logical conclusion.",
+    "Emits output / produces effect": "Excluded — Does not autonomously produce effects.",
+    "Processes or regulates logic/signals": "Excluded — Encodes logic but does not process it.",
+    "Transforms or modifies internal state": "Excluded — Has no internal state.",
+    "Interacts with humans directly": "Excluded — Interpreted by humans, but not interactive itself.",
+    "Part of a larger system": "Excluded — While used in systems (e.g., math), it is not a subsystem itself.",
+    "Autonomous in function": "Excluded — Requires an interpreter or context to operate.",
+    "System-critical": "Excluded — Not inherently critical to any system operation.",
+    "Symbolic / representational": "Included — Proofs rely on symbolic language (e.g., logic notation).",
+    "Communicative": "Included — Designed to convey formal truth or deduction.",
+    "Logical / rule-based": "Included — Derivation strictly follows logical rules.",
+    "Hierarchical / modular": "Included — Structured into premises, lemmas, and conclusions.",
+    "Behavior-guiding": "Included — Guides reasoning and deductive practices.",
+    "Self-referential / meta-conceptual": "Included — Some proofs are about provability or logic itself.",
+    "Temporal": "Included — Proofs follow a sequential logical progression.",
+    "Contextual abstraction": "Included — Meaning depends on formal system, axioms, and symbols used.",
+    "Socially / culturally constructed": "Included — The practice and validation of proof is socially defined.",
+    "Defined by a group/system": "Included — Institutionalized in mathematics, philosophy, and CS.",
+    "Linked to identity or role": "Excluded — Not inherently tied to identity.",
+    "Regulated / governed": "Excluded — Not subject to legal or institutional enforcement.",
+    "Teachable / transmissible": "Included — Taught and learned in formal education.",
+    "Visible": "Included — Proofs are commonly represented visually or textually.",
+    "Context-sensitive": "Included — Interpreted differently across logical systems.",
+    "Widely known": "Included — Central to education, logic, and science."
+  },
+  "encoding_notes": "This encoding positions a logical proof as a fully abstract, intentional construct with formal structure and communicative purpose. It is symbolic, hierarchical, and deeply embedded in social and educational systems, but not a physical or functional actor on its own. The UHT code is identical to 'Concept of Zero' because both are fundamentally abstract tools with the same set of universal traits.",
+  "image": "images/proof_in_logic.png"
+}

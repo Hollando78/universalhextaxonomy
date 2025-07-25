@@ -1,0 +1,73 @@
+{
+  "entity": "Encryption Algorithm",
+  "uht_code": "40F7FDDF",
+  "image_url": "/validation_set/images/encryption_algorithm.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Part of a larger system",
+      "Autonomous in function",
+      "System-critical"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Self-referential / meta-conceptual",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Visible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — An algorithm is a formal procedure, not a tangible object.",
+    "Man-made / synthetic": "Included — It is an entirely human-designed construct.",
+    "Biological or biologically-inspired": "Excluded — Most are based on mathematical principles, not biological models.",
+    "Fixed/static": "Excluded — Algorithms are abstract and exist independently of a fixed instantiation.",
+    "Structural": "Excluded — The structure is logical, not physical.",
+    "Perceptible": "Excluded — Not directly observable outside of representation.",
+    "Material form": "Excluded — It is abstract and not made of matter.",
+    "Passive": "Excluded — Not applicable to a symbolic system.",
+    "Purposeful / intentional": "Included — Created with the explicit goal of securing data.",
+    "Emits output / produces effect": "Included — Produces encrypted or hashed output.",
+    "Processes or regulates logic/signals": "Included — Executes logical transformations on input data.",
+    "Transforms or modifies internal state": "Included — The algorithm's state changes in a predictable way in response to input and key, and it fundamentally transforms data (state).",
+    "Interacts with humans directly": "Excluded — Interaction is mediated via interfaces or code; not intrinsic to the algorithm.",
+    "Part of a larger system": "Included — A foundational component of secure systems and protocols.",
+    "Autonomous in function": "Included — Once implemented, performs its function without human intervention.",
+    "System-critical": "Included — In secure systems, failure of the algorithm breaks trust or functionality.",
+    "Symbolic / representational": "Included — Uses formal symbolic rules to define transformations.",
+    "Communicative": "Included — Enables secure communication by design.",
+    "Logical / rule-based": "Included — Defined entirely by logical structure and deterministic operations.",
+    "Hierarchical / modular": "Included — Many algorithms are composed of layered steps (e.g., rounds, key expansion).",
+    "Behavior-guiding": "Included — Guides how systems and users structure secure data exchange.",
+    "Self-referential / meta-conceptual": "Included — Algorithms often invoke themselves recursively or are designed using meta-principles.",
+    "Temporal": "Excluded — Not inherently time-based, though execution occurs in time.",
+    "Contextual abstraction": "Included — Behavior depends on key length, mode of operation, input format, etc.",
+    "Socially / culturally constructed": "Included — Developed within academic, military, or corporate communities.",
+    "Defined by a group/system": "Included — Standardized by institutions (e.g., NIST, IETF).",
+    "Linked to identity or role": "Excluded — Does not define personal or group identity.",
+    "Regulated / governed": "Included — Subject to export restrictions, compliance standards, and cryptographic regulations.",
+    "Teachable / transmissible": "Included — Foundational part of education in computer science and cybersecurity.",
+    "Visible": "Included — Often published in papers, RFCs, code libraries, and documentation.",
+    "Context-sensitive": "Included — Implementation behavior depends on context of use.",
+    "Widely known": "Included — Major algorithms are widely disseminated and scrutinized."
+  },
+  "encoding_notes": "This encoding captures the Encryption Algorithm as a symbolic, logical, and socially governed construct with real functional significance. It is not a physical object but operates within highly structured technical and cultural frameworks. It is distinct from software *implementations* which would include more physical and functional traits.",
+  "image": "images/encryption_algorithm.png"
+}

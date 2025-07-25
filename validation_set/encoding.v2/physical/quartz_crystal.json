@@ -1,0 +1,59 @@
+{
+  "entity": "Quartz Crystal",
+  "uht_code": "8E400000",
+  "image_url": "/validation_set/images/quartz_crystal.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Structural",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [
+      "Outputs Effect"
+    ],
+    "abstract": [],
+    "social": []
+  },
+  "feedback": {
+    "Physical Object": "Included — Discrete, bounded mineral specimen with tangible form.",
+    "Synthetic": "Excluded — Naturally occurring, not man-made.",
+    "Biological/Biomimetic": "Excluded — No biological origin or design inspiration.",
+    "Powered": "Excluded — Does not rely on supplied energy to operate. Piezoelectricity arises from mechanical input, not internal power.",
+    "Structural": "Included — Its rigid crystal lattice contributes to its form and function.",
+    "Observable": "Included — Easily seen and handled; perceptible to the senses.",
+    "Physical Medium": "Included — Composed of silicon dioxide; a material object.",
+    "Active": "Excluded — Does not initiate behavior internally.",
+    
+    "Intentionally Designed": "Excluded — Naturally formed, not designed for a purpose.",
+    "Outputs Effect": "Included — Emits electric charge when stressed (piezoelectric property).",
+    "Processes Signals/Logic": "Excluded — Does not interpret or manage signal flow.",
+    "State-Transforming": "Excluded — Remains materially stable under normal conditions.",
+    "Human-Interactive": "Excluded — Not designed to interface with humans.",
+    "System-integrated": "Excluded — Exists as a standalone mineral, not part of a system.",
+    "Functionally Autonomous": "Excluded — Does not perform actions or functions autonomously.",
+    "System-Essential": "Excluded — Not essential to any engineered system unless externally embedded.",
+    
+    "Symbolic": "Excluded — Not inherently representational when treated as a mineral.",
+    "Signalling": "Excluded — Does not communicate intentionally.",
+    "Rule-governed": "Excluded — Not structured by logic or formal rules.",
+    "Compositional": "Excluded — Not composed of modular subcomponents in the UHT sense.",
+    "Normative": "Excluded — Does not guide or constrain behavior.",
+    "Meta": "Excluded — Does not refer to its own structure or role.",
+    "Temporal": "Excluded — No time-based structural identity.",
+    "Digital/Virtual": "Excluded — Entirely physical, not digital or virtual.",
+    
+    "Social Construct": "Excluded — Exists independently of social agreement.",
+    "Institutionally Defined": "Excluded — Not categorized or defined by any institution.",
+    "Identity-Linked": "Excluded — Not tied to roles, personas, or social identity.",
+    "Regulated": "Excluded — Not subject to formal rules or legal governance.",
+    "Economically Significant": "Excluded — Common quartz has low economic significance alone.",
+    "Politicised": "Excluded — Not subject to political debate.",
+    "Ritualised": "Excluded — Not used in formalized cultural or ceremonial behavior.",
+    "Ethically Significant": "Excluded — No moral implications intrinsic to its existence."
+  },
+  "encoding_notes": "This version treats quartz strictly as a natural mineral exhibiting piezoelectric output. 'Powered' is excluded, as the crystal itself does not depend on an energy source. No symbolic or spiritual interpretations are assumed."
+}

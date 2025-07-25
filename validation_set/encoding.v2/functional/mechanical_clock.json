@@ -1,0 +1,69 @@
+{
+  "entity": "Mechanical Clock",
+  "uht_code": "DEF42205",
+  "image_url": "/validation_set/images/mechanical_clock.png",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Part of a larger system"
+    ],
+    "abstract": [
+      "Logical / rule-based",
+      "Temporal"
+    ],
+    "social": [
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A tangible mechanical device composed of gears, hands, and casing.",
+    "Man-made / synthetic": "Included — Designed and constructed by humans.",
+    "Biological or biologically-inspired": "Excluded — Mechanisms are based on physics and engineering, not biology.",
+    "Fixed/static": "Included — Generally stationary and not meant to be moved during operation.",
+    "Structural": "Included — Its internal operation depends on precise physical structure (gears, springs, escapement).",
+    "Perceptible": "Included — Meant to be seen and/or heard (e.g., ticking or chimes).",
+    "Material form": "Included — Made from durable, manufactured materials (metal, glass, etc.).",
+    "Passive": "Excluded — Actively moves through internal mechanical energy.",
+    
+    "Purposeful / intentional": "Included — Designed to keep and display time.",
+    "Emits output / produces effect": "Included — Shows time visually and sometimes audibly.",
+    "Processes or regulates logic/signals": "Included — Internal escapement mechanism regulates consistent time intervals.",
+    "Transforms or modifies internal state": "Included — Winding modifies spring tension; mechanisms release energy over time.",
+    "Interacts with humans directly": "Excluded — Users observe it but do not interact with it functionally.",
+    "Part of a larger system": "Included — May synchronize or be integrated into broader timekeeping or architectural systems.",
+    "Autonomous in function": "Excluded — Requires periodic winding or external energy input.",
+    "System-critical": "Excluded — Timekeeping is often helpful but not mission-critical in most settings.",
+    
+    "Symbolic / representational": "Excluded — Not inherently symbolic or abstract.",
+    "Communicative": "Excluded — Displays time but not in a communicative or coded way.",
+    "Logical / rule-based": "Included — Internally operates on consistent, rule-based mechanical logic.",
+    "Hierarchical / modular": "Excluded — Not composed of conceptual modules, only mechanical parts.",
+    "Behavior-guiding": "Excluded — It provides information but doesn’t prescribe behavior.",
+    "Self-referential / meta-conceptual": "Excluded — Does not reflect on itself or represent abstract systems.",
+    "Temporal": "Included — Core function is to represent and track time.",
+    "Contextual abstraction": "Excluded — Operates consistently regardless of symbolic or abstract context.",
+    
+    "Socially / culturally constructed": "Excluded — Functionally universal, not constructed by cultural consensus.",
+    "Defined by a group/system": "Excluded — Exists across many systems but not semantically defined by any one.",
+    "Linked to identity or role": "Excluded — Not tied to personal or social roles.",
+    "Regulated / governed": "Excluded — Some clocks are certified, but the concept isn’t intrinsically governed.",
+    "Teachable / transmissible": "Excluded — Can be taught, but this is not central to its form.",
+    "Visible": "Included — Deliberately designed to be viewed (often publicly).",
+    "Context-sensitive": "Excluded — Displays absolute time, not contextually altered.",
+    "Widely known": "Included — Clocks are globally recognized and ubiquitous."
+  },
+  "encoding_notes": "This encoding reflects the mechanical clock as a traditional timekeeping apparatus, emphasizing its engineered structure, functional logic, and universal recognizability. Abstract traits are limited to its time-based logic, while social traits are included only when visually and culturally universal. It excludes interaction and autonomy due to its passive user interface and reliance on manual winding.",
+  "image": "images/mechanical_clock.png"
+}

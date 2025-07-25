@@ -1,0 +1,78 @@
+{
+  "entity": "Blockchain Node",
+  "uht_code": "44F7FFFB",
+  "image_url": "/validation_set/images/blockchain_node.png",
+  "traits": {
+    "physical": [
+      "Man-made / synthetic",
+      "Perceptible"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Part of a larger system",
+      "Autonomous in function",
+      "System-critical"
+    ],
+    "abstract": [
+      "Symbolic / representational",
+      "Communicative",
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Behavior-guiding",
+      "Self-referential / meta-conceptual",
+      "Temporal",
+      "Contextual abstraction"
+    ],
+    "social": [
+      "Socially / culturally constructed",
+      "Defined by a group/system",
+      "Linked to identity or role",
+      "Regulated / governed",
+      "Teachable / transmissible",
+      "Context-sensitive",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Excluded — Encoded as a functional process, not the hardware it runs on.",
+    "Man-made / synthetic": "Included — Fully engineered software role within distributed systems.",
+    "Biological or biologically-inspired": "Excluded — Not modeled on or derived from biological principles.",
+    "Fixed/static": "Excluded — Can migrate or be replicated across machines.",
+    "Structural": "Excluded — Not physically assembled; structural qualities are abstract.",
+    "Perceptible": "Included — Its outputs and logs are observable through tools and interfaces.",
+    "Material form": "Excluded — The node is a logical agent, not a materially bounded entity.",
+    "Passive": "Excluded — Continuously operates, validates, and communicates.",
+    
+    "Purposeful / intentional": "Included — Designed with the explicit goal of participating in a blockchain protocol.",
+    "Emits output / produces effect": "Included — Contributes to network activity by broadcasting blocks and transactions.",
+    "Processes or regulates logic/signals": "Included — Executes consensus and validation logic.",
+    "Transforms or modifies internal state": "Included — Updates blockchain state, peer tables, and mempools.",
+    "Interacts with humans directly": "Excluded — Interfaces may exist, but it's not designed for direct human interaction.",
+    "Part of a larger system": "Included — Operates only within a distributed blockchain ecosystem.",
+    "Autonomous in function": "Included — Functions continuously without direct oversight once configured.",
+    "System-critical": "Included — The network requires nodes to maintain ledger integrity and consensus.",
+    
+    "Symbolic / representational": "Included — Represents the distributed ledger state.",
+    "Communicative": "Included — Shares and relays protocol-encoded data.",
+    "Logical / rule-based": "Included — Operates via strict validation and consensus logic.",
+    "Hierarchical / modular": "Included — Includes networking, consensus, and storage modules.",
+    "Behavior-guiding": "Included — Enforces protocol rules that constrain participant behavior.",
+    "Self-referential / meta-conceptual": "Included — Tracks its own sync state, peers, and role in the network.",
+    "Temporal": "Included — Functions across block intervals and uses timestamps.",
+    "Contextual abstraction": "Included — Only meaningful within specific blockchain rulesets and topologies.",
+    
+    "Socially / culturally constructed": "Included — Emerges from and is embedded in socio-technical systems.",
+    "Defined by a group/system": "Included — Exists per formal protocol definitions (e.g., Ethereum client).",
+    "Linked to identity or role": "Included — Some nodes represent staking roles, validators, or organizational actors.",
+    "Regulated / governed": "Included — Often subject to internal governance or legal scrutiny.",
+    "Teachable / transmissible": "Included — Taught in educational and technical settings; implementations are open-source.",
+    "Visible": "Excluded — Node operation is not inherently user-facing or visually present.",
+    "Context-sensitive": "Included — Behavior shifts depending on role (e.g., archival, light, validator).",
+    "Widely known": "Included — Well-recognized and discussed in technical and public discourse."
+  },
+  "encoding_notes": "This encoding treats the blockchain node as a logical and functional software entity within a decentralized system. Physical and visible traits are excluded to preserve distinction between software role and physical host. High trait density in functional, abstract, and social layers reflects the node’s role as a rule-enforcing, symbolic actor embedded in cultural and governance systems.",
+  "image": "images/blockchain_node.png"
+}

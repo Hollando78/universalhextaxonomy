@@ -1,0 +1,63 @@
+{
+  "entity": "Fossil",
+  "uht_code": "AE000209",
+  "image_url": "/validation_set/images/fossil.png",
+  "version": "v2",
+  "encoding_date": "2025-07-25",
+  "traits_version": "traits.v2.json",
+  "traits": {
+    "physical": [
+      "Physical Object",
+      "Biological/Biomimetic",
+      "Structural",
+      "Observable",
+      "Physical Medium"
+    ],
+    "functional": [],
+    "abstract": [
+      "Temporal"
+    ],
+    "social": [
+      "Economically Significant",
+      "Ethically Significant"
+    ]
+  },
+  "feedback": {
+    "Physical Object": "Included — A discrete, preserved structure with clear material boundaries.",
+    "Synthetic": "Excluded — Formed by natural mineralization, not by design.",
+    "Biological/Biomimetic": "Included — Originates from formerly living organisms.",
+    "Powered": "Excluded — Inert; does not require or emit energy.",
+    "Structural": "Included — Often preserves supporting anatomy such as bone or shell.",
+    "Observable": "Included — Perceptible via human senses or instruments.",
+    "Physical Medium": "Included — Composed of matter (rock, mineral, or organic remains).",
+    "Active": "Excluded — No autonomous behavior or internal dynamism.",
+    
+    "Intentionally Designed": "Excluded — Not created with purpose or plan.",
+    "Outputs Effect": "Excluded — Does not emit force, signal, or information.",
+    "Processes Signals/Logic": "Excluded — No logic handling or data processing.",
+    "State-Transforming": "Excluded — Static in structure unless externally altered.",
+    "Human-Interactive": "Excluded — Not designed for interactive use.",
+    "System-integrated": "Excluded — Not a component in a designed system.",
+    "Functionally Autonomous": "Excluded — No internal control or operation.",
+    "System-Essential": "Excluded — Not a required part of any defined system.",
+    
+    "Symbolic": "Excluded — Symbolic interpretations are cultural, not intrinsic.",
+    "Signalling": "Excluded — Does not convey structured meaning intentionally.",
+    "Rule-governed": "Excluded — Follows natural physics, not logical rules.",
+    "Compositional": "Excluded — Not organized into abstract modules.",
+    "Normative": "Excluded — Does not influence behavior or values directly.",
+    "Meta": "Excluded — Not conceptually self-referential.",
+    "Temporal": "Included — Its identity is defined by age and geological time.",
+    "Digital/Virtual": "Excluded — Exists physically.",
+    
+    "Social Construct": "Excluded — Exists independently of belief or agreement.",
+    "Institutionally Defined": "Excluded — Classification exists, but identity is not institution-dependent.",
+    "Identity-Linked": "Excluded — Not tied to identity, role, or group.",
+    "Regulated": "Excluded — May be managed, but not inherently subject to regulation.",
+    "Economically Significant": "Included — Fossils have market, tourism, and educational value.",
+    "Politicised": "Excluded — Political conflict is external to the fossil’s identity.",
+    "Ritualised": "Excluded — Not part of ritual practice in its own right.",
+    "Ethically Significant": "Included — Extraction, sale, and cultural ownership raise ongoing ethical issues."
+  },
+  "encoding_notes": "This encoding represents a fossil as a preserved physical remnant of biological life, defined by its deep-time provenance. It includes ethical and economic relevance tied to its real-world material status, but excludes symbolic and systemic overlays."
+}

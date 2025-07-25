@@ -1,0 +1,72 @@
+{
+  "entity": "3D Printer",
+  "uht_code": "DEFE3205",
+  "image_url": "/validation_set/images/3d_printer.png",
+  "traits": {
+    "physical": [
+      "Physical object",
+      "Man-made / synthetic",
+      "Fixed/static",
+      "Structural",
+      "Perceptible",
+      "Material form"
+    ],
+    "functional": [
+      "Purposeful / intentional",
+      "Emits output / produces effect",
+      "Processes or regulates logic/signals",
+      "Transforms or modifies internal state",
+      "Interacts with humans directly",
+      "Part of a larger system",
+      "Autonomous in function"
+    ],
+    "abstract": [
+      "Logical / rule-based",
+      "Hierarchical / modular",
+      "Temporal"
+    ],
+    "social": [
+      "Visible",
+      "Widely known"
+    ]
+  },
+  "feedback": {
+    "Physical object": "Included — A bounded physical device with motion systems, electronics, and a structural frame.",
+    "Man-made / synthetic": "Included — Designed and assembled using engineered components and software.",
+    "Biological or biologically-inspired": "Excluded — The device itself does not operate based on biological models.",
+    "Fixed/static": "Included — Typically stationary during use and installed in a stable location.",
+    "Structural": "Included — Print head motion and print bed alignment depend on mechanical structure.",
+    "Perceptible": "Included — Operation is audible and visible, often observable through transparent casings.",
+    "Material form": "Included — Constructed from durable components, including plastic, metal, and motors.",
+    "Passive": "Excluded — Performs active mechanical and thermal operations.",
+    
+    "Purposeful / intentional": "Included — Designed specifically to fabricate objects from digital files.",
+    "Emits output / produces effect": "Included — Produces physical objects through additive manufacturing.",
+    "Processes or regulates logic/signals": "Included — Interprets and executes machine code (e.g., G-code).",
+    "Transforms or modifies internal state": "Included — Updates progress state, adjusts heat and position dynamically.",
+    "Interacts with humans directly": "Included — Users load files, calibrate, and monitor prints.",
+    "Part of a larger system": "Included — Often integrated into digital design and fabrication workflows.",
+    "Autonomous in function": "Included — Completes tasks once initiated without user involvement.",
+    "System-critical": "Excluded — Important but not universally critical to broader infrastructures.",
+    
+    "Symbolic / representational": "Excluded — Its outputs are physical, not symbolic.",
+    "Communicative": "Excluded — Not designed for message transmission.",
+    "Logical / rule-based": "Included — Operations follow formal rules and structured code.",
+    "Hierarchical / modular": "Included — Internally modular (print head, platform) and conceptually layered (files, layers, axes).",
+    "Behavior-guiding": "Excluded — Doesn’t prescribe human action or decisions.",
+    "Self-referential / meta-conceptual": "Excluded — No reflective or representational awareness.",
+    "Temporal": "Included — Performs tasks over time with planned sequences.",
+    "Contextual abstraction": "Excluded — Purpose remains consistent regardless of symbolic context.",
+    
+    "Socially / culturally constructed": "Excluded — Defined by function, not cultural category.",
+    "Defined by a group/system": "Excluded — Standards exist, but not semantically defined by social consensus.",
+    "Linked to identity or role": "Excluded — Not inherently tied to identity.",
+    "Regulated / governed": "Excluded — Devices may be certified, but regulation is not intrinsic.",
+    "Teachable / transmissible": "Excluded — Knowledge can be taught, but that is not a core trait of the machine.",
+    "Visible": "Included — Designed for user visibility and monitoring.",
+    "Context-sensitive": "Excluded — Functions uniformly regardless of social or environmental context.",
+    "Widely known": "Included — Recognized broadly in consumer, educational, and industrial contexts."
+  },
+  "encoding_notes": "This encoding reflects the 3D printer as a digitally controlled, semi-autonomous fabrication machine that transforms formal instruction sets into physical output. Its traits emphasize mechanical structure, functional logic, and integration into larger design systems, while remaining grounded in practical, observable operation.",
+  "image": "images/3d_printer.png"
+}
