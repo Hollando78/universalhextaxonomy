@@ -1,69 +1,74 @@
 {
   "entity": "Digital Alarm Clock",
-  "uht_code": "DEF82205",
+  "uht_code": "DFFA630A",
   "image_url": "/validation_set/images/digital_alarm_clock.png",
+  "version": "v2",
+  "encoding_date": "2025-07-28",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Physical object",
-      "Man-made / synthetic",
-      "Fixed/static",
+      "Physical Object",
+      "Synthetic",
+      "Powered",
       "Structural",
-      "Perceptible",
-      "Material form"
+      "Observable",
+      "Physical Medium",
+      "Active"
     ],
     "functional": [
-      "Purposeful / intentional",
-      "Emits output / produces effect",
-      "Processes or regulates logic/signals",
-      "Transforms or modifies internal state",
-      "Interacts with humans directly"
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Processes Signals/Logic",
+      "State-Transforming",
+      "Human-Interactive",
+      "Functionally Autonomous"
     ],
     "abstract": [
-      "Logical / rule-based",
-      "Temporal"
+      "Signalling",
+      "Rule-governed",
+      "Temporal",
+      "Digital/Virtual"
     ],
     "social": [
-      "Visible",
-      "Widely known"
+      "Economically Significant",
+      "Ritualised"
     ]
   },
   "feedback": {
-    "Physical object": "Included — A self-contained physical device typically placed on a surface.",
-    "Man-made / synthetic": "Included — Fully designed and manufactured by humans.",
-    "Biological or biologically-inspired": "Excluded — Not derived from or mimicking biological systems.",
-    "Fixed/static": "Included — Intended to remain in a fixed location (e.g., nightstand).",
-    "Structural": "Included — Display, buttons, and casing are mechanically integrated.",
-    "Perceptible": "Included — User interacts with its sounds, lights, and visual time display.",
-    "Material form": "Included — Composed of plastics, electronics, and visible screens.",
-    "Passive": "Excluded — Outputs sounds and light, and performs logic-driven behavior.",
+    "Physical Object": "Included — A tangible, bounded item that can be picked up, placed, or dropped; not just a system, but a device.",
+    "Synthetic": "Included — Manufactured and assembled from engineered components.",
+    "Biological/Biomimetic": "Excluded — Not inspired by or modeled on biological systems.",
+    "Powered": "Included — Operates on wall power or batteries.",
+    "Structural": "Included — Enclosed in a rigid frame with defined internal layout.",
+    "Observable": "Included — Time and alarm state are visually presented.",
+    "Physical Medium": "Included — Composed of matter: casing, display, circuitry.",
+    "Active": "Included — Continuously tracks time and monitors alarm logic.",
     
-    "Purposeful / intentional": "Included — Engineered to track time and wake users.",
-    "Emits output / produces effect": "Included — Produces audible alarms and visual indicators.",
-    "Processes or regulates logic/signals": "Included — Follows programmed timing and alarm logic.",
-    "Transforms or modifies internal state": "Included — Allows setting and changing alarm and time values.",
-    "Interacts with humans directly": "Included — Requires user input to set and operate.",
-    "Part of a larger system": "Excluded — Typically standalone, not integrated into broader systems.",
-    "Autonomous in function": "Excluded — Needs initial setup and operates on schedule.",
-    "System-critical": "Excluded — Auxiliary device, not essential for broader operations.",
+    "Intentionally Designed": "Included — Purpose-built to keep time and alert users.",
+    "Outputs Effect": "Included — Produces sound, vibration, or light to wake or notify.",
+    "Processes Signals/Logic": "Included — Embedded digital logic governs timing and user input.",
+    "State-Transforming": "Included — Cycles between idle, set, active, and snooze states.",
+    "Human-Interactive": "Included — Designed for frequent user interaction.",
+    "System-integrated": "Excluded — Typically standalone, not embedded in a larger control system.",
+    "Functionally Autonomous": "Included — Functions independently once configured.",
+    "System-Essential": "Excluded — Not vital to any larger system's identity.",
     
-    "Symbolic / representational": "Excluded — Displays numeric time but not symbolically expressive.",
-    "Communicative": "Excluded — Delivers alerts, but not symbolic or dialogic communication.",
-    "Logical / rule-based": "Included — Uses internal logic to trigger alarms and manage display.",
-    "Hierarchical / modular": "Excluded — Simple architecture, not abstractly modular.",
-    "Behavior-guiding": "Excluded — May shape routine, but not functionally guiding behavior.",
-    "Self-referential / meta-conceptual": "Excluded — Does not reflect on its own operation.",
-    "Temporal": "Included — Tracks and responds to linear time.",
-    "Contextual abstraction": "Excluded — Operates uniformly regardless of environment.",
+    "Signalling": "Included — Constantly conveys structured information via display and alarms.",
+    "Rule-governed": "Included — Operates on strict logic and programmed behavior.",
+    "Compositional": "Excluded — Integrated logic and casing, not modular or abstractly structured.",
+    "Normative": "Excluded — Does not encode rules of behavior or conduct.",
+    "Meta": "Excluded — Not self-representational.",
+    "Temporal": "Included — Entire identity based on measuring and responding to time.",
+    "Digital/Virtual": "Included — Functions are implemented in digital logic or firmware.",
     
-    "Socially / culturally constructed": "Excluded — Functionally consistent across contexts and not socially constructed.",
-    "Defined by a group/system": "Excluded — Product-defined, not by social or institutional consensus.",
-    "Linked to identity or role": "Excluded — Not socially identity-bearing.",
-    "Regulated / governed": "Excluded — Minimal regulation beyond safety standards.",
-    "Teachable / transmissible": "Excluded — Teachable, but not itself a transmissible semantic unit.",
-    "Visible": "Included — Designed to be prominently displayed.",
-    "Context-sensitive": "Excluded — Function unchanged by setting.",
-    "Widely known": "Included — Universally recognized domestic object."
+    "Social Construct": "Excluded — Identity is materially and functionally defined.",
+    "Institutionally Defined": "Excluded — Not defined by institutional or legal classification.",
+    "Identity-Linked": "Excluded — Not associated with roles or personal identity.",
+    "Regulated": "Excluded — Only subject to general consumer electronics standards.",
+    "Economically Significant": "Included — Mass-produced, globally distributed consumer good.",
+    "Politicised": "Excluded — Not a subject of political or ideological tension.",
+    "Ritualised": "Included — Deeply embedded in cultural routines (e.g., waking habits).",
+    "Ethically Significant": "Excluded — No major ethical debates or burdens associated."
   },
-  "encoding_notes": "This encoding captures the digital alarm clock as a physical, standalone device that fulfills timekeeping and alert functions. Its traits are concentrated in the physical and functional layers, with modest abstraction (rule-based and temporal) and socially relevant visibility. Social constructs and symbolic communication are excluded due to its direct, utilitarian design.",
-  "image": "images/digital_alarm_clock.png"
+  "encoding_notes": "This encoding treats the digital alarm clock as a discrete physical object with digitally governed internal logic. It is active, autonomous, and embedded in social routines, while communicating structured time information. Final UHT code: DFFA630A."
 }

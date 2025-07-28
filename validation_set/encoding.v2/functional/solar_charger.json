@@ -1,68 +1,75 @@
 {
   "entity": "Solar Charger",
-  "uht_code": "DED60205",
+  "uht_code": "DFF6421D",
   "image_url": "/validation_set/images/solar_charger.png",
+  "version": "v2",
+  "encoding_date": "2025-07-28",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Physical object",
-      "Man-made / synthetic",
-      "Fixed/static",
+      "Physical Object",
+      "Synthetic",
+      "Powered",
       "Structural",
-      "Perceptible",
-      "Material form"
+      "Observable",
+      "Physical Medium",
+      "Active"
     ],
     "functional": [
-      "Purposeful / intentional",
-      "Emits output / produces effect",
-      "Transforms or modifies internal state",
-      "Part of a larger system",
-      "Autonomous in function"
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Processes Signals/Logic",
+      "State-Transforming",
+      "System-integrated",
+      "Functionally Autonomous"
     ],
     "abstract": [
-      "Temporal"
+      "Temporal",
+      "Signalling"
     ],
     "social": [
-      "Visible",
-      "Widely known"
+      "Regulated",
+      "Economically Significant",
+      "Politicised",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Included — A tangible item consisting of solar panels, casing, and connectors.",
-    "Man-made / synthetic": "Included — Engineered and assembled using synthetic materials like silicon, polymers, and metal.",
-    "Biological or biologically-inspired": "Excluded — No modeling on biological systems, even if conceptually reminiscent of photosynthesis.",
-    "Fixed/static": "Included — Operates from a stationary position while in use (mounted or positioned for sun exposure).",
-    "Structural": "Included — Frame, cell layout, and orientation determine performance.",
-    "Perceptible": "Included — Designed to be positioned and observed by the user.",
-    "Material form": "Included — A physical apparatus built from durable materials.",
-    "Passive": "Excluded — Converts solar energy to electrical output — an active energy transformation process.",
-    
-    "Purposeful / intentional": "Included — Created for the explicit function of charging batteries or devices using solar energy.",
-    "Emits output / produces effect": "Included — Generates and delivers electrical current.",
-    "Processes or regulates logic/signals": "Excluded — Basic models lack logical control or signal interpretation.",
-    "Transforms or modifies internal state": "Included — Converts light energy into electrical energy; may involve tracking or storing charge.",
-    "Interacts with humans directly": "Excluded — Typically has no interactive interface or real-time feedback.",
-    "Part of a larger system": "Included — Can integrate with batteries, microgrids, or portable power banks.",
-    "Autonomous in function": "Included — Functions automatically when exposed to sunlight, requiring no further user input.",
-    "System-critical": "Excluded — May be important contextually, but not inherently critical to broader system operation.",
-    
-    "Symbolic / representational": "Excluded — Not designed to convey symbols or meaning.",
-    "Communicative": "Excluded — Does not emit or receive coded communication.",
-    "Logical / rule-based": "Excluded — Function is physically governed, not logically encoded.",
-    "Hierarchical / modular": "Excluded — Typically a monolithic system without conceptual subsystems.",
-    "Behavior-guiding": "Excluded — Does not instruct or influence user behavior semantically.",
-    "Self-referential / meta-conceptual": "Excluded — No reflective or modeling capability.",
-    "Temporal": "Included — Depends on time of day and duration of sunlight exposure for performance.",
-    "Contextual abstraction": "Excluded — Function remains consistent regardless of symbolic or cultural context.",
-    
-    "Socially / culturally constructed": "Excluded — Grounded in physical utility, not cultural framing.",
-    "Defined by a group/system": "Excluded — May be standardized, but not semantically defined by groups.",
-    "Linked to identity or role": "Excluded — Not inherently identity-associated.",
-    "Regulated / governed": "Excluded — Regulation may apply, but is not intrinsic to the object’s function.",
-    "Teachable / transmissible": "Excluded — Use can be taught, but that’s not a defining trait.",
-    "Visible": "Included — Often positioned in sunlight-exposed areas, visibility is intentional.",
-    "Context-sensitive": "Excluded — Function doesn’t vary semantically with setting.",
-    "Widely known": "Included — Recognized globally as a sustainable energy solution."
+    "Physical Object": "Included — It is a discrete, bounded physical device.",
+    "Synthetic": "Included — It is manufactured by humans.",
+    "Biological/Biomimetic": "Excluded — No biological origin or inspiration.",
+    "Powered": "Included — Requires solar energy input to function.",
+    "Structural": "Included — Its casing/framework contributes to physical stability and deployment.",
+    "Observable": "Included — Readily visible and instrumentally detectable.",
+    "Physical Medium": "Included — Composed of solid-state physical materials.",
+    "Active": "Included — Internally converts solar energy via active photoelectric process.",
+
+    "Intentionally Designed": "Included — Engineered specifically to harvest and convert solar energy.",
+    "Outputs Effect": "Included — Emits electrical output for charging.",
+    "Processes Signals/Logic": "Included — Embedded charge controller processes electrical signals and logic thresholds.",
+    "State-Transforming": "Included — Converts solar energy into electrical energy.",
+    "Human-Interactive": "Excluded — May be user-installed, but interaction is not inherent to its function.",
+    "System-integrated": "Included — Often embedded in energy or off-grid systems.",
+    "Functionally Autonomous": "Included — Once placed, operates independently under sun exposure.",
+    "System-Essential": "Excluded — Useful but not inherently irreplaceable in system identity.",
+
+    "Symbolic": "Excluded — Not inherently a symbol or representation.",
+    "Signalling": "Included — Indicator lights communicate charging status and errors.",
+    "Rule-governed": "Excluded — No complex or abstract rule set defines operation.",
+    "Compositional": "Excluded — May have components, but hierarchy/modularity not defining.",
+    "Normative": "Excluded — Does not prescribe or enforce behavior.",
+    "Meta": "Excluded — Does not refer to its own concept or system.",
+    "Temporal": "Included — Operation is contingent on solar cycles/time-of-day.",
+    "Digital/Virtual": "Excluded — Entirely physical in operation and existence.",
+
+    "Social Construct": "Excluded — Exists independently of collective social agreement.",
+    "Institutionally Defined": "Excluded — Not classified or defined solely by institutions.",
+    "Identity-Linked": "Excluded — Not tied to group, role, or personhood.",
+    "Regulated": "Included — Subject to electronics safety and certification standards.",
+    "Economically Significant": "Included — Solar chargers are a major product category in global markets.",
+    "Politicised": "Included — Tied to debates around renewable energy and energy access.",
+    "Ritualised": "Excluded — Not used in structured cultural practices.",
+    "Ethically Significant": "Included — Seen as part of ethical sustainability efforts."
   },
-  "encoding_notes": "This encoding treats the solar charger as a physical, autonomous energy transformation device with a time-dependent function and broad public familiarity. Logical, symbolic, or socially defined traits are excluded, reflecting the charger's grounded, passive-operating design.",
-  "image": "images/solar_charger.png"
+  "encoding_notes": "This encoding reflects a physically grounded and functionally nuanced view of a modern solar charger, including embedded signal logic, autonomous behavior, and indicator signalling. Economic and regulatory traits are included due to intrinsic participation in market and certification structures."
 }

@@ -1,70 +1,77 @@
 {
   "entity": "Smart Thermometer",
-  "uht_code": "EEFC2205",
+  "uht_code": "DFFE6319",
   "image_url": "/validation_set/images/smart_thermometer.png",
+  "version": "v2",
+  "encoding_date": "2025-07-28",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Physical object",
-      "Man-made / synthetic",
-      "Biological or biologically-inspired",
+      "Physical Object",
+      "Synthetic",
+      "Powered",
       "Structural",
-      "Perceptible",
-      "Material form"
+      "Observable",
+      "Physical Medium",
+      "Active"
     ],
     "functional": [
-      "Purposeful / intentional",
-      "Emits output / produces effect",
-      "Processes or regulates logic/signals",
-      "Transforms or modifies internal state",
-      "Interacts with humans directly",
-      "Part of a larger system"
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Processes Signals/Logic",
+      "State-Transforming",
+      "Human-Interactive",
+      "System-integrated",
+      "Functionally Autonomous"
     ],
     "abstract": [
-      "Logical / rule-based",
-      "Temporal"
+      "Signalling",
+      "Rule-governed",
+      "Temporal",
+      "Digital/Virtual"
     ],
     "social": [
-      "Visible",
-      "Widely known"
+      "Regulated",
+      "Economically Significant",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Included — A tangible, handheld or wearable sensing device.",
-    "Man-made / synthetic": "Included — Designed and built entirely through human engineering.",
-    "Biological or biologically-inspired": "Included — Often models biological thermoregulation or is used in human health contexts.",
-    "Fixed/static": "Excluded — Designed for portability or wearable use.",
-    "Structural": "Included — Its internal architecture (sensors, circuits, housing) supports sensing and communication.",
-    "Perceptible": "Included — Displayed readings, tactile buttons, and sometimes sound or light alerts.",
-    "Material form": "Included — Constructed with durable polymers, metal probes, and embedded electronics.",
-    "Passive": "Excluded — Senses input and produces active digital feedback.",
-    
-    "Purposeful / intentional": "Included — Built to measure and transmit temperature data.",
-    "Emits output / produces effect": "Included — Communicates readings via display or wireless connection.",
-    "Processes or regulates logic/signals": "Included — Interprets sensor inputs and applies software logic.",
-    "Transforms or modifies internal state": "Included — May store readings, update thresholds, or log user data.",
-    "Interacts with humans directly": "Included — Displayed feedback, app integration, or direct input.",
-    "Part of a larger system": "Included — Often integrated into health monitoring or environmental automation.",
-    "Autonomous in function": "Excluded — Typically user-initiated or context-triggered.",
-    "System-critical": "Excluded — Helpful but not generally essential for broader system survival.",
-    
-    "Symbolic / representational": "Excluded — Displays numerical data but not symbolically abstract.",
-    "Communicative": "Excluded — Communicates data but not via symbolic or language-based systems.",
-    "Logical / rule-based": "Included — Operates based on thresholds, timing, and rules (e.g., fever alerts).",
-    "Hierarchical / modular": "Excluded — May contain components, but not semantically modular.",
-    "Behavior-guiding": "Excluded — Suggests behavior (e.g., seek help) but does not encode guidance.",
-    "Self-referential / meta-conceptual": "Excluded — Does not reflect on its own data or process.",
-    "Temporal": "Included — Time-stamped data logging or historical trend tracking is common.",
-    "Contextual abstraction": "Excluded — Operates on concrete measurement rather than symbolic context.",
-    
-    "Socially / culturally constructed": "Excluded — Defined by technical function, not cultural negotiation.",
-    "Defined by a group/system": "Excluded — Not semantically defined by institutions.",
-    "Linked to identity or role": "Excluded — Not inherently tied to social roles.",
-    "Regulated / governed": "Excluded — May be subject to regulation, but not intrinsic to semantic identity.",
-    "Teachable / transmissible": "Excluded — Use is teachable, but the device is not a teaching tool itself.",
-    "Visible": "Included — Designed to display outputs and status visibly.",
-    "Context-sensitive": "Excluded — Measurement behavior remains stable across settings.",
-    "Widely known": "Included — Common in healthcare, parenting, and smart home contexts."
+    "Physical Object": "Included — A tangible, discrete unit with defined boundaries.",
+    "Synthetic": "Included — Fully manufactured with industrial and electronic components.",
+    "Biological/Biomimetic": "Excluded — No biological origin or inspiration.",
+    "Powered": "Included — Operates using batteries or USB power.",
+    "Structural": "Included — Internal sensor and circuitry organized within a housing.",
+    "Observable": "Included — Form and interface (display, light, or buttons) are visible.",
+    "Physical Medium": "Included — Composed of plastic, metal, and circuit materials.",
+    "Active": "Included — Continuously samples input, processes data, and may issue output.",
+
+    "Intentionally Designed": "Included — Engineered to measure and report temperature readings.",
+    "Outputs Effect": "Included — Communicates measurements via signal, display, or app.",
+    "Processes Signals/Logic": "Included — Converts physical input into structured output via digital logic.",
+    "State-Transforming": "Included — Switches between active states (idle, sensing, transmitting).",
+    "Human-Interactive": "Included — Designed for user setup, reading, and feedback.",
+    "System-integrated": "Included — Often part of smart home or medical monitoring systems.",
+    "Functionally Autonomous": "Included — Can operate independently once configured.",
+    "System-Essential": "Excluded — Typically optional or interchangeable in its system.",
+
+    "Symbolic": "Excluded — Does not represent or stand for anything beyond its direct function; not a symbolic object.",
+    "Signalling": "Included — Communicates structured data such as current or logged temperature.",
+    "Rule-governed": "Included — Operates based on programmed logic (e.g., thresholds, alerts).",
+    "Compositional": "Excluded — Not meaningfully modular in abstract system terms.",
+    "Normative": "Excluded — Does not enforce rules or guide social behavior.",
+    "Meta": "Excluded — Not self-referential or self-representing.",
+    "Temporal": "Included — Measures and reports over time; sequences are time-sensitive.",
+    "Digital/Virtual": "Included — Operates entirely on digital/firmware-based logic.",
+
+    "Social Construct": "Excluded — Defined physically and functionally, not symbolically.",
+    "Institutionally Defined": "Excluded — Not classified by institutional authority.",
+    "Identity-Linked": "Excluded — Not linked to individual or group identity.",
+    "Regulated": "Included — Often subject to data, safety, and medical device regulations.",
+    "Economically Significant": "Included — Significant player in health, consumer, and IoT device markets.",
+    "Politicised": "Excluded — Not ideologically debated or regulated by public controversy.",
+    "Ritualised": "Excluded — Used functionally, not ceremonially.",
+    "Ethically Significant": "Included — Raises issues related to privacy, surveillance, and medical data reliability."
   },
-  "encoding_notes": "This encoding reflects a smart thermometer as a biologically contextual, digitally enabled tool that senses, interprets, and communicates temperature. Physical and functional layers dominate due to its engineered and interactive role, while abstraction is limited to logic and temporality. Social traits are limited to visibility and general public familiarity.",
-  "image": "images/smart_thermometer.png"
+  "encoding_notes": "This encoding treats the smart thermometer as a digitally powered sensing device with meaningful autonomy, real-time signaling, and ethical/regulatory relevance. Final UHT code: DFFE6319."
 }

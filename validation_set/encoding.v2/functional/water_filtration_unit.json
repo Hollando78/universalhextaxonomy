@@ -1,69 +1,75 @@
 {
   "entity": "Water Filtration Unit",
-  "uht_code": "DFD60205",
+  "uht_code": "CFDF1259",
   "image_url": "/validation_set/images/water_filtration_unit.png",
+  "version": "v2",
+  "encoding_date": "2025-07-28",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Physical object",
-      "Man-made / synthetic",
-      "Fixed/static",
+      "Physical Object",
+      "Synthetic",
       "Structural",
-      "Perceptible",
-      "Material form",
-      "Passive"
+      "Observable",
+      "Physical Medium",
+      "Active"
     ],
     "functional": [
-      "Purposeful / intentional",
-      "Emits output / produces effect",
-      "Transforms or modifies internal state",
-      "Part of a larger system",
-      "Autonomous in function"
+      "Intentionally Designed",
+      "Outputs Effect",
+      "State-Transforming",
+      "Human-Interactive",
+      "System-integrated",
+      "Functionally Autonomous",
+      "System-Essential"
     ],
     "abstract": [
+      "Compositional",
       "Temporal"
     ],
     "social": [
-      "Visible",
-      "Widely known"
+      "Institutionally Defined",
+      "Regulated",
+      "Economically Significant",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Included — A tangible unit composed of housings, chambers, and filter media.",
-    "Man-made / synthetic": "Included — Designed and manufactured by humans for a clear technical function.",
-    "Biological or biologically-inspired": "Excluded — May mimic natural filtering effects, but not conceptually modeled on biology.",
-    "Fixed/static": "Included — Typically remains stationary during use, whether installed or gravity-fed.",
-    "Structural": "Included — Geometry and layering of materials directly determine filtration performance.",
-    "Perceptible": "Included — User-visible, manually operated or replaceable.",
-    "Material form": "Included — Constructed from durable solid-state materials.",
-    "Passive": "Included — Most operate without active sensors, software, or external power.",
-    
-    "Purposeful / intentional": "Included — Built specifically to remove unwanted substances from water.",
-    "Emits output / produces effect": "Included — Produces filtered water as output.",
-    "Processes or regulates logic/signals": "Excluded — Operates mechanically, not by logical control.",
-    "Transforms or modifies internal state": "Included — Filters accumulate contaminants over time.",
-    "Interacts with humans directly": "Excluded — Generally no interactive UI or active feedback.",
-    "Part of a larger system": "Included — Can be integrated with plumbing or broader water systems.",
-    "Autonomous in function": "Included — Operates on its own during fluid flow; user not required to intervene mid-process.",
-    "System-critical": "Excluded — May be important, but not semantically critical for broader system operation.",
-    
-    "Symbolic / representational": "Excluded — Functionally concrete, not symbolic.",
-    "Communicative": "Excluded — No symbolic or signal-based communication.",
-    "Logical / rule-based": "Excluded — Behavior arises from physical dynamics, not encoded logic.",
-    "Hierarchical / modular": "Excluded — Internal construction does not imply modular semantic structure.",
-    "Behavior-guiding": "Excluded — Does not guide user decisions or social behavior.",
-    "Self-referential / meta-conceptual": "Excluded — No reflection or internal representation of function.",
-    "Temporal": "Included — Filter degradation and replacement cycles are time-dependent.",
-    "Contextual abstraction": "Excluded — Purpose and behavior do not change across social contexts.",
-    
-    "Socially / culturally constructed": "Excluded — Grounded in universal physical function.",
-    "Defined by a group/system": "Excluded — Standards may exist, but not semantically defined by social systems.",
-    "Linked to identity or role": "Excluded — Not associated with personal or group roles.",
-    "Regulated / governed": "Excluded — Regulation may apply externally but does not define the device's nature.",
-    "Teachable / transmissible": "Excluded — Use may be taught, but this is not a core semantic trait.",
-    "Visible": "Included — Deliberately accessible and often user-facing for replacement or monitoring.",
-    "Context-sensitive": "Excluded — Identity and behavior remain stable across different uses.",
-    "Widely known": "Included — Commonly recognized and used in domestic and public contexts."
+    "Physical Object": "Included — A discrete, bounded unit such as a cartridge, pitcher, or housing.",
+    "Synthetic": "Included — Manufactured from engineered polymers, metals, and filter media.",
+    "Biological/Biomimetic": "Excluded — Not inspired by biological form or function.",
+    "Powered": "Excluded — Typically operates passively or via fluid pressure.",
+    "Structural": "Included — Has internal layers, channels, and casing to route water.",
+    "Observable": "Included — Typically installed in a visible location or handled directly.",
+    "Physical Medium": "Included — Composed of solid material elements like carbon or resin.",
+    "Active": "Included — Actively alters the water that passes through it in real time.",
+
+    "Intentionally Designed": "Included — Engineered to perform a filtering function.",
+    "Outputs Effect": "Included — Produces filtered water with reduced contaminants.",
+    "Processes Signals/Logic": "Excluded — Does not interpret input or make decisions.",
+    "State-Transforming": "Included — Alters physical/chemical state of incoming water.",
+    "Human-Interactive": "Included — Replaced, cleaned, or inspected by users.",
+    "System-integrated": "Included — Part of plumbing, pitcher, appliance, or municipal infrastructure.",
+    "Functionally Autonomous": "Included — Operates continuously once installed.",
+    "System-Essential": "Included — Removal disables the filtration function of the system it supports.",
+
+    "Symbolic": "Excluded — Not intended to represent or symbolize anything.",
+    "Signalling": "Excluded — Basic units provide no structured feedback (unless smart-enabled).",
+    "Rule-governed": "Excluded — Behavior is governed by physical process, not logical rules.",
+    "Compositional": "Included — Typically consists of layers or modules (e.g., activated carbon, sediment filter).",
+    "Normative": "Excluded — Does not prescribe or encode social rules or expectations.",
+    "Meta": "Excluded — Not self-descriptive or self-representational.",
+    "Temporal": "Included — Function degrades over time or volume; usage is lifespan-dependent.",
+    "Digital/Virtual": "Excluded — Not based on or defined by software or virtual logic.",
+
+    "Social Construct": "Excluded — Functionally and materially defined.",
+    "Institutionally Defined": "Included — Subject to standards such as NSF/ANSI for health and safety.",
+    "Identity-Linked": "Excluded — Not associated with identity or social role.",
+    "Regulated": "Included — Water filters are regulated to meet contaminant reduction and safety benchmarks.",
+    "Economically Significant": "Included — Part of a major industry spanning home, commercial, and humanitarian markets.",
+    "Politicised": "Excluded — Not subject to ongoing ideological debate.",
+    "Ritualised": "Excluded — Not used in cultural or symbolic ceremonies.",
+    "Ethically Significant": "Included — Central to global access to clean water and environmental justice issues."
   },
-  "encoding_notes": "This encoding treats the water filtration unit as a structurally fixed, passive physical mechanism with autonomous function and no symbolic or computational capacity. It includes time-dependence and broad recognizability while excluding overextensions into abstract or interactive domains.",
-  "image": "images/water_filtration_unit.png"
+  "encoding_notes": "This encoding models the water filtration unit as a modular, system-critical physical device embedded in infrastructure. While passive in logic, it is active in function and ethically consequential. Final UHT code: CFDF1259."
 }

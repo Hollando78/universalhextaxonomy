@@ -1,72 +1,78 @@
 {
   "entity": "3D Printer",
-  "uht_code": "DEFE3205",
+  "uht_code": "DFFE7319",
   "image_url": "/validation_set/images/3d_printer.png",
+  "version": "v2",
+  "encoding_date": "2025-07-28",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Physical object",
-      "Man-made / synthetic",
-      "Fixed/static",
+      "Physical Object",
+      "Synthetic",
+      "Powered",
       "Structural",
-      "Perceptible",
-      "Material form"
+      "Observable",
+      "Physical Medium",
+      "Active"
     ],
     "functional": [
-      "Purposeful / intentional",
-      "Emits output / produces effect",
-      "Processes or regulates logic/signals",
-      "Transforms or modifies internal state",
-      "Interacts with humans directly",
-      "Part of a larger system",
-      "Autonomous in function"
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Processes Signals/Logic",
+      "State-Transforming",
+      "Human-Interactive",
+      "System-integrated",
+      "Functionally Autonomous"
     ],
     "abstract": [
-      "Logical / rule-based",
-      "Hierarchical / modular",
-      "Temporal"
+      "Signalling",
+      "Rule-governed",
+      "Compositional",
+      "Temporal",
+      "Digital/Virtual"
     ],
     "social": [
-      "Visible",
-      "Widely known"
+      "Regulated",
+      "Economically Significant",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Included — A bounded physical device with motion systems, electronics, and a structural frame.",
-    "Man-made / synthetic": "Included — Designed and assembled using engineered components and software.",
-    "Biological or biologically-inspired": "Excluded — The device itself does not operate based on biological models.",
-    "Fixed/static": "Included — Typically stationary during use and installed in a stable location.",
-    "Structural": "Included — Print head motion and print bed alignment depend on mechanical structure.",
-    "Perceptible": "Included — Operation is audible and visible, often observable through transparent casings.",
-    "Material form": "Included — Constructed from durable components, including plastic, metal, and motors.",
-    "Passive": "Excluded — Performs active mechanical and thermal operations.",
-    
-    "Purposeful / intentional": "Included — Designed specifically to fabricate objects from digital files.",
-    "Emits output / produces effect": "Included — Produces physical objects through additive manufacturing.",
-    "Processes or regulates logic/signals": "Included — Interprets and executes machine code (e.g., G-code).",
-    "Transforms or modifies internal state": "Included — Updates progress state, adjusts heat and position dynamically.",
-    "Interacts with humans directly": "Included — Users load files, calibrate, and monitor prints.",
-    "Part of a larger system": "Included — Often integrated into digital design and fabrication workflows.",
-    "Autonomous in function": "Included — Completes tasks once initiated without user involvement.",
-    "System-critical": "Excluded — Important but not universally critical to broader infrastructures.",
-    
-    "Symbolic / representational": "Excluded — Its outputs are physical, not symbolic.",
-    "Communicative": "Excluded — Not designed for message transmission.",
-    "Logical / rule-based": "Included — Operations follow formal rules and structured code.",
-    "Hierarchical / modular": "Included — Internally modular (print head, platform) and conceptually layered (files, layers, axes).",
-    "Behavior-guiding": "Excluded — Doesn’t prescribe human action or decisions.",
-    "Self-referential / meta-conceptual": "Excluded — No reflective or representational awareness.",
-    "Temporal": "Included — Performs tasks over time with planned sequences.",
-    "Contextual abstraction": "Excluded — Purpose remains consistent regardless of symbolic context.",
-    
-    "Socially / culturally constructed": "Excluded — Defined by function, not cultural category.",
-    "Defined by a group/system": "Excluded — Standards exist, but not semantically defined by social consensus.",
-    "Linked to identity or role": "Excluded — Not inherently tied to identity.",
-    "Regulated / governed": "Excluded — Devices may be certified, but regulation is not intrinsic.",
-    "Teachable / transmissible": "Excluded — Knowledge can be taught, but that is not a core trait of the machine.",
-    "Visible": "Included — Designed for user visibility and monitoring.",
-    "Context-sensitive": "Excluded — Functions uniformly regardless of social or environmental context.",
-    "Widely known": "Included — Recognized broadly in consumer, educational, and industrial contexts."
+    "Physical Object": "Included — A bounded machine composed of rigid and moving parts.",
+    "Synthetic": "Included — Fully engineered using manufactured materials.",
+    "Biological/Biomimetic": "Excluded — No biological inspiration in core design.",
+    "Powered": "Included — Requires electricity to operate motors and control boards.",
+    "Structural": "Included — Has a defined spatial structure (frame, gantry, bed).",
+    "Observable": "Included — Physically visible and often designed for user monitoring.",
+    "Physical Medium": "Included — Composed of materials like aluminum, plastic, and electronics.",
+    "Active": "Included — Performs complex mechanical actions during operation.",
+
+    "Intentionally Designed": "Included — Built specifically for additive manufacturing.",
+    "Outputs Effect": "Included — Produces 3D objects as physical output.",
+    "Processes Signals/Logic": "Included — Interprets G-code and sensor feedback.",
+    "State-Transforming": "Included — Melts, extrudes, and reshapes materials.",
+    "Human-Interactive": "Included — Loaded, adjusted, and operated by people.",
+    "System-integrated": "Included — May be part of lab, classroom, or industrial systems.",
+    "Functionally Autonomous": "Included — Executes print cycles without further input once started.",
+    "System-Essential": "Excluded — Usually replaceable or modular within a workflow.",
+
+    "Symbolic": "Excluded — Not representational or symbolic in itself.",
+    "Signalling": "Included — Uses displays, sounds, and lights to indicate status.",
+    "Rule-governed": "Included — Executes precise, logic-based instructions.",
+    "Compositional": "Included — Composed of purposeful subsystems (e.g., extruder, frame, bed, firmware).",
+    "Normative": "Excluded — Does not encode social rules or behaviors.",
+    "Meta": "Excluded — Not self-representational.",
+    "Temporal": "Included — Print jobs and heating cycles unfold over time.",
+    "Digital/Virtual": "Included — Governed by digital files, software, and embedded firmware.",
+
+    "Social Construct": "Excluded — Defined materially, not by consensus.",
+    "Institutionally Defined": "Excluded — Not categorized or mandated by institutional definitions.",
+    "Identity-Linked": "Excluded — Not inherently tied to personal or cultural identity.",
+    "Regulated": "Included — Subject to safety, emissions, and equipment standards.",
+    "Economically Significant": "Included — Central to a growing industry in manufacturing, prototyping, and education.",
+    "Politicised": "Excluded — Not broadly contested ideologically.",
+    "Ritualised": "Excluded — Not used in cultural or symbolic rituals.",
+    "Ethically Significant": "Included — Raises concerns over sustainability, decentralized fabrication, and unregulated object creation."
   },
-  "encoding_notes": "This encoding reflects the 3D printer as a digitally controlled, semi-autonomous fabrication machine that transforms formal instruction sets into physical output. Its traits emphasize mechanical structure, functional logic, and integration into larger design systems, while remaining grounded in practical, observable operation.",
-  "image": "images/3d_printer.png"
+  "encoding_notes": "This encoding captures the 3D printer as a digitally controlled fabrication system with deep functional structure, rule-based operation, and ethical relevance. It spans all UHT layers with precision. Final UHT code: DFFE7319."
 }

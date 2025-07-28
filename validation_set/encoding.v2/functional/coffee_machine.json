@@ -1,70 +1,78 @@
 {
   "entity": "Coffee Machine",
-  "uht_code": "DEFA2205",
+  "uht_code": "DFFE631B",
   "image_url": "/validation_set/images/coffee_machine.png",
+  "version": "v2",
+  "encoding_date": "2025-07-28",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Physical object",
-      "Man-made / synthetic",
-      "Fixed/static",
+      "Physical Object",
+      "Synthetic",
+      "Powered",
       "Structural",
-      "Perceptible",
-      "Material form"
+      "Observable",
+      "Physical Medium",
+      "Active"
     ],
     "functional": [
-      "Purposeful / intentional",
-      "Emits output / produces effect",
-      "Processes or regulates logic/signals",
-      "Transforms or modifies internal state",
-      "Interacts with humans directly",
-      "Autonomous in function"
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Processes Signals/Logic",
+      "State-Transforming",
+      "Human-Interactive",
+      "System-integrated",
+      "Functionally Autonomous"
     ],
     "abstract": [
-      "Logical / rule-based",
-      "Temporal"
+      "Signalling",
+      "Rule-governed",
+      "Temporal",
+      "Digital/Virtual"
     ],
     "social": [
-      "Visible",
-      "Widely known"
+      "Regulated",
+      "Economically Significant",
+      "Ritualised",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Included — A tangible appliance commonly placed on kitchen counters or office stations.",
-    "Man-made / synthetic": "Included — Fully designed and manufactured using human-made materials and components.",
-    "Biological or biologically-inspired": "Excluded — No reference to biological systems or processes.",
-    "Fixed/static": "Included — Typically remains in a fixed location while in use.",
-    "Structural": "Included — Internal layout (water tank, heater, brew chamber) is essential to its operation.",
-    "Perceptible": "Included — Features visible buttons, displays, and output of aroma, sound, and liquid.",
-    "Material form": "Included — Constructed from durable plastics, metals, and glass.",
-    "Passive": "Excluded — Performs active operations like heating and pumping during brewing.",
-    
-    "Purposeful / intentional": "Included — Designed specifically to produce brewed coffee.",
-    "Emits output / produces effect": "Included — Delivers hot liquid (coffee) as functional output.",
-    "Processes or regulates logic/signals": "Included — Controls temperature, brewing cycle, and possibly programmable settings.",
-    "Transforms or modifies internal state": "Included — Water is heated and transformed into brewed coffee; internal components track brewing stage.",
-    "Interacts with humans directly": "Included — Operated via buttons or touchscreen; gives feedback via light, sound, or display.",
-    "Part of a larger system": "Excluded — Typically functions independently, not networked or integrative.",
-    "Autonomous in function": "Included — Can complete brewing cycles without human intervention after start.",
-    "System-critical": "Excluded — Not essential to any broader infrastructure.",
-    
-    "Symbolic / representational": "Excluded — Its outputs and states are functional, not representational.",
-    "Communicative": "Excluded — Does not convey symbolic or coded information.",
-    "Logical / rule-based": "Included — Brewing behavior follows defined internal logic and sequences.",
-    "Hierarchical / modular": "Excluded — While componentized, it's not abstractly modular in behavior.",
-    "Behavior-guiding": "Excluded — May support routine, but doesn’t semantically guide behavior.",
-    "Self-referential / meta-conceptual": "Excluded — No awareness or representation of its own function.",
-    "Temporal": "Included — Brewing involves time tracking (preheat, brew, delay-start).",
-    "Contextual abstraction": "Excluded — Function remains consistent across contexts.",
-    
-    "Socially / culturally constructed": "Excluded — Common across many cultures without culturally determined semantics.",
-    "Defined by a group/system": "Excluded — Not defined or classified by social systems.",
-    "Linked to identity or role": "Excluded — No intrinsic link to social roles.",
-    "Regulated / governed": "Excluded — May conform to standards, but not semantically governed.",
-    "Teachable / transmissible": "Excluded — Can be taught to use, but not itself a teaching object.",
-    "Visible": "Included — Displayed prominently; design aesthetics often emphasize visibility.",
-    "Context-sensitive": "Excluded — Operates the same across environments.",
-    "Widely known": "Included — Recognized globally in both domestic and commercial spaces."
+    "Physical Object": "Included — A discrete, tangible appliance with bounded structure.",
+    "Synthetic": "Included — Fully designed and manufactured using industrial processes.",
+    "Biological/Biomimetic": "Excluded — Not modeled on biological systems.",
+    "Powered": "Included — Operates on electricity.",
+    "Structural": "Included — Defined by fixed internal chambers, tubes, and casing.",
+    "Observable": "Included — Visible and commonly placed in kitchens or cafés.",
+    "Physical Medium": "Included — Made of metal, plastic, circuitry, and thermal components.",
+    "Active": "Included — Heats, pumps, and dispenses liquids dynamically.",
+
+    "Intentionally Designed": "Included — Engineered specifically to automate coffee brewing.",
+    "Outputs Effect": "Included — Produces hot liquid coffee, heat, and sometimes steam.",
+    "Processes Signals/Logic": "Included — Interprets input from users, timers, or sensors.",
+    "State-Transforming": "Included — Transitions through brewing states: heating, dispensing, idle.",
+    "Human-Interactive": "Included — Designed for user input (buttons, levers, apps).",
+    "System-integrated": "Included — May be part of smart kitchen or IoT automation systems.",
+    "Functionally Autonomous": "Included — Operates without active input once configured (e.g., start timer).",
+    "System-Essential": "Excluded — Can be replaced or removed without breaking broader systems.",
+
+    "Symbolic": "Excluded — Not inherently representational.",
+    "Signalling": "Included — Uses sounds, lights, and displays to convey state and prompts.",
+    "Rule-governed": "Included — Executes programmed sequences and brewing logic.",
+    "Compositional": "Excluded — Though it has parts, they do not form an abstract compositional system.",
+    "Normative": "Excluded — Does not prescribe human values or social behavior.",
+    "Meta": "Excluded — Does not represent itself or manage its own conceptual structure.",
+    "Temporal": "Included — Brewing cycles, auto-starts, and warming periods are time-based.",
+    "Digital/Virtual": "Included — Governed by embedded software, timers, and logic circuits.",
+
+    "Social Construct": "Excluded — Defined materially and functionally, not symbolically.",
+    "Institutionally Defined": "Excluded — Not defined by formal institutions.",
+    "Identity-Linked": "Excluded — Not inherently tied to identity or role.",
+    "Regulated": "Included — Subject to appliance safety and food equipment standards.",
+    "Economically Significant": "Included — Major global product category with extensive supply chains.",
+    "Politicised": "Excluded — Not subject to major ideological debate.",
+    "Ritualised": "Included — Central to habitual, cultural, and social practices (e.g., morning coffee).",
+    "Ethically Significant": "Included — Raises issues of sustainability, energy use, and coffee sourcing."
   },
-  "encoding_notes": "This encoding captures the coffee machine as a semi-autonomous, user-facing appliance with clearly structured physical and logical behavior. Its traits emphasize function, perceptibility, and ubiquity, while abstract and social characteristics remain minimal due to its utilitarian purpose.",
-  "image": "images/coffee_machine.png"
+  "encoding_notes": "This encoding captures the coffee machine as an autonomous, digitally controlled appliance with ethical, economic, and ritual dimensions. It spans all four UHT layers, reflecting its deep integration into modern life. Final UHT code: DFFE631B."
 }

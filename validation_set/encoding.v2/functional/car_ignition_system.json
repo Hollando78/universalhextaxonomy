@@ -1,9 +1,9 @@
 {
   "entity": "Car Ignition System",
-  "uht_code": "5BFF6219",
+  "uht_code": "5BFF7219",
   "image_url": "/validation_set/images/car_ignition_system.png",
   "version": "v2",
-  "encoding_date": "2025-07-25",
+  "encoding_date": "2025-07-28",
   "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
@@ -26,6 +26,7 @@
     "abstract": [
       "Signalling",
       "Rule-governed",
+      "Compositional",
       "Temporal"
     ],
     "social": [
@@ -43,7 +44,6 @@
     "Observable": "Excluded — Only visible through user interface elements, not as a unit.",
     "Physical Medium": "Included — Built from metal, wiring, and electronic modules.",
     "Active": "Included — Drives electrical and mechanical changes to initiate engine function.",
-
     "Intentionally Designed": "Included — Built specifically to control engine startup and input logic.",
     "Outputs Effect": "Included — Triggers electrical and mechanical ignition events.",
     "Processes Signals/Logic": "Included — Validates key/fob, handles timing and conditions.",
@@ -52,16 +52,14 @@
     "System-integrated": "Included — Embedded within vehicle’s engine and control system.",
     "Functionally Autonomous": "Included — Operates automatically once triggered.",
     "System-Essential": "Included — Without it, the vehicle cannot start.",
-    
     "Symbolic": "Excluded — Not inherently representational.",
     "Signalling": "Included — Communicates ignition status via dashboard lights, feedback tones, and security indicators.",
     "Rule-governed": "Included — Operates under deterministic timing and safety logic.",
-    "Compositional": "Excluded — Not an abstract modular system.",
+    "Compositional": "Included — Comprised of structured modules (interface, logic, output) with functional distinctions.",
     "Normative": "Excluded — Does not prescribe behavior.",
     "Meta": "Excluded — Does not self-represent or manage metadata.",
     "Temporal": "Included — Relies on timing for ignition spark and safety delays.",
     "Digital/Virtual": "Excluded — A physical system.",
-    
     "Social Construct": "Excluded — Defined materially and functionally, not by social agreement.",
     "Institutionally Defined": "Excluded — Defined by engineering and design, not by classification alone.",
     "Identity-Linked": "Excluded — Not tied to identity or symbolic role.",
@@ -71,5 +69,5 @@
     "Ritualised": "Excluded — Not involved in cultural or ceremonial behavior.",
     "Ethically Significant": "Included — Directly tied to safety, theft prevention, and emissions responsibility."
   },
-  "encoding_notes": "This encoding defines the ignition system as a structurally embedded, functionally autonomous subsystem critical to vehicle operation. It communicates with users and is subject to regulation, reflecting its real-world complexity."
+  "encoding_notes": "This encoding defines the ignition system as a compositional, structurally embedded, and functionally autonomous subsystem. It communicates structured states to users, participates in time-based logic, and is subject to regulation and ethical concern. Final UHT code: 5BFF7219."
 }

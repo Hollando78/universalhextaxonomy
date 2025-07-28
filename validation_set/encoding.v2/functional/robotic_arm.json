@@ -1,71 +1,77 @@
 {
   "entity": "Robotic Arm",
-  "uht_code": "FEFE2005",
+  "uht_code": "FFFE721D",
   "image_url": "/validation_set/images/robotic_arm.png",
+  "version": "v2",
+  "encoding_date": "2025-07-28",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Physical object",
-      "Man-made / synthetic",
-      "Biological or biologically-inspired",
-      "Fixed/static",
+      "Physical Object",
+      "Synthetic",
+      "Biological/Biomimetic",
+      "Powered",
       "Structural",
-      "Perceptible",
-      "Material form"
+      "Observable",
+      "Physical Medium",
+      "Active"
     ],
     "functional": [
-      "Purposeful / intentional",
-      "Emits output / produces effect",
-      "Processes or regulates logic/signals",
-      "Transforms or modifies internal state",
-      "Interacts with humans directly",
-      "Part of a larger system",
-      "Autonomous in function"
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Processes Signals/Logic",
+      "State-Transforming",
+      "Human-Interactive",
+      "System-integrated",
+      "Functionally Autonomous"
     ],
     "abstract": [
-      "Logical / rule-based"
+      "Signalling",
+      "Rule-governed",
+      "Compositional",
+      "Temporal"
     ],
     "social": [
-      "Visible",
-      "Widely known"
+      "Regulated",
+      "Economically Significant",
+      "Politicised",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Included — A tangible mechanical device occupying space.",
-    "Man-made / synthetic": "Included — Fully engineered and constructed by humans.",
-    "Biological or biologically-inspired": "Included — Modeled after human or animal limb structures.",
-    "Fixed/static": "Included — Anchored in a workspace or robotic base.",
-    "Structural": "Included — Mechanical frame and joints are essential to its function.",
-    "Perceptible": "Included — Visibly present, often with motion and sound during operation.",
-    "Material form": "Included — Made of physical components like actuators, sensors, and joints.",
-    "Passive": "Excluded — Actively performs actions through powered control.",
+    "Physical Object": "Included — A robotic arm is a discrete, bounded electromechanical unit.",
+    "Synthetic": "Included — Fully engineered and constructed by human design.",
+    "Biological/Biomimetic": "Included — Typically inspired by the form or articulation of biological limbs.",
+    "Powered": "Included — Operates using electrical, pneumatic, or hydraulic energy.",
+    "Structural": "Included — Composed of rigid segments and joints that form a load-bearing frame.",
+    "Observable": "Included — Visibly tracks motion; its activity is monitored during operation.",
+    "Physical Medium": "Included — Composed of tangible, physical materials and mechanisms.",
+    "Active": "Included — Continuously moves, responds to input, and drives effectors.",
     
-    "Purposeful / intentional": "Included — Designed to execute precise tasks.",
-    "Emits output / produces effect": "Included — Moves, manipulates, or activates tools.",
-    "Processes or regulates logic/signals": "Included — Executes embedded or external control logic.",
-    "Transforms or modifies internal state": "Included — Tracks joint angles, motion paths, and status.",
-    "Interacts with humans directly": "Included — Especially in collaborative, surgical, or educational contexts.",
-    "Part of a larger system": "Included — Often part of a manufacturing cell, lab setup, or robotic suite.",
-    "Autonomous in function": "Included — Can execute preprogrammed tasks without live control.",
-    "System-critical": "Excluded — Important but often modular or substitutable.",
+    "Intentionally Designed": "Included — Engineered for manipulation, automation, and controlled movement.",
+    "Outputs Effect": "Included — Produces changes in position, force, or configuration of the environment.",
+    "Processes Signals/Logic": "Included — Interprets commands from programs, sensors, or control interfaces.",
+    "State-Transforming": "Included — Changes internal joint angles and actuator states during motion.",
+    "Human-Interactive": "Included — Often controlled by, or collaborates with, human operators.",
+    "System-integrated": "Included — Usually part of an industrial, medical, or research automation system.",
+    "Functionally Autonomous": "Included — Capable of executing complex motion sequences independently once programmed.",
+    "System-Essential": "Excluded — Robotic arms are modular; most systems can substitute or bypass them.",
     
-    "Symbolic / representational": "Excluded — A functional tool, not a symbol or metaphor.",
-    "Communicative": "Excluded — Does not convey symbolic information unless explicitly programmed to.",
-    "Logical / rule-based": "Included — Operates under programmed instructions and constraints.",
-    "Hierarchical / modular": "Excluded — Physically modular but not abstractly structured for hierarchy.",
-    "Behavior-guiding": "Excluded — Executes behavior but does not guide it.",
-    "Self-referential / meta-conceptual": "Excluded — Does not monitor itself conceptually.",
-    "Temporal": "Excluded — Operates in time but not time-defined.",
-    "Contextual abstraction": "Excluded — Concrete tool, not a contextual abstraction.",
+    "Signalling": "Included — Sends status messages, sensor data, and indicator signals to humans or systems.",
+    "Rule-governed": "Included — Constrained by control rules, safety bounds, and motion profiles.",
+    "Compositional": "Included — Made up of modular actuators, joints, and control electronics.",
+    "Temporal": "Included — Motion execution and coordination depend on temporal sequencing.",
+    "Symbolic": "Excluded — Not a representational or symbolic entity.",
+    "Meta": "Excluded — Does not manage or represent its own logic or abstraction.",
     
-    "Socially / culturally constructed": "Excluded — Functionally defined, not socially categorized.",
-    "Defined by a group/system": "Excluded — Specification-driven, but not semantically defined by a group.",
-    "Linked to identity or role": "Excluded — Not tied to social identity.",
-    "Regulated / governed": "Excluded — Safety-regulated but not semantically governed.",
-    "Teachable / transmissible": "Excluded — Can be taught about, but not a teaching artifact itself.",
-    "Visible": "Included — Usually prominently placed and deliberately observable.",
-    "Context-sensitive": "Excluded — Maintains identity across contexts.",
-    "Widely known": "Included — Widely recognized as a component of robotics and automation."
+    "Regulated": "Included — Must comply with industrial safety and robotic standards (e.g., ISO/TS 15066).",
+    "Economically Significant": "Included — Widely used in manufacturing, logistics, and medical robotics.",
+    "Politicised": "Included — A focus of economic and labor-policy debate related to automation.",
+    "Ethically Significant": "Included — Raises concerns around labor displacement, surveillance, and human-machine cooperation.",
+    "Social Construct": "Excluded — Defined by engineering, not cultural agreement.",
+    "Institutionally Defined": "Excluded — Not classified or governed by an institutional authority.",
+    "Identity-Linked": "Excluded — Not tied to personal, professional, or cultural identity.",
+    "Ritualised": "Excluded — Not used in symbolic or ceremonial behavior."
   },
-  "encoding_notes": "This encoding treats the robotic arm as a programmable, articulated mechanical agent within a functional and physical system. It is bio-inspired and interacts with humans in various domains but is not socially constructed or symbolically expressive. High representation in physical and functional layers reflects its engineered form and behavior.",
-  "image": "images/robotic_arm.png"
+  "encoding_notes": "This encoding captures the robotic arm as a modular, powered, and biomimetic actuator governed by structured logic and temporal coordination. It is both economically and ethically significant, and actively communicates its state, warranting inclusion of the Signalling trait. Final UHT code: FFFE721D."
 }
