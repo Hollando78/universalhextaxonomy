@@ -1,67 +1,68 @@
 {
   "entity": "Mathematical Equation",
-  "uht_code": "408CF1DF",
+  "uht_code": "408CF5C0",
   "image_url": "/validation_set/images/mathematical_equation.png",
+  "version": "v2",
+  "encoding_date": "2025-07-28",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Man-made / synthetic"
+      "Synthetic"
     ],
     "functional": [
-      "Purposeful / intentional",
-      "Interacts with humans directly",
-      "Part of a larger system"
+      "Intentionally Designed",
+      "Human-Interactive",
+      "System-integrated"
     ],
     "abstract": [
-      "Symbolic / representational",
-      "Communicative",
-      "Logical / rule-based",
-      "Hierarchical / modular",
-      "Contextual abstraction"
+      "Symbolic",
+      "Signalling",
+      "Rule-governed",
+      "Compositional",
+      "Meta",
+      "Digital/Virtual"
     ],
     "social": [
-      "Socially / culturally constructed",
-      "Defined by a group/system",
-      "Regulated / governed",
-      "Teachable / transmissible",
-      "Visible",
-      "Context-sensitive",
-      "Widely known"
+      "Social Construct",
+      "Institutionally Defined"
     ]
   },
   "feedback": {
-    "Physical object": "Excluded — The equation itself is not a tangible object; it exists abstractly.",
-    "Man-made / synthetic": "Included — The form and structure of equations are human-constructed symbolic conventions.",
-    "Biological or biologically-inspired": "Excluded — There is no bio-mimicry or organic origin involved.",
-    "Fixed/static": "Excluded — Equations may represent dynamic systems and are not inherently fixed in form or implication.",
-    "Structural": "Excluded — Not a load-bearing or physically structural element.",
-    "Perceptible": "Excluded — Visibility arises from rendering (e.g., on paper), not intrinsic to the equation itself.",
-    "Material form": "Excluded — It is not composed of matter; it is a conceptual structure.",
-    "Passive": "Excluded — Not meaningfully applicable to abstract representations.",
-    "Purposeful / intentional": "Included — Equations are intentionally designed to express relationships and constraints.",
-    "Emits output / produces effect": "Excluded — An equation itself does not generate a signal or effect outside of its interpretation.",
-    "Processes or regulates logic/signals": "Excluded — It represents logic, but does not act or process autonomously.",
-    "Transforms or modifies internal state": "Excluded — Static by nature unless interpreted or manipulated externally.",
-    "Interacts with humans directly": "Included — Created for and used by humans to convey or derive meaning.",
-    "Part of a larger system": "Included — Exists within mathematical, scientific, or logical frameworks.",
-    "Autonomous in function": "Excluded — Requires external interpretation or manipulation to be active.",
-    "System-critical": "Excluded — While often important, it is not irreducibly essential to any one system.",
-    "Symbolic / representational": "Included — Its function is explicitly symbolic; it stands in for relationships or models.",
-    "Communicative": "Included — Equations convey formal meaning via symbolic language.",
-    "Logical / rule-based": "Included — Their validity and interpretation are strictly governed by mathematical rules.",
-    "Hierarchical / modular": "Included — Equations can contain nested expressions and subcomponents (modular structure).",
-    "Behavior-guiding": "Excluded — Not designed to guide behavior directly (like laws or instructions).",
-    "Self-referential / meta-conceptual": "Excluded — Some equations are, but this is not typical or essential.",
-    "Temporal": "Excluded — Most equations are atemporal unless modeling time explicitly.",
-    "Contextual abstraction": "Included — Meaning may change based on symbolic context, domain assumptions, or notation system.",
-    "Socially / culturally constructed": "Included — The concept and notation of equations are created and maintained by cultures and disciplines.",
-    "Defined by a group/system": "Included — Meaning and validity arise from being defined within formal systems (e.g., math, physics).",
-    "Linked to identity or role": "Excluded — Not identity-bearing or role-specific in typical usage.",
-    "Regulated / governed": "Included — Usage governed by syntactic and semantic rules of formal disciplines.",
-    "Teachable / transmissible": "Included — Fundamental unit in mathematical and scientific education.",
-    "Visible": "Included — Commonly represented in visual symbolic form.",
-    "Context-sensitive": "Included — Interpretation depends on mathematical context (e.g., `x = y` in algebra vs. logic).",
-    "Widely known": "Included — The idea of an equation is globally recognized and foundational."
+    "Physical Object": "Excluded — An equation is abstract, not a tangible entity.",
+    "Synthetic": "Included — All equations are constructed by humans.",
+    "Biological/Biomimetic": "Excluded — Not inspired by or derived from biological systems.",
+    "Powered": "Excluded — Does not consume energy or require power to exist.",
+    "Structural": "Excluded — Has no physical structure.",
+    "Observable": "Excluded — Only representations are visible; the equation itself is abstract and not directly perceptible.",
+    "Physical Medium": "Excluded — Exists independent of material substrate.",
+    "Active": "Excluded — Does not act or initiate processes.",
+    
+    "Intentionally Designed": "Included — Defined explicitly by humans for expressing relationships.",
+    "Outputs Effect": "Excluded — Does not independently emit or produce external effects.",
+    "Processes Signals/Logic": "Excluded — Represents logic but does not process anything by itself.",
+    "State-Transforming": "Excluded — Does not undergo state change.",
+    "Human-Interactive": "Included — Designed for humans to engage with and interpret.",
+    "System-integrated": "Included — Used within mathematical, scientific, and engineering systems.",
+    "Functionally Autonomous": "Excluded — Requires a context and agent to activate meaning.",
+    "System-Essential": "Excluded — Foundational but not individually necessary to any one system.",
+    
+    "Symbolic": "Included — Equations are formal symbolic expressions.",
+    "Signalling": "Included — Communicate structured, interpretable meaning.",
+    "Rule-governed": "Included — Defined and constrained by formal logical rules.",
+    "Compositional": "Included — Built from smaller symbolic parts in nested form.",
+    "Normative": "Excluded — Equations describe relationships but do not prescribe or constrain behavior.",
+    "Meta": "Included — Can refer to relationships among equations or formal systems.",
+    "Temporal": "Excluded — Equations may model time-based processes but are not temporally structured themselves.",
+    "Digital/Virtual": "Included — They exist as symbolic, computational abstractions, not as material objects.",
+    
+    "Social Construct": "Included — Exists due to collective agreement about mathematical meaning.",
+    "Institutionally Defined": "Included — Taught, evaluated, and codified by academic institutions.",
+    "Identity-Linked": "Excluded — Not inherently tied to identity or social roles.",
+    "Regulated": "Excluded — Not externally governed or enforced; adherence is epistemic.",
+    "Economically Significant": "Excluded — Equations are used in economic domains, but not economically active themselves.",
+    "Politicised": "Excluded — Mathematical education may be politicized, but equations themselves are not.",
+    "Ritualised": "Excluded — Use in formal settings is procedural, not symbolic or ceremonial.",
+    "Ethically Significant": "Excluded — Ethical implications arise in application, not from the equation itself."
   },
-  "encoding_notes": "This encoding captures the equation as a symbolic, rule-based, communicative structure situated within formal systems and cultural transmission. It is not physical or agentive, but it plays a vital abstract and social role in human knowledge systems.",
-  "image": "images/mathematical_equation.png"
+  "encoding_notes": "This encoding refines the mathematical equation to its symbolic, compositional essence as an abstract entity. Traits like 'Observable' and 'Normative' are excluded to preserve strict abstraction and avoid conflating representations or contextual roles. The final fingerprint isolates a digital, rule-based conceptual structure embedded in human-defined systems."
 }
