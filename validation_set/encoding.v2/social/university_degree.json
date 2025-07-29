@@ -1,60 +1,69 @@
 {
   "entity": "University Degree",
-  "uht_code": "0080C0E9",
+  "uht_code": "4080C9FD",
   "image_url": "/validation_set/images/university_degree.png",
+  "version": "v2",
+  "encoding_date": "2025-07-29",
+  "traits_version": "traits.v2.json",
   "traits": {
-    "physical": [],
+    "physical": [
+      "Synthetic"
+    ],
     "functional": [
-      "Purposeful / intentional"
+      "Intentionally Designed"
     ],
     "abstract": [
-      "Symbolic / representational",
-      "Communicative"
+      "Symbolic",
+      "Signalling",
+      "Normative",
+      "Digital/Virtual"
     ],
     "social": [
-      "Socially / culturally constructed",
-      "Defined by a group/system",
-      "Linked to identity or role",
-      "Teachable / transmissible",
-      "Widely known"
+      "Social Construct",
+      "Institutionally Defined",
+      "Identity-Linked",
+      "Regulated",
+      "Economically Significant",
+      "Politicised",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Excluded — The encoding targets the credential as institutional recognition, not the physical diploma.",
-    "Man-made / synthetic": "Excluded — It is not a fabricated or constructed object, but a symbolic role assignment.",
-    "Biological or biologically-inspired": "Excluded — No biological basis.",
-    "Fixed/static": "Excluded — A degree does not have physical fixity; its recognition persists independently of a medium.",
-    "Structural": "Excluded — Not a structural system or form.",
-    "Perceptible": "Excluded — The credential is abstract; perceptibility depends on instantiation (e.g., paper diploma).",
-    "Material form": "Excluded — The concept itself is immaterial.",
-    "Passive": "Excluded — Not meaningfully applicable to abstract status.",
-    
-    "Purposeful / intentional": "Included — It is granted deliberately to signify achievement and status.",
-    "Emits output / produces effect": "Excluded — It does not generate or emit anything directly.",
-    "Processes or regulates logic/signals": "Excluded — It does not involve transformation or control.",
-    "Transforms or modifies internal state": "Excluded — It alters social standing, but not its own internal state.",
-    "Interacts with humans directly": "Excluded — The recognition is socially interpreted, not interactive.",
-    "Part of a larger system": "Excluded — While institutionally related, it is not a structural subsystem.",
-    "Autonomous in function": "Excluded — It has no autonomous properties.",
-    "System-critical": "Excluded — Not necessary for any system’s function.",
-    
-    "Symbolic / representational": "Included — It signifies completion of educational criteria.",
-    "Communicative": "Included — Encodes information about field, level, and issuing institution.",
-    "Logical / rule-based": "Excluded — Degrees result from a process governed by rules, but the degree itself is not a rule system.",
-    "Hierarchical / modular": "Excluded — Does not consist of nested symbolic units.",
-    "Behavior-guiding": "Excluded — It enables opportunity but does not dictate behavior.",
-    "Self-referential / meta-conceptual": "Excluded — Not reflective of its own structure.",
-    "Temporal": "Excluded — While time-dependent in issuance, the degree itself is not temporal.",
-    "Contextual abstraction": "Excluded — Its interpretation is relatively stable and codified across contexts.",
-    
-    "Socially / culturally constructed": "Included — The degree is a cultural invention.",
-    "Defined by a group/system": "Included — Institutions determine what it means and how it is granted.",
-    "Linked to identity or role": "Included — Strongly tied to personal and professional identity.",
-    "Regulated / governed": "Excluded — Institutions define and issue degrees, but there is no single governing body or legal framework enforcing meaning.",
-    "Teachable / transmissible": "Included — Though it is a status, it results from formal instruction and is widely transmitted.",
-    "Visible": "Excluded — The recognition is abstract; visibility applies only to physical instances (certificates, transcripts).",
-    "Context-sensitive": "Excluded — Interpretation is relatively consistent across cultural and professional domains.",
-    "Widely known": "Included — Universally recognized across academic and professional contexts."
+    "Physical Object": "Excluded — This encoding represents the abstract credential, not the printed diploma.",
+    "Synthetic": "Included — A university degree is a formalized, human-invented institutional system.",
+    "Biological/Biomimetic": "Excluded — Not derived from biology or biomimicry.",
+    "Powered": "Excluded — Not dependent on energy or activation.",
+    "Structural": "Excluded — Provides no physical support or mechanical structure.",
+    "Observable": "Excluded — The credential is symbolic and abstract; instantiations are secondary.",
+    "Physical Medium": "Excluded — Stored digitally or on paper, but its core identity is symbolic.",
+    "Active": "Excluded — Cannot initiate behavior or change by itself.",
+
+    "Intentionally Designed": "Included — It is constructed to formalize achievement, confer qualifications, and structure access.",
+    "Outputs Effect": "Excluded — The degree does not generate output autonomously.",
+    "Processes Signals/Logic": "Excluded — It is data to be interpreted, not a logic processor.",
+    "State-Transforming": "Excluded — It denotes a status, but does not itself enact transformation.",
+    "Human-Interactive": "Excluded — Interpreted and used by humans, but not directly interactive.",
+    "System-integrated": "Excluded — Relevant in systems, but not embedded as a functional unit.",
+    "Functionally Autonomous": "Excluded — It has no independent action; requires institutional context.",
+    "System-Essential": "Excluded — Many social functions occur outside credentialing systems.",
+
+    "Symbolic": "Included — Encodes abstract meaning and social status.",
+    "Signalling": "Included — Primary purpose is to communicate academic qualification and institutional endorsement.",
+    "Rule-governed": "Excluded — Issuance follows rules, but the degree itself does not encode operational logic.",
+    "Compositional": "Excluded — Not meaningfully constructed from modular components.",
+    "Normative": "Included — Defines expectations about competence, achievement, and role eligibility.",
+    "Meta": "Excluded — Does not reference its own structure or type.",
+    "Temporal": "Excluded — Although issued at a moment in time, the degree is not time-dependent in structure.",
+    "Digital/Virtual": "Included — Often exists in institutional databases and credential platforms.",
+
+    "Social Construct": "Included — Exists entirely through collective agreement and institutional legitimacy.",
+    "Institutionally Defined": "Included — Can only be granted by accredited universities or equivalent institutions.",
+    "Identity-Linked": "Included — Tied to personal identity, used in employment, status, and records.",
+    "Regulated": "Included — Governed by accreditation bodies and educational regulations.",
+    "Economically Significant": "Included — Affects income, opportunity, labor markets, and access.",
+    "Politicised": "Included — Central to political discourse on access, merit, class, and educational policy.",
+    "Ritualised": "Excluded — Participates in rituals (e.g., graduation), but is not itself a ritualized entity.",
+    "Ethically Significant": "Included — Raises issues of fairness, privilege, access, and meritocracy."
   },
-  "encoding_notes": "This encoding captures the degree as a symbolic, communicative social artifact, defined and transmitted by institutions but not intrinsically structured or perceptible. It has no active function but conveys highly consequential social identity."
+  "encoding_notes": "This encoding treats the university degree as an abstract institutional credential — not a physical document. It is a symbolic, regulated, and identity-linked construct, designed to signal achievement and confer access. Its social and ethical significance is tightly bound to its legitimacy and role in economic and political systems."
 }

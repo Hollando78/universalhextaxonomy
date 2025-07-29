@@ -1,65 +1,74 @@
 {
   "entity": "Military Salute",
-  "uht_code": "0084C8FF",
+  "uht_code": "46C8EAF7",
   "image_url": "/validation_set/images/military_salute.png",
+  "version": "v2",
+  "encoding_date": "2025-07-29",
+  "traits_version": "traits.v2.json",
   "traits": {
-    "physical": [],
+    "physical": [
+      "Synthetic",
+      "Observable",
+      "Physical Medium"
+    ],
     "functional": [
-      "Purposeful / intentional",
-      "Part of a larger system"
+      "Intentionally Designed",
+      "Outputs Effect",
+      "Human-Interactive"
     ],
     "abstract": [
-      "Symbolic / representational",
-      "Communicative",
-      "Behavior-guiding"
+      "Symbolic",
+      "Signalling",
+      "Rule-governed",
+      "Normative",
+      "Temporal"
     ],
     "social": [
-      "Socially / culturally constructed",
-      "Defined by a group/system",
-      "Linked to identity or role",
-      "Regulated / governed",
-      "Teachable / transmissible",
-      "Visible",
-      "Context-sensitive",
-      "Widely known"
+      "Social Construct",
+      "Institutionally Defined",
+      "Identity-Linked",
+      "Regulated",
+      "Politicised",
+      "Ritualised",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Excluded — The salute is not a discrete material object but a performative gesture.",
-    "Man-made / synthetic": "Excluded — The gesture itself is not a fabricated artifact, but an enacted social signal.",
-    "Biological or biologically-inspired": "Excluded — Not rooted in biological structure or inspiration.",
-    "Fixed/static": "Excluded — It is temporally enacted, not spatially fixed.",
-    "Structural": "Excluded — It does not exhibit internal components or organization.",
-    "Perceptible": "Excluded — While observable, its perceptibility does not define its ontological status.",
-    "Material form": "Excluded — It has no persistent material embodiment.",
-    "Passive": "Excluded — It requires intentional human performance.",
+    "Physical Object": "Excluded — The salute is an embodied action, not a static object.",
+    "Synthetic": "Included — A deliberate human-invented form of symbolic behavior.",
+    "Biological/Biomimetic": "Excluded — No inspiration from biology or natural mimicry.",
+    "Powered": "Excluded — Performed manually without energy systems.",
+    "Structural": "Excluded — Provides no physical support or load-bearing function.",
+    "Observable": "Included — Must be visually perceived to function as intended.",
+    "Physical Medium": "Included — Requires a human body for performance; no gesture exists without a medium.",
+    "Active": "Excluded — Requires human initiation; not autonomously active.",
 
-    "Purposeful / intentional": "Included — Deliberate act of social ritual with codified intention.",
-    "Emits output / produces effect": "Excluded — Produces no autonomous effect; signaling depends on interpretation.",
-    "Processes or regulates logic/signals": "Excluded — Not a computational or signal-processing entity.",
-    "Transforms or modifies internal state": "Excluded — It does not inherently track or update state.",
-    "Interacts with humans directly": "Excluded — Enacted by humans, but not interactive in the UHT sense.",
-    "Part of a larger system": "Included — Exists only within hierarchical institutions that define it.",
-    "Autonomous in function": "Excluded — Requires human initiation and performance.",
-    "System-critical": "Excluded — Culturally meaningful, but not infrastructurally essential.",
+    "Intentionally Designed": "Included — Developed to encode recognition, submission, or solidarity.",
+    "Outputs Effect": "Included — Visibly outputs meaning through a choreographed motion.",
+    "Processes Signals/Logic": "Excluded — Does not process input or logic.",
+    "State-Transforming": "Excluded — Does not internally transform itself; expressive only.",
+    "Human-Interactive": "Included — A person-to-person act of recognition or acknowledgment.",
+    "System-integrated": "Excluded — Symbolically important but not a technical system component.",
+    "Functionally Autonomous": "Excluded — Always requires human intentionality to exist.",
+    "System-Essential": "Excluded — Systems can operate without it, though symbolically diminished.",
 
-    "Symbolic / representational": "Included — The gesture stands for abstract values like respect, allegiance, and discipline.",
-    "Communicative": "Included — Conveys nonverbal information about status, protocol, or recognition.",
-    "Logical / rule-based": "Excluded — Though enacted according to rules, it does not itself embody logical structures.",
-    "Hierarchical / modular": "Excluded — The concept is not built from separable internal parts.",
-    "Behavior-guiding": "Included — Prescribes specific actions and responses according to role.",
-    "Self-referential / meta-conceptual": "Excluded — The concept does not reference or model itself.",
-    "Temporal": "Excluded — Executed in time, but not defined by temporal structuring.",
-    "Contextual abstraction": "Excluded — Its meaning is socially fixed and not flexibly abstracted across domains.",
+    "Symbolic": "Included — Represents institutional respect, duty, and relational roles.",
+    "Signalling": "Included — Visually communicates acknowledgement and hierarchy.",
+    "Rule-governed": "Included — Precisely defined in military manuals, including angle, posture, timing.",
+    "Compositional": "Excluded — The gesture is atomic and indivisible.",
+    "Normative": "Included — Expected and socially policed in relevant institutional contexts.",
+    "Meta": "Excluded — Does not reference itself or abstract categories.",
+    "Temporal": "Included — Structured through phases in time (raise, hold, lower).",
+    "Digital/Virtual": "Excluded — It is physical and embodied, not virtual.",
 
-    "Socially / culturally constructed": "Included — Embedded in long-standing traditions and military culture.",
-    "Defined by a group/system": "Included — Officially codified by institutions such as national militaries.",
-    "Linked to identity or role": "Included — Reflects status, allegiance, and role within an organizational hierarchy.",
-    "Regulated / governed": "Included — Specific procedures and interpretations governed by manuals and doctrine.",
-    "Teachable / transmissible": "Included — Explicitly trained and transmitted through formal instruction.",
-    "Visible": "Included — Publicly enacted for mutual recognition.",
-    "Context-sensitive": "Included — Its meaning and appropriateness depend on situation and role.",
-    "Widely known": "Included — Recognized across many societies and institutional systems."
+    "Social Construct": "Included — Exists entirely through shared institutional understanding.",
+    "Institutionally Defined": "Included — Formally specified by military codes and handbooks.",
+    "Identity-Linked": "Included — Communicates role, rank, and membership status.",
+    "Regulated": "Included — Governed by formal codes of military conduct.",
+    "Economically Significant": "Excluded — Not directly involved in value generation.",
+    "Politicised": "Included — Represents allegiance, nationalism, and sometimes political symbolism.",
+    "Ritualised": "Included — Repeated in highly patterned, ceremonial formats.",
+    "Ethically Significant": "Included — Tied to moral ideas of respect, duty, and loyalty."
   },
-  "encoding_notes": "Revised to include symbolic and communicative functions intrinsic to the ritualized gesture. Exclusions strictly follow the non-object, non-autonomous, non-logical nature of the act. Represents a signal embedded in hierarchy and ceremony."
+  "encoding_notes": "This encoding treats the military salute as a codified, symbolic, and ritualized embodied gesture. Its identity depends on institutional rules, social meaning, and precise performance. It is defined as a time-based communicative act embedded in cultural and political frameworks."
 }
