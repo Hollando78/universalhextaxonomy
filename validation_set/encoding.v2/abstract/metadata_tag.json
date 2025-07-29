@@ -1,68 +1,64 @@
 {
   "entity": "Metadata Tag",
-  "uht_code": "4080F9CF",
+  "uht_code": "4000F5C0",
   "image_url": "/validation_set/images/metadata_tag.png",
+  "version": "v2",
+  "encoding_date": "2025-07-29",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Man-made / synthetic"
+      "Synthetic"
     ],
-    "functional": [
-      "Purposeful / intentional"
-    ],
+    "functional": [],
     "abstract": [
-      "Symbolic / representational",
-      "Communicative",
-      "Logical / rule-based",
-      "Hierarchical / modular",
-      "Behavior-guiding",
-      "Contextual abstraction"
+      "Symbolic",
+      "Signalling",
+      "Rule-governed",
+      "Compositional",
+      "Meta",
+      "Digital/Virtual"
     ],
     "social": [
-      "Socially / culturally constructed",
-      "Defined by a group/system",
-      "Teachable / transmissible",
-      "Visible",
-      "Context-sensitive",
-      "Widely known"
+      "Social Construct",
+      "Institutionally Defined"
     ]
   },
   "feedback": {
-    "Physical object": "Excluded — A metadata tag is not a tangible entity; it exists as an abstract label or marker.",
-    "Man-made / synthetic": "Included — Tags are human-defined conventions.",
-    "Biological or biologically-inspired": "Excluded — Not biologically modeled.",
-    "Fixed/static": "Excluded — Tags can vary by context, application, or data.",
-    "Structural": "Excluded — Logical structure only.",
-    "Perceptible": "Excluded — Not inherently perceptible outside of representation.",
-    "Material form": "Excluded — Exists in data structures, not physical materials.",
-    "Passive": "Excluded — A tag itself doesn't exhibit passive physical behavior.",
+    "Physical Object": "Excluded — A metadata tag is a conceptual label, not a physical object.",
+    "Synthetic": "Included — It is a human-created structure designed to categorize and annotate.",
+    "Biological/Biomimetic": "Excluded — Not inspired by biological processes.",
+    "Powered": "Excluded — Tags do not require or involve power or energy to exist as concepts.",
+    "Structural": "Excluded — They provide structure symbolically, not physically.",
+    "Observable": "Excluded — Representations are visible; the tag itself is a symbolic abstraction.",
+    "Physical Medium": "Excluded — Exists as a symbolic layer in data models, independent of any specific medium.",
+    "Active": "Excluded — It does not act, only describes or encodes.",
 
-    "Purposeful / intentional": "Included — Tags are created to classify, mark, or organize data intentionally.",
-    "Emits output / produces effect": "Excluded — Does not generate output by itself.",
-    "Processes or regulates logic/signals": "Excluded — Does not perform processing.",
-    "Transforms or modifies internal state": "Excluded — Tags are descriptors, not state machines.",
-    "Interacts with humans directly": "Excluded — Accessed through systems, not inherently interactive.",
-    "Part of a larger system": "Excluded — While used in systems, the tag itself is a unit of abstraction, not a subsystem.",
-    "Autonomous in function": "Excluded — Tags require context to function meaningfully.",
-    "System-critical": "Excluded — Tags support metadata frameworks but are not critical individually.",
+    "Intentionally Designed": "Excluded — A tag is a representational structure, not a functional artifact or tool.",
+    "Outputs Effect": "Excluded — Tags influence processing but produce no output themselves.",
+    "Processes Signals/Logic": "Excluded — Tags are the data to be processed, they do not process anything themselves.",
+    "State-Transforming": "Excluded — Tags annotate states; they do not change them directly.",
+    "Human-Interactive": "Excluded — Interpreted by users, but not an interactive construct itself.",
+    "System-integrated": "Excluded — Used by systems, but not themselves embedded functionality.",
+    "Functionally Autonomous": "Excluded — Tags require interpretation; they do not function on their own.",
+    "System-Essential": "Excluded — Many systems function without tagging; it is an organizational layer.",
 
-    "Symbolic / representational": "Included — Tags symbolically reference categories or attributes.",
-    "Communicative": "Included — Tags convey meaning about data.",
-    "Logical / rule-based": "Included — Tags often follow naming rules, schemas, or ontologies.",
-    "Hierarchical / modular": "Included — Tags may be part of structured vocabularies or hierarchies.",
-    "Behavior-guiding": "Included — Tags can guide system or user behavior (e.g., filtering, formatting, access).",
-    "Self-referential / meta-conceptual": "Excluded — While related to metadata, the tag itself is not self-referential.",
-    "Temporal": "Excluded — Tags are not inherently time-based.",
-    "Contextual abstraction": "Included — Tags acquire meaning only within a given schema, system, or domain.",
+    "Symbolic": "Included — Tags encode meaning symbolically (e.g., `key=value`).",
+    "Signalling": "Included — Conveys attributes, categories, and relationships to systems or users.",
+    "Rule-governed": "Included — Tag schemas and formats follow explicit conventions and rules.",
+    "Compositional": "Included — Tags may be nested, compound, or structured in sets.",
+    "Normative": "Excluded — Tags follow standards, but do not impose behavior or expectation themselves.",
+    "Meta": "Included — It is the quintessential example of meta-data (data about data).",
+    "Temporal": "Excluded — Tags are typically static labels, even if they represent time (e.g., a timestamp).",
+    "Digital/Virtual": "Included — Exists entirely in digital or conceptual form.",
 
-    "Socially / culturally constructed": "Included — Metadata schemes and tagging vocabularies are socially negotiated.",
-    "Defined by a group/system": "Included — Commonly established by institutions, platforms, or standards bodies.",
-    "Linked to identity or role": "Excluded — Tags label data, not people.",
-    "Regulated / governed": "Excluded — Rarely enforced legally, though schema adherence may be required.",
-    "Teachable / transmissible": "Included — Standard tagging practices are teachable.",
-    "Visible": "Included — Tags are visible to users, systems, or developers depending on access.",
-    "Context-sensitive": "Included — The interpretation of a tag varies by system or domain.",
-    "Widely known": "Included — The concept of tagging is pervasive across platforms and domains."
+    "Social Construct": "Included — Tagging vocabularies and their meanings are defined by communities or platforms.",
+    "Institutionally Defined": "Included — Standardized formats (e.g., Dublin Core, schema.org) are institutionally maintained.",
+    "Identity-Linked": "Excluded — Tags may encode identifiers, but identity linkage is contextual, not intrinsic.",
+    "Regulated": "Excluded — Tagging standards may be adopted, but tags are not governed by law.",
+    "Economically Significant": "Excluded — It enables economic activity, but is not itself an economic entity.",
+    "Politicised": "Excluded — The use of tags may be political, but the tag itself is not.",
+    "Ritualised": "Excluded — Not part of symbolic or ceremonial practice.",
+    "Ethically Significant": "Excluded — Tags may contribute to ethical concerns (e.g., bias), but are not inherently ethical units."
   },
-  "encoding_notes": "A metadata tag is a symbolic abstraction used to structure and describe data. It is a communicative and behavior-guiding unit designed for context-dependent interpretation within data systems. Though essential to metadata infrastructure, it is not inherently physical or functional—it is an informational construct embedded in human-made logical and social frameworks.",
-  "image": "images/metadata_tag.png"
+  "encoding_notes": "This encoding treats metadata tags as synthetic, symbolic, and rule-governed abstractions used to annotate other data. Their function is performed through interpretation by external systems, not by the tag itself. Social traits reflect their origin in group-defined labeling standards, but exclude role or behavior traits not intrinsic to tagging structure."
 }

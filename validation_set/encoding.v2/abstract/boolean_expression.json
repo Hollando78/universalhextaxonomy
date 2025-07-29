@@ -1,70 +1,65 @@
 {
   "entity": "Boolean Expression",
-  "uht_code": "4080FFCF",
+  "uht_code": "4000FDC0",
   "image_url": "/validation_set/images/boolean_expression.png",
+  "version": "v2",
+  "encoding_date": "2025-07-29",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Man-made / synthetic"
+      "Synthetic"
     ],
-    "functional": [
-      "Purposeful / intentional"
-    ],
+    "functional": [],
     "abstract": [
-      "Symbolic / representational",
-      "Communicative",
-      "Logical / rule-based",
-      "Hierarchical / modular",
-      "Behavior-guiding",
-      "Self-referential / meta-conceptual",
-      "Temporal",
-      "Contextual abstraction"
+      "Symbolic",
+      "Signalling",
+      "Rule-governed",
+      "Compositional",
+      "Normative",
+      "Meta",
+      "Digital/Virtual"
     ],
     "social": [
-      "Socially / culturally constructed",
-      "Defined by a group/system",
-      "Teachable / transmissible",
-      "Visible",
-      "Context-sensitive",
-      "Widely known"
+      "Social Construct",
+      "Institutionally Defined"
     ]
   },
   "feedback": {
-    "Physical object": "Excluded — A Boolean expression is an abstract formalism, not a material thing.",
-    "Man-made / synthetic": "Included — Boolean logic is a human-created symbolic system.",
-    "Biological or biologically-inspired": "Excluded — Not based on biological models.",
-    "Fixed/static": "Excluded — Boolean expressions are formalisms, not static entities.",
-    "Structural": "Excluded — Logical, not physical, structure.",
-    "Perceptible": "Excluded — Only visible when rendered, not inherently perceptible.",
-    "Material form": "Excluded — Exists independently of any medium.",
-    "Passive": "Excluded — Not a physically passive entity.",
+    "Physical Object": "Excluded — A Boolean expression is abstract, not a tangible entity.",
+    "Synthetic": "Included — It is a formal human-designed logical construct.",
+    "Biological/Biomimetic": "Excluded — Not based on or inspired by biological systems.",
+    "Powered": "Excluded — It is inert unless evaluated in a system.",
+    "Structural": "Excluded — Has no physical architecture or embodiment.",
+    "Observable": "Excluded — Only its representation (e.g., in code or text) is visible.",
+    "Physical Medium": "Excluded — Exists independently of any particular medium.",
+    "Active": "Excluded — It does not initiate processes or effects autonomously.",
     
-    "Purposeful / intentional": "Included — Constructed to represent binary logic and enable formal reasoning.",
-    "Emits output / produces effect": "Excluded — Alone, it encodes logic but does not execute or produce output.",
-    "Processes or regulates logic/signals": "Excluded — Describes logic, but does not perform processing.",
-    "Transforms or modifies internal state": "Excluded — Not a dynamic entity.",
-    "Interacts with humans directly": "Excluded — Understood by humans, but not interactive.",
-    "Part of a larger system": "Excluded — Used in systems, but not a system component in itself.",
-    "Autonomous in function": "Excluded — Passive structure; requires evaluation context.",
-    "System-critical": "Excluded — Foundational, but not critical on its own.",
+    "Intentionally Designed": "Excluded — The expression is a symbolic structure, not a tool or mechanism.",
+    "Outputs Effect": "Excluded — It encodes logic but does not produce output independently.",
+    "Processes Signals/Logic": "Excluded — It is a structure to be processed, not a processor itself.",
+    "State-Transforming": "Excluded — Used in logic but does not transform state inherently.",
+    "Human-Interactive": "Excluded — Readable and writable, but not intrinsically interactive.",
+    "System-integrated": "Excluded — Appears in systems, but is not embedded functionally.",
+    "Functionally Autonomous": "Excluded — Cannot function or change without an interpreter or context.",
+    "System-Essential": "Excluded — Not universally required; many systems use it, but it is not essential to all.",
     
-    "Symbolic / representational": "Included — Uses symbolic variables and operators (AND, OR, NOT).",
-    "Communicative": "Included — Encodes logical conditions or constraints.",
-    "Logical / rule-based": "Included — Entirely governed by formal logical syntax and semantics.",
-    "Hierarchical / modular": "Included — Boolean expressions can be nested and composed modularly.",
-    "Behavior-guiding": "Included — Guides program control flow, system design, and decisions.",
-    "Self-referential / meta-conceptual": "Included — Can describe logic about logic (e.g., tautologies, contradictions).",
-    "Temporal": "Included — Expression evaluation depends on time-based input states (e.g., in circuits or execution).",
-    "Contextual abstraction": "Included — Meaning depends on interpretation context, variable assignment, etc.",
+    "Symbolic": "Included — Made of formal symbols and operators.",
+    "Signalling": "Included — Conveys logical structure and conditions.",
+    "Rule-governed": "Included — Syntax and semantics are strictly defined.",
+    "Compositional": "Included — Built from simpler components using operators.",
+    "Normative": "Included — Prescribes conditions for logical correctness and usage.",
+    "Meta": "Included — Can express or manipulate logic itself (e.g., logical identities).",
+    "Temporal": "Excluded — Static expression; does not evolve or act in time.",
+    "Digital/Virtual": "Included — Exists purely in abstract/digital environments.",
     
-    "Socially / culturally constructed": "Included — Formalized and maintained within mathematics and computer science.",
-    "Defined by a group/system": "Included — Standardized in digital logic, formal methods, and programming.",
-    "Linked to identity or role": "Excluded — Not inherently tied to personal or group identity.",
-    "Regulated / governed": "Excluded — No legal or institutional enforcement.",
-    "Teachable / transmissible": "Included — Taught in logic, mathematics, and programming curricula.",
-    "Visible": "Included — Expressed in symbols, text, or circuit diagrams.",
-    "Context-sensitive": "Included — Interpretation depends on logical context or variable state.",
-    "Widely known": "Included — Commonly taught and understood in technical domains."
+    "Social Construct": "Included — Exists and functions through shared logical conventions.",
+    "Institutionally Defined": "Included — Standardized in formal logic, computer science, and mathematics.",
+    "Identity-Linked": "Excluded — Not tied to social or personal identity.",
+    "Regulated": "Excluded — Not governed by policy or law.",
+    "Economically Significant": "Excluded — Crucial in systems, but not economically transacted itself.",
+    "Politicised": "Excluded — Not a site of political dispute.",
+    "Ritualised": "Excluded — Not used in ceremonial or symbolic rituals.",
+    "Ethically Significant": "Excluded — Logical operations are value-neutral; ethics arise in application."
   },
-  "encoding_notes": "A Boolean Expression is a symbolic, logical, and culturally embedded abstraction with formal purpose and syntactic clarity. It is not a processor or emitter but a representational structure used for reasoning and control. This encoding mirrors the UHT profile of other abstract formal entities such as 'Proof (in Logic)'.",
-  "image": "images/boolean_expression.png"
+  "encoding_notes": "This encoding frames Boolean expressions as synthetic, symbolic, and compositional abstractions governed by strict logical norms. They are not functional artifacts themselves but are foundational to digital logic and formal reasoning. Their meaning arises from interpretation within systems, not intrinsic functionality."
 }

@@ -1,67 +1,65 @@
 {
   "entity": "Concept of Zero",
-  "uht_code": "4080FFCF",
-  "image_url": "/validation_set/images/concept_of_zero.png",
+  "uht_code": "4000FDC0",
+  "image_url": "/validation_set/images/zero.png",
+  "version": "v2",
+  "encoding_date": "2025-07-29",
+  "traits_version": "traits.v2.json",
   "traits": {
     "physical": [
-      "Man-made / synthetic"
+      "Synthetic"
     ],
-    "functional": [
-      "Purposeful / intentional"
-    ],
+    "functional": [],
     "abstract": [
-      "Symbolic / representational",
-      "Communicative",
-      "Logical / rule-based",
-      "Hierarchical / modular",
-      "Behavior-guiding",
-      "Self-referential / meta-conceptual",
-      "Temporal",
-      "Contextual abstraction"
+      "Symbolic",
+      "Signalling",
+      "Rule-governed",
+      "Compositional",
+      "Normative",
+      "Meta",
+      "Digital/Virtual"
     ],
     "social": [
-      "Socially / culturally constructed",
-      "Defined by a group/system",
-      "Teachable / transmissible",
-      "Visible",
-      "Context-sensitive",
-      "Widely known"
+      "Social Construct",
+      "Institutionally Defined"
     ]
   },
   "feedback": {
-    "Physical object": "Excluded — Zero is a conceptual abstraction, not a tangible or physical object.",
-    "Man-made / synthetic": "Included — Zero was invented and formalized by humans in multiple historical contexts.",
-    "Biological or biologically-inspired": "Excluded — It has no biological basis or origin.",
-    "Fixed/static": "Excluded — It is a symbolic placeholder and not inherently fixed in form or function.",
-    "Structural": "Excluded — It has no material or spatial structure.",
-    "Perceptible": "Excluded — It is not inherently perceptible; it must be represented visually or symbolically.",
-    "Material form": "Excluded — It is not composed of physical matter.",
-    "Passive": "Excluded — Not a passive entity in any material or functional sense.",
-    "Purposeful / intentional": "Included — Zero was created intentionally to solve numeric, positional, and representational problems.",
-    "Emits output / produces effect": "Excluded — It does not generate any intrinsic output or effect.",
-    "Processes or regulates logic/signals": "Excluded — It is not an agent or system for processing anything.",
-    "Transforms or modifies internal state": "Excluded — It has no state to transform.",
-    "Interacts with humans directly": "Excluded — It is accessed through representation or language, not via direct interaction.",
-    "Part of a larger system": "Excluded — While it is used in systems (e.g., mathematics), it is not itself modular or systemic.",
-    "Autonomous in function": "Excluded — It does not act or operate independently.",
-    "System-critical": "Excluded — It is foundational but not functionally critical in any operational sense.",
-    "Symbolic / representational": "Included — Zero is a symbolic construct used to represent absence, quantity, and position.",
-    "Communicative": "Included — Enables efficient numeric communication, especially in positional systems.",
-    "Logical / rule-based": "Included — Zero is used in and defined by formal logic systems and arithmetic rules.",
-    "Hierarchical / modular": "Included — Zero operates at various conceptual levels (e.g., positional value, null quantity).",
-    "Behavior-guiding": "Included — The concept influences mathematical and computational reasoning.",
-    "Self-referential / meta-conceptual": "Included — It can be referenced in terms of itself (e.g., 'zero of zero'), and has meta-conceptual uses.",
-    "Temporal": "Included — It plays a role in representing time (e.g., zero point, starting state).",
-    "Contextual abstraction": "Included — Its meaning varies by domain (e.g., null vs zero vs origin).",
-    "Socially / culturally constructed": "Included — Zero emerged through specific historical and cultural developments (e.g., India, Babylon, Mesoamerica).",
-    "Defined by a group/system": "Included — It is standardized within mathematical systems and formal education.",
-    "Linked to identity or role": "Excluded — Zero does not reflect social identity or personal roles.",
-    "Regulated / governed": "Excluded — Its use is widespread and standardized, but not governed by legal or institutional regulation.",
-    "Teachable / transmissible": "Included — It is universally taught and foundational in mathematics.",
-    "Visible": "Included — It is rendered in symbols (e.g., 0) across notation systems.",
-    "Context-sensitive": "Included — Its interpretation depends on domain and symbolic framework.",
-    "Widely known": "Included — Zero is known and used across nearly all cultures and systems."
+    "Physical Object": "Excluded — Zero is a conceptual abstraction, not a material entity.",
+    "Synthetic": "Included — The concept of zero was invented by humans to represent nothingness and neutrality.",
+    "Biological/Biomimetic": "Excluded — Not derived from nature or biology.",
+    "Powered": "Excluded — Not dependent on energy.",
+    "Structural": "Excluded — No physical or architectural role.",
+    "Observable": "Excluded — Representations are visible, but the concept itself is not directly perceptible.",
+    "Physical Medium": "Excluded — It exists symbolically across representations.",
+    "Active": "Excluded — Does not initiate processes or behaviors.",
+    
+    "Intentionally Designed": "Excluded — Emerged gradually across cultures rather than from a single act of design.",
+    "Outputs Effect": "Excluded — It provides symbolic meaning, not functional output.",
+    "Processes Signals/Logic": "Excluded — Used in logic but not a processor.",
+    "State-Transforming": "Excluded — Encodes a static condition or boundary rather than transformation.",
+    "Human-Interactive": "Excluded — Understood by humans, but not an interactive structure.",
+    "System-integrated": "Excluded — Present in systems, but not embedded operationally.",
+    "Functionally Autonomous": "Excluded — Has no operational agency.",
+    "System-Essential": "Excluded — Foundational in some systems, but not universally essential.",
+    
+    "Symbolic": "Included — Stands in for nothingness, absence, or neutral quantity.",
+    "Signalling": "Included — Encodes meaning such as 'start', 'empty', or 'off'.",
+    "Rule-governed": "Included — Subject to formal rules (e.g., 0 + x = x).",
+    "Compositional": "Included — Part of larger expressions, numeric systems, or equations.",
+    "Normative": "Included — Defines valid behavior in arithmetic (e.g., additive identity).",
+    "Meta": "Included — Defines system boundaries and distinctions (e.g., binary state 0 vs 1).",
+    "Temporal": "Excluded — No intrinsic sequence or time-based identity.",
+    "Digital/Virtual": "Included — Exists abstractly and instantiated in digital logic and computation.",
+    
+    "Social Construct": "Included — Depends on collective understanding and transmission.",
+    "Institutionally Defined": "Included — Taught and formalized in education, science, and math systems.",
+    "Identity-Linked": "Excluded — Not connected to social or individual identity.",
+    "Regulated": "Excluded — Not governed by law or authority.",
+    "Economically Significant": "Excluded — Indirectly important, but not economically agentive.",
+    "Politicised": "Excluded — No history of ideological conflict around the concept.",
+    "Ritualised": "Excluded — Not involved in symbolic ceremony.",
+    "Ethically Significant": "Excluded — Has no moral or ethical implications."
   },
-  "encoding_notes": "This encoding captures the Concept of Zero as an intentional, symbolic, logical abstraction with cultural and pedagogical significance. It is not a functional agent but plays a critical representational role across disciplines. The code correctly places weight in the abstract and social layers, with minimal physical or functional attribution.",
-  "image": "images/concept_of_zero.png"
+  "encoding_notes": "This encoding presents zero as a synthetic, symbolic, and compositional abstraction invented to represent absence. It excludes functional and physical properties, while retaining social and digital dimensions. Its identity lies in formal systems and symbolic use, not action or interaction."
 }
