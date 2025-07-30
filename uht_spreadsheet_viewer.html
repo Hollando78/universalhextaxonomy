@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UHT Entity Spreadsheet Viewer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .controls {
+            background: #f8f9fa;
+            padding: 20px;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            align-items: center;
+        }
+
+        .control-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .control-group label {
+            font-weight: 600;
+            color: #495057;
+            min-width: 80px;
+        }
+
+        select, input, button {
+            padding: 8px 12px;
+            border: 2px solid #e9ecef;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        select:focus, input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        button {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-weight: 600;
+            padding: 10px 20px;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .toggle-group {
+            display: flex;
+            background: #e9ecef;
+            border-radius: 6px;
+            padding: 2px;
+        }
+
+        .toggle-btn {
+            background: transparent;
+            color: #6c757d;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .toggle-btn.active {
+            background: white;
+            color: #495057;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .table-container {
+            overflow-x: auto;
+            max-height: 70vh;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+        }
+
+        th {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            padding: 15px 12px;
+            text-align: left;
+            font-weight: 600;
+            color: #495057;
+            border-bottom: 2px solid #dee2e6;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        th.sortable {
+            cursor: pointer;
+            user-select: none;
+        }
+
+        th.sortable:hover {
+            background: linear-gradient(135deg, #e9ecef 0%, #dee2e6 100%);
+        }
+
+        th.sortable::after {
+            content: '↕';
+            margin-left: 5px;
+            opacity: 0.5;
+        }
+
+        th.sortable.asc::after {
+            content: '↑';
+            opacity: 1;
+        }
+
+        th.sortable.desc::after {
+            content: '↓';
+            opacity: 1;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid #f1f3f4;
+            vertical-align: top;
+        }
+
+        tr:hover {
+            background: #f8f9fa;
+        }
+
+        .entity-name {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .uht-code {
+            font-family: 'Courier New', monospace;
+            font-weight: 600;
+            color: #667eea;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .uht-code:hover {
+            color: #764ba2;
+            transform: scale(1.05);
+        }
+
+        .trait-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px;
+        }
+
+        .trait-tag {
+            background: #e3f2fd;
+            color: #1976d2;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: 500;
+            cursor: help;
+            transition: all 0.3s ease;
+        }
+
+        .trait-tag:hover {
+            background: #bbdefb;
+            transform: scale(1.05);
+        }
+
+        .trait-tag.physical {
+            background: #e8f5e8;
+            color: #2e7d32;
+        }
+
+        .trait-tag.functional {
+            background: #fff3e0;
+            color: #f57c00;
+        }
+
+        .trait-tag.abstract {
+            background: #f3e5f5;
+            color: #7b1fa2;
+        }
+
+        .trait-tag.social {
+            background: #ffebee;
+            color: #c62828;
+        }
+
+        .stats {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-top: 1px solid #e9ecef;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 14px;
+            color: #6c757d;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: #2c3e50;
+            color: white;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            max-width: 300px;
+            z-index: 1000;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .tooltip.show {
+            opacity: 1;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            color: #6c757d;
+            font-size: 18px;
+        }
+
+        .error {
+            text-align: center;
+            padding: 50px;
+            color: #dc3545;
+            font-size: 18px;
+        }
+
+        @media (max-width: 768px) {
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            
+            .control-group {
+                justify-content: space-between;
+            }
+            
+            .table-container {
+                font-size: 12px;
+            }
+            
+            th, td {
+                padding: 8px 6px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>UHT Entity Spreadsheet Viewer</h1>
+            <p>Universal Hex Taxonomy - Interactive Entity Browser</p>
+        </div>
+
+        <div class="controls">
+            <div class="control-group">
+                <label>Layer Filter:</label>
+                <select id="layerFilter">
+                    <option value="">All Layers</option>
+                    <option value="physical">Physical</option>
+                    <option value="functional">Functional</option>
+                    <option value="abstract">Abstract</option>
+                    <option value="social">Social</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label>Trait Filter:</label>
+                <select id="traitFilter">
+                    <option value="">All Traits</option>
+                </select>
+            </div>
+
+            <div class="control-group">
+                <label>Search:</label>
+                <input type="text" id="searchInput" placeholder="Search entities...">
+            </div>
+
+            <div class="control-group">
+                <label>View:</label>
+                <div class="toggle-group">
+                    <button class="toggle-btn active" data-view="hex">Hex</button>
+                    <button class="toggle-btn" data-view="binary">Binary</button>
+                </div>
+            </div>
+
+            <button id="resetBtn">Reset Filters</button>
+        </div>
+
+        <div class="table-container">
+            <table id="entityTable">
+                <thead>
+                    <tr>
+                        <th class="sortable" data-sort="entity">Entity</th>
+                        <th class="sortable" data-sort="uht_code">UHT Code</th>
+                        <th class="sortable" data-sort="physical">Physical Traits</th>
+                        <th class="sortable" data-sort="functional">Functional Traits</th>
+                        <th class="sortable" data-sort="abstract">Abstract Traits</th>
+                        <th class="sortable" data-sort="social">Social Traits</th>
+                        <th class="sortable" data-sort="version">Version</th>
+                    </tr>
+                </thead>
+                <tbody id="tableBody">
+                    <tr>
+                        <td colspan="7" class="loading">Loading entities...</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="stats">
+            <span id="entityCount">0 entities</span>
+            <span id="filteredCount">0 filtered</span>
+        </div>
+    </div>
+
+    <div class="tooltip" id="tooltip"></div>
+
+    <script>
+        class UHTSpreadsheetViewer {
+            constructor() {
+                this.entities = [];
+                this.filteredEntities = [];
+                this.traits = {};
+                this.currentView = 'hex';
+                this.sortColumn = 'entity';
+                this.sortDirection = 'asc';
+                
+                this.init();
+            }
+
+            async init() {
+                try {
+                    await this.loadData();
+                    this.setupEventListeners();
+                    this.populateTraitFilter();
+                    this.renderTable();
+                    this.updateStats();
+                } catch (error) {
+                    console.error('Error initializing viewer:', error);
+                    this.showError('Failed to load data. Please check the console for details.');
+                }
+            }
+
+            async loadData() {
+                // Load entities
+                const response = await fetch('all_entities_concatenated.v2.json');
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                this.entities = await response.json();
+                this.filteredEntities = [...this.entities];
+
+                // Load traits
+                const traitsResponse = await fetch('canonical_traits/legacy/traits.v1.json');
+                if (traitsResponse.ok) {
+                    const traitsData = await traitsResponse.json();
+                    traitsData.traits.forEach(trait => {
+                        this.traits[trait.name] = trait;
+                    });
+                }
+            }
+
+            setupEventListeners() {
+                // Filter controls
+                document.getElementById('layerFilter').addEventListener('change', () => this.applyFilters());
+                document.getElementById('traitFilter').addEventListener('change', () => this.applyFilters());
+                document.getElementById('searchInput').addEventListener('input', () => this.applyFilters());
+                document.getElementById('resetBtn').addEventListener('click', () => this.resetFilters());
+
+                // View toggle
+                document.querySelectorAll('.toggle-btn').forEach(btn => {
+                    btn.addEventListener('click', (e) => {
+                        document.querySelectorAll('.toggle-btn').forEach(b => b.classList.remove('active'));
+                        e.target.classList.add('active');
+                        this.currentView = e.target.dataset.view;
+                        this.renderTable();
+                    });
+                });
+
+                // Sort headers
+                document.querySelectorAll('.sortable').forEach(th => {
+                    th.addEventListener('click', (e) => {
+                        const column = e.target.dataset.sort;
+                        if (this.sortColumn === column) {
+                            this.sortDirection = this.sortDirection === 'asc' ? 'desc' : 'asc';
+                        } else {
+                            this.sortColumn = column;
+                            this.sortDirection = 'asc';
+                        }
+                        this.updateSortHeaders();
+                        this.sortEntities();
+                        this.renderTable();
+                    });
+                });
+
+                // Tooltip
+                document.addEventListener('mouseover', (e) => this.showTooltip(e));
+                document.addEventListener('mouseout', () => this.hideTooltip());
+            }
+
+            populateTraitFilter() {
+                const traitFilter = document.getElementById('traitFilter');
+                const allTraits = new Set();
+                
+                this.entities.forEach(entity => {
+                    Object.values(entity.traits).flat().forEach(trait => {
+                        allTraits.add(trait);
+                    });
+                });
+
+                allTraits.forEach(trait => {
+                    const option = document.createElement('option');
+                    option.value = trait;
+                    option.textContent = trait;
+                    traitFilter.appendChild(option);
+                });
+            }
+
+            applyFilters() {
+                const layerFilter = document.getElementById('layerFilter').value;
+                const traitFilter = document.getElementById('traitFilter').value;
+                const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+
+                this.filteredEntities = this.entities.filter(entity => {
+                    // Layer filter
+                    if (layerFilter && !entity.traits[layerFilter]) {
+                        return false;
+                    }
+
+                    // Trait filter
+                    if (traitFilter) {
+                        const hasTrait = Object.values(entity.traits).flat().includes(traitFilter);
+                        if (!hasTrait) return false;
+                    }
+
+                    // Search filter
+                    if (searchTerm) {
+                        const matchesSearch = entity.entity.toLowerCase().includes(searchTerm) ||
+                                           entity.uht_code.toLowerCase().includes(searchTerm) ||
+                                           Object.values(entity.traits).flat().some(trait => 
+                                               trait.toLowerCase().includes(searchTerm));
+                        if (!matchesSearch) return false;
+                    }
+
+                    return true;
+                });
+
+                this.sortEntities();
+                this.renderTable();
+                this.updateStats();
+            }
+
+            resetFilters() {
+                document.getElementById('layerFilter').value = '';
+                document.getElementById('traitFilter').value = '';
+                document.getElementById('searchInput').value = '';
+                this.filteredEntities = [...this.entities];
+                this.sortEntities();
+                this.renderTable();
+                this.updateStats();
+            }
+
+            sortEntities() {
+                this.filteredEntities.sort((a, b) => {
+                    let aVal, bVal;
+
+                    switch (this.sortColumn) {
+                        case 'entity':
+                            aVal = a.entity.toLowerCase();
+                            bVal = b.entity.toLowerCase();
+                            break;
+                        case 'uht_code':
+                            aVal = a.uht_code;
+                            bVal = b.uht_code;
+                            break;
+                        case 'version':
+                            aVal = a.version;
+                            bVal = b.version;
+                            break;
+                        default: // trait columns
+                            aVal = (a.traits[this.sortColumn] || []).length;
+                            bVal = (b.traits[this.sortColumn] || []).length;
+                            break;
+                    }
+
+                    if (aVal < bVal) return this.sortDirection === 'asc' ? -1 : 1;
+                    if (aVal > bVal) return this.sortDirection === 'asc' ? 1 : -1;
+                    return 0;
+                });
+            }
+
+            updateSortHeaders() {
+                document.querySelectorAll('.sortable').forEach(th => {
+                    th.classList.remove('asc', 'desc');
+                    if (th.dataset.sort === this.sortColumn) {
+                        th.classList.add(this.sortDirection);
+                    }
+                });
+            }
+
+            renderTable() {
+                const tbody = document.getElementById('tableBody');
+                tbody.innerHTML = '';
+
+                this.filteredEntities.forEach(entity => {
+                    const row = document.createElement('tr');
+                    
+                    // Entity name
+                    const nameCell = document.createElement('td');
+                    nameCell.className = 'entity-name';
+                    nameCell.textContent = entity.entity;
+                    nameCell.title = `Entity: ${entity.entity}`;
+                    row.appendChild(nameCell);
+
+                    // UHT Code
+                    const codeCell = document.createElement('td');
+                    const codeSpan = document.createElement('span');
+                    codeSpan.className = 'uht-code';
+                    codeSpan.textContent = this.currentView === 'hex' ? entity.uht_code : this.hexToBinary(entity.uht_code);
+                    codeSpan.title = `Hex: ${entity.uht_code}\nBinary: ${this.hexToBinary(entity.uht_code)}`;
+                    codeCell.appendChild(codeSpan);
+                    row.appendChild(codeCell);
+
+                    // Trait columns
+                    ['physical', 'functional', 'abstract', 'social'].forEach(layer => {
+                        const traitCell = document.createElement('td');
+                        const traitList = document.createElement('div');
+                        traitList.className = 'trait-list';
+                        
+                        (entity.traits[layer] || []).forEach(trait => {
+                            const tag = document.createElement('span');
+                            tag.className = `trait-tag ${layer}`;
+                            tag.textContent = trait;
+                            tag.title = this.getTraitTooltip(trait);
+                            traitList.appendChild(tag);
+                        });
+                        
+                        traitCell.appendChild(traitList);
+                        row.appendChild(traitCell);
+                    });
+
+                    // Version
+                    const versionCell = document.createElement('td');
+                    versionCell.textContent = entity.version;
+                    row.appendChild(versionCell);
+
+                    tbody.appendChild(row);
+                });
+            }
+
+            hexToBinary(hex) {
+                return parseInt(hex, 16).toString(2).padStart(32, '0');
+            }
+
+            getTraitTooltip(traitName) {
+                const trait = this.traits[traitName];
+                if (trait) {
+                    return `${trait.name}\n\n${trait.short_description}\n\n${trait.expanded_definition}`;
+                }
+                return traitName;
+            }
+
+            showTooltip(event) {
+                const tooltip = document.getElementById('tooltip');
+                const target = event.target;
+                
+                if (target.title && target.title !== target.textContent) {
+                    tooltip.textContent = target.title;
+                    tooltip.style.left = event.pageX + 10 + 'px';
+                    tooltip.style.top = event.pageY + 10 + 'px';
+                    tooltip.classList.add('show');
+                }
+            }
+
+            hideTooltip() {
+                document.getElementById('tooltip').classList.remove('show');
+            }
+
+            updateStats() {
+                document.getElementById('entityCount').textContent = `${this.entities.length} entities`;
+                document.getElementById('filteredCount').textContent = `${this.filteredEntities.length} filtered`;
+            }
+
+            showError(message) {
+                const tbody = document.getElementById('tableBody');
+                tbody.innerHTML = `<tr><td colspan="7" class="error">${message}</td></tr>`;
+            }
+        }
+
+        // Initialize the viewer when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            new UHTSpreadsheetViewer();
+        });
+    </script>
+</body>
+</html> 
