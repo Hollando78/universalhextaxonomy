@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSON Test</title>
+</head>
+<body>
+    <h1>JSON Loading Test</h1>
+    <div id="result"></div>
+    
+    <script>
+        async function testJSON() {
+            const resultDiv = document.getElementById('result');
+            
+            try {
+                console.log('Attempting to load JSON...');
+                const response = await fetch('all_entities_concatenated.v2.json');
+                console.log('Response status:', response.status);
+                console.log('Response ok:', response.ok);
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                const data = await response.json();
+                console.log('Data loaded successfully');
+                console.log('Number of entities:', data.length);
+                console.log('First entity:', data[0]);
+                
+                resultDiv.innerHTML = `
+                    <h2>✅ Success!</h2>
+                    <p>Loaded ${data.length} entities</p>
+                    <p>First entity: ${data[0].entity}</p>
+                    <p>UHT Code: ${data[0].uht_code}</p>
+                `;
+                
+            } catch (error) {
+                console.error('Error loading JSON:', error);
+                resultDiv.innerHTML = `
+                    <h2>❌ Error</h2>
+                    <p>${error.message}</p>
+                    <p>This might be a CORS issue when loading local files.</p>
+                    <p>Try opening this file through a local server instead of directly.</p>
+                `;
+            }
+        }
+        
+        testJSON();
+    </script>
+</body>
+</html> 
