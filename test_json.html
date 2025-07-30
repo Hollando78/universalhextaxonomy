@@ -13,15 +13,16 @@
             
             try {
                 console.log('Attempting to load JSON...');
-                const response = await fetch('all_entities_concatenated.v2.json');
+                const response = await fetch('test.json');
                 console.log('Response status:', response.status);
                 console.log('Response ok:', response.ok);
                 
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
+                // Get the raw text first and check its content
+                const rawText = await response.text();
+                console.log('First few bytes:', [...rawText].slice(0, 10).map(c => c.charCodeAt(0)));
                 
-                const data = await response.json();
+                // Parse the text into JSON
+                const data = JSON.parse(rawText);
                 console.log('Data loaded successfully');
                 console.log('Number of entities:', data.length);
                 console.log('First entity:', data[0]);
@@ -35,9 +36,15 @@
                 
             } catch (error) {
                 console.error('Error loading JSON:', error);
+                console.error('Error details:', {
+                    name: error.name,
+                    message: error.message,
+                    stack: error.stack
+                });
                 resultDiv.innerHTML = `
                     <h2>❌ Error</h2>
-                    <p>${error.message}</p>
+                    <p>${error.name}: ${error.message}</p>
+                    <p>Check the browser console for more details.</p>
                     <p>This might be a CORS issue when loading local files.</p>
                     <p>Try opening this file through a local server instead of directly.</p>
                 `;
@@ -47,4 +54,4 @@
         testJSON();
     </script>
 </body>
-</html> 
+</html>
