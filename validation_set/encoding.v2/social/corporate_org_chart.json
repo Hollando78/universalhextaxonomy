@@ -1,65 +1,75 @@
 {
   "entity": "Corporate Org Chart",
-  "uht_code": "0084B0FF",
+  "uht_code": "4488FDFF",
   "image_url": "/validation_set/images/corporate_org_chart.png",
+  "version": "v2",
+  "encoding_date": "2025-07-30",
+  "traits_version": "traits.v2.json",
   "traits": {
-    "physical": [],
+    "physical": [
+      "Synthetic",
+      "Observable"
+    ],
     "functional": [
-      "Purposeful / intentional",
-      "Part of a larger system"
+      "Intentionally Designed",
+      "Human-Interactive"
     ],
     "abstract": [
-      "Symbolic / representational",
-      "Logical / rule-based",
-      "Hierarchical / modular"
+      "Symbolic",
+      "Signalling",
+      "Rule-governed",
+      "Compositional",
+      "Normative",
+      "Meta",
+      "Digital/Virtual"
     ],
     "social": [
-      "Socially / culturally constructed",
-      "Defined by a group/system",
-      "Linked to identity or role",
-      "Regulated / governed",
-      "Teachable / transmissible",
-      "Visible",
-      "Context-sensitive",
-      "Widely known"
+      "Social Construct",
+      "Institutionally Defined",
+      "Identity-Linked",
+      "Regulated",
+      "Economically Significant",
+      "Politicised",
+      "Ritualised",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Excluded — The org chart is typically a visual or digital abstraction, not a tangible object itself.",
-    "Man-made / synthetic": "Excluded — While created by humans, it has no synthetic material form.",
-    "Biological or biologically-inspired": "Excluded — Its structure may echo biological hierarchies, but it is not biologically based.",
-    "Fixed/static": "Excluded — Org charts evolve over time with company structure.",
-    "Structural": "Excluded — It is not a physical structure but a conceptual one.",
-    "Perceptible": "Excluded — Its depiction is perceptible, but the chart as a system is abstract.",
-    "Material form": "Excluded — Exists in printed or digital forms, but not as intrinsic material entity.",
-    "Passive": "Excluded — It plays an active role in communicating hierarchy and authority.",
+    "Physical Object": "Excluded — The org chart is a symbolic construct rendered in visual form, not a bounded material object.",
+    "Synthetic": "Included — Entirely designed and maintained by human institutions.",
+    "Biological/Biomimetic": "Excluded — Not inspired by or modeled on natural systems.",
+    "Powered": "Excluded — Not an energized or mechanized system.",
+    "Structural": "Excluded — Represents structure symbolically but does not function structurally.",
+    "Observable": "Included — Its purpose is visibility and clarity; it is meant to be examined and interpreted.",
+    "Physical Medium": "Excluded — Appears on screens or paper, but medium is incidental.",
+    "Active": "Excluded — It is not an actor or autonomous process.",
 
-    "Purposeful / intentional": "Included — Org charts are created to communicate organizational roles and authority.",
-    "Emits output / produces effect": "Excluded — It does not independently generate effects.",
-    "Processes or regulates logic/signals": "Excluded — It is not a signal processor.",
-    "Transforms or modifies internal state": "Excluded — It does not autonomously alter system states.",
-    "Interacts with humans directly": "Excluded — It is a reference diagram, not an interface.",
-    "Part of a larger system": "Included — It reflects the formal structure of a corporate or institutional system.",
-    "Autonomous in function": "Excluded — It must be updated and maintained by people.",
-    "System-critical": "Excluded — Useful but not foundational to the existence of the organization.",
+    "Intentionally Designed": "Included — Built for clarity and formal delineation of reporting structures.",
+    "Outputs Effect": "Excluded — Enables decisions, but does not emit output autonomously.",
+    "Processes Signals/Logic": "Excluded — Encodes structure but does not process data.",
+    "State-Transforming": "Excluded — Communicates changes but does not cause them.",
+    "Human-Interactive": "Included — Digital org charts are explored, searched, expanded — explicitly interactive.",
+    "System-integrated": "Excluded — Referenced by HR and management systems but not itself a subsystem.",
+    "Functionally Autonomous": "Excluded — Requires maintenance and user interpretation.",
+    "System-Essential": "Excluded — Organizations can operate without them, though less transparently.",
 
-    "Symbolic / representational": "Included — Represents roles, reporting lines, and institutional hierarchy.",
-    "Communicative": "Excluded — While it conveys information, it is not itself a communicative agent.",
-    "Logical / rule-based": "Included — Encodes relationships based on organizational rules and policies.",
-    "Hierarchical / modular": "Included — It is a direct representation of hierarchical structure.",
-    "Behavior-guiding": "Excluded — It reflects roles rather than prescribes behavior.",
-    "Self-referential / meta-conceptual": "Excluded — It does not describe itself or model model-making.",
-    "Temporal": "Excluded — Though subject to change over time, it does not intrinsically express time.",
-    "Contextual abstraction": "Excluded — It is specific to organizational context but not abstracted across contexts.",
+    "Symbolic": "Included — Graphically maps roles and reporting relationships.",
+    "Signalling": "Included — Communicates power, affiliation, and job status.",
+    "Rule-governed": "Included — Must obey structural logic (trees, branches, reporting rules).",
+    "Compositional": "Included — Built of nested roles and departments that reflect modular internal logic.",
+    "Normative": "Included — Expresses and enforces norms of control, responsibility, and leadership.",
+    "Meta": "Included — It is a model of an institutional model.",
+    "Temporal": "Excluded — Not inherently bound to time (though it changes over time).",
+    "Digital/Virtual": "Included — Predominantly created, managed, and accessed via digital platforms.",
 
-    "Socially / culturally constructed": "Included — Reflects social and cultural norms about organization and hierarchy.",
-    "Defined by a group/system": "Included — Created and maintained by the institution it represents.",
-    "Linked to identity or role": "Included — Maps roles to people, embedding identity in structure.",
-    "Regulated / governed": "Included — Conforms to HR policies and corporate governance standards.",
-    "Teachable / transmissible": "Included — Used in training and orientation.",
-    "Visible": "Included — Presented in public/internal documents, slide decks, and dashboards.",
-    "Context-sensitive": "Included — Varies significantly across cultures and institutions.",
-    "Widely known": "Included — The concept and format of org charts are broadly recognized across industries."
+    "Social Construct": "Included — Represents relationships that exist only by social agreement.",
+    "Institutionally Defined": "Included — Constructed and maintained by formal authority structures.",
+    "Identity-Linked": "Included — Positions on the chart define professional identity and recognition.",
+    "Regulated": "Included — Bound by internal HR and governance policies.",
+    "Economically Significant": "Included — Determines resourcing, salary, and job allocation — a map of financial flows.",
+    "Politicised": "Included — Changes to the chart reflect power shifts and are often contested.",
+    "Ritualised": "Included — Used ceremonially in promotions, onboarding, and reorg rollouts.",
+    "Ethically Significant": "Included — Raises questions about equity, bias, invisibility, and transparency."
   },
-  "encoding_notes": "The corporate org chart is modeled here as a symbolic-abstract-social artifact that encodes organizational structure and roles. It is intentionally designed, embedded in institutional logic, and governed by formal rules. While visually represented, it is not a physical object, but rather a model of social architecture. The corrected code '0084B0FF' faithfully reflects the selected traits."
+  "encoding_notes": "This encoding treats the corporate org chart as a symbolic, hierarchical, and politically loaded abstraction. It is intentionally designed, visually interactive, and institutionally regulated. It is critical to identity, visibility, and economic structure within organizations, and functions as both representation and instrument of internal power."
 }

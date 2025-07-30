@@ -1,65 +1,75 @@
 {
   "entity": "Academic Citation",
-  "uht_code": "0084C1FF",
+  "uht_code": "4488FDFF",
   "image_url": "/validation_set/images/academic_citation.png",
+  "version": "v2",
+  "encoding_date": "2025-07-30",
+  "traits_version": "traits.v2.json",
   "traits": {
-    "physical": [],
+    "physical": [
+      "Synthetic",
+      "Observable"
+    ],
     "functional": [
-      "Purposeful / intentional",
-      "Part of a larger system"
+      "Intentionally Designed",
+      "Human-Interactive"
     ],
     "abstract": [
-      "Symbolic / representational",
-      "Communicative",
-      "Contextual abstraction"
+      "Symbolic",
+      "Signalling",
+      "Rule-governed",
+      "Compositional",
+      "Normative",
+      "Meta",
+      "Digital/Virtual"
     ],
     "social": [
-      "Socially / culturally constructed",
-      "Defined by a group/system",
-      "Linked to identity or role",
-      "Regulated / governed",
-      "Teachable / transmissible",
-      "Visible",
-      "Context-sensitive",
-      "Widely known"
+      "Social Construct",
+      "Institutionally Defined",
+      "Identity-Linked",
+      "Regulated",
+      "Economically Significant",
+      "Politicised",
+      "Ritualised",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Excluded — A citation is a referential structure, not a tangible item.",
-    "Man-made / synthetic": "Excluded — Though created, it is abstract and not fabricated.",
-    "Biological or biologically-inspired": "Excluded — It has no biological or organic origin.",
-    "Fixed/static": "Excluded — Citation formats and usages evolve.",
-    "Structural": "Excluded — It is not a structural framework.",
-    "Perceptible": "Excluded — Its visual form is perceptible, but the citation concept itself is abstract.",
-    "Material form": "Excluded — Exists as formatted text, not a material entity.",
-    "Passive": "Excluded — It carries active functional and referential intent.",
+    "Physical Object": "Excluded — A citation is a symbolic reference, not a bounded material item.",
+    "Synthetic": "Included — A designed convention embedded in scholarly systems.",
+    "Biological/Biomimetic": "Excluded — Not inspired by biological models.",
+    "Powered": "Excluded — Requires no energy source.",
+    "Structural": "Excluded — Not a physical or architectural component.",
+    "Observable": "Included — Must be seen to perform its function; often formatted and surfaced intentionally.",
+    "Physical Medium": "Excluded — Can appear in text or screen but not defined by a particular medium.",
+    "Active": "Excluded — Requires use and context to activate meaning.",
 
-    "Purposeful / intentional": "Included — Citations are deliberate acts of attribution and reference.",
-    "Emits output / produces effect": "Excluded — It does not produce output independently.",
-    "Processes or regulates logic/signals": "Excluded — It is not a logical operator.",
-    "Transforms or modifies internal state": "Excluded — It does not perform transformation.",
-    "Interacts with humans directly": "Excluded — It is not an interface or tool.",
-    "Part of a larger system": "Included — Citations are integral to academic writing and publication ecosystems.",
-    "Autonomous in function": "Excluded — Requires human authorship and system context.",
-    "System-critical": "Excluded — Though important, not singularly critical to knowledge systems.",
+    "Intentionally Designed": "Included — Constructed purposefully to encode attribution and connection.",
+    "Outputs Effect": "Excluded — Does not independently generate outcomes.",
+    "Processes Signals/Logic": "Excluded — Not a computational component.",
+    "State-Transforming": "Excluded — Influences interpretation but not itself state-altering.",
+    "Human-Interactive": "Included — Digital citations are clickable links; they prompt user engagement.",
+    "System-integrated": "Excluded — Used by systems but not embedded as modules.",
+    "Functionally Autonomous": "Excluded — Requires authorship and contextual use.",
+    "System-Essential": "Excluded — Other forms of attribution exist without citation format.",
 
-    "Symbolic / representational": "Included — Represents a source, credit, or intellectual lineage.",
-    "Communicative": "Included — Communicates acknowledgment, provenance, and relationships.",
-    "Logical / rule-based": "Excluded — Though governed by rules, it is not itself a logic structure.",
-    "Hierarchical / modular": "Excluded — Not modular by design.",
-    "Behavior-guiding": "Excluded — While it influences practices, that’s secondary to its referential role.",
-    "Self-referential / meta-conceptual": "Excluded — Does not reference itself or model systems.",
-    "Temporal": "Excluded — Although tied to time (publication date), that’s metadata not core identity.",
-    "Contextual abstraction": "Included — Its meaning and function depend on the surrounding academic context.",
+    "Symbolic": "Included — Represents another intellectual object or contribution.",
+    "Signalling": "Included — Communicates deference, relevance, lineage, or critique.",
+    "Rule-governed": "Included — Structured according to formal citation standards (APA, MLA, Chicago).",
+    "Compositional": "Included — Contains distinct, nested parts (author, year, title, etc.).",
+    "Normative": "Included — Subject to expectations and penalties; citation is a norm-enforcing practice.",
+    "Meta": "Included — Its only function is to refer to other works.",
+    "Temporal": "Excluded — May contain dates but is not a time-based system itself.",
+    "Digital/Virtual": "Included — Stored, rendered, and managed through digital media.",
 
-    "Socially / culturally constructed": "Included — Citation norms vary by discipline and culture.",
-    "Defined by a group/system": "Included — Governed by academic style guides and institutions.",
-    "Linked to identity or role": "Included — Citations directly associate content with authorship, linking to personal and professional identity.",
-    "Regulated / governed": "Included — Subject to formal citation rules and formatting standards.",
-    "Teachable / transmissible": "Included — Taught in educational settings as a fundamental scholarly practice.",
-    "Visible": "Included — Rendered textually in documents.",
-    "Context-sensitive": "Included — Meaning changes by context (discipline, genre, citation style).",
-    "Widely known": "Included — Broadly understood in academic and publishing circles."
+    "Social Construct": "Included — Exists through shared cultural and disciplinary conventions.",
+    "Institutionally Defined": "Included — Governed by editorial policies, academic codes, and scholarly bodies.",
+    "Identity-Linked": "Included — Citations contribute to author reputation and scholarly lineage.",
+    "Regulated": "Included — Citations are enforced via peer review, software checks, and misconduct investigations.",
+    "Economically Significant": "Included — Drives hiring, promotions, grants, and journal prestige.",
+    "Politicised": "Included — Citation justice and bias are highly debated academic concerns.",
+    "Ritualised": "Included — Repeated in formalized ways across disciplines and formats.",
+    "Ethically Significant": "Included — Plagiarism, erasure, and misattribution carry ethical weight."
   },
-  "encoding_notes": "The citation is treated here as an abstract-social artifact that functions symbolically and communicatively within the academic knowledge system. Its identity depends on institutional context, conventions, and referential purpose. The corrected code '0084C1FF' faithfully reflects its linked identity function and embedded social meaning."
+  "encoding_notes": "This encoding treats the academic citation as a symbolic, structured, and interactive scholarly artifact. It is both meta-referential and normative, situated at the intersection of ethics, authority, and institutional power. It functions as visible, rule-governed metadata that structures intellectual discourse and value across digital academic systems."
 }

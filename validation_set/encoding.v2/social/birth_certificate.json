@@ -1,65 +1,73 @@
 {
   "entity": "Birth Certificate",
-  "uht_code": "0084C1FF",
+  "uht_code": "4080FBFF",
   "image_url": "/validation_set/images/birth_certificate.png",
+  "version": "v2",
+  "encoding_date": "2025-07-30",
+  "traits_version": "traits.v2.json",
   "traits": {
-    "physical": [],
+    "physical": [
+      "Synthetic"
+    ],
     "functional": [
-      "Purposeful / intentional",
-      "Part of a larger system"
+      "Intentionally Designed"
     ],
     "abstract": [
-      "Symbolic / representational",
-      "Communicative",
-      "Contextual abstraction"
+      "Symbolic",
+      "Signalling",
+      "Rule-governed",
+      "Compositional",
+      "Normative",
+      "Temporal",
+      "Digital/Virtual"
     ],
     "social": [
-      "Socially / culturally constructed",
-      "Defined by a group/system",
-      "Linked to identity or role",
-      "Regulated / governed",
-      "Teachable / transmissible",
-      "Visible",
-      "Context-sensitive",
-      "Widely known"
+      "Social Construct",
+      "Institutionally Defined",
+      "Identity-Linked",
+      "Regulated",
+      "Economically Significant",
+      "Politicised",
+      "Ritualised",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Excluded — The certificate is a document, but its semantic identity is informational and abstract.",
-    "Man-made / synthetic": "Excluded — Though created by institutions, its essence is not that of a synthetic object.",
-    "Biological or biologically-inspired": "Excluded — It pertains to biological facts but is not itself biological.",
-    "Fixed/static": "Excluded — It may be amended (e.g., name or gender corrections).",
-    "Structural": "Excluded — It is not a component of a physical or architectural structure.",
-    "Perceptible": "Excluded — Its content is readable, but the birth certificate as an institutional construct is abstract.",
-    "Material form": "Excluded — The physical form is incidental; its function lies in its encoded identity.",
-    "Passive": "Excluded — It enables bureaucratic and legal action, so not purely passive.",
+    "Physical Object": "Excluded — The certificate is a symbolic legal record, not defined by its physical instantiation.",
+    "Synthetic": "Included — A formal human-invented document standardized by legal systems.",
+    "Biological/Biomimetic": "Excluded — Refers to a biological event but is not biologically inspired in structure.",
+    "Powered": "Excluded — Not mechanically or electronically powered.",
+    "Structural": "Excluded — Not a load-bearing or architectural structure.",
+    "Observable": "Excluded — The document can be read or viewed, but observability is incidental.",
+    "Physical Medium": "Excluded — May be printed or digital, but functionally independent of medium.",
+    "Active": "Excluded — Requires institutional context to have meaning.",
 
-    "Purposeful / intentional": "Included — Issued deliberately to document and authorize a legal identity.",
-    "Emits output / produces effect": "Excluded — Does not independently produce signals or data.",
-    "Processes or regulates logic/signals": "Excluded — Not a processing system.",
-    "Transforms or modifies internal state": "Excluded — While impactful, it does not enact change autonomously.",
-    "Interacts with humans directly": "Excluded — It is not an interface or tool.",
-    "Part of a larger system": "Included — Embedded in vital records, health, identity, and legal systems.",
-    "Autonomous in function": "Excluded — Requires validation and use by external institutions.",
-    "System-critical": "Excluded — A system can function even with incomplete record coverage.",
+    "Intentionally Designed": "Included — Created as an official record-keeping and identity-establishing mechanism.",
+    "Outputs Effect": "Excluded — Enables access and verification, but does not emit output autonomously.",
+    "Processes Signals/Logic": "Excluded — Holds data, but does not perform signal processing or logical computation.",
+    "State-Transforming": "Excluded — Establishes legal status but does not autonomously enact change.",
+    "Human-Interactive": "Excluded — Read and referenced, but not interacted with functionally.",
+    "System-integrated": "Excluded — Used within systems, but not an operational module.",
+    "Functionally Autonomous": "Excluded — Requires institutional recognition and use.",
+    "System-Essential": "Excluded — Some societies function without formal birth registration systems.",
 
-    "Symbolic / representational": "Included — Encodes personal identity and legal recognition.",
-    "Communicative": "Included — Communicates certified information to institutions and individuals.",
-    "Logical / rule-based": "Excluded — Structured by rules, but not itself a logic-executing object.",
-    "Hierarchical / modular": "Excluded — Not decomposable into modular parts.",
-    "Behavior-guiding": "Excluded — While influential, it does not prescribe behavior directly.",
-    "Self-referential / meta-conceptual": "Excluded — It does not describe or encode its own function.",
-    "Temporal": "Excluded — It records a date, but temporality is not its identity.",
-    "Contextual abstraction": "Included — Its validity and interpretation depend entirely on legal and bureaucratic context.",
+    "Symbolic": "Included — Symbolizes entry into society, legal identity, and civic status.",
+    "Signalling": "Included — Serves as a signal of legitimacy, legal existence, and familial/legal affiliation.",
+    "Rule-governed": "Included — Must adhere to strict legal formats and data standards.",
+    "Compositional": "Included — Composed of distinct structured fields (e.g., name, time, location, parentage).",
+    "Normative": "Included — Society expects every legal person to possess such a record.",
+    "Meta": "Excluded — Does not refer to other records or to its own type.",
+    "Temporal": "Included — Anchors identity and eligibility in time (birth date, age).",
+    "Digital/Virtual": "Included — Stored and managed in national or institutional digital systems.",
 
-    "Socially / culturally constructed": "Included — Exists due to social conventions of identity tracking.",
-    "Defined by a group/system": "Included — Created and authorized by legal or governmental institutions.",
-    "Linked to identity or role": "Included — Defines a legal identity at birth.",
-    "Regulated / governed": "Included — Subject to formal record-keeping laws and certification standards.",
-    "Teachable / transmissible": "Included — Its role and function are taught through civic and bureaucratic systems.",
-    "Visible": "Included — Used as proof in legal and bureaucratic contexts.",
-    "Context-sensitive": "Included — The meaning and format vary across nations, jurisdictions, and historical periods.",
-    "Widely known": "Included — Nearly universally recognized as an institutional category."
+    "Social Construct": "Included — Exists because of shared institutional agreements and civic conventions.",
+    "Institutionally Defined": "Included — Defined and issued by governments, hospitals, or registries.",
+    "Identity-Linked": "Included — A foundational legal identity artifact for every person.",
+    "Regulated": "Included — Subject to legal frameworks, authentication rules, and access control.",
+    "Economically Significant": "Included — Needed for financial services, healthcare, education, travel.",
+    "Politicised": "Included — Involved in debates over personhood, statelessness, surveillance, and privacy.",
+    "Ritualised": "Included — The registration of birth and issuance of certificate constitutes a civic rite.",
+    "Ethically Significant": "Included — Raises questions about dignity, access, legal recognition, and equity."
   },
-  "encoding_notes": "The birth certificate is encoded as a symbolic, communicative, legally embedded construct that represents identity through institutional context. While instantiated in physical documents, its ontological role is abstract and systemic. The corrected code '0084C1FF' reflects its functional intent, referential role, and social regulation."
+  "encoding_notes": "This encoding treats the birth certificate as a symbolic, compositional, temporally anchored institutional artifact. It plays a foundational role in defining personhood and social inclusion, and is tightly bound to normative, legal, and ethical structures in civic life."
 }

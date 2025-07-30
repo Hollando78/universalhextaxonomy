@@ -1,66 +1,72 @@
 {
   "entity": "Gender Pronoun Usage",
-  "uht_code": "0084C9FF",
+  "uht_code": "4488E9F7",
   "image_url": "/validation_set/images/gender_pronoun_usage.png",
+  "version": "v2",
+  "encoding_date": "2025-07-30",
+  "traits_version": "traits.v2.json",
   "traits": {
-    "physical": [],
+    "physical": [
+      "Synthetic",
+      "Observable"
+    ],
     "functional": [
-      "Purposeful / intentional",
-      "Part of a larger system"
+      "Intentionally Designed",
+      "Human-Interactive"
     ],
     "abstract": [
-      "Symbolic / representational",
-      "Communicative",
-      "Behavior-guiding",
-      "Contextual abstraction"
+      "Symbolic",
+      "Signalling",
+      "Rule-governed",
+      "Normative",
+      "Digital/Virtual"
     ],
     "social": [
-      "Socially / culturally constructed",
-      "Defined by a group/system",
-      "Linked to identity or role",
-      "Regulated / governed",
-      "Teachable / transmissible",
-      "Visible",
-      "Context-sensitive",
-      "Widely known"
+      "Social Construct",
+      "Institutionally Defined",
+      "Identity-Linked",
+      "Regulated",
+      "Politicised",
+      "Ritualised",
+      "Ethically Significant"
     ]
   },
   "feedback": {
-    "Physical object": "Excluded — Pronoun usage is a linguistic practice, not a tangible entity.",
-    "Man-made / synthetic": "Excluded — It is a cultural-linguistic convention, not a fabricated object.",
-    "Biological or biologically-inspired": "Excluded — While referring to biological identity, the usage itself is not biological.",
-    "Fixed/static": "Excluded — Pronoun conventions evolve across time and cultures.",
-    "Structural": "Excluded — It does not serve a structural role in the physical or architectural sense.",
-    "Perceptible": "Excluded — Pronouns are perceptible in speech or text, but the usage convention is abstract.",
-    "Material form": "Excluded — Pronoun usage is not inherently material.",
-    "Passive": "Excluded — It plays an active role in social signaling and communication.",
+    "Physical Object": "Excluded — Pronouns exist as acts of use, not as standalone physical artifacts.",
+    "Synthetic": "Included — Pronoun categories are human-designed within languages.",
+    "Biological/Biomimetic": "Excluded — Not modeled on biology.",
+    "Powered": "Excluded — Not mechanized or energetic.",
+    "Structural": "Excluded — Symbolically structural in grammar, but not a UHT-structural element.",
+    "Observable": "Included — Pronoun use is audible or visible, forming a key part of discourse.",
+    "Physical Medium": "Excluded — Rendered in speech or text, but not defined by medium.",
+    "Active": "Excluded — Pronoun categories do not perform autonomous actions.",
 
-    "Purposeful / intentional": "Included — Pronouns are intentionally selected in communication to reflect identity or context.",
-    "Emits output / produces effect": "Excluded — While communicative, the usage does not produce output in the mechanistic sense.",
-    "Processes or regulates logic/signals": "Excluded — It does not compute or regulate signals.",
-    "Transforms or modifies internal state": "Excluded — It can affect perceptions but not internal states directly.",
-    "Interacts with humans directly": "Excluded — Pronouns are part of language, not interactive agents.",
-    "Part of a larger system": "Included — Usage is embedded within grammatical, cultural, and institutional systems.",
-    "Autonomous in function": "Excluded — Pronoun meaning and usage rely on social interpretation.",
-    "System-critical": "Excluded — Language functions without any one pronoun.",
+    "Intentionally Designed": "Included — Systems of pronouns evolve under institutional, cultural, and editorial design.",
+    "Outputs Effect": "Excluded — May produce social effects, but not as a system of output.",
+    "Processes Signals/Logic": "Excluded — Not a signal processor or logic mechanism.",
+    "State-Transforming": "Excluded — Reflects or asserts identity, but does not change system state directly.",
+    "Human-Interactive": "Included — Pronouns are used in **interpersonal engagement**, often to respect identity and elicit response.",
+    "System-integrated": "Excluded — Pronouns are referenced in systems (e.g., forms, databases) but not embedded components.",
+    "Functionally Autonomous": "Excluded — Usage is relational, not autonomous.",
+    "System-Essential": "Excluded — Communication can proceed (awkwardly) without pronouns.",
 
-    "Symbolic / representational": "Included — Pronouns stand in symbolically for individuals.",
-    "Communicative": "Included — They are a fundamental tool for interpersonal reference.",
-    "Logical / rule-based": "Excluded — Though grammar-based, their core identity is symbolic and social.",
-    "Hierarchical / modular": "Excluded — Pronouns do not form modular or hierarchical systems.",
-    "Behavior-guiding": "Included — Their correct or incorrect use signals social alignment or offense.",
-    "Self-referential / meta-conceptual": "Excluded — Usage does not inherently refer to itself.",
-    "Temporal": "Excluded — Usage adapts over time but does not intrinsically reference time.",
-    "Contextual abstraction": "Included — Pronoun meaning shifts based on speaker, subject, and sociocultural frame.",
+    "Symbolic": "Included — Pronouns are symbolic markers of gender and social identity.",
+    "Signalling": "Included — Actively communicates gender and interpersonal respect.",
+    "Rule-governed": "Included — Pronoun choice is constrained by grammatical and social rules.",
+    "Compositional": "Excluded — Not composed of modular subparts with independent meaning.",
+    "Normative": "Included — Subject to expectations and conventions around politeness and correctness.",
+    "Meta": "Excluded — A pronoun refers to a person, not to linguistic structure itself.",
+    "Temporal": "Excluded — Not inherently time-based.",
+    "Digital/Virtual": "Included — Pronoun fields now embedded in platforms, profiles, and email systems.",
 
-    "Socially / culturally constructed": "Included — Pronoun norms are built and enforced by social communities.",
-    "Defined by a group/system": "Included — Grammar systems, institutions, and communities define proper use.",
-    "Linked to identity or role": "Included — Pronouns are directly tied to personal and gender identity.",
-    "Regulated / governed": "Included — Institutions and style guides enforce pronoun usage rules.",
-    "Teachable / transmissible": "Included — Taught through language education and socialization.",
-    "Visible": "Included — Appears in written and spoken communication.",
-    "Context-sensitive": "Included — Usage depends heavily on situation, culture, and audience.",
-    "Widely known": "Included — Pronoun conventions are broadly understood and debated."
+    "Social Construct": "Included — The link between pronouns and gender is **entirely cultural and contextual**.",
+    "Institutionally Defined": "Included — Many organizations now define standard pronoun practices.",
+    "Identity-Linked": "Included — Pronouns are deeply tied to personal identity and recognition.",
+    "Regulated": "Included — Governed by social norms, DEI policies, HR guidelines, and in some cases law.",
+    "Economically Significant": "Excluded — Not a direct economic entity or exchange mechanism.",
+    "Politicised": "Included — Central to political discourse around gender identity, speech rights, and policy.",
+    "Ritualised": "Included — Sharing or affirming pronouns is a **ritualized act** in many formal interactions.",
+    "Ethically Significant": "Included — Pronoun misuse is widely considered a matter of **ethical respect and dignity**."
   },
-  "encoding_notes": "This encoding treats gender pronoun usage as a symbolic, communicative, identity-signaling system deeply embedded in sociolinguistic conventions. It avoids conflating material traits with linguistic functions. The corrected code '0084C9FF' reflects its purposive, referential, and socially governed nature."
+  "encoding_notes": "This encoding treats gender pronoun usage as a synthetic, rule-governed, symbolic act of identity communication. It is observable, interactive, and ritualized in many contemporary social contexts, with ethical and political weight. Pronoun use operates through both linguistic structure and evolving cultural norms."
 }
